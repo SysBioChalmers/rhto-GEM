@@ -1,0 +1,5 @@
+exportModel(model,'rhto',true)
+movefile('rhto.xml','../ModelFiles/xml')
+movefile('rhto.yml','../ModelFiles/yaml')
+save('../ModelFiles/mat/rhto.mat','model')
+writeCbModel(model,'text', '../ModelFiles/txt/rhto.txt')
