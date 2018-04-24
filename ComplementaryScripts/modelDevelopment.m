@@ -125,4 +125,18 @@ model = removeReactions(model, {'r_1581', 'r_1098', 'r_1792', ...
     'r_1984', 'r_1776', 'r_2184', 'r_1228', 'r_1952'},...
     true, true, true);
 
-run ComplementaryScripts\saveModel.m
+run exportForGit(model,'rhto'); 
+ 
+%% Recover annotation from yeast model 
+sce = importModel('../yeast-GEM/ModelFiles/xml/yeastGEM.xml') 
+[tf, idx] = ismember(model.metNames, modelSce.metNames); 
+idx = idx(idx ~= 0); 
+model.metCharges = nan(length(model.mets),1); % If charge unknown, NaN 
+model.metCharges(tf) = sce.metCharges(idx); 
+ 
+% Raven now supports multiple subsystems. 
+[tf, idx] = ismember(model.rxns, sce.rxns); 
+idx = idx(idx ~= 0); 
+model.subSystems(tf) = sce.subSystems(idx); 
+ 
+exportForGit(model,'rhto'); 
