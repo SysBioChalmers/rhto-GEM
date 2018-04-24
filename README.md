@@ -40,7 +40,7 @@ This repository is administered by [@edkerk](https://github.com/edkerk/), Divisi
 * Please see the [RAVEN toolbox](https://github.com/SysBioChalmers/RAVEN) repository for dependencies regarding RAVEN.
 
 ### Installation Instructions
-* Just want to use the model? Clone it from [master](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/Rhodosporidium_toruloides-GEM/releases).
+* Just want to use the model? Clone it from [`master`](https://github.com/SysBioChalmers/Rhodosporidium_toruloides-GEM) in the Github repo, or just download [the latest release](https://github.com/SysBioChalmers/Rhodosporidium_toruloides-GEM/releases).
 * Wish to also contribute? Fork it to your Github account, and create a new branch from [`devel`](https://github.com/SysBioChalmers/Rhodosporidium_toruloides-GEM/tree/devel).
 
 ## Contributors
