@@ -159,3 +159,12 @@ model.metFormulas(idx(tf)) = yli.metFormulas(idx2);
 idx=getIndexes(model,{'pectin','D-galacturonate'},'metnames');
 model.metFormulas(idx)={'C6H8O6','C6H10O7'};
 newCommit(model)
+
+%% Remove unconnected, non-gene annotated reaction
+subGraphs=getAllSubGraphs(model)
+model.metNames(subGraphs(:,2))
+% CDP-choline is not connected, check in Excel sheet, r_3542 is not
+% connected
+model=removeReactions(model,'r_3542',true,true,true);
+newCommit(model)
+
