@@ -152,4 +152,10 @@ newCommit(model)
 
 %% Correct metabolite formulae with brackets
 idx=find(contains(model.metFormulas,'('));
-
+[tf, idx2] = ismember(model.metNames(idx), yli.metNames);
+idx2 = idx2(idx2 ~= 0);
+model.metFormulas(idx(tf)) = yli.metFormulas(idx2);
+% Manually change pectin (and galacturonate, to balance reactions)
+idx=getIndexes(model,{'pectin','D-galacturonate'},'metnames');
+model.metFormulas(idx)={'C6H8O6','C6H10O7'};
+newCommit(model)

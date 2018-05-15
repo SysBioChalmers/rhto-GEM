@@ -3334,22 +3334,22 @@
     - id: s_0001
     - name: (1-3)-beta-D-glucan
     - compartment: ce
-    - formula: (C6H10O5)n
+    - formula: C6H10O5
   - !!omap
     - id: s_0002
     - name: (1-3)-beta-D-glucan
     - compartment: c
-    - formula: (C6H10O5)n
+    - formula: C6H10O5
   - !!omap
     - id: s_0003
     - name: (1-3)-beta-D-glucan
     - compartment: e
-    - formula: (C6H10O5)n
+    - formula: C6H10O5
   - !!omap
     - id: s_0004
     - name: (1-6)-beta-D-glucan
     - compartment: ce
-    - formula: C12H22O11(C6H10O5)n
+    - formula: C6H10O5
   - !!omap
     - id: s_0008
     - name: (2R,3R)-2,3-dihydroxy-3-methylpentanoate
@@ -5605,7 +5605,7 @@
     - id: s_0404
     - name: Ala-tRNA(Ala)
     - compartment: c
-    - formula: C13H22NO11PR2(C5H8O6PR)n
+    - formula: C3H6NOR
     - annotation: !!omap
       - chebi: CHEBI:17732
       - kegg.compound: C00886
@@ -5809,7 +5809,7 @@
     - id: s_0428
     - name: Arg-tRNA(Arg)
     - compartment: c
-    - formula: C21H33N9O11PR(C5H8O6PR)n
+    - formula: C6H14N4OR
     - annotation: !!omap
       - chebi: CHEBI:18366
       - kegg.compound: C02163
@@ -5817,7 +5817,7 @@
     - id: s_0429
     - name: Arg-tRNA(Arg)
     - compartment: m
-    - formula: C21H33N9O11PR(C5H8O6PR)n
+    - formula: C6H14N4OR
     - annotation: !!omap
       - chebi: CHEBI:18366
       - kegg.compound: C02163
@@ -5825,7 +5825,7 @@
     - id: s_0430
     - name: Asn-tRNA(Asn)
     - compartment: c
-    - formula: C14H23N2O12PR2(C5H8O6PR)n
+    - formula: C4H7N2O2R
     - annotation: !!omap
       - chebi: CHEBI:29265
       - kegg.compound: C03402
@@ -5833,7 +5833,7 @@
     - id: s_0432
     - name: Asp-tRNA(Asp)
     - compartment: c
-    - formula: C14H22NO13PR2(C5H8O6PR)n
+    - formula: C4H5NO3R
     - annotation: !!omap
       - chebi: CHEBI:29158
       - kegg.compound: C02984
@@ -6328,7 +6328,7 @@
     - id: s_0509
     - name: chitin
     - compartment: c
-    - formula: H2O(C8H13NO5)n
+    - formula: C8H13NO5
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17029
@@ -6547,7 +6547,7 @@
     - id: s_0542
     - name: Cys-tRNA(Cys)
     - compartment: c
-    - formula: C18H26N6O11PSR(C5H8O6PR)n
+    - formula: C3H6NOSR
     - annotation: !!omap
       - chebi: CHEBI:29152
       - kegg.compound: C03125
@@ -6708,7 +6708,7 @@
     - id: s_0560
     - name: D-galacturonate
     - compartment: e
-    - formula: C6H9O7
+    - formula: C6H10O7
     - charge: -1
     - annotation: !!omap
       - chebi: CHEBI:12952
@@ -7809,7 +7809,7 @@
     - id: s_0747
     - name: Gln-tRNA(Gln)
     - compartment: c
-    - formula: C20H29N7O12PR(C5H8O6PR)n
+    - formula: C5H9N2O2R
     - annotation: !!omap
       - chebi: CHEBI:29166
       - kegg.compound: C02282
@@ -7817,7 +7817,7 @@
     - id: s_0748
     - name: Glu-tRNA(Glu)
     - compartment: c
-    - formula: C20H28N6O13PR(C5H8O6PR)n
+    - formula: C5H7NO3R
     - annotation: !!omap
       - chebi: CHEBI:29157
       - kegg.compound: C02987
@@ -7888,7 +7888,7 @@
     - id: s_0757
     - name: Gly-tRNA(Gly)
     - compartment: c
-    - formula: C12H20NO11PR2(C5H8O6PR)n
+    - formula: C2H4NOR
     - annotation: !!omap
       - chebi: CHEBI:29156
       - kegg.compound: C02412
@@ -8390,7 +8390,7 @@
     - id: s_0832
     - name: His-tRNA(His)
     - compartment: c
-    - formula: C16H24N3O11PR2(C5H8O6PR)n
+    - formula: C6H8N3OR
     - annotation: !!omap
       - chebi: CHEBI:29155
       - kegg.compound: C02988
@@ -8398,7 +8398,7 @@
     - id: s_0833
     - name: His-tRNA(His)
     - compartment: m
-    - formula: C16H24N3O11PR2(C5H8O6PR)n
+    - formula: C6H8N3OR
     - annotation: !!omap
       - chebi: CHEBI:29155
       - kegg.compound: C02988
@@ -8513,7 +8513,7 @@
     - id: s_0847
     - name: Ile-tRNA(Ile)
     - compartment: c
-    - formula: C21H32N6O11PR(C5H8O6PR)n
+    - formula: C6H12NOR
     - annotation: !!omap
       - chebi: CHEBI:29160
       - kegg.compound: C03127
@@ -10185,7 +10185,7 @@
     - id: s_1077
     - name: Leu-tRNA(Leu)
     - compartment: c
-    - formula: C21H32N6O11PR(C5H8O6PR)n
+    - formula: C6H12NOR
     - annotation: !!omap
       - chebi: CHEBI:16624
       - kegg.compound: C02047
@@ -10227,7 +10227,7 @@
     - id: s_1099
     - name: Lys-tRNA(Lys)
     - compartment: c
-    - formula: C16H29N2O11PR2(C5H8O6PR)n
+    - formula: C6H14N2OR
     - annotation: !!omap
       - chebi: CHEBI:16047
       - kegg.compound: C01931
@@ -10580,7 +10580,7 @@
     - id: s_1148
     - name: Met-tRNA(Met)
     - compartment: c
-    - formula: C20H30N6O11PSR(C5H8O6PR)n
+    - formula: C5H10NOSR
     - annotation: !!omap
       - chebi: CHEBI:16635
       - kegg.compound: C02430
@@ -11406,7 +11406,7 @@
     - id: s_1309
     - name: pectin
     - compartment: e
-    - formula: H2O(C6H8O6)n
+    - formula: C6H8O6
     - charge: 0
     - annotation: !!omap
       - chebi: CHEBI:17309
@@ -11450,7 +11450,7 @@
     - id: s_1314
     - name: Phe-tRNA(Phe)
     - compartment: c
-    - formula: C19H26NO11PR2(C5H8O6PR)n
+    - formula: C9H10NOR
     - annotation: !!omap
       - chebi: CHEBI:29153
       - kegg.compound: C03511
@@ -11458,7 +11458,7 @@
     - id: s_1315
     - name: Phe-tRNA(Phe)
     - compartment: m
-    - formula: C19H26NO11PR2(C5H8O6PR)n
+    - formula: C9H10NOR
     - annotation: !!omap
       - chebi: CHEBI:29153
       - kegg.compound: C03511
@@ -12064,7 +12064,7 @@
     - id: s_1428
     - name: Ser-tRNA(Ser)
     - compartment: c
-    - formula: C13H22NO12PR2(C5H8O6PR)n
+    - formula: C3H6NO2R
     - annotation: !!omap
       - chebi: CHEBI:29162
       - kegg.compound: C02553
@@ -12449,7 +12449,7 @@
     - id: s_1491
     - name: Thr-tRNA(Thr)
     - compartment: c
-    - formula: C14H24NO12PR2(C5H8O6PR)n
+    - formula: C4H8NO2R
     - annotation: !!omap
       - chebi: CHEBI:29163
       - kegg.compound: C02992
@@ -12457,7 +12457,7 @@
     - id: s_1492
     - name: Thr-tRNA(Thr)
     - compartment: m
-    - formula: C14H24NO12PR2(C5H8O6PR)n
+    - formula: C4H8NO2R
     - annotation: !!omap
       - chebi: CHEBI:29163
       - kegg.compound: C02992
@@ -12616,7 +12616,7 @@
     - id: s_1527
     - name: Trp-tRNA(Trp)
     - compartment: c
-    - formula: C26H31N7O11PR(C5H8O6PR)n
+    - formula: C11H11N2OR
     - annotation: !!omap
       - chebi: CHEBI:29159
       - kegg.compound: C03512
@@ -12857,7 +12857,7 @@
     - id: s_1561
     - name: Val-tRNA(Val)
     - compartment: c
-    - formula: C20H30N6O11PR(C5H8O6PR)n
+    - formula: C5H10NOR
     - annotation: !!omap
       - chebi: CHEBI:29164
       - kegg.compound: C02554
@@ -12865,7 +12865,7 @@
     - id: s_1562
     - name: Val-tRNA(Val)
     - compartment: m
-    - formula: C20H30N6O11PR(C5H8O6PR)n
+    - formula: C5H10NOR
     - annotation: !!omap
       - chebi: CHEBI:29164
       - kegg.compound: C02554
