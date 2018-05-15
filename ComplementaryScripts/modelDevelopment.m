@@ -140,3 +140,40 @@ idx = idx(idx ~= 0);
 model.subSystems(tf) = sce.subSystems(idx); 
  
 exportForGit(model,'rhto'); 
+
+%% Set growth as default objective function
+model = setParam(model,'obj','r_2111',1);
+newCommit(model)
+
+%% Remove unused genes
+idx=find(all(model.rxnGeneMat==0));
+model=removeGenes(model,idx,true,true,true);
+newCommit(model)
+
+%% Correct metabolite formulae with brackets
+idx=find(contains(model.metFormulas,'('));
+[tf, idx2] = ismember(model.metNames(idx), yli.metNames);
+idx2 = idx2(idx2 ~= 0);
+model.metFormulas(idx(tf)) = yli.metFormulas(idx2);
+% Manually change pectin (and galacturonate, to balance reactions)
+idx=getIndexes(model,{'pectin','D-galacturonate'},'metnames');
+model.metFormulas(idx)={'C6H8O6','C6H10O7'};
+newCommit(model)
+
+%% Remove unconnected, non-gene annotated reaction
+subGraphs=getAllSubGraphs(model)
+model.metNames(subGraphs(:,2))
+% CDP-choline is not connected, check in Excel sheet, r_3542 is not
+% connected
+model=removeReactions(model,'r_3542',true,true,true);
+newCommit(model)
+
+%% Correct metMiriams
+% sce.mets=regexprep(sce.mets,'\[[a-z]+\]','');
+% [tf, idx] = ismember(model.mets, sce.mets);
+% idx = idx(idx ~= 0);
+% model=rmfield(model,'metMiriams');
+% model.metMiriams = cell(length(model.mets),1);
+% model.metMiriams(tf)=sce.metMiriams(idx);
+% newCommit(model)
+
