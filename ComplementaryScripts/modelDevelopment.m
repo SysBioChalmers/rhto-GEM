@@ -140,3 +140,7 @@ idx = idx(idx ~= 0);
 model.subSystems(tf) = sce.subSystems(idx); 
  
 exportForGit(model,'rhto'); 
+
+%% Set growth as default objective function
+model = setParam(model,'obj','r_2111',1);
+newCommit(model)
