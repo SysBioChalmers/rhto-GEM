@@ -168,3 +168,12 @@ model.metNames(subGraphs(:,2))
 model=removeReactions(model,'r_3542',true,true,true);
 newCommit(model)
 
+%% Correct metMiriams
+% sce.mets=regexprep(sce.mets,'\[[a-z]+\]','');
+% [tf, idx] = ismember(model.mets, sce.mets);
+% idx = idx(idx ~= 0);
+% model=rmfield(model,'metMiriams');
+% model.metMiriams = cell(length(model.mets),1);
+% model.metMiriams(tf)=sce.metMiriams(idx);
+% newCommit(model)
+
