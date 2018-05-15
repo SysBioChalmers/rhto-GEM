@@ -144,3 +144,12 @@ exportForGit(model,'rhto');
 %% Set growth as default objective function
 model = setParam(model,'obj','r_2111',1);
 newCommit(model)
+
+%% Remove unused genes
+idx=find(all(model.rxnGeneMat==0));
+model=removeGenes(model,idx,true,true,true);
+newCommit(model)
+
+%% Correct metabolite formulae with brackets
+idx=find(contains(model.metFormulas,'('));
+
