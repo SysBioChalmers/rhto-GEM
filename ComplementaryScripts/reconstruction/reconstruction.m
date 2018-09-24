@@ -53,16 +53,11 @@ end
 % Confirm that model is stil functional
 solveLP(modelSce)
 printFluxes(modelSce,ans.x)
-%exportToExcelFormat(modelSce,'modelSce.xlsx')
 % Remove shortNames
 modelSce=rmfield(modelSce,'geneShortNames');
 
-%% Generate draft model, based on homology. Contract model to combine what
-% were isoenzymes.
+%% Generate draft model, based on homology.
 modelRhto=getModelFromHomology({modelSce},blastedRhto,'rhto',{},1,false,10^-20,150,35);
-%exportModel(modelSce,'sce_20180728.xml',true);
-%exportModel(modelRhto,'Rhto_draft_20161220.xml',true);
-
 
 %% Make model based on MetaPhOrs data
 orthologs=readtable('..\..\ComplementaryData\reconstruction\MetaPhOrs_convertedIDs.csv');
@@ -126,7 +121,6 @@ modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
 modelRhto=setParam(modelRhto,'eq','r_1714',-1);
 modelRhto=setParam(modelRhto,'obj','r_2111',1);
 
-
 %% Add old reactions
 modelRhtoOld=importModel('../rhto_old.xml');
 withGenes=~cellfun(@isempty,modelRhtoOld.grRules);
@@ -150,13 +144,8 @@ modelRhtoOld.metNames(getIndexes(modelRhtoOld,...
     'N-[(R)-4-phosphonopantothenoyl]-L-cysteine [cytoplasm]'};
 modelRhto=addRxnsGenesMets(modelRhto,modelRhtoOld,oldRxns_mo,true);
 modelRhto=addRxnsGenesMets(modelRhto,modelRhtoOld,oldRxns_t,true);
-% modelRhto=addRxnsGenesMets(modelRhto,modelRhtoOld,oldRxns_kegg,true);
 
-
-
-exportModel(modelSce,'sceTemplate.xml',true);
-
-exportModel(modelRhto,'rhtoDraft.xml',true);
+exportModel(modelRhto,'../../scrap/rhtoDraft.xml',true);
 modelRhtoBck=modelRhto;
 modelRhto=modelRhtoBck;
 %% Run MENECO
