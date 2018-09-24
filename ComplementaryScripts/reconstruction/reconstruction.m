@@ -57,7 +57,7 @@ printFluxes(modelSce,ans.x)
 modelSce=rmfield(modelSce,'geneShortNames');
 
 %% Generate draft model, based on homology.
-modelRhto=getModelFromHomology({modelSce},blastedRhto,'rhto',{},1,false,10^-20,150,35);
+modelRhto=getModelFromHomology(modelSce,blastedRhto,'rhto',{},1,false,10^-20,150,35);
 
 %% Make model based on MetaPhOrs data
 orthologs=readtable('..\..\ComplementaryData\reconstruction\MetaPhOrs_convertedIDs.csv');
@@ -122,7 +122,7 @@ modelRhto=setParam(modelRhto,'eq','r_1714',-1);
 modelRhto=setParam(modelRhto,'obj','r_2111',1);
 
 %% Add old reactions
-modelRhtoOld=importModel('../rhto_old.xml');
+modelRhtoOld=importModel('../../../rhto_old.xml');
 withGenes=~cellfun(@isempty,modelRhtoOld.grRules);
 rxns=modelRhtoOld.rxns(withGenes);
 oldRxns=rxns(find(~ismember(rxns,modelRhto.rxns)));
@@ -167,10 +167,7 @@ targetSBML=strcat('<species id="M_',modelRhto.mets(targets),...
 % have any prove at the moment which one is more likely to be present, we
 % will add the union of reactions.
 %with all old reactions
-%menecoRxns={'r_0737','r_0738','r_2118','r_0971','r_0883','r_0236','r_0347','r_0237','r_1051','r_2117','r_0510','r_0797','r_0942','r_0109','r_2119','r_0678','r_1063','r_0913','r_0195','r_0735','r_0453','r_0904','r_1027','r_2030','r_0851','r_1083','r_0067','r_0938','r_0811','r_1887','r_0736','r_0344','r_0800','r_0537','r_1704','r_0350','r_0066','r_0973'};
-menecoRxns={'r_1667','r_0346','r_1027','r_2117','r_0942','r_0797','r_0938','r_1665','r_0678','r_0237','r_1051','r_2030','r_0236','r_0347','r_0971','r_0735','r_1887','r_0067','r_0453','r_0973','r_0738','r_0883','r_0109','r_1063','r_0851','r_0537','r_0811','r_0737','r_0736','r_0904','r_2118','r_0913','r_0800','r_1704','r_1083','r_0195','r_0066','r_2119','r_0344','r_0350','r_0510'};
 menecoRxns={'r_0737','r_2119','r_0347','r_0678','r_0510','r_0851','r_0938','r_0736','r_0350','r_2030','r_2118','r_1027','r_1083','r_0904','r_0537','r_0346','r_0236','r_1667','r_1051','r_0883','r_0067','r_0109','r_0913','r_0237','r_0066','r_0738','r_2117','r_1063','r_0735','r_0942','r_1887','r_0195','r_0453','r_1665','r_0344'};
-%older
 
 menecoRxns=getAllRxnsFromGenes(modelSce,menecoRxns);
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,menecoRxns,true,...
@@ -206,6 +203,7 @@ forLipids=getAllRxnsFromGenes(modelSce,forLipids)
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,forLipids,true,...
     'Identified to produce lipids',1); % Add reactions and metabolites
 sol=solveLP(modelRhto)
+cd('..')
 newCommit(modelRhto)
 
 %% Rename all non-Yeast metIDs
