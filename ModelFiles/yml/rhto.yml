@@ -62066,6 +62066,18 @@
     - upper_bound: 1000
     - confidence_score: 1
   - !!omap
+    - id: r_4046
+    - name: non-growth associated maintenance reaction
+    - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_0794: 1
+      - s_0803: -1
+      - s_1322: 1
+    - lower_bound: 0.7
+    - upper_bound: 0.7
+    - confidence_score: 1
+  - !!omap
     - id: r_4047
     - name: protein pseudoreaction
     - metabolites: !!omap
@@ -65622,8 +65634,6 @@
   - !!omap
     - id: RHTO_00239
   - !!omap
-    - id: RHTO_00251
-  - !!omap
     - id: RHTO_00262
   - !!omap
     - id: RHTO_00266
@@ -65798,8 +65808,6 @@
   - !!omap
     - id: RHTO_01083
   - !!omap
-    - id: RHTO_01107
-  - !!omap
     - id: RHTO_01205
   - !!omap
     - id: RHTO_01230
@@ -65838,19 +65846,11 @@
   - !!omap
     - id: RHTO_01392
   - !!omap
-    - id: RHTO_01432
-  - !!omap
     - id: RHTO_01440
   - !!omap
     - id: RHTO_01459
   - !!omap
-    - id: RHTO_01494
-  - !!omap
     - id: RHTO_01498
-  - !!omap
-    - id: RHTO_01529
-  - !!omap
-    - id: RHTO_01531
   - !!omap
     - id: RHTO_01536
   - !!omap
@@ -65874,15 +65874,11 @@
   - !!omap
     - id: RHTO_01660
   - !!omap
-    - id: RHTO_01679
-  - !!omap
     - id: RHTO_01680
   - !!omap
     - id: RHTO_01695
   - !!omap
     - id: RHTO_01705
-  - !!omap
-    - id: RHTO_01709
   - !!omap
     - id: RHTO_01718
   - !!omap
@@ -65918,8 +65914,6 @@
   - !!omap
     - id: RHTO_01962
   - !!omap
-    - id: RHTO_01969
-  - !!omap
     - id: RHTO_01970
   - !!omap
     - id: RHTO_01986
@@ -65940,19 +65934,13 @@
   - !!omap
     - id: RHTO_02048
   - !!omap
-    - id: RHTO_02054
-  - !!omap
     - id: RHTO_02062
   - !!omap
     - id: RHTO_02077
   - !!omap
     - id: RHTO_02079
   - !!omap
-    - id: RHTO_02082
-  - !!omap
     - id: RHTO_02095
-  - !!omap
-    - id: RHTO_02113
   - !!omap
     - id: RHTO_02122
   - !!omap
@@ -66002,15 +65990,11 @@
   - !!omap
     - id: RHTO_02395
   - !!omap
-    - id: RHTO_02425
-  - !!omap
     - id: RHTO_02439
   - !!omap
     - id: RHTO_02459
   - !!omap
     - id: RHTO_02463
-  - !!omap
-    - id: RHTO_02470
   - !!omap
     - id: RHTO_02504
   - !!omap
@@ -66060,8 +66044,6 @@
   - !!omap
     - id: RHTO_02591
   - !!omap
-    - id: RHTO_02605
-  - !!omap
     - id: RHTO_02616
   - !!omap
     - id: RHTO_02617
@@ -66071,8 +66053,6 @@
     - id: RHTO_02642
   - !!omap
     - id: RHTO_02643
-  - !!omap
-    - id: RHTO_02645
   - !!omap
     - id: RHTO_02657
   - !!omap
@@ -66242,8 +66222,6 @@
   - !!omap
     - id: RHTO_03701
   - !!omap
-    - id: RHTO_03730
-  - !!omap
     - id: RHTO_03731
   - !!omap
     - id: RHTO_03745
@@ -66303,8 +66281,6 @@
     - id: RHTO_04057
   - !!omap
     - id: RHTO_04058
-  - !!omap
-    - id: RHTO_04065
   - !!omap
     - id: RHTO_04102
   - !!omap
@@ -66399,8 +66375,6 @@
     - id: RHTO_04566
   - !!omap
     - id: RHTO_04575
-  - !!omap
-    - id: RHTO_04577
   - !!omap
     - id: RHTO_04579
   - !!omap
@@ -66528,8 +66502,6 @@
   - !!omap
     - id: RHTO_05106
   - !!omap
-    - id: RHTO_05117
-  - !!omap
     - id: RHTO_05129
   - !!omap
     - id: RHTO_05134
@@ -66622,15 +66594,11 @@
   - !!omap
     - id: RHTO_05640
   - !!omap
-    - id: RHTO_05673
-  - !!omap
     - id: RHTO_05679
   - !!omap
     - id: RHTO_05680
   - !!omap
     - id: RHTO_05705
-  - !!omap
-    - id: RHTO_05714
   - !!omap
     - id: RHTO_05715
   - !!omap
@@ -66692,8 +66660,6 @@
   - !!omap
     - id: RHTO_06064
   - !!omap
-    - id: RHTO_06068
-  - !!omap
     - id: RHTO_06072
   - !!omap
     - id: RHTO_06080
@@ -66704,8 +66670,6 @@
   - !!omap
     - id: RHTO_06115
   - !!omap
-    - id: RHTO_06117
-  - !!omap
     - id: RHTO_06122
   - !!omap
     - id: RHTO_06139
@@ -66715,10 +66679,6 @@
     - id: RHTO_06168
   - !!omap
     - id: RHTO_06171
-  - !!omap
-    - id: RHTO_06193
-  - !!omap
-    - id: RHTO_06195
   - !!omap
     - id: RHTO_06216
   - !!omap
@@ -66746,8 +66706,6 @@
   - !!omap
     - id: RHTO_06343
   - !!omap
-    - id: RHTO_06352
-  - !!omap
     - id: RHTO_06394
   - !!omap
     - id: RHTO_06405
@@ -66774,8 +66732,6 @@
   - !!omap
     - id: RHTO_06523
   - !!omap
-    - id: RHTO_06542
-  - !!omap
     - id: RHTO_06551
   - !!omap
     - id: RHTO_06555
@@ -66793,10 +66749,6 @@
     - id: RHTO_06635
   - !!omap
     - id: RHTO_06636
-  - !!omap
-    - id: RHTO_06679
-  - !!omap
-    - id: RHTO_06687
   - !!omap
     - id: RHTO_06693
   - !!omap
@@ -66840,15 +66792,9 @@
   - !!omap
     - id: RHTO_06905
   - !!omap
-    - id: RHTO_06918
-  - !!omap
     - id: RHTO_06919
   - !!omap
     - id: RHTO_06921
-  - !!omap
-    - id: RHTO_06925
-  - !!omap
-    - id: RHTO_06930
   - !!omap
     - id: RHTO_06932
   - !!omap
@@ -66894,8 +66840,6 @@
   - !!omap
     - id: RHTO_07218
   - !!omap
-    - id: RHTO_07223
-  - !!omap
     - id: RHTO_07249
   - !!omap
     - id: RHTO_07250
@@ -66917,8 +66861,6 @@
     - id: RHTO_07378
   - !!omap
     - id: RHTO_07387
-  - !!omap
-    - id: RHTO_07451
   - !!omap
     - id: RHTO_07452
   - !!omap
@@ -66959,8 +66901,6 @@
     - id: RHTO_07750
   - !!omap
     - id: RHTO_07763
-  - !!omap
-    - id: RHTO_07768
   - !!omap
     - id: RHTO_07773
   - !!omap
