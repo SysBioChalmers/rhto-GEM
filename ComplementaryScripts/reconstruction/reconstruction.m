@@ -79,6 +79,9 @@ rxns=modelSce.rxns(contains(modelSce.rxnNames,'pseudoreaction'));
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
     'Modeling reaction',1); % Add reactions and metabolites
 
+modelRhto=addRxnsGenesMets(modelRhto,modelSce,'r_4046',false,...
+    'Modeling reaction',1); % Add reactions and metabolites
+
 rxns=modelSce.rxns(contains(modelSce.rxnNames,'SLIME'));
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
     'SLIME reaction',1); % Add reactions and metabolites
@@ -236,6 +239,8 @@ rxnsToAdd.equations={'1-monoglyceride (16:0)[c] => 0.8574 monoglyceride backbone
     '1-monoglyceride (16:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:1 chain[c]',...
     '1-monoglyceride (18:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:0 chain[c]',...
     '1-monoglyceride (18:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:1 chain[c]'};
+rxnsToAdd.lb=[0,0,0,0];
+rxnsToAdd.ub=[1000,1000,1000,1000];
 modelRhto=addRxns(modelRhto,rxnsToAdd,3,'',false);
     
 metsToAdd.mets={'st_0600','st_0601','st_0602'};
