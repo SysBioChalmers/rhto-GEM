@@ -74,6 +74,19 @@ modelRhtoOrth.id='ortho';
 
 modelComb=mergeModels({modelRhto,modelRhtoOrth});
 modelRhto=contractModel(modelComb);
+
+%% Add R. toruloides GEM meta data
+modelRhto.annotation.defaultLB    = -1000;
+modelRhto.annotation.defaultUB    = +1000;
+modelRhto.annotation.taxonomy     = 'taxonomy/1130832';
+modelRhto.annotation.givenName    = 'Eduard';
+modelRhto.annotation.familyName   = 'Kerkhoven';
+modelRhto.annotation.email        = 'eduardk@chalmers.se';
+modelRhto.annotation.organization = 'Chalmers University of Technology';
+modelRhto.annotation.note         = 'Rhodosporidium toruloides - strain NP11';
+modelRhto.id                      = 'rhto';
+modelRhto.description             = 'Genome-scale metabolic model of Rhodosporidium toruloides';
+
 %% Copy pseudoreactions
 rxns=modelSce.rxns(contains(modelSce.rxnNames,'pseudoreaction'));
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
