@@ -7,7 +7,7 @@
 function data = readTiukovaData(i)
 
 %Lipid data:
-fid = fopen('../ComplementaryData/lipidData_Tiukova2018.csv');
+fid = fopen('../../ComplementaryData/data/lipidData_Tiukova2018.csv');
 lipidData = textscan(fid,[repmat('%s ',[1,3]) repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
 data.lipidData.metAbbrev = lipidData{1};
 data.lipidData.metNames  = lipidData{2};
@@ -17,7 +17,7 @@ data.lipidData.std       = lipidData{3+2*i};
 fclose(fid);
 
 %Chain data:
-fid = fopen('../ComplementaryData/chainData_Tiukova2018.csv');
+fid = fopen('../../ComplementaryData/data/chainData_Tiukova2018.csv');
 chainData = textscan(fid,[repmat('%s ',[1,3]) repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
 data.chainData.metNames  = chainData{1};
 data.chainData.formulas  = chainData{2};
@@ -34,7 +34,7 @@ fclose(fid);
 % fclose(fid);
 
 %Flux data:
-fid = fopen('../ComplementaryData/fluxData_Tiukova2018.csv');
+fid = fopen('../../ComplementaryData/data/fluxData_Tiukova2018.csv');
 fluxData = textscan(fid,[repmat('%s ',[1,2]) repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
 data.fluxData.rxnIDs   = fluxData{2};
 data.fluxData.averages = fluxData{2*i+1};
