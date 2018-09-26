@@ -1,72 +1,37 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% [model,k] = adjustRhtoBiomass(model,data,scaling)
+% create
 %
-%   Modified from SLIMEr, under MIT License:
-%   https://github.com/SysBioChalmers/SLIMEr/blob/master/models/scaleAbundancesInModel.m
+% Usage: model=
 %
-% 2018-09-25    Eduard Kerkhoven
+% Eduard Kerkhoven. Last update: 2018-07-29
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-function [model,k] = adjustRhtoBiomass(model,data,scaling)
-%Find optimal scaling factor:
-k0   = 1;
-kOpt = fminsearch(@(k)unusedLipid(k,model,data,scaling),k0);
+% Load model
+model=importModel('../../Rhodosporidium_toruloides-GEM/ModelFiles/xml/rhto.xml');
 
-%Find optimality range:
-krange(1) = fminsearch(@(k) +minScaling(k,model,data,scaling,kOpt),kOpt);
-krange(2) = fminsearch(@(k) -minScaling(k,model,data,scaling,kOpt),kOpt);
-disp(['Optimality range: k = [ ' num2str(krange(1)) ' , ' num2str(krange(2)) ' ]'])
-if(krange(1) == krange(2))
-    error('Could not find an optimality range!')
-end
+data=readTiukovaData(1);
 
-%Scale with the average of the range:
-k     = mean(krange);
-model = adjustModel(model,k,true,scaling);
-disp(['Scaled ' scaling(1:end-1) ' data in model: k = ' num2str(k)])
+% Change lipid backbone composition
+rxnIdx                  =   getIndexes(model,'r_4063','rxns');
+metIdx                  =   getIndexes(model,data.lipidData.metIDs,'mets');
+bbIdx                   =   getIndexes(model,'s_3746','mets');
+model.S(:,rxnIdx)       =   0;
+model.S(metIdx,rxnIdx)  =   -data.lipidData.abundance;
+model.S(bbIdx,rxnIdx)   =   1;
 
-end
+% Change lipid chain length distribution
+rxnIdx                  =   getIndexes(model,'r_4065','rxns');
+metIdx                  =   getIndexes(model,data.chainData.metIDs','mets');
+bbIdx                   =   getIndexes(model,'s_3747','mets');
+model.S(:,rxnIdx)       =   0;
+model.S(metIdx,rxnIdx)  =   -data.chainData.abundance;
+model.S(bbIdx,rxnIdx)   =   1;
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+chainExIdx  = getIndexes(model,'r_4064','rxns');
+backbExIdx  = getIndexes(model,'r_4062','rxns');
+model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 
-function exchange = unusedLipid(k,model,data,scaling)
+model = setParam(model,'obj','r_2111',1);
+sol=solveLP(model,1);
 
-%Adjust stoich coeffs of the corresponding pseudo-rxn:
-model = adjustModel(model,k,false,scaling);
-
-%Optimize model:
-try
-    [sol,~] = simulateRhtoGrowth(model,data.fluxData);
-catch
-    sol.x = ones(size(model.rxns));
-end
-
-%Objective function: unused tails or backbones
-exchange_tails = sol.x(strcmp(model.rxnNames,'lipid - tails exchange'));
-exchange_backs = sol.x(strcmp(model.rxnNames,'lipid - backbones exchange'));
-exchange       = exchange_tails + exchange_backs;
-
-disp(['Scaling abundance data: k = ' num2str(k) ' -> exchange = ' num2str(exchange)])
-
-end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-function k = minScaling(k,model,data,scaling,kOpt)
-
-%Adjust stoich coeffs of the corresponding pseudo-rxn:
-model = adjustModel(model,k,true,scaling);
-
-%Optimize model:
-try
-    [sol,~] = simulateGrowth(model,data.fluxData);
-    posNGAM = strcmp(model.rxnNames,'non-growth associated maintenance reaction');
-    disp(['Finding scaling range: k = ' num2str(k) ' -> Maintenance = ' num2str(sol.x(posNGAM))])
-catch
-    disp(['Finding scaling range: k = ' num2str(k) ' -> Maintenance = ' num2str(0)])
-    k = kOpt;  %any unfeasible simulation returns the original value
-end
-
-end
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+[model,k] = scaleAbundancesRhto(model,data,'tails');

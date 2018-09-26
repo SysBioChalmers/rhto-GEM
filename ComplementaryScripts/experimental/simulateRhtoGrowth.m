@@ -10,34 +10,22 @@
 function [sol,model] = simulateRhtoGrowth(model,fluxData)
 
 %Constrain all fluxes with exp. data
-for i = 1:length(fluxData.rxnIDs)
-    %The variation should never be more than the abundance: 
-    stdev = min([fluxData.stdevs(i),abs(fluxData.averages(i))/1.96]);
-    %The variation should be at least a 5% (to avoid unfeasible simulations):
-    stdev = max([stdev,abs(fluxData.averages(i))/1.96*0.05]);
-    LB    = fluxData.averages(i) - 1.96*stdev;      %C.I. of 95%
-    UB    = fluxData.averages(i) + 1.96*stdev;      %C.I. of 95%
-    model = setParam(model,'lb',fluxData.rxnIDs(i),LB);
-    model = setParam(model,'ub',fluxData.rxnIDs(i),UB);
-end
+%The variation should never be more than the abundance: 
+stdev = min([fluxData.stdevs,abs(fluxData.averages)/1.96],[],2);
 
-%Simulation 1: Maximize maintenance
-model = setParam(model,'lb','r_4046',0);
-model = setParam(model,'ub','r_4046',1000);
-model = setParam(model,'obj','r_4046',1);
-sol   = solveLP(model);
+%The variation should be at least a 5% (to avoid unfeasible simulations):
+stdev = max([stdev,abs(fluxData.averages)/1.96*0.05],[],2);
+LB    = fluxData.averages - 1.96*stdev;      %C.I. of 95%
+UB    = fluxData.averages + 1.96*stdev;      %C.I. of 95%
+model = setParam(model,'lb',fluxData.rxnIDs,LB);
+model = setParam(model,'ub',fluxData.rxnIDs,UB);
 
-model    = changeRxnBounds(model,model.rxns(posMaint),0,'l');
-model    = changeRxnBounds(model,model.rxns(posMaint),+1000,'u');
-model    = changeObjective(model,model.rxns(posMaint),+1);
-sol      = optimizeCbModel(model);
-
-%Simulation 2: Force maintenance, minimize sum(abs(fluxes))
-obj   = sol.x(posMaint);
-model = changeRxnBounds(model,model.rxns(posMaint),obj*0.999,'l');
-model = changeRxnBounds(model,model.rxns(posMaint),obj*1.001,'u');
-sol   = optimizeCbModel(model,'min','one');
-
+% Maximize maintenance while reducing number of fluxes
+ngamIdx = getIndexes(model,'r_4046','rxns');
+model = setParam(model,'lb',ngamIdx,0);
+model = setParam(model,'ub',ngamIdx,1000);
+model = setParam(model,'obj',ngamIdx,1);
+sol   = solveLP(model,1);
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
