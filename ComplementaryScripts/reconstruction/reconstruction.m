@@ -99,13 +99,12 @@ rxns=modelSce.rxns(contains(modelSce.rxnNames,'SLIME'));
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
     'SLIME reaction',1); % Add reactions and metabolites
 
-%% Add all exchange rxns (these were not gene annotated, and therefore not added in
-% draft). Might not require all exchange rxns, but easier to remove
-% unconnected ones later.
+%% Add all exchange rxns
+% Tthese were not gene annotated, and therefore not added in draft.
+% Might not require all exchange rxns, but easier to remove unconnected ones later.
 rxns=getExchangeRxns(modelSce);
-
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
-    'Modeling reaction',1); % Add reactions and metabolites
+    'Modelling reaction',1); % Add reactions and metabolites
 
 %% Same as exchange reactions, add all non-gene annotated transport reactions
 noGeneIdx=find(cellfun(@isempty,modelSce.grRules)); % Which rxns have no genes
@@ -120,20 +119,6 @@ rxns={'r_0226','r_0438','r_0439'};
 modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
     'Energy metabolism',1); % Add reactions and metabolites
 
-%     
-% %% Add biomass and lipid pseudoreaction
-% % Currently, biomass equations and lipid pseudoreactions are taken from S.
-% % cerevisiae. However, it is possible that the R. toruloides biomass and
-% % lipids have different components (that are not part of S. cerevisiae, or
-% % vice versa). This should ideally be improved first.
-% 
-% rxnIdx=regexp(modelSce.rxnNames,'biomass|pseudoreaction','all'); % Which reactions contain biomass or pseudoreaction in rxnNames
-% rxnIdx=find(~cellfun('isempty',rxnIdx)); % Get reaction indexes
-% rxns=modelSce.rxns(rxnIdx); % Get reaction IDs
-% 
-% modelRhto=addRxnsGenesMets(modelRhto,modelSce,rxns,false,...
-%     'Modeling reaction','1'); % Add reactions and metabolites
-
 modelRhto=setParam(modelRhto,'eq','r_1714',-1);
 modelRhto=setParam(modelRhto,'obj','r_2111',1);
 
@@ -143,8 +128,8 @@ withGenes=~cellfun(@isempty,modelRhtoOld.grRules);
 rxns=modelRhtoOld.rxns(withGenes);
 oldRxns=rxns(find(~ismember(rxns,modelRhto.rxns)));
 % 
-% oldRxns_r=oldRxns(strncmp(oldRxns,'r_',2));
-% oldRxns_r=regexprep(oldRxns_r,'_EX.*','');
+oldRxns_r=oldRxns(strncmp(oldRxns,'r_',2));
+oldRxns_r=regexprep(oldRxns_r,'_EX.*','');
 % modelRhto=addRxnsGenesMets(modelRhto,modelSce,oldRxns_r,false);
 
 oldRxns_mo=oldRxns(strncmp(oldRxns,'mo_',3));
@@ -161,9 +146,11 @@ modelRhtoOld.metNames(getIndexes(modelRhtoOld,...
 modelRhto=addRxnsGenesMets(modelRhto,modelRhtoOld,oldRxns_mo,true);
 modelRhto=addRxnsGenesMets(modelRhto,modelRhtoOld,oldRxns_t,true);
 
-exportModel(modelRhto,'../../scrap/rhtoDraft.xml',true);
+%exportModel(modelRhto,'../../scrap/rhtoDraft.xml',true);
+
 modelRhtoBck=modelRhto;
 modelRhto=modelRhtoBck;
+
 %% Run MENECO
 % MENECO requires the target compounds to already be part of the draft
 % model. This should be fine here, as we added the whole biomass equation
@@ -212,7 +199,6 @@ sol=solveLP(tmpSce,1)
 sceFlux=tmpSce.rxns(~sol.x==0); % List of reactions that carry flux to make CoA in Sce.
 sceFlux(numel(sceFlux))=[]; % Remove last entry, is exchange reaction
 forLipids=sceFlux(~ismember(sceFlux,modelRhto.rxns))
-
 forLipids=getAllRxnsFromGenes(modelSce,forLipids)
 
 % check what reactiosn are required to make lipids in modelSce
@@ -233,6 +219,21 @@ newMetIds=cellfun(@(x) sprintf('st_%04s',x), ...
     string(1:length(find(nonS_xxxMet))), 'uni', false);
 modelRhto.mets(nonS_xxxMet)=newMetIds;
 
+%% Add cardiolipin metabolism
+% Excrete cardiolipin in S. cerevisiae model and transfer reactions that
+% carry flux
+modelSce=addExchangeRxns(modelSce,'out','s_3738[mm]');
+modelSce=setParam(modelSce,'obj',modelSce.rxns(end),1);
+modelSce=setParam(modelSce,'eq','r_4046',0);
+modelSce=setParam(modelSce,'ub',{'r_4062','r_4064'},1000);
+
+sol=solveLP(modelSce,1)
+sceFlux=modelSce.rxns(~sol.x==0); % List of reactions that carry flux to make CoA in Sce.
+sceFlux(numel(sceFlux))=[]; % Remove last entry, is exchange reaction
+forLipids=sceFlux(~ismember(sceFlux,modelRhto.rxns));
+forLipids=getAllRxnsFromGenes(modelSce,forLipids);
+
+modelRhto=addRxnsGenesMets(modelRhto,modelSce,forLipids,true,'For cardiolipin biosynthesis');
 
 %% Add more SLIMEr reactions
 metsToAdd.mets={'MAGbb'};
@@ -240,8 +241,6 @@ metsToAdd.metNames={'monoglyceride backbone'};
 metsToAdd.metFormulas={'C3H6O2'};
 metsToAdd.compartments={'c'};
 modelRhto=addMets(modelRhto,metsToAdd);
-
-newCommit(modelRhto)
 
 rxnsToAdd.rxns={'MAGbb1','MAGbb2','MAGbb3','MAGbb4'};
 rxnsToAdd.rxnNames={'monoglyceride (16:0) [cytosol] SLIME rxn',...
@@ -264,22 +263,22 @@ modelRhto=addMets(modelRhto,metsToAdd);
 
 
 %% Reactions to find gene associations for.
-% getModelFromHomology left some OLD_sce genes that it could not find
-% orthologs for. Additionally, the reactions that were added by MENECO and
-% manually added for coenzyme A are still annotated with the Sce gene (not
-% prefixed by OLD_sce_!) Try to find the responsible R. toruloides genes.
-
-% All Sce genes have a Y in the name, while Rhto genes do not.
-rxnIdx=strfind(modelRhto.grRules,'Y');
-rxnIdx=~cellfun('isempty',rxnIdx); % Get reaction indexes
-
-out=cell(length(find(rxnIdx)),3);
-out(:,1)=modelRhto.rxns(rxnIdx);
-out(:,2)=modelRhto.rxnNames(rxnIdx);
-out(:,3)=modelRhto.grRules(rxnIdx);
-out
-save('modelRhto_20161220.mat','modelRhto');
-load('modelRhto_20161220.mat')
-%% Model from KEGG
-modelKEGG=getKEGGModelForOrganism('uma','reRhoto1_prot.fasta','D:\KEGGdump\euk100_kegg80','D:\KEGGdump\rhto',false,false,false)
-save('modelKEGG_20161220.mat','modelKEGG');
+% % getModelFromHomology left some OLD_sce genes that it could not find
+% % orthologs for. Additionally, the reactions that were added by MENECO and
+% % manually added for coenzyme A are still annotated with the Sce gene (not
+% % prefixed by OLD_sce_!) Try to find the responsible R. toruloides genes.
+% 
+% % All Sce genes have a Y in the name, while Rhto genes do not.
+% rxnIdx=strfind(modelRhto.grRules,'Y');
+% rxnIdx=~cellfun('isempty',rxnIdx); % Get reaction indexes
+% 
+% out=cell(length(find(rxnIdx)),3);
+% out(:,1)=modelRhto.rxns(rxnIdx);
+% out(:,2)=modelRhto.rxnNames(rxnIdx);
+% out(:,3)=modelRhto.grRules(rxnIdx);
+% out
+% save('modelRhto_20161220.mat','modelRhto');
+% load('modelRhto_20161220.mat')
+% %% Model from KEGG
+% modelKEGG=getKEGGModelForOrganism('uma','reRhoto1_prot.fasta','D:\KEGGdump\euk100_kegg80','D:\KEGGdump\rhto',false,false,false)
+% save('modelKEGG_20161220.mat','modelKEGG');
