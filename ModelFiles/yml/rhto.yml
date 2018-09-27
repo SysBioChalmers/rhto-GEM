@@ -21385,14 +21385,10 @@
     - compartment: m
   - !!omap
     - id: st_0023
-    - name: acetyl-phosphate
-    - compartment: c
-  - !!omap
-    - id: st_0024
     - name: beta-carotene
     - compartment: c
   - !!omap
-    - id: st_0025
+    - id: st_0024
     - name: docosanoyl-CoA
     - compartment: m
     - formula: C43H78N7O17P3S
@@ -21402,11 +21398,11 @@
       - kegg.compound: C16528
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0026
+    - id: st_0025
     - name: gamma-carotene
     - compartment: c
   - !!omap
-    - id: st_0027
+    - id: st_0026
     - name: hexacosanoyl-CoA
     - compartment: m
     - formula: C47H86N7O17P3S
@@ -21415,7 +21411,7 @@
       - chebi: CHEBI:52966
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0028
+    - id: st_0027
     - name: icosanoyl-CoA
     - compartment: m
     - formula: C41H74N7O17P3S
@@ -21425,7 +21421,7 @@
       - kegg.compound: C02041
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0029
+    - id: st_0028
     - name: lauroyl-CoA
     - compartment: m
     - formula: C33H54N7O17P3S
@@ -21435,11 +21431,11 @@
       - kegg.compound: C01832
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0030
+    - id: st_0029
     - name: lycopene
     - compartment: c
   - !!omap
-    - id: st_0031
+    - id: st_0030
     - name: myristoyl-CoA
     - compartment: m
     - formula: C35H58N7O17P3S
@@ -21449,11 +21445,11 @@
       - kegg.compound: C02593
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0032
+    - id: st_0031
     - name: neurosporene
     - compartment: c
   - !!omap
-    - id: st_0033
+    - id: st_0032
     - name: oleoyl-CoA
     - compartment: m
     - formula: C39H64N7O17P3S
@@ -21463,7 +21459,7 @@
       - kegg.compound: C00510
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0034
+    - id: st_0033
     - name: palmitoleoyl-CoA(4-)
     - compartment: m
     - formula: C37H60N7O17P3S
@@ -21473,7 +21469,7 @@
       - kegg.compound: C21072
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0035
+    - id: st_0034
     - name: palmitoyl-CoA
     - compartment: m
     - formula: C37H62N7O17P3S
@@ -21483,7 +21479,7 @@
       - kegg.compound: C00154
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0036
+    - id: st_0035
     - name: stearoyl-CoA
     - compartment: m
     - formula: C39H66N7O17P3S
@@ -21493,7 +21489,7 @@
       - kegg.compound: C00412
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0037
+    - id: st_0036
     - name: tetracosanoyl-CoA
     - compartment: m
     - formula: C45H82N7O17P3S
@@ -21503,22 +21499,22 @@
       - kegg.compound: C16529
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0038
+    - id: st_0037
     - name: torulene
     - compartment: c
   - !!omap
-    - id: st_0039
+    - id: st_0038
     - name: torularhodin
     - compartment: c
   - !!omap
-    - id: st_0040
+    - id: st_0039
     - name: (R)-3-hydroxy-cis-dodec-5-enoyl-CoA
     - compartment: m
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0041
+    - id: st_0040
     - name: (R)-3-hydroxy-cis-hexadec-7-enoyl-CoA
     - compartment: m
     - formula: C37H64N7O18P3S
@@ -21527,7 +21523,7 @@
       - chebi: CHEBI:88087
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0042
+    - id: st_0041
     - name: (R)-3-hydroxy-cis-hexadec-9-enoyl-CoA
     - compartment: m
     - formula: C39H68N7O18P3S
@@ -21535,7 +21531,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0043
+    - id: st_0042
     - name: (R)-3-hydroxy-cis-octadec-9-enoyl-CoA
     - compartment: m
     - formula: C39H68N7O18P3S
@@ -21544,7 +21540,7 @@
       - chebi: CHEBI:87781
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0044
+    - id: st_0043
     - name: (R)-3-hydroxy-cis-tetradec-5-enoyl-CoA
     - compartment: m
     - formula: C35H60N7O18P3S
@@ -21553,14 +21549,14 @@
       - chebi: CHEBI:88072
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0045
+    - id: st_0044
     - name: (R)-3-hydroxy-cis-tetradec-7-enoyl-CoA
     - compartment: m
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0046
+    - id: st_0045
     - name: (R)-3-hydroxybutanoyl-CoA
     - compartment: m
     - formula: C25H42N7O18P3S
@@ -21570,7 +21566,7 @@
       - kegg.compound: C03561
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0047
+    - id: st_0046
     - name: (R)-3-hydroxydecanoyl-CoA
     - compartment: m
     - formula: C31H54N7O18P3S
@@ -21580,7 +21576,7 @@
       - kegg.compound: C05264
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0048
+    - id: st_0047
     - name: (R)-3-hydroxydocosanoyl-CoA
     - compartment: m
     - formula: C43H74N7O18P3S
@@ -21589,7 +21585,7 @@
       - chebi: CHEBI:76375
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0049
+    - id: st_0048
     - name: (R)-3-hydroxyhexanoyl-CoA
     - compartment: m
     - formula: C27H46N7O18P3S
@@ -21598,7 +21594,7 @@
       - chebi: CHEBI:74474
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0050
+    - id: st_0049
     - name: (R)-3-hydroxyicosanoyl-CoA
     - compartment: m
     - formula: C41H74N7O18P3S
@@ -21607,7 +21603,7 @@
       - chebi: CHEBI:76453
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0051
+    - id: st_0050
     - name: (R)-3-hydroxylauroyl-CoA
     - compartment: m
     - formula: C33H58N7O18P3S
@@ -21617,7 +21613,7 @@
       - kegg.compound: C05262
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0052
+    - id: st_0051
     - name: (R)-3-hydroxyoctanoyl-CoA
     - compartment: m
     - charge: 0
@@ -21626,7 +21622,7 @@
       - kegg.compound: C05278
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0053
+    - id: st_0052
     - name: (R)-3-hydroxytetracosanoyl-CoA
     - compartment: m
     - formula: C45H82N7O18P3S
@@ -21635,7 +21631,7 @@
       - chebi: CHEBI:76463
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0054
+    - id: st_0053
     - name: (S)-3-hydroxyhexacosanoyl-CoA
     - compartment: m
     - formula: C47H86N7O18P3S
@@ -21644,7 +21640,7 @@
       - chebi: CHEBI:52976
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0055
+    - id: st_0054
     - name: (S)-3-hydroxypalmitoyl-CoA
     - compartment: m
     - formula: C37H66N7O18P3S
@@ -21654,7 +21650,7 @@
       - kegg.compound: C05258
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0056
+    - id: st_0055
     - name: (S)-3-hydroxytetradecanoyl-CoA
     - compartment: m
     - formula: C35H62N7O18P3S
@@ -21664,7 +21660,7 @@
       - kegg.compound: C05260
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0057
+    - id: st_0056
     - name: 3-hydroxyoctadecanoyl-CoA
     - compartment: m
     - formula: C39H70N7O18P3S
@@ -21674,14 +21670,14 @@
       - kegg.compound: C16217
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0058
+    - id: st_0057
     - name: 3-oxo-cis-dodec-5-enoyl-CoA
     - compartment: m
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0059
+    - id: st_0058
     - name: 3-oxo-cis-hexadec-7-enoyl-CoA
     - compartment: m
     - formula: C37H64N7O17P3S
@@ -21689,7 +21685,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0060
+    - id: st_0059
     - name: 3-oxo-cis-hexadec-9-enoyl-CoA
     - compartment: m
     - formula: C37H64N7O17P3S
@@ -21698,7 +21694,7 @@
       - chebi: CHEBI:53152
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0061
+    - id: st_0060
     - name: 3-oxo-cis-octadec-9-enoyl-CoA
     - compartment: m
     - formula: C39H68N7O17P3S
@@ -21707,7 +21703,7 @@
       - chebi: CHEBI:78146
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0062
+    - id: st_0061
     - name: 3-oxo-cis-tetradec-5-enoyl-CoA
     - compartment: m
     - formula: C35H60N7O17P3S
@@ -21715,7 +21711,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0063
+    - id: st_0062
     - name: 3-oxo-cis-tetradec-7-enoyl-CoA
     - compartment: m
     - formula: C35H60N7O17P3S
@@ -21723,7 +21719,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0064
+    - id: st_0063
     - name: 3-oxodecanoyl-CoA
     - compartment: m
     - formula: C31H52N7O18P3S
@@ -21733,7 +21729,7 @@
       - kegg.compound: C05265
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0065
+    - id: st_0064
     - name: 3-oxodocosanoyl-CoA
     - compartment: m
     - formula: C43H76N7O18P3S
@@ -21742,7 +21738,7 @@
       - chebi: CHEBI:52328
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0066
+    - id: st_0065
     - name: 3-oxohexacosanoyl-CoA
     - compartment: m
     - formula: C47H84N7O18P3S
@@ -21751,7 +21747,7 @@
       - chebi: CHEBI:52977
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0067
+    - id: st_0066
     - name: 3-oxohexanoyl-CoA
     - compartment: m
     - formula: C27H44N7O18P3S
@@ -21761,7 +21757,7 @@
       - kegg.compound: C05269
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0068
+    - id: st_0067
     - name: 3-oxoicosanoyl-CoA
     - compartment: m
     - formula: C41H72N7O18P3S
@@ -21770,7 +21766,7 @@
       - chebi: CHEBI:52327
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0069
+    - id: st_0068
     - name: 3-oxolauroyl-CoA
     - compartment: m
     - formula: C33H56N7O18P3S
@@ -21780,7 +21776,7 @@
       - kegg.compound: C05263
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0070
+    - id: st_0069
     - name: 3-oxooctadecanoyl-CoA
     - compartment: m
     - formula: C39H68N7O18P3S
@@ -21790,7 +21786,7 @@
       - kegg.compound: C16216
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0071
+    - id: st_0070
     - name: 3-oxooctanoyl-CoA
     - compartment: m
     - formula: C29H48N7O18P3S
@@ -21800,7 +21796,7 @@
       - kegg.compound: C05267
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0072
+    - id: st_0071
     - name: 3-oxopalmitoyl-CoA
     - compartment: m
     - formula: C37H60N7O18P3S
@@ -21810,7 +21806,7 @@
       - kegg.compound: C05259
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0073
+    - id: st_0072
     - name: 3-oxotetracosanoyl-CoA
     - compartment: m
     - formula: C45H80N7O18P3S
@@ -21819,7 +21815,7 @@
       - chebi: CHEBI:52329
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0074
+    - id: st_0073
     - name: 3-oxotetradecanoyl-CoA
     - compartment: m
     - formula: C35H60N7O18P3S
@@ -21829,7 +21825,7 @@
       - kegg.compound: C05261
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0075
+    - id: st_0074
     - name: butanoyl-CoA
     - compartment: m
     - formula: C25H42N7O17P3S
@@ -21839,7 +21835,7 @@
       - kegg.compound: C00136
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0076
+    - id: st_0075
     - name: cis-dec-3-enoyl-CoA
     - compartment: m
     - formula: C31H52N7O17P3S
@@ -21847,7 +21843,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0077
+    - id: st_0076
     - name: cis-dodec-3-enoyl-CoA
     - compartment: m
     - formula: C33H56N7O17P3S
@@ -21856,7 +21852,7 @@
       - chebi: CHEBI:27989
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0078
+    - id: st_0077
     - name: cis-dodec-5-enoyl-CoA
     - compartment: m
     - formula: C33H56N7O17P3S
@@ -21864,7 +21860,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0079
+    - id: st_0078
     - name: cis-hexadec-7-enoyl-CoA
     - compartment: m
     - formula: C37H64N7O17P3S
@@ -21873,7 +21869,7 @@
       - chebi: CHEBI:88008
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0080
+    - id: st_0079
     - name: cis-tetradec-5-enoyl-CoA
     - compartment: m
     - formula: C35H60N7O17P3S
@@ -21882,7 +21878,7 @@
       - chebi: CHEBI:70712
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0081
+    - id: st_0080
     - name: cis-tetradec-7-enoyl-CoA
     - compartment: m
     - formula: C35H60N7O17P3S
@@ -21890,7 +21886,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0082
+    - id: st_0081
     - name: decanoyl-CoA
     - compartment: m
     - formula: C31H50N7O17P3S
@@ -21900,7 +21896,7 @@
       - kegg.compound: C05274
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0083
+    - id: st_0082
     - name: hexadec-2-enoyl-CoA
     - compartment: m
     - formula: C37H64N7O17P3S
@@ -21908,7 +21904,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0084
+    - id: st_0083
     - name: hexanoyl-CoA
     - compartment: m
     - formula: C27H46N7O17P3S
@@ -21918,7 +21914,7 @@
       - kegg.compound: C05270
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0085
+    - id: st_0084
     - name: octanoyl-CoA
     - compartment: m
     - formula: C29H46N7O17P3S
@@ -21928,14 +21924,14 @@
       - kegg.compound: C01944
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0086
+    - id: st_0085
     - name: trans-2,cis-5-dodecadienoyl-CoA
     - compartment: m
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0087
+    - id: st_0086
     - name: trans-2,cis-5-tetradecadienoyl-CoA
     - compartment: m
     - formula: C35H58N7O17P3S
@@ -21943,7 +21939,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0088
+    - id: st_0087
     - name: trans-2,cis-7-hexadecadienoyl-CoA
     - compartment: m
     - formula: C37H62N7O17P3S
@@ -21952,7 +21948,7 @@
       - chebi: CHEBI:88086
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0089
+    - id: st_0088
     - name: trans-2,cis-7-tetradecadienoyl-CoA
     - compartment: m
     - formula: C35H58N7O17P3S
@@ -21961,7 +21957,7 @@
       - chebi: CHEBI:88067
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0090
+    - id: st_0089
     - name: trans-2,cis-9-hexadecadienoyl-CoA
     - compartment: m
     - formula: C37H62N7O17P3S
@@ -21970,7 +21966,7 @@
       - chebi: CHEBI:76889
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0091
+    - id: st_0090
     - name: trans-2,cis-9-octadecadienoyl-CoA
     - compartment: m
     - formula: C39H66N7O17P3S
@@ -21980,11 +21976,11 @@
       - kegg.compound: C02050
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0092
+    - id: st_0091
     - name: trans-but-2-enoyl-CoA
     - compartment: m
   - !!omap
-    - id: st_0093
+    - id: st_0092
     - name: trans-dec-2-enoyl-CoA
     - compartment: m
     - formula: C31H48N7O17P3S
@@ -21993,7 +21989,7 @@
       - kegg.compound: C05275
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0094
+    - id: st_0093
     - name: trans-docos-2-enoyl-CoA
     - compartment: m
     - formula: C33H56N7O17P3S
@@ -22001,7 +21997,7 @@
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0095
+    - id: st_0094
     - name: trans-dodec-2-enoyl-CoA
     - compartment: m
     - formula: C33H52N7O17P3S
@@ -22010,7 +22006,7 @@
       - kegg.compound: C03221
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0096
+    - id: st_0095
     - name: trans-hex-2-enoyl-CoA
     - compartment: m
     - formula: C27H44N7O17P3S
@@ -22020,7 +22016,7 @@
       - kegg.compound: C05271
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0097
+    - id: st_0096
     - name: trans-hexacos-2-enoyl-CoA
     - compartment: m
     - formula: C47H84N7O17P3S
@@ -22029,14 +22025,14 @@
       - chebi: CHEBI:52975
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0098
+    - id: st_0097
     - name: trans-icos-2-enoyl-CoA
     - compartment: m
     - charge: 0
     - annotation: !!omap
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0099
+    - id: st_0098
     - name: trans-oct-2-enoyl-CoA
     - compartment: m
     - formula: C29H48N7O17P3S
@@ -22046,7 +22042,7 @@
       - kegg.compound: C05276
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0100
+    - id: st_0099
     - name: trans-octadec-2-enoyl-CoA
     - compartment: m
     - formula: C39H68N7O17P3S
@@ -22056,7 +22052,7 @@
       - kegg.compound: C16218
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0101
+    - id: st_0100
     - name: trans-tetracos-2-enoyl-CoA
     - compartment: m
     - formula: C45H80N7O17P3S
@@ -22065,7 +22061,7 @@
       - chebi: CHEBI:75068
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0102
+    - id: st_0101
     - name: trans-tetradec-2-enoyl-CoA
     - compartment: m
     - formula: C35H56N7O17P3S
@@ -22075,19 +22071,19 @@
       - kegg.compound: C05273
       - sbo: SBO:0000247
   - !!omap
-    - id: st_0103
+    - id: st_0102
     - name: linoleoyl-CoA
     - compartment: c
   - !!omap
-    - id: st_0104
+    - id: st_0103
     - name: linoleoyl-CoA
     - compartment: erm
   - !!omap
-    - id: st_0105
+    - id: st_0104
     - name: linoleoyl-CoA
     - compartment: p
   - !!omap
-    - id: st_0106
+    - id: st_0105
     - name: octadec-9-ynoyl-CoA
     - compartment: p
 - reactions:
@@ -22098,8 +22094,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0056: -1
-      - st_0074: 1
+      - st_0055: -1
+      - st_0073: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05537
@@ -22109,8 +22105,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0035: 1
-      - st_0070: -1
+      - st_0034: 1
+      - st_0069: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00476
@@ -22120,8 +22116,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0037: 1
-      - st_0066: -1
+      - st_0036: 1
+      - st_0065: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00477
@@ -22131,8 +22127,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0031: 1
-      - st_0072: -1
+      - st_0030: 1
+      - st_0071: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00478
@@ -22142,8 +22138,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0029: 1
-      - st_0074: -1
+      - st_0028: 1
+      - st_0073: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00479
@@ -22153,8 +22149,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0069: -1
-      - st_0082: 1
+      - st_0068: -1
+      - st_0081: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00480
@@ -22164,8 +22160,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0082: -1
-      - st_0093: 1
+      - st_0081: -1
+      - st_0092: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04579
@@ -22175,8 +22171,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0029: -1
-      - st_0095: 1
+      - st_0028: -1
+      - st_0094: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04580
@@ -22186,8 +22182,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0027: -1
-      - st_0097: 1
+      - st_0026: -1
+      - st_0096: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04581
@@ -22197,8 +22193,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0035: -1
-      - st_0083: 1
+      - st_0034: -1
+      - st_0082: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04582
@@ -22208,8 +22204,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0036: -1
-      - st_0100: 1
+      - st_0035: -1
+      - st_0099: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04583
@@ -22219,8 +22215,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0031: -1
-      - st_0102: 1
+      - st_0030: -1
+      - st_0101: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04584
@@ -22230,8 +22226,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0075: -1
-      - st_0092: 1
+      - st_0074: -1
+      - st_0091: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04585
@@ -22241,8 +22237,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0084: -1
-      - st_0096: 1
+      - st_0083: -1
+      - st_0095: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04586
@@ -22252,8 +22248,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0085: -1
-      - st_0099: 1
+      - st_0084: -1
+      - st_0098: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04587
@@ -22263,8 +22259,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0028: -1
-      - st_0098: 1
+      - st_0027: -1
+      - st_0097: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04588
@@ -22274,8 +22270,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0025: -1
-      - st_0094: 1
+      - st_0024: -1
+      - st_0093: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04589
@@ -22285,8 +22281,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0037: -1
-      - st_0101: 1
+      - st_0036: -1
+      - st_0100: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04590
@@ -22296,8 +22292,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0034: -1
-      - st_0090: 1
+      - st_0033: -1
+      - st_0089: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04591
@@ -22307,8 +22303,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0081: -1
-      - st_0089: 1
+      - st_0080: -1
+      - st_0088: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04592
@@ -22318,8 +22314,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0078: -1
-      - st_0086: 1
+      - st_0077: -1
+      - st_0085: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04593
@@ -22329,8 +22325,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0033: -1
-      - st_0091: 1
+      - st_0032: -1
+      - st_0090: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04594
@@ -22340,8 +22336,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0079: -1
-      - st_0088: 1
+      - st_0078: -1
+      - st_0087: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04595
@@ -22351,8 +22347,8 @@
     - metabolites: !!omap
       - s_0688: -1
       - s_0690: 1
-      - st_0080: -1
-      - st_0087: 1
+      - st_0079: -1
+      - st_0086: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04971 or RHTO_06738 or RHTO_05797 or RHTO_03594 or RHTO_01625 or RHTO_00397 or RHTO_05970 or RHTO_04596
@@ -22361,8 +22357,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxydecanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0047: 1
-      - st_0093: -1
+      - st_0046: 1
+      - st_0092: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02517
@@ -22371,8 +22367,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxydodecanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0051: 1
-      - st_0095: -1
+      - st_0050: 1
+      - st_0094: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02518
@@ -22381,8 +22377,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxytetradecanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0056: 1
-      - st_0102: -1
+      - st_0055: 1
+      - st_0101: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02519
@@ -22391,8 +22387,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxyhexadecanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0055: 1
-      - st_0083: -1
+      - st_0054: 1
+      - st_0082: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02520
@@ -22401,8 +22397,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxyoctadecanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0057: 1
-      - st_0100: -1
+      - st_0056: 1
+      - st_0099: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02521
@@ -22411,8 +22407,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxyhexacosanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0054: 1
-      - st_0097: -1
+      - st_0053: 1
+      - st_0096: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02522
@@ -22421,8 +22417,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxybutanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0046: 1
-      - st_0092: -1
+      - st_0045: 1
+      - st_0091: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02523
@@ -22431,8 +22427,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxyhexanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0049: 1
-      - st_0096: -1
+      - st_0048: 1
+      - st_0095: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02524
@@ -22441,8 +22437,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxyoctanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0052: 1
-      - st_0099: -1
+      - st_0051: 1
+      - st_0098: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02525
@@ -22451,8 +22447,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxyicosanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0050: 1
-      - st_0098: -1
+      - st_0049: 1
+      - st_0097: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02526
@@ -22461,8 +22457,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxydocosanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0048: 1
-      - st_0094: -1
+      - st_0047: 1
+      - st_0093: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02527
@@ -22471,8 +22467,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxytetracosanoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0053: 1
-      - st_0101: -1
+      - st_0052: 1
+      - st_0100: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02528
@@ -22481,8 +22477,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxy-cis-hexadec-9-enoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0042: 1
-      - st_0090: -1
+      - st_0041: 1
+      - st_0089: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02529
@@ -22491,8 +22487,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxy-cis-tetradec-7-enoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0045: 1
-      - st_0089: -1
+      - st_0044: 1
+      - st_0088: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02530
@@ -22501,8 +22497,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxy-cis-dodec-5-enoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0040: 1
-      - st_0086: -1
+      - st_0039: 1
+      - st_0085: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02531
@@ -22511,8 +22507,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxy-cis-octadec-9-enoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0043: 1
-      - st_0091: -1
+      - st_0042: 1
+      - st_0090: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02532
@@ -22521,8 +22517,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxy-cis-hexadec-7-enoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0041: 1
-      - st_0088: -1
+      - st_0040: 1
+      - st_0087: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02533
@@ -22531,8 +22527,8 @@
     - name: 2-enoyl-CoA hydratase (3-hydroxy-cis-tetradec-5-enoyl-CoA)
     - metabolites: !!omap
       - s_0807: -1
-      - st_0044: 1
-      - st_0087: -1
+      - st_0043: 1
+      - st_0086: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05407 or RHTO_04298 or RHTO_02534
@@ -22543,8 +22539,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0047: -1
-      - st_0064: 1
+      - st_0046: -1
+      - st_0063: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05520
@@ -22555,8 +22551,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0051: -1
-      - st_0069: 1
+      - st_0050: -1
+      - st_0068: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05521
@@ -22567,8 +22563,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0055: -1
-      - st_0072: 1
+      - st_0054: -1
+      - st_0071: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05522
@@ -22579,8 +22575,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0057: -1
-      - st_0070: 1
+      - st_0056: -1
+      - st_0069: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05523
@@ -22591,8 +22587,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0054: -1
-      - st_0066: 1
+      - st_0053: -1
+      - st_0065: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05524
@@ -22604,7 +22600,7 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0046: -1
+      - st_0045: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05525
@@ -22615,8 +22611,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0049: -1
-      - st_0067: 1
+      - st_0048: -1
+      - st_0066: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05526
@@ -22627,8 +22623,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0052: -1
-      - st_0071: 1
+      - st_0051: -1
+      - st_0070: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05527
@@ -22639,8 +22635,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0050: -1
-      - st_0068: 1
+      - st_0049: -1
+      - st_0067: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05528
@@ -22651,8 +22647,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0048: -1
-      - st_0065: 1
+      - st_0047: -1
+      - st_0064: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05529
@@ -22663,8 +22659,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0053: -1
-      - st_0073: 1
+      - st_0052: -1
+      - st_0072: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05530
@@ -22675,8 +22671,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0042: -1
-      - st_0060: 1
+      - st_0041: -1
+      - st_0059: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05531
@@ -22687,8 +22683,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0045: -1
-      - st_0063: 1
+      - st_0044: -1
+      - st_0062: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05532
@@ -22699,8 +22695,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0040: -1
-      - st_0058: 1
+      - st_0039: -1
+      - st_0057: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05533
@@ -22711,8 +22707,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0043: -1
-      - st_0061: 1
+      - st_0042: -1
+      - st_0060: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05534
@@ -22723,8 +22719,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0041: -1
-      - st_0059: 1
+      - st_0040: -1
+      - st_0058: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05535
@@ -22735,8 +22731,8 @@
       - s_0799: 1
       - s_1200: -1
       - s_1205: 1
-      - st_0044: -1
-      - st_0062: 1
+      - st_0043: -1
+      - st_0061: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05536
@@ -22756,8 +22752,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0067: -1
-      - st_0075: 1
+      - st_0066: -1
+      - st_0074: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00482
@@ -22767,8 +22763,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0071: -1
-      - st_0084: 1
+      - st_0070: -1
+      - st_0083: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00483
@@ -22778,8 +22774,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0036: 1
-      - st_0068: -1
+      - st_0035: 1
+      - st_0067: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00484
@@ -22789,8 +22785,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0028: 1
-      - st_0065: -1
+      - st_0027: 1
+      - st_0064: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00485
@@ -22800,8 +22796,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0025: 1
-      - st_0073: -1
+      - st_0024: 1
+      - st_0072: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00486
@@ -22811,8 +22807,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0060: -1
-      - st_0081: 1
+      - st_0059: -1
+      - st_0080: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00487
@@ -22822,8 +22818,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0063: -1
-      - st_0078: 1
+      - st_0062: -1
+      - st_0077: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00488
@@ -22833,8 +22829,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0058: -1
-      - st_0076: 1
+      - st_0057: -1
+      - st_0075: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00489
@@ -22844,8 +22840,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0061: -1
-      - st_0079: 1
+      - st_0060: -1
+      - st_0078: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00490
@@ -22855,8 +22851,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0059: -1
-      - st_0080: 1
+      - st_0058: -1
+      - st_0079: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00491
@@ -22866,8 +22862,8 @@
     - metabolites: !!omap
       - s_0376: 1
       - s_0532: -1
-      - st_0062: -1
-      - st_0077: 1
+      - st_0061: -1
+      - st_0076: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_00492
@@ -67415,7 +67411,7 @@
       - s_1198: -3
       - s_1203: 3
       - st_0001: -1
-      - st_0032: 1
+      - st_0031: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04602
@@ -67428,8 +67424,8 @@
       - s_1198: 1
       - s_1203: -1
       - s_1275: -1
-      - st_0030: 1
-      - st_0032: -1
+      - st_0029: 1
+      - st_0031: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04602
@@ -67437,8 +67433,8 @@
     - id: t_0004
     - name: phytoene synthase
     - metabolites: !!omap
-      - st_0026: 1
-      - st_0030: -1
+      - st_0025: 1
+      - st_0029: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04605
@@ -67446,8 +67442,8 @@
     - id: t_0005
     - name: phytoene synthase
     - metabolites: !!omap
-      - st_0024: 1
-      - st_0026: -1
+      - st_0023: 1
+      - st_0025: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04605
@@ -67461,7 +67457,7 @@
       - s_1203: -1
       - s_1275: -1
       - st_0002: 1
-      - st_0030: -1
+      - st_0029: -1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04602
@@ -67470,7 +67466,7 @@
     - name: phytoene synthase
     - metabolites: !!omap
       - st_0002: -1
-      - st_0038: 1
+      - st_0037: 1
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04605
@@ -67479,8 +67475,8 @@
     - name: torularhodin synthase
     - metabolites: !!omap
       - s_1275: -1
-      - st_0038: -1
-      - st_0039: 1
+      - st_0037: -1
+      - st_0038: 1
     - lower_bound: -1000
     - upper_bound: 1000
   - !!omap
@@ -67512,7 +67508,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0018: -1
-      - st_0035: 1
+      - st_0034: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67545,7 +67541,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0008: -1
-      - st_0028: 1
+      - st_0027: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67578,7 +67574,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0004: -1
-      - st_0025: 1
+      - st_0024: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67611,7 +67607,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0022: -1
-      - st_0037: 1
+      - st_0036: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67644,7 +67640,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0006: -1
-      - st_0027: 1
+      - st_0026: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67677,7 +67673,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0014: -1
-      - st_0033: 1
+      - st_0032: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67710,7 +67706,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0016: -1
-      - st_0034: 1
+      - st_0033: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67743,7 +67739,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0020: -1
-      - st_0036: 1
+      - st_0035: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67776,7 +67772,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0010: -1
-      - st_0029: 1
+      - st_0028: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67809,7 +67805,7 @@
       - s_0023: 1
       - s_0532: -1
       - st_0012: -1
-      - st_0031: 1
+      - st_0030: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
@@ -67837,7 +67833,7 @@
       - s_1202: -8
       - s_1206: 8
       - s_1279: -6
-      - st_0106: -1
+      - st_0105: -1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_03890
@@ -67865,7 +67861,7 @@
       - s_2818: -1
       - s_2820: 1
       - s_2821: -1
-      - st_0104: 1
+      - st_0103: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_03911
@@ -67878,8 +67874,8 @@
       - s_0794: 1
       - s_0803: -1
       - s_1322: 1
-      - st_0103: -1
-      - st_0105: 1
+      - st_0102: -1
+      - st_0104: 1
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_06195 and RHTO_04105
@@ -67948,8 +67944,6 @@
     - id: RHTO_00229
   - !!omap
     - id: RHTO_00239
-  - !!omap
-    - id: RHTO_00251
   - !!omap
     - id: RHTO_00262
   - !!omap
@@ -68197,8 +68191,6 @@
   - !!omap
     - id: RHTO_01529
   - !!omap
-    - id: RHTO_01531
-  - !!omap
     - id: RHTO_01536
   - !!omap
     - id: RHTO_01558
@@ -68273,8 +68265,6 @@
   - !!omap
     - id: RHTO_01962
   - !!omap
-    - id: RHTO_01969
-  - !!omap
     - id: RHTO_01970
   - !!omap
     - id: RHTO_01986
@@ -68295,8 +68285,6 @@
   - !!omap
     - id: RHTO_02048
   - !!omap
-    - id: RHTO_02054
-  - !!omap
     - id: RHTO_02062
   - !!omap
     - id: RHTO_02073
@@ -68306,8 +68294,6 @@
     - id: RHTO_02077
   - !!omap
     - id: RHTO_02079
-  - !!omap
-    - id: RHTO_02082
   - !!omap
     - id: RHTO_02095
   - !!omap
@@ -68369,15 +68355,11 @@
   - !!omap
     - id: RHTO_02411
   - !!omap
-    - id: RHTO_02425
-  - !!omap
     - id: RHTO_02439
   - !!omap
     - id: RHTO_02459
   - !!omap
     - id: RHTO_02463
-  - !!omap
-    - id: RHTO_02470
   - !!omap
     - id: RHTO_02504
   - !!omap
@@ -68799,8 +68781,6 @@
   - !!omap
     - id: RHTO_04575
   - !!omap
-    - id: RHTO_04577
-  - !!omap
     - id: RHTO_04579
   - !!omap
     - id: RHTO_04580
@@ -68934,8 +68914,6 @@
     - id: RHTO_05083
   - !!omap
     - id: RHTO_05106
-  - !!omap
-    - id: RHTO_05117
   - !!omap
     - id: RHTO_05129
   - !!omap
@@ -69225,8 +69203,6 @@
   - !!omap
     - id: RHTO_06636
   - !!omap
-    - id: RHTO_06679
-  - !!omap
     - id: RHTO_06687
   - !!omap
     - id: RHTO_06693
@@ -69341,8 +69317,6 @@
   - !!omap
     - id: RHTO_07218
   - !!omap
-    - id: RHTO_07223
-  - !!omap
     - id: RHTO_07249
   - !!omap
     - id: RHTO_07250
@@ -69364,8 +69338,6 @@
     - id: RHTO_07378
   - !!omap
     - id: RHTO_07387
-  - !!omap
-    - id: RHTO_07451
   - !!omap
     - id: RHTO_07452
   - !!omap
@@ -69408,8 +69380,6 @@
     - id: RHTO_07750
   - !!omap
     - id: RHTO_07763
-  - !!omap
-    - id: RHTO_07768
   - !!omap
     - id: RHTO_07773
   - !!omap

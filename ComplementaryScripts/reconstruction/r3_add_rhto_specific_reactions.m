@@ -1,6 +1,6 @@
 %% Rhodosporidium specific reactions
-metsToAdd.metNames={'15-cis-phytoene';'3,4-dehydrolycopene';'O-docosanoylcarnitine';'O-docosanoylcarnitine';'O-hexacosanoylcarnitine';'O-hexacosanoylcarnitine';'O-icosanoylcarnitine';'O-icosanoylcarnitine';'O-lauroylcarnitine';'O-lauroylcarnitine';'O-myristoylcarnitine';'O-myristoylcarnitine';'O-oleoylcarnitine';'O-oleoylcarnitine';'O-palmitoleoylcarnitine';'O-palmitoleoylcarnitine';'O-palmitoylcarnitine';'O-palmitoylcarnitine';'O-stearoylcarnitine';'O-stearoylcarnitine';'O-tetracosanoylcarnitine';'O-tetracosanoylcarnitine';'acetyl-phosphate';'beta-carotene';'docosanoyl-CoA';'gamma-carotene';'hexacosanoyl-CoA';'icosanoyl-CoA';'lauroyl-CoA';'lycopene';'myristoyl-CoA';'neurosporene';'oleoyl-CoA';'palmitoleoyl-CoA(4-)';'palmitoyl-CoA';'stearoyl-CoA';'tetracosanoyl-CoA';'torulene';'torularhodin'};
-metsToAdd.compartments={'c';'c';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'c';'m';'c';'m';'m';'m';'c';'m';'c';'m';'m';'m';'m';'m';'c';'c'};
+metsToAdd.metNames={'15-cis-phytoene';'3,4-dehydrolycopene';'O-docosanoylcarnitine';'O-docosanoylcarnitine';'O-hexacosanoylcarnitine';'O-hexacosanoylcarnitine';'O-icosanoylcarnitine';'O-icosanoylcarnitine';'O-lauroylcarnitine';'O-lauroylcarnitine';'O-myristoylcarnitine';'O-myristoylcarnitine';'O-oleoylcarnitine';'O-oleoylcarnitine';'O-palmitoleoylcarnitine';'O-palmitoleoylcarnitine';'O-palmitoylcarnitine';'O-palmitoylcarnitine';'O-stearoylcarnitine';'O-stearoylcarnitine';'O-tetracosanoylcarnitine';'O-tetracosanoylcarnitine';'beta-carotene';'docosanoyl-CoA';'gamma-carotene';'hexacosanoyl-CoA';'icosanoyl-CoA';'lauroyl-CoA';'lycopene';'myristoyl-CoA';'neurosporene';'oleoyl-CoA';'palmitoleoyl-CoA(4-)';'palmitoyl-CoA';'stearoyl-CoA';'tetracosanoyl-CoA';'torulene';'torularhodin'};
+metsToAdd.compartments={'c';'c';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'m';'m';'c';'m';'c';'m';'m';'m';'m';'m';'c';'c'};
 metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
 %metsToAdd.metFormulas
 model=addMets(model,metsToAdd); clear metsToAdd;
@@ -38,6 +38,7 @@ rxnsToAdd.rxnNames={'fatty acid oxidation (C18:2)';'ATP-citrate lyase';'oleoyl-C
 rxnsToAdd.grRules={'RHTO_03890';'RHTO_03915';'RHTO_03911';'RHTO_06195 and RHTO_04105'};
 model=addRxns(model,rxnsToAdd,3,'',false,true); clear rxnsToAdd
 
+model=deleteUnusedGenes(model);
 cd('..')
 newCommit(model);
 cd('reconstruction')

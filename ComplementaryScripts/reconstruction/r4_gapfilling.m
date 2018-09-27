@@ -35,7 +35,6 @@ for i=1:length(targets)
 end
 out
 
-exportModel(model,'../../ModelFiles/xml/rhto_meneco1.xml')
 %% Further gap-filling
 % Almost all biomass components can be made, only lipids are problematic.
 % This seemingly has to do with coenzyme A synthesis. As S. cerevisiae is
