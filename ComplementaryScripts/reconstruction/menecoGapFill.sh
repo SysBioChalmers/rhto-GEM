@@ -10,4 +10,4 @@ module load intel Python
  
 cd $USR_DIR/rhto/
  
-python /c3se/users/eduardk/Hebbe/pyasp-1.4.2/meneco-1.5.0/meneco.py -d ../../scrap/rhtoDraft.xml -r ../../ComplementaryData/yeastGEM_820.xml -s ../../ComplementaryData/reconstruction/menecoSeeds.sbml -t ../../ComplementaryData/reconstruction/menecoTargets.sbml > ../../ComplementaryData/reconstruction/meneco.out
+meneco.py -d rhto.xml -r yeastGEM_820.xml -s menecoSeeds.sbml -t menecoTargets.sbml > meneco.out
