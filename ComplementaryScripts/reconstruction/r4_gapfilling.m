@@ -56,6 +56,6 @@ forLipids=getAllRxnsFromGenes(modelSce,forLipids)
 model=addRxnsGenesMets(model,modelSce,forLipids,true,...
     'Identified to produce lipids',1); % Add reactions and metabolites
 sol=solveLP(model)
-cd('..')
-newCommit(model)
-cd('reconstruction')
+
+save('../../scrap/model_r4.mat','model');
+cd('..'); newCommit(model); cd('reconstruction')

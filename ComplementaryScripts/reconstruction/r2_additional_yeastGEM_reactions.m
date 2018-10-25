@@ -39,6 +39,5 @@ grRules={'(RHTO_06352 and RHTO_05208) or (RHTO_02645 and RHTO_05208)';'RHTO_0264
 
 model=addRxnsGenesMets(model,modelSce,rxns,grRules,'Identified through homology',2);
 
-cd('..')
-newCommit(model);
-cd('reconstruction')
+save('../../scrap/model_r2.mat','model');
+cd('..'); newCommit(model);cd('reconstruction')
