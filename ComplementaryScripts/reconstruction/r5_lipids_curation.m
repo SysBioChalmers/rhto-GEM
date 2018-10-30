@@ -46,10 +46,39 @@ rxnsToAdd.ub=[1000,1000,1000,1000];
 rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
 model=addRxns(model,rxnsToAdd,3,'',false);
 
+%% Curate reactions specified in lipidTemplates.txt
+fid     = fopen ('lipidTemplates.txt');
+data    = textscan(fid,'%s %s %s %s %s %s %s %s','delimiter','\t');
+fclose(fid);
 
-
-
-
+templNames = data{1};   templEqns  = data{2};   chain1     = data{3};
+chain2     = data{4};   chain3     = data{5};   chain4     = data{6};
+comps      = data{7};   grRules    = data{8};
+for i = 1:length(templNames)
+    grRule = split(grRules{i},',');
+    comp = split(comps{i},',');
+    ch1 = split(chain1{i},',');
+    ch2 = split(chain2{i},',');
+    ch3 = split(chain3{i},',');
+    ch4 = split(chain4{i},',');
+    [newEqns, newNames] = makeRxns(templEqns(i),templNames(i),true,...
+        comp,ch1,ch2,ch3,ch4);
+    if length(grRule)==1
+        rxnsToAdd.grRules = cell(repmat(grRule,length(newEqns),1))
+    else
+        idx = 1:1:length(newEqns);
+        idx = reshape(idx,[length(idx)/length(comp),length(comp)]);
+        for j = 1:length(comp)
+            rxnsToAdd.grRules(idx(:,j),1) = grRule(j);
+        end
+    end
+    [Lia, Locb] = ismember(newNames, model.rxnNames); % Find if reaction already exists
+    rxnsToAdd.grRules(Lia)= [];
+    rxnsToAdd.equations = newEqns(~Lia);
+    rxnsToAdd.rxnNames  = newNames(~Lia);
+    rxnsToAdd.rxns      = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
+    model = addRxns(model,rxnsToAdd,3,'','st_',true);
+end
 
 %% Reactions to find gene associations for.
 % % getModelFromHomology left some OLD_sce genes that it could not find
