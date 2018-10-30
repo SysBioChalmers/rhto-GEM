@@ -1,0 +1,73 @@
+%% Add 18:3 synthesis and transport (degradation is missing for now)
+metsToAdd.metNames={'linolenate';'linolenate';'linolenate';'linolenoyl-CoA';'linolenoyl-CoA';'linolenoyl-CoA';'linolenoyl-CoA';'linoleoyl-CoA';'linoleoyl-CoA'};
+metsToAdd.compartments={'erm';'lp';'p';'c';'erm';'lp';'p';'lp';'mm'};
+metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
+%metsToAdd.metFormulas
+model=addMets(model,metsToAdd); clear metsToAdd;
+
+rxnsToAdd.equations={'H+[erm] + oxygen[erm] + NADH[erm] + linoleoyl-CoA[erm] => 2 H2O[erm] + NAD[erm] + linolenoyl-CoA[erm]';...
+    'coenzyme A[erm] + ATP[erm] + linolenate[erm] <=> AMP[erm] + diphosphate[erm] + linolenoyl-CoA[erm]';...
+    'coenzyme A[lp] + ATP[lp] + linolenate[lp] <=> diphosphate[lp] + AMP[lp] + linolenoyl-CoA[lp]';...
+    'ATP[p] + coenzyme A[p] + linolenate[p] <=> AMP[p] + diphosphate[p] + linolenoyl-CoA[p]';...
+    'H2O[p] + linolenoyl-CoA[p] => coenzyme A[p] + H+[p] + linolenate[p]';...
+	'ATP[c] + H2O[c] + linolenoyl-CoA[c] => ADP[c] + H+[c] + phosphate[c] + linolenoyl-CoA[p]';...
+    'linoleoyl-CoA[c] <=> linoleoyl-CoA[erm]';...
+    'linoleoyl-CoA[c] <=> linoleoyl-CoA[lp]';...
+    'linoleoyl-CoA[c] <=> linoleoyl-CoA[mm]'};
+rxnsToAdd.rxnNames={'linoleoyl-CoA desaturase (n-C18:2CoA - n-C18:3CoA), ER membrane';...
+    'fatty-acid--CoA ligase (octadecatrienoate), ER membrane';...
+    'fatty-acid--CoA ligase (octadecatrienoate), lipid particle';...
+    'fatty-acid--CoA ligase (octadecatrienoate), peroxisome';...
+    'peroxisomal acyl-CoA thioesterase (18:3)';...
+    'fatty acyl-CoA transport via ABC system (C18:3)';...
+    'linolenoyl-CoA transport, cytoplasm-ER membrane';...
+    'linolenoyl-CoA transport, cytoplasm-lipid particle';...
+    'linolenoyl-CoA transport, cytoplasm-mitochondrial membrane'};
+rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));;
+model=addRxns(model,rxnsToAdd,3,'',false,false); clear rxnsToAdd
+
+%% Add more SLIMEr reactions
+metsToAdd.metNames={'monoglyceride backbone','C14:0 chain','C18:2 chain','C18:3 chain'};
+metsToAdd.metFormulas={'C3H6O2','C14H28O2','C18H32O2','C18H30O2'};
+metsToAdd.compartments={'c';'c';'c';'c'};
+metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
+model=addMets(model,metsToAdd); clear metsToAdd;
+
+rxnsToAdd.rxnNames={'monoglyceride (16:0) [cytosol] SLIME rxn',...
+    'monoglyceride (16:1) [cytosol] SLIME rxn',...
+    'monoglyceride (18:0) [cytosol] SLIME rxn',...
+    'monoglyceride (18:1) [cytosol] SLIME rxn'};
+rxnsToAdd.equations={'1-monoglyceride (16:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:0 chain[c]',...
+    '1-monoglyceride (16:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:1 chain[c]',...
+    '1-monoglyceride (18:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:0 chain[c]',...
+    '1-monoglyceride (18:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:1 chain[c]'};
+rxnsToAdd.lb=[0,0,0,0];
+rxnsToAdd.ub=[1000,1000,1000,1000];
+rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
+model=addRxns(model,rxnsToAdd,3,'',false);
+
+
+
+
+
+
+%% Reactions to find gene associations for.
+% % getModelFromHomology left some OLD_sce genes that it could not find
+% % orthologs for. Additionally, the reactions that were added by MENECO and
+% % manually added for coenzyme A are still annotated with the Sce gene (not
+% % prefixed by OLD_sce_!) Try to find the responsible R. toruloides genes.
+% 
+% % All Sce genes have a Y in the name, while Rhto genes do not.
+% rxnIdx=strfind(model.grRules,'Y');
+% rxnIdx=~cellfun('isempty',rxnIdx); % Get reaction indexes
+% 
+% out=cell(length(find(rxnIdx)),3);
+% out(:,1)=model.rxns(rxnIdx);
+% out(:,2)=model.rxnNames(rxnIdx);
+% out(:,3)=model.grRules(rxnIdx);
+% out
+% save('model_20161220.mat','model');
+% load('model_20161220.mat')
+% %% Model from KEGG
+% modelKEGG=getKEGGModelForOrganism('uma','reRhoto1_prot.fasta','D:\KEGGdump\euk100_kegg80','D:\KEGGdump\rhto',false,false,false)
+% save('modelKEGG_20161220.mat','modelKEGG');

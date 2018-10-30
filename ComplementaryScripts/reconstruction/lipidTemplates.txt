@@ -1,0 +1,1 @@
+glycerol-3-phosphate acyltransferase (CHAIN1), COMP	CHAIN1_COA[COMP] + glycerol 3-phosphate[COMP] => coenzyme A[COMP] + 1-acyl-sn-glycerol 3-phosphate (CHAIN1_NUMB)[COMP]	16:0,18:0,18:1,18:2,18:3				erm,lp	RHTO_03058,RHTO_04314
