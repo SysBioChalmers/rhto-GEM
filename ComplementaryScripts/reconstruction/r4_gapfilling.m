@@ -49,13 +49,13 @@ model=setParam(model,'obj','r_2111',1);
 
 sceFlux=tmpSce.rxns(~sol.x==0); % List of reactions that carry flux to make CoA in Sce.
 sceFlux(numel(sceFlux))=[]; % Remove last entry, is exchange reaction
-forLipids=sceFlux(~ismember(sceFlux,model.rxns))
-forLipids=getAllRxnsFromGenes(modelSce,forLipids)
+forLipids=sceFlux(~ismember(sceFlux,model.rxns));
+forLipids=getAllRxnsFromGenes(modelSce,forLipids);
 
 % check what reactiosn are required to make lipids in modelSce
 model=addRxnsGenesMets(model,modelSce,forLipids,true,...
     'Identified to produce lipids',1); % Add reactions and metabolites
 sol=solveLP(model)
-cd('..')
-newCommit(model)
-cd('reconstruction')
+
+save('../../scrap/model_r4.mat','model');
+cd('..'); newCommit(model); cd('reconstruction')

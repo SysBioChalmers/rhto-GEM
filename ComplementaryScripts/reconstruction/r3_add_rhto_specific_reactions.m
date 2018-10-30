@@ -32,13 +32,19 @@ metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
 %metsToAdd.metFormulas
 model=addMets(model,metsToAdd); clear metsToAdd;
 
-rxnsToAdd.equations={'8 coenzyme A[p] + 8 H2O[p] + 8 NAD[p] + 6 oxygen[p] + octadec-9-ynoyl-CoA[p] => 9 acetyl-CoA[p] + 8 H+[p] + 8 NADH[p] + 6 hydrogen peroxide[p]';'ATP[c] + citrate[c] + coenzyme A[c] => acetyl-CoA[c] + ADP[c] + oxaloacetate[c] + phosphate[c]';'H+[erm] + oxygen[erm] + NADH[erm] + oleoyl-CoA[erm] => 2 H2O[erm] + NAD[erm] + linoleoyl-CoA[erm]';'ATP[c] + H2O[c] + linoleoyl-CoA[c] => ADP[c] + H+[c] + phosphate[c] + linoleoyl-CoA[p]'};
+rxnsToAdd.equations={'8 coenzyme A[p] + 8 H2O[p] + 8 NAD[p] + 6 oxygen[p] + octadec-9-ynoyl-CoA[p] => 9 acetyl-CoA[p] + 8 H+[p] + 8 NADH[p] + 6 hydrogen peroxide[p]';
+    'ATP[c] + citrate[c] + coenzyme A[c] => acetyl-CoA[c] + ADP[c] + oxaloacetate[c] + phosphate[c]';
+    'H+[erm] + oxygen[erm] + NADH[erm] + oleoyl-CoA[erm] => 2 H2O[erm] + NAD[erm] + linoleoyl-CoA[erm]';
+    'ATP[c] + H2O[c] + linoleoyl-CoA[c] => ADP[c] + H+[c] + phosphate[c] + linoleoyl-CoA[p]'};
 rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));;
-rxnsToAdd.rxnNames={'fatty acid oxidation (C18:2)';'ATP-citrate lyase';'oleoyl-CoA desaturase (n-C18:1CoA - n-C18:2CoA), ER membrane';'fatty acyl-CoA transport via ABC system (C18:2)'};
+rxnsToAdd.rxnNames={'fatty acid oxidation (C18:2)';
+    'ATP-citrate lyase';
+    'oleoyl-CoA desaturase (n-C18:1CoA - n-C18:2CoA), ER membrane';
+    'fatty acyl-CoA transport via ABC system (C18:2)'};
 rxnsToAdd.grRules={'RHTO_03890';'RHTO_03915';'RHTO_03911';'RHTO_06195 and RHTO_04105'};
 model=addRxns(model,rxnsToAdd,3,'',false,true); clear rxnsToAdd
 
 model=deleteUnusedGenes(model);
-cd('..')
-newCommit(model);
-cd('reconstruction')
+
+save('../../scrap/model_r3.mat','model');
+cd('..'); newCommit(model); cd('reconstruction')

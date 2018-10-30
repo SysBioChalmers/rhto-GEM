@@ -64,8 +64,8 @@ model=getModelFromHomology(modelSce,blastedRhto,'rhto',{},1,false,10^-20,150,35)
 orthologs=readtable('..\..\ComplementaryData\reconstruction\MetaPhOrs_convertedIDs.csv');
 % Only keep orthologs if phylomeDB tree had more than 2 members and
 % evidence is 1.
-moreThanTwo=str2double(regexprep(orthologs.phylome,'.*/([0-9]+)','$1'))>2;
-evidence=str2double(regexprep(orthologs.phylome(:),'\/[0-9]+',''))==1;
+moreThanTwo=str2double(regexprep(orthologs.phylome,'.*/([0-9]+)','$1'))>1;
+evidence=str2double(regexprep(orthologs.phylome(:),'\/[0-9]+',''))>=0.5;
 keep=find(evidence & moreThanTwo);
 orthologList(:,1)=orthologs.SaccharomycesCerevisiae(keep);
 orthologList(:,2)=orthologs.RhodosporidiumToruloides(keep);
@@ -90,6 +90,5 @@ model.annotation.note         = 'Rhodosporidium toruloides - strain NP11';
 model.id                      = 'rhto';
 model.description             = 'Genome-scale metabolic model of Rhodosporidium toruloides';
 
-cd('..')
-newCommit(model);
-cd('reconstruction')
+save('../../scrap/model_r1.mat','model');
+cd('..'); newCommit(model); cd('reconstruction')
