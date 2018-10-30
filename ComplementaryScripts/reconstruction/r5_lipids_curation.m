@@ -1,3 +1,13 @@
+%% Remove reactions involving C16:1, this chain is only present at very low
+% levels and is not considered to reduce the complexity of lipid metabolism
+load('../../scrap/model_r4.mat');
+% Remove reactions where one of the reactants contains 16:1 or similar in
+% the metNames
+toRemove = find(contains(model.metNames,{'16:1','palmitoleate','palmitoleoyl'}));
+[row,col] = find(model.S(toRemove,:));
+col(ismember(model.rxns(col),'r_4065')) = []; % Keep lipid pseudoreaction
+model = removeReactions(model,col,true,true,true);
+
 %% Add 18:3 synthesis and transport (degradation is missing for now)
 metsToAdd.metNames={'linolenate';'linolenate';'linolenate';'linolenoyl-CoA';'linolenoyl-CoA';'linolenoyl-CoA';'linolenoyl-CoA';'linoleoyl-CoA';'linoleoyl-CoA'};
 metsToAdd.compartments={'erm';'lp';'p';'c';'erm';'lp';'p';'lp';'mm'};
@@ -25,60 +35,60 @@ rxnsToAdd.rxnNames={'linoleoyl-CoA desaturase (n-C18:2CoA - n-C18:3CoA), ER memb
     'linolenoyl-CoA transport, cytoplasm-mitochondrial membrane'};
 rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));;
 model=addRxns(model,rxnsToAdd,3,'',false,false); clear rxnsToAdd
-
-%% Add more SLIMEr reactions
-metsToAdd.metNames={'monoglyceride backbone','C14:0 chain','C18:2 chain','C18:3 chain'};
-metsToAdd.metFormulas={'C3H6O2','C14H28O2','C18H32O2','C18H30O2'};
-metsToAdd.compartments={'c';'c';'c';'c'};
-metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
-model=addMets(model,metsToAdd); clear metsToAdd;
-
-rxnsToAdd.rxnNames={'monoglyceride (16:0) [cytosol] SLIME rxn',...
-    'monoglyceride (16:1) [cytosol] SLIME rxn',...
-    'monoglyceride (18:0) [cytosol] SLIME rxn',...
-    'monoglyceride (18:1) [cytosol] SLIME rxn'};
-rxnsToAdd.equations={'1-monoglyceride (16:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:0 chain[c]',...
-    '1-monoglyceride (16:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:1 chain[c]',...
-    '1-monoglyceride (18:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:0 chain[c]',...
-    '1-monoglyceride (18:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:1 chain[c]'};
-rxnsToAdd.lb=[0,0,0,0];
-rxnsToAdd.ub=[1000,1000,1000,1000];
-rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
-model=addRxns(model,rxnsToAdd,3,'',false);
-
-%% Curate reactions specified in lipidTemplates.txt
-fid     = fopen ('lipidTemplates.txt');
-data    = textscan(fid,'%s %s %s %s %s %s %s %s','delimiter','\t');
-fclose(fid);
-
-templNames = data{1};   templEqns  = data{2};   chain1     = data{3};
-chain2     = data{4};   chain3     = data{5};   chain4     = data{6};
-comps      = data{7};   grRules    = data{8};
-for i = 1:length(templNames)
-    grRule = split(grRules{i},',');
-    comp = split(comps{i},',');
-    ch1 = split(chain1{i},',');
-    ch2 = split(chain2{i},',');
-    ch3 = split(chain3{i},',');
-    ch4 = split(chain4{i},',');
-    [newEqns, newNames] = makeRxns(templEqns(i),templNames(i),true,...
-        comp,ch1,ch2,ch3,ch4);
-    if length(grRule)==1
-        rxnsToAdd.grRules = cell(repmat(grRule,length(newEqns),1))
-    else
-        idx = 1:1:length(newEqns);
-        idx = reshape(idx,[length(idx)/length(comp),length(comp)]);
-        for j = 1:length(comp)
-            rxnsToAdd.grRules(idx(:,j),1) = grRule(j);
-        end
-    end
-    [Lia, Locb] = ismember(newNames, model.rxnNames); % Find if reaction already exists
-    rxnsToAdd.grRules(Lia)= [];
-    rxnsToAdd.equations = newEqns(~Lia);
-    rxnsToAdd.rxnNames  = newNames(~Lia);
-    rxnsToAdd.rxns      = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
-    model = addRxns(model,rxnsToAdd,3,'','st_',true);
-end
+% 
+% %% Add more SLIMEr reactions
+% metsToAdd.metNames={'monoglyceride backbone','C14:0 chain','C18:2 chain','C18:3 chain'};
+% metsToAdd.metFormulas={'C3H6O2','C14H28O2','C18H32O2','C18H30O2'};
+% metsToAdd.compartments={'c';'c';'c';'c'};
+% metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
+% model=addMets(model,metsToAdd); clear metsToAdd;
+% 
+% rxnsToAdd.rxnNames={'monoglyceride (16:0) [cytosol] SLIME rxn',...
+%     'monoglyceride (16:1) [cytosol] SLIME rxn',...
+%     'monoglyceride (18:0) [cytosol] SLIME rxn',...
+%     'monoglyceride (18:1) [cytosol] SLIME rxn'};
+% rxnsToAdd.equations={'1-monoglyceride (16:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:0 chain[c]',...
+%     '1-monoglyceride (16:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C16:1 chain[c]',...
+%     '1-monoglyceride (18:0)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:0 chain[c]',...
+%     '1-monoglyceride (18:1)[c] => 0.8574 monoglyceride backbone[c] + 0.25441 C18:1 chain[c]'};
+% rxnsToAdd.lb=[0,0,0,0];
+% rxnsToAdd.ub=[1000,1000,1000,1000];
+% rxnsToAdd.rxns=generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
+% model=addRxns(model,rxnsToAdd,3,'',false);
+% 
+% %% Curate reactions specified in lipidTemplates.txt
+% fid     = fopen ('lipidTemplates.txt');
+% data    = textscan(fid,'%s %s %s %s %s %s %s %s','delimiter','\t');
+% fclose(fid);
+% 
+% templNames = data{1};   templEqns  = data{2};   chain1     = data{3};
+% chain2     = data{4};   chain3     = data{5};   chain4     = data{6};
+% comps      = data{7};   grRules    = data{8};
+% for i = 1:length(templNames)
+%     grRule = split(grRules{i},',');
+%     comp = split(comps{i},',');
+%     ch1 = split(chain1{i},',');
+%     ch2 = split(chain2{i},',');
+%     ch3 = split(chain3{i},',');
+%     ch4 = split(chain4{i},',');
+%     [newEqns, newNames] = makeRxns(templEqns(i),templNames(i),true,...
+%         comp,ch1,ch2,ch3,ch4);
+%     if length(grRule)==1
+%         rxnsToAdd.grRules = cell(repmat(grRule,length(newEqns),1))
+%     else
+%         idx = 1:1:length(newEqns);
+%         idx = reshape(idx,[length(idx)/length(comp),length(comp)]);
+%         for j = 1:length(comp)
+%             rxnsToAdd.grRules(idx(:,j),1) = grRule(j);
+%         end
+%     end
+%     [Lia, Locb] = ismember(newNames, model.rxnNames); % Find if reaction already exists
+%     rxnsToAdd.grRules(Lia)= [];
+%     rxnsToAdd.equations = newEqns(~Lia);
+%     rxnsToAdd.rxnNames  = newNames(~Lia);
+%     rxnsToAdd.rxns      = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
+%     model = addRxns(model,rxnsToAdd,3,'','st_',true);
+% end
 
 %% Reactions to find gene associations for.
 % % getModelFromHomology left some OLD_sce genes that it could not find
@@ -100,3 +110,6 @@ end
 % %% Model from KEGG
 % modelKEGG=getKEGGModelForOrganism('uma','reRhoto1_prot.fasta','D:\KEGGdump\euk100_kegg80','D:\KEGGdump\rhto',false,false,false)
 % save('modelKEGG_20161220.mat','modelKEGG');
+
+save('../../scrap/model_r5.mat','model');
+cd('..'); newCommit(model); cd('reconstruction')
