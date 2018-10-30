@@ -17,29 +17,15 @@ modelSce=importModel('../../ComplementaryData/reconstruction/yeastGEM_820.xml',t
 modelSce.id='sce';
 modelSce.mets=regexprep(modelSce.mets,'\[[a-z]+\]$','');
 [modelSce.grRules, modelSce.rxnGeneMat]=standardizeGrRules(modelSce);
-
-% Confirm that the model is functional, set objective to growth.
-modelSce=setParam(modelSce,'obj','r_4041',1);
-sol=solveLP(modelSce)
-printFluxes(modelSce,sol.x)
-
-%% Do some cosmetic adjustments on the Sce model, before generating Yli model
-%modelSce.metNames=regexprep(modelSce.metNames,'>',''); % Character is not allowed
-%modelSce.rxnNames=regexprep(modelSce.rxnNames,'>',''); % Character is not allowed
-%modelSce.metNames=regexprep(modelSce.metNames,', cytoplasmic','');  % Comma is problematic
-
-% Set boundaries between -1000 and 1000.
-%modelSce.lb(isinf(-modelSce.lb))=-1000;
-%modelSce.ub(isinf(modelSce.ub))=1000;
-modelSce=setParam(modelSce,'eq','r_4046',0);
 % Put all genes in nucleus
 modelSce.geneComps=zeros(length(modelSce.genes),1);
 modelSce.geneComps(1:end)=11;
-
 % r_1896 ss exchange reaction, but was named transport reaction. Later on,
 % all transport reactions are selected by their name, so names should be
 % correct.
 modelSce.rxnNames(find(strcmp(modelSce.rxns,'r_1896')))={'L-homoserine exchange'};
+% Remove shortNames
+modelSce=rmfield(modelSce,'geneShortNames');
 
 % Change reversibility fields to match boundaries. Prevents problems with
 % MENECO.
@@ -51,11 +37,10 @@ for i=1:length(modelSce.rxns)
 	end
 end
 
-% Confirm that model is stil functional
+% Confirm that the model is functional, set objective to growth.
+modelSce=setParam(modelSce,'obj','r_4041',1);
 sol=solveLP(modelSce)
 printFluxes(modelSce,sol.x)
-% Remove shortNames
-modelSce=rmfield(modelSce,'geneShortNames');
 
 %% Generate draft model, based on homology.
 model=getModelFromHomology(modelSce,blastedRhto,'rhto',{},1,false,10^-20,150,35);
