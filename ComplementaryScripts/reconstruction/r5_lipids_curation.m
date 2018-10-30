@@ -96,6 +96,29 @@ for i = 1:length(templNames)
     model = addRxns(model,rxnsToAdd,3,'','st_',true);
 end
 
+%% Add lipid transport reactions
+fid     = fopen ('lipidTransport.txt');
+data    = textscan(fid,'%s %s %s %s %s','delimiter','\t');
+fclose(fid);
+templNames = data{1};   templEqns  = data{2};   chain1     = data{3};
+chain2     = data{4};   chain3     = data{5};
+for i = 1:length(templNames)
+    clear rxnsToAdd
+    ch1     = strtrim(split(chain1{i},','));
+    ch2     = strtrim(split(chain2{i},','));
+    ch3     = strtrim(split(chain3{i},','));
+    [newEqns, newNames] = makeRxns(templEqns(i),templNames(i),true,...
+        '',ch1,ch2,ch3);
+    [Lia, Locb] = ismember(newNames, model.rxnNames); % Find if reaction already exists
+    rxnsToAdd.equations = newEqns(~Lia);
+    rxnsToAdd.rxnNames  = newNames(~Lia);
+    rxnsToAdd.rxns      = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
+    [Lia,Locb]=ismember(rxnsToAdd.rxnNames, modelSce.rxnNames);
+    if any(Locb)
+        rxnsToAdd.rxns(Lia) = modelSce.rxns(Locb(Lia));
+    end
+    model = addRxns(model,rxnsToAdd,3,'','st_',true);
+end
 %% Reactions to find gene associations for.
 % % getModelFromHomology left some OLD_sce genes that it could not find
 % % orthologs for. Additionally, the reactions that were added by MENECO and

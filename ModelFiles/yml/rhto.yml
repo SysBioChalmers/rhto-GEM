@@ -22645,6 +22645,256 @@
     - id: st_0867
     - name: phosphatidylethanolamine (1-18:3, 2-18:3)
     - compartment: lp
+  - !!omap
+    - id: st_0868
+    - name: phosphatidylcholine (1-16:0, 2-18:2)
+    - compartment: lp
+  - !!omap
+    - id: st_0869
+    - name: phosphatidylcholine (1-16:0, 2-18:3)
+    - compartment: lp
+  - !!omap
+    - id: st_0870
+    - name: phosphatidylcholine (1-18:0, 2-18:2)
+    - compartment: lp
+  - !!omap
+    - id: st_0871
+    - name: phosphatidylcholine (1-18:0, 2-18:3)
+    - compartment: lp
+  - !!omap
+    - id: st_0872
+    - name: phosphatidylcholine (1-18:2, 2-18:1)
+    - compartment: lp
+  - !!omap
+    - id: st_0873
+    - name: phosphatidylcholine (1-18:2, 2-18:2)
+    - compartment: lp
+  - !!omap
+    - id: st_0874
+    - name: phosphatidylcholine (1-18:3, 2-18:1)
+    - compartment: lp
+  - !!omap
+    - id: st_0875
+    - name: phosphatidylcholine (1-18:3, 2-18:2)
+    - compartment: lp
+  - !!omap
+    - id: st_0876
+    - name: phosphatidylcholine (1-18:3, 2-18:3)
+    - compartment: lp
+  - !!omap
+    - id: st_0877
+    - name: 1-acylglycerophosphocholine (16:1)
+    - compartment: erm
+  - !!omap
+    - id: st_0878
+    - name: 1-acylglycerophosphocholine (16:1)
+    - compartment: lp
+  - !!omap
+    - id: st_0879
+    - name: 1-acylglycerophosphoethanolamine (16:1)
+    - compartment: erm
+  - !!omap
+    - id: st_0880
+    - name: 1-acylglycerophosphoethanolamine (16:1)
+    - compartment: lp
+  - !!omap
+    - id: st_0881
+    - name: phosphatidate (1-16:0, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0882
+    - name: phosphatidate (1-16:0, 2-18:3)
+    - compartment: mm
+  - !!omap
+    - id: st_0883
+    - name: phosphatidate (1-18:0, 2-18:1)
+    - compartment: mm
+    - formula: C39H75O8P
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:74847
+      - sbo: SBO:0000247
+  - !!omap
+    - id: st_0884
+    - name: phosphatidate (1-18:0, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0885
+    - name: phosphatidate (1-18:0, 2-18:3)
+    - compartment: mm
+  - !!omap
+    - id: st_0886
+    - name: phosphatidate (1-18:1, 2-18:1)
+    - compartment: mm
+    - formula: C39H73O8P
+    - charge: 0
+    - annotation: !!omap
+      - chebi: CHEBI:83775
+      - sbo: SBO:0000247
+  - !!omap
+    - id: st_0887
+    - name: phosphatidate (1-18:2, 2-18:1)
+    - compartment: mm
+  - !!omap
+    - id: st_0888
+    - name: phosphatidate (1-18:2, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0889
+    - name: phosphatidate (1-18:3, 2-18:1)
+    - compartment: mm
+  - !!omap
+    - id: st_0890
+    - name: phosphatidate (1-18:3, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0891
+    - name: phosphatidate (1-18:3, 2-18:3)
+    - compartment: mm
+  - !!omap
+    - id: st_0892
+    - name: phosphatidylcholine (1-16:0, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0893
+    - name: phosphatidylcholine (1-16:0, 2-18:3)
+    - compartment: mm
+  - !!omap
+    - id: st_0894
+    - name: phosphatidylcholine (1-18:0, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0895
+    - name: phosphatidylcholine (1-18:0, 2-18:3)
+    - compartment: mm
+  - !!omap
+    - id: st_0896
+    - name: phosphatidylcholine (1-18:2, 2-18:1)
+    - compartment: mm
+  - !!omap
+    - id: st_0897
+    - name: phosphatidylcholine (1-18:2, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0898
+    - name: phosphatidylcholine (1-18:3, 2-18:1)
+    - compartment: mm
+  - !!omap
+    - id: st_0899
+    - name: phosphatidylcholine (1-18:3, 2-18:2)
+    - compartment: mm
+  - !!omap
+    - id: st_0900
+    - name: phosphatidylcholine (1-18:3, 2-18:3)
+    - compartment: mm
+  - !!omap
+    - id: st_0901
+    - name: diglyceride (1-16:0, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0902
+    - name: diglyceride (1-16:0, 2-18:3)
+    - compartment: gm
+  - !!omap
+    - id: st_0903
+    - name: diglyceride (1-18:0, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0904
+    - name: diglyceride (1-18:0, 2-18:3)
+    - compartment: gm
+  - !!omap
+    - id: st_0905
+    - name: diglyceride (1-18:2, 2-18:1)
+    - compartment: gm
+  - !!omap
+    - id: st_0906
+    - name: diglyceride (1-18:2, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0907
+    - name: diglyceride (1-18:3, 2-18:1)
+    - compartment: gm
+  - !!omap
+    - id: st_0908
+    - name: diglyceride (1-18:3, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0909
+    - name: diglyceride (1-18:3, 2-18:3)
+    - compartment: gm
+  - !!omap
+    - id: st_0910
+    - name: phosphatidate (1-16:0, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0911
+    - name: phosphatidate (1-16:0, 2-18:3)
+    - compartment: gm
+  - !!omap
+    - id: st_0912
+    - name: phosphatidate (1-18:0, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0913
+    - name: phosphatidate (1-18:0, 2-18:3)
+    - compartment: gm
+  - !!omap
+    - id: st_0914
+    - name: phosphatidate (1-18:2, 2-18:1)
+    - compartment: gm
+  - !!omap
+    - id: st_0915
+    - name: phosphatidate (1-18:2, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0916
+    - name: phosphatidate (1-18:3, 2-18:1)
+    - compartment: gm
+  - !!omap
+    - id: st_0917
+    - name: phosphatidate (1-18:3, 2-18:2)
+    - compartment: gm
+  - !!omap
+    - id: st_0918
+    - name: phosphatidate (1-18:3, 2-18:3)
+    - compartment: gm
+  - !!omap
+    - id: st_0919
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2)
+    - compartment: erm
+  - !!omap
+    - id: st_0920
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3)
+    - compartment: erm
+  - !!omap
+    - id: st_0921
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2)
+    - compartment: erm
+  - !!omap
+    - id: st_0922
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3)
+    - compartment: erm
+  - !!omap
+    - id: st_0923
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:1)
+    - compartment: erm
+  - !!omap
+    - id: st_0924
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:2)
+    - compartment: erm
+  - !!omap
+    - id: st_0925
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:1)
+    - compartment: erm
+  - !!omap
+    - id: st_0926
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:2)
+    - compartment: erm
+  - !!omap
+    - id: st_0927
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:3)
+    - compartment: erm
 - reactions:
   - !!omap
     - id: mo_0057
@@ -70865,6 +71115,2790 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_07034
+  - !!omap
+    - id: t_1010
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:1) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0734: -1
+      - st_0735: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1011
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:1) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0738: -1
+      - st_0739: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1012
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0726: -1
+      - st_0727: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1013
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0730: -1
+      - st_0731: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1014
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:2) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0736: -1
+      - st_0737: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1015
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:2) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0740: -1
+      - st_0741: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1016
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0728: -1
+      - st_0729: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1017
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0732: -1
+      - st_0733: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1018
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:3) transport, cytoplasm-ER membrane
+    - metabolites: !!omap
+      - st_0742: -1
+      - st_0743: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1019
+    - name: diglyceride (1-18:2, 2-18:1) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0174: 1
+      - st_0707: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1020
+    - name: diglyceride (1-18:3, 2-18:1) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0176: 1
+      - st_0711: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1021
+    - name: diglyceride (1-16:0, 2-18:2) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0170: 1
+      - st_0699: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1022
+    - name: diglyceride (1-18:0, 2-18:2) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0172: 1
+      - st_0703: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1023
+    - name: diglyceride (1-18:2, 2-18:2) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0175: 1
+      - st_0709: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1024
+    - name: diglyceride (1-18:3, 2-18:2) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0177: 1
+      - st_0713: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1025
+    - name: diglyceride (1-16:0, 2-18:3) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0171: 1
+      - st_0701: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1026
+    - name: diglyceride (1-18:0, 2-18:3) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0173: 1
+      - st_0705: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1027
+    - name: diglyceride (1-18:3, 2-18:3) transport, cytoplasm-lipid particle
+    - metabolites: !!omap
+      - st_0178: 1
+      - st_0715: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1028
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:1) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0617: -1
+      - st_0694: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1029
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:1) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0621: -1
+      - st_0696: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1030
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0609: -1
+      - st_0690: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1031
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0613: -1
+      - st_0692: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1032
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0619: -1
+      - st_0695: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1033
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0623: -1
+      - st_0697: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1034
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0611: -1
+      - st_0691: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1035
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0615: -1
+      - st_0693: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1036
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:3) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0625: -1
+      - st_0698: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1037
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:2, 2-18:1) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0589: -1
+      - st_0788: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1038
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:3, 2-18:1) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0597: -1
+      - st_0792: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1039
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0573: -1
+      - st_0780: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1040
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0581: -1
+      - st_0784: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1041
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:2, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0593: -1
+      - st_0790: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1042
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:3, 2-18:2) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0601: -1
+      - st_0794: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1043
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:3) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0577: -1
+      - st_0782: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1044
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:3) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0585: -1
+      - st_0786: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1045
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:3, 2-18:3) transport, cell envelope-cytoplasm
+    - metabolites: !!omap
+      - st_0605: -1
+      - st_0796: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1046
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:1) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0618: -1
+      - st_0694: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1047
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:1) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0622: -1
+      - st_0696: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1048
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0610: -1
+      - st_0690: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1049
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0614: -1
+      - st_0692: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1050
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0620: -1
+      - st_0695: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1051
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0624: -1
+      - st_0697: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1052
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0612: -1
+      - st_0691: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1053
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0616: -1
+      - st_0693: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1054
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:3) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0626: -1
+      - st_0698: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1055
+    - name: diglyceride (1-18:2, 2-18:1) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0707: 1
+      - st_0708: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1056
+    - name: diglyceride (1-18:3, 2-18:1) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0711: 1
+      - st_0712: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1057
+    - name: diglyceride (1-16:0, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0699: 1
+      - st_0700: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1058
+    - name: diglyceride (1-18:0, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0703: 1
+      - st_0704: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1059
+    - name: diglyceride (1-18:2, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0709: 1
+      - st_0710: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1060
+    - name: diglyceride (1-18:3, 2-18:2) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0713: 1
+      - st_0714: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1061
+    - name: diglyceride (1-16:0, 2-18:3) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0701: 1
+      - st_0702: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1062
+    - name: diglyceride (1-18:0, 2-18:3) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0705: 1
+      - st_0706: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1063
+    - name: diglyceride (1-18:3, 2-18:3) transport, nucleus-cytoplasm
+    - metabolites: !!omap
+      - st_0715: 1
+      - st_0716: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1064
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:2, 2-18:1) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0631: -1
+      - st_0806: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1065
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:3, 2-18:1) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0633: -1
+      - st_0810: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1066
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:2) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0627: -1
+      - st_0798: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1067
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:2) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0629: -1
+      - st_0802: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1068
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:2, 2-18:2) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0632: -1
+      - st_0808: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1069
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:3, 2-18:2) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0634: -1
+      - st_0812: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1070
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:3) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0628: -1
+      - st_0800: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1071
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:3) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0630: -1
+      - st_0804: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1072
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:3, 2-18:3) transport, vacuolar membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0635: -1
+      - st_0814: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1073
+    - name: diglyceride (1-18:0, 2-18:1) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - s_3510: 1
+      - st_0231: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1074
+    - name: diglyceride (1-18:1, 2-18:1) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - s_3512: 1
+      - st_0234: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1075
+    - name: diglyceride (1-18:2, 2-18:1) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0235: -1
+      - st_0707: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1076
+    - name: diglyceride (1-18:3, 2-18:1) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0237: -1
+      - st_0711: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1077
+    - name: diglyceride (1-16:0, 2-18:2) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0229: -1
+      - st_0699: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1078
+    - name: diglyceride (1-18:0, 2-18:2) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0232: -1
+      - st_0703: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1079
+    - name: diglyceride (1-18:2, 2-18:2) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0236: -1
+      - st_0709: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1080
+    - name: diglyceride (1-18:3, 2-18:2) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0238: -1
+      - st_0713: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1081
+    - name: diglyceride (1-16:0, 2-18:3) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0230: -1
+      - st_0701: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1082
+    - name: diglyceride (1-18:0, 2-18:3) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0233: -1
+      - st_0705: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1083
+    - name: diglyceride (1-18:3, 2-18:3) transport, mitochondrial membrane-cytoplasm
+    - metabolites: !!omap
+      - st_0239: -1
+      - st_0715: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1084
+    - name: TAG (1-18:2, 2-18:1, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0191: -1
+      - st_0192: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1085
+    - name: TAG (1-18:3, 2-18:1, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0205: -1
+      - st_0206: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1086
+    - name: TAG (1-16:0, 2-18:2, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0179: -1
+      - st_0180: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1087
+    - name: TAG (1-18:0, 2-18:2, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0183: -1
+      - st_0184: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1088
+    - name: TAG (1-18:2, 2-18:2, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0197: -1
+      - st_0198: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1089
+    - name: TAG (1-18:3, 2-18:2, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0211: -1
+      - st_0212: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1090
+    - name: TAG (1-16:0, 2-18:3, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0181: -1
+      - st_0182: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1091
+    - name: TAG (1-18:0, 2-18:3, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0187: -1
+      - st_0188: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1092
+    - name: TAG (1-18:3, 2-18:3, 3-16:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0219: -1
+      - st_0220: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1093
+    - name: TAG (1-18:2, 2-18:1, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0193: -1
+      - st_0194: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1094
+    - name: TAG (1-18:3, 2-18:1, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0207: -1
+      - st_0208: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1095
+    - name: TAG (1-18:0, 2-18:2, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0185: -1
+      - st_0186: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1096
+    - name: TAG (1-18:2, 2-18:2, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0199: -1
+      - st_0200: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1097
+    - name: TAG (1-18:3, 2-18:2, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0213: -1
+      - st_0214: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1098
+    - name: TAG (1-18:0, 2-18:3, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0189: -1
+      - st_0190: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1099
+    - name: TAG (1-18:3, 2-18:3, 3-18:0) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0221: -1
+      - st_0222: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1100
+    - name: TAG (1-18:2, 2-18:1, 3-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0195: -1
+      - st_0196: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1101
+    - name: TAG (1-18:3, 2-18:1, 3-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0209: -1
+      - st_0210: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1102
+    - name: TAG (1-18:2, 2-18:2, 3-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0201: -1
+      - st_0202: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1103
+    - name: TAG (1-18:3, 2-18:2, 3-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0215: -1
+      - st_0216: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1104
+    - name: TAG (1-18:3, 2-18:3, 3-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0223: -1
+      - st_0224: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1105
+    - name: TAG (1-18:2, 2-18:2, 3-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0203: -1
+      - st_0204: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1106
+    - name: TAG (1-18:3, 2-18:2, 3-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0217: -1
+      - st_0218: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1107
+    - name: TAG (1-18:3, 2-18:3, 3-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0225: -1
+      - st_0226: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1108
+    - name: TAG (1-18:3, 2-18:3, 3-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0227: -1
+      - st_0228: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1109
+    - name: phosphatidylcholine (1-18:2, 2-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0389: -1
+      - st_0872: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1110
+    - name: phosphatidylcholine (1-18:3, 2-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0391: -1
+      - st_0874: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1111
+    - name: phosphatidylcholine (1-16:0, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0385: -1
+      - st_0868: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1112
+    - name: phosphatidylcholine (1-18:0, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0387: -1
+      - st_0870: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1113
+    - name: phosphatidylcholine (1-18:2, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0390: -1
+      - st_0873: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1114
+    - name: phosphatidylcholine (1-18:3, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0392: -1
+      - st_0875: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1115
+    - name: phosphatidylcholine (1-16:0, 2-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0386: -1
+      - st_0869: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1116
+    - name: phosphatidylcholine (1-18:0, 2-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0388: -1
+      - st_0871: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1117
+    - name: phosphatidylcholine (1-18:3, 2-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0393: -1
+      - st_0876: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1118
+    - name: phosphatidylethanolamine (1-18:2, 2-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0371: -1
+      - st_0863: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1119
+    - name: phosphatidylethanolamine (1-18:3, 2-18:1) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0373: -1
+      - st_0865: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1120
+    - name: phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0367: -1
+      - st_0859: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1121
+    - name: phosphatidylethanolamine (1-18:0, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0369: -1
+      - st_0861: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1122
+    - name: phosphatidylethanolamine (1-18:2, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0372: -1
+      - st_0864: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1123
+    - name: phosphatidylethanolamine (1-18:3, 2-18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0374: -1
+      - st_0866: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1124
+    - name: phosphatidylethanolamine (1-16:0, 2-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0368: -1
+      - st_0860: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1125
+    - name: phosphatidylethanolamine (1-18:0, 2-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0370: -1
+      - st_0862: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1126
+    - name: phosphatidylethanolamine (1-18:3, 2-18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0375: -1
+      - st_0867: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1127
+    - name: 1-acylglycerophosphocholine (18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0877: -1
+      - st_0878: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1128
+    - name: 1-acylglycerophosphocholine (18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0877: -1
+      - st_0878: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1129
+    - name: 1-acylglycerophosphoethanolamine (18:2) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0879: -1
+      - st_0880: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1130
+    - name: 1-acylglycerophosphoethanolamine (18:3) transport, ER membrane-lipid particle
+    - metabolites: !!omap
+      - st_0879: -1
+      - st_0880: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1131
+    - name: phosphatidate (1-18:2, 2-18:1) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0133: 1
+      - st_0134: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1132
+    - name: phosphatidate (1-18:3, 2-18:1) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0137: 1
+      - st_0138: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1133
+    - name: phosphatidate (1-16:0, 2-18:2) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0125: 1
+      - st_0126: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1134
+    - name: phosphatidate (1-18:0, 2-18:2) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0129: 1
+      - st_0130: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1135
+    - name: phosphatidate (1-18:2, 2-18:2) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0135: 1
+      - st_0136: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1136
+    - name: phosphatidate (1-18:3, 2-18:2) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0139: 1
+      - st_0140: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1137
+    - name: phosphatidate (1-16:0, 2-18:3) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0127: 1
+      - st_0128: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1138
+    - name: phosphatidate (1-18:0, 2-18:3) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0131: 1
+      - st_0132: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1139
+    - name: phosphatidate (1-18:3, 2-18:3) transport, lipid particle-ER membrane
+    - metabolites: !!omap
+      - st_0141: 1
+      - st_0142: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1140
+    - name: phosphatidate (1-18:0, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - s_2959: -1
+      - st_0883: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1141
+    - name: phosphatidate (1-18:1, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - s_2961: -1
+      - st_0886: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1142
+    - name: phosphatidate (1-18:2, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0133: -1
+      - st_0887: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1143
+    - name: phosphatidate (1-18:3, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0137: -1
+      - st_0889: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1144
+    - name: phosphatidate (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0125: -1
+      - st_0881: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1145
+    - name: phosphatidate (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0129: -1
+      - st_0884: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1146
+    - name: phosphatidate (1-18:2, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0135: -1
+      - st_0888: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1147
+    - name: phosphatidate (1-18:3, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0139: -1
+      - st_0890: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1148
+    - name: phosphatidate (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0127: -1
+      - st_0882: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1149
+    - name: phosphatidate (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0131: -1
+      - st_0885: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1150
+    - name: phosphatidate (1-18:3, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0141: -1
+      - st_0891: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1151
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0287: -1
+      - st_0317: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1152
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0289: -1
+      - st_0323: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1153
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0283: -1
+      - st_0305: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1154
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0285: -1
+      - st_0311: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1155
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0288: -1
+      - st_0320: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1156
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0290: -1
+      - st_0326: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1157
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0284: -1
+      - st_0308: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1158
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0286: -1
+      - st_0314: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1159
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0291: -1
+      - st_0329: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1160
+    - name: phosphatidylethanolamine (1-18:2, 2-18:1) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0344: -1
+      - st_0371: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1161
+    - name: phosphatidylethanolamine (1-18:3, 2-18:1) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0350: -1
+      - st_0373: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1162
+    - name: phosphatidylethanolamine (1-16:0, 2-18:2) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0332: -1
+      - st_0367: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1163
+    - name: phosphatidylethanolamine (1-18:0, 2-18:2) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0338: -1
+      - st_0369: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1164
+    - name: phosphatidylethanolamine (1-18:2, 2-18:2) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0347: -1
+      - st_0372: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1165
+    - name: phosphatidylethanolamine (1-18:3, 2-18:2) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0353: -1
+      - st_0374: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1166
+    - name: phosphatidylethanolamine (1-16:0, 2-18:3) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0335: -1
+      - st_0368: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1167
+    - name: phosphatidylethanolamine (1-18:0, 2-18:3) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0341: -1
+      - st_0370: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1168
+    - name: phosphatidylethanolamine (1-18:3, 2-18:3) transport, mitochondrial membrane-ER membrane
+    - metabolites: !!omap
+      - st_0356: -1
+      - st_0375: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1169
+    - name: phosphatidylcholine (1-18:2, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0389: -1
+      - st_0896: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1170
+    - name: phosphatidylcholine (1-18:3, 2-18:1) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0391: -1
+      - st_0898: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1171
+    - name: phosphatidylcholine (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0385: -1
+      - st_0892: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1172
+    - name: phosphatidylcholine (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0387: -1
+      - st_0894: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1173
+    - name: phosphatidylcholine (1-18:2, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0390: -1
+      - st_0897: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1174
+    - name: phosphatidylcholine (1-18:3, 2-18:2) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0392: -1
+      - st_0899: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1175
+    - name: phosphatidylcholine (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0386: -1
+      - st_0893: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1176
+    - name: phosphatidylcholine (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0388: -1
+      - st_0895: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1177
+    - name: phosphatidylcholine (1-18:3, 2-18:3) transport, ER membrane-mitochondrial membrane
+    - metabolites: !!omap
+      - st_0393: -1
+      - st_0900: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1178
+    - name: diglyceride (1-18:2, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0151: -1
+      - st_0905: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1179
+    - name: diglyceride (1-18:3, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0155: -1
+      - st_0907: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1180
+    - name: diglyceride (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0143: -1
+      - st_0901: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1181
+    - name: diglyceride (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0147: -1
+      - st_0903: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1182
+    - name: diglyceride (1-18:2, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0153: -1
+      - st_0906: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1183
+    - name: diglyceride (1-18:3, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0157: -1
+      - st_0908: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1184
+    - name: diglyceride (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0145: -1
+      - st_0902: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1185
+    - name: diglyceride (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0149: -1
+      - st_0904: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1186
+    - name: diglyceride (1-18:3, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0159: -1
+      - st_0909: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1187
+    - name: phosphatidate (1-18:2, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0133: -1
+      - st_0914: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1188
+    - name: phosphatidate (1-18:3, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0137: -1
+      - st_0916: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1189
+    - name: phosphatidate (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0125: -1
+      - st_0910: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1190
+    - name: phosphatidate (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0129: -1
+      - st_0912: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1191
+    - name: phosphatidate (1-18:2, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0135: -1
+      - st_0915: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1192
+    - name: phosphatidate (1-18:3, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0139: -1
+      - st_0917: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1193
+    - name: phosphatidate (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0127: -1
+      - st_0911: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1194
+    - name: phosphatidate (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0131: -1
+      - st_0913: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1195
+    - name: phosphatidate (1-18:3, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0141: -1
+      - st_0918: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1196
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0554: 1
+      - st_0735: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1197
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0562: 1
+      - st_0739: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1198
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0538: 1
+      - st_0727: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1199
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0546: 1
+      - st_0731: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1200
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0558: 1
+      - st_0737: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1201
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0566: 1
+      - st_0741: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1202
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0542: 1
+      - st_0729: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1203
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0550: 1
+      - st_0733: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1204
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0570: 1
+      - st_0743: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1205
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0287: -1
+      - st_0316: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1206
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:1) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0289: -1
+      - st_0322: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1207
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0283: -1
+      - st_0304: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1208
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0285: -1
+      - st_0310: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1209
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0288: -1
+      - st_0319: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1210
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:2) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0290: -1
+      - st_0325: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1211
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0284: -1
+      - st_0307: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1212
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0286: -1
+      - st_0313: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1213
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:3) transport, ER membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0291: -1
+      - st_0328: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1214
+    - name: phosphatidylethanolamine (1-18:2, 2-18:1) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0343: -1
+      - st_0371: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1215
+    - name: phosphatidylethanolamine (1-18:3, 2-18:1) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0349: -1
+      - st_0373: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1216
+    - name: phosphatidylethanolamine (1-16:0, 2-18:2) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0331: -1
+      - st_0367: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1217
+    - name: phosphatidylethanolamine (1-18:0, 2-18:2) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0337: -1
+      - st_0369: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1218
+    - name: phosphatidylethanolamine (1-18:2, 2-18:2) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0346: -1
+      - st_0372: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1219
+    - name: phosphatidylethanolamine (1-18:3, 2-18:2) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0352: -1
+      - st_0374: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1220
+    - name: phosphatidylethanolamine (1-16:0, 2-18:3) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0334: -1
+      - st_0368: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1221
+    - name: phosphatidylethanolamine (1-18:0, 2-18:3) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0340: -1
+      - st_0370: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1222
+    - name: phosphatidylethanolamine (1-18:3, 2-18:3) transport, Golgi membrane-ER membrane
+    - metabolites: !!omap
+      - st_0355: -1
+      - st_0375: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1223
+    - name: phosphatidate (1-18:2, 2-18:1) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0133: -1
+      - st_0165: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1224
+    - name: phosphatidate (1-18:3, 2-18:1) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0137: -1
+      - st_0167: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1225
+    - name: phosphatidate (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0125: -1
+      - st_0161: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1226
+    - name: phosphatidate (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0129: -1
+      - st_0163: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1227
+    - name: phosphatidate (1-18:2, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0135: -1
+      - st_0166: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1228
+    - name: phosphatidate (1-18:3, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0139: -1
+      - st_0168: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1229
+    - name: phosphatidate (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0127: -1
+      - st_0162: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1230
+    - name: phosphatidate (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0131: -1
+      - st_0164: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1231
+    - name: phosphatidate (1-18:3, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0141: -1
+      - st_0169: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1232
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:1) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0556: 1
+      - st_0735: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1233
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:1) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0564: 1
+      - st_0739: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1234
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0540: 1
+      - st_0727: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1235
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0548: 1
+      - st_0731: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1236
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0560: 1
+      - st_0737: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1237
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0568: 1
+      - st_0741: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1238
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0544: 1
+      - st_0729: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1239
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0552: 1
+      - st_0733: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1240
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0572: 1
+      - st_0743: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1241
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:1) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0287: -1
+      - st_0318: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1242
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:1) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0289: -1
+      - st_0324: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1243
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0283: -1
+      - st_0306: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1244
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0285: -1
+      - st_0312: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1245
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0288: -1
+      - st_0321: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1246
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:2) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0290: -1
+      - st_0327: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1247
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0284: -1
+      - st_0309: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1248
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0286: -1
+      - st_0315: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1249
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:3) transport, ER membrane-vacuolar membrane
+    - metabolites: !!omap
+      - st_0291: -1
+      - st_0330: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1250
+    - name: phosphatidylethanolamine (1-18:2, 2-18:1) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0345: -1
+      - st_0371: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1251
+    - name: phosphatidylethanolamine (1-18:3, 2-18:1) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0351: -1
+      - st_0373: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1252
+    - name: phosphatidylethanolamine (1-16:0, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0333: -1
+      - st_0367: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1253
+    - name: phosphatidylethanolamine (1-18:0, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0339: -1
+      - st_0369: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1254
+    - name: phosphatidylethanolamine (1-18:2, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0348: -1
+      - st_0372: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1255
+    - name: phosphatidylethanolamine (1-18:3, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0354: -1
+      - st_0374: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1256
+    - name: phosphatidylethanolamine (1-16:0, 2-18:3) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0336: -1
+      - st_0368: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1257
+    - name: phosphatidylethanolamine (1-18:0, 2-18:3) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0342: -1
+      - st_0370: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1258
+    - name: phosphatidylethanolamine (1-18:3, 2-18:3) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0357: -1
+      - st_0375: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1259
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:2, 2-18:1) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0640: -1
+      - st_0762: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1260
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:3, 2-18:1) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0642: -1
+      - st_0770: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1261
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0636: -1
+      - st_0746: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1262
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0638: -1
+      - st_0754: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1263
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:2, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0641: -1
+      - st_0766: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1264
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:3, 2-18:2) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0643: -1
+      - st_0774: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1265
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:3) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0637: -1
+      - st_0750: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1266
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:3) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0639: -1
+      - st_0758: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1267
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:3, 2-18:3) transport, vacuolar membrane-ER membrane
+    - metabolites: !!omap
+      - st_0644: -1
+      - st_0778: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1268
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0553: 1
+      - st_0735: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1269
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0561: 1
+      - st_0739: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1270
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0537: 1
+      - st_0727: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1271
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0545: 1
+      - st_0731: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1272
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0557: 1
+      - st_0737: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1273
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0565: 1
+      - st_0741: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1274
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0541: 1
+      - st_0729: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1275
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0549: 1
+      - st_0733: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1276
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0569: 1
+      - st_0743: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1277
+    - name: phosphatidylcholine (1-18:2, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0389: -1
+      - st_0658: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1278
+    - name: phosphatidylcholine (1-18:3, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0391: -1
+      - st_0660: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1279
+    - name: phosphatidylcholine (1-16:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0385: -1
+      - st_0654: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1280
+    - name: phosphatidylcholine (1-18:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0387: -1
+      - st_0656: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1281
+    - name: phosphatidylcholine (1-18:2, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0390: -1
+      - st_0659: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1282
+    - name: phosphatidylcholine (1-18:3, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0392: -1
+      - st_0661: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1283
+    - name: phosphatidylcholine (1-16:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0386: -1
+      - st_0655: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1284
+    - name: phosphatidylcholine (1-18:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0388: -1
+      - st_0657: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1285
+    - name: phosphatidylcholine (1-18:3, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0393: -1
+      - st_0662: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1286
+    - name: phosphatidylethanolamine (1-18:2, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0371: -1
+      - st_0671: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1287
+    - name: phosphatidylethanolamine (1-18:3, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0373: -1
+      - st_0673: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1288
+    - name: phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0367: -1
+      - st_0667: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1289
+    - name: phosphatidylethanolamine (1-18:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0369: -1
+      - st_0669: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1290
+    - name: phosphatidylethanolamine (1-18:2, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0372: -1
+      - st_0672: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1291
+    - name: phosphatidylethanolamine (1-18:3, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0374: -1
+      - st_0674: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1292
+    - name: phosphatidylethanolamine (1-16:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0368: -1
+      - st_0668: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1293
+    - name: phosphatidylethanolamine (1-18:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0370: -1
+      - st_0670: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1294
+    - name: phosphatidylethanolamine (1-18:3, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0375: -1
+      - st_0675: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1295
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0287: -1
+      - st_0682: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1296
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:1) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0289: -1
+      - st_0684: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1297
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0283: -1
+      - st_0678: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1298
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0285: -1
+      - st_0680: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1299
+    - name: phosphatidyl-L-serine (1-18:2, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0288: -1
+      - st_0683: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1300
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:2) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0290: -1
+      - st_0685: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1301
+    - name: phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0284: -1
+      - st_0679: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1302
+    - name: phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0286: -1
+      - st_0681: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1303
+    - name: phosphatidyl-L-serine (1-18:3, 2-18:3) transport, ER membrane-cell envelope
+    - metabolites: !!omap
+      - st_0291: -1
+      - st_0686: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1304
+    - name: phosphatidate (1-18:2, 2-18:1) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0133: 1
+      - st_0721: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1305
+    - name: phosphatidate (1-18:3, 2-18:1) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0137: 1
+      - st_0723: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1306
+    - name: phosphatidate (1-16:0, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0125: 1
+      - st_0717: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1307
+    - name: phosphatidate (1-18:0, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0129: 1
+      - st_0719: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1308
+    - name: phosphatidate (1-18:2, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0135: 1
+      - st_0722: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1309
+    - name: phosphatidate (1-18:3, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0139: 1
+      - st_0724: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1310
+    - name: phosphatidate (1-16:0, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0127: 1
+      - st_0718: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1311
+    - name: phosphatidate (1-18:0, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0131: 1
+      - st_0720: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1312
+    - name: phosphatidate (1-18:3, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0141: 1
+      - st_0725: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1313
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:2, 2-18:1) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0589: -1
+      - st_0789: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1314
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:3, 2-18:1) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0597: -1
+      - st_0793: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1315
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0573: -1
+      - st_0781: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1316
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0581: -1
+      - st_0785: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1317
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:2, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0593: -1
+      - st_0791: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1318
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:3, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0601: -1
+      - st_0795: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1319
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0577: -1
+      - st_0783: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1320
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0585: -1
+      - st_0787: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1321
+    - name: 1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:3, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0605: -1
+      - st_0797: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1322
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:1) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0617: -1
+      - st_0923: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1323
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:1) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0621: -1
+      - st_0925: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1324
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0609: -1
+      - st_0919: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1325
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0613: -1
+      - st_0921: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1326
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:2, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0619: -1
+      - st_0924: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1327
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:2) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0623: -1
+      - st_0926: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1328
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0611: -1
+      - st_0920: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1329
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0615: -1
+      - st_0922: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1330
+    - name: 1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:3, 2-18:3) transport, cell envelope-ER membrane
+    - metabolites: !!omap
+      - st_0625: -1
+      - st_0927: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1331
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:1) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0555: 1
+      - st_0735: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1332
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:1) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0563: 1
+      - st_0739: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1333
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0539: 1
+      - st_0727: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1334
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0547: 1
+      - st_0731: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1335
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:2, 2-18:2) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0559: 1
+      - st_0737: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1336
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:2) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0567: 1
+      - st_0741: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1337
+    - name: 1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0543: 1
+      - st_0729: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1338
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0551: 1
+      - st_0733: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1339
+    - name: 1-phosphatidyl-1D-myo-inositol (1-18:3, 2-18:3) transport, ER membrane-nucleus
+    - metabolites: !!omap
+      - st_0571: 1
+      - st_0743: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1340
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:2, 2-18:1) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0640: -1
+      - st_0763: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1341
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:3, 2-18:1) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0642: -1
+      - st_0771: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1342
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:2) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0636: -1
+      - st_0747: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1343
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:2) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0638: -1
+      - st_0755: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1344
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:2, 2-18:2) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0641: -1
+      - st_0767: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1345
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:3, 2-18:2) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0643: -1
+      - st_0775: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1346
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:3) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0637: -1
+      - st_0751: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1347
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:3) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0639: -1
+      - st_0759: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1348
+    - name: 1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:3, 2-18:3) transport, vacuolar membrane-Golgi membrane
+    - metabolites: !!omap
+      - st_0644: -1
+      - st_0779: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1349
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:2, 2-18:1) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0631: -1
+      - st_0807: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1350
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:3, 2-18:1) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0633: -1
+      - st_0811: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1351
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:2) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0627: -1
+      - st_0799: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1352
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:2) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0629: -1
+      - st_0803: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1353
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:2, 2-18:2) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0632: -1
+      - st_0809: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1354
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:3, 2-18:2) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0634: -1
+      - st_0813: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1355
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:3) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0628: -1
+      - st_0801: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1356
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:3) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0630: -1
+      - st_0805: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+  - !!omap
+    - id: t_1357
+    - name: 1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:3, 2-18:3) transport, vacuolar membrane-cell envelope
+    - metabolites: !!omap
+      - st_0635: -1
+      - st_0815: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
 - genes:
   - !!omap
     - id: Phy006EUKX

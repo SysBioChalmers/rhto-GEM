@@ -74,7 +74,9 @@ if reduced
     newNames    = newNames(keep);
 end
 
-[newEqns, newNames] = fillComps(newEqns, newNames, comps);
+if ~isempty(comps)
+    [newEqns, newNames] = fillComps(newEqns, newNames, comps);
+end
 end
 
 function [newEqns, newNames, chainTrack] = fillEqns(templEqns, templNames, position, chains, chainTrack)
