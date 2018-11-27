@@ -108,7 +108,7 @@ end
 %% Add SLIME metabolites
 metsToAdd.metNames={'1-monoglyceride backbone','C18:2 chain','C18:3 chain'};
 metsToAdd.metFormulas={'C3H6O2','C18H32O2','C18H30O2'};
-metsToAdd.compartments={'c';'c';'c'};
+metsToAdd.compartments={'lp';'c';'c'};
 metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
 model=addMets(model,metsToAdd); clear metsToAdd;
 
@@ -117,36 +117,38 @@ cd ../experimental
 data = readTiukovaData(1);
 cd ../reconstruction
 clear rxnsToAdd
-for i=1:8%length(data.lipidData.metNames)
+for i=1:length(data.lipidData.metNames);
     % Find compartment of component in lipid species part of lipid
     % pseudoreaction
-    compId = model.metComps(getIndexes(model,data.lipidData.metIDs(i),'mets'));
-    rxnComp = model.comps(compId);
-    % Find lipid metabolites in that compartment
-    mets = find(startsWith(model.metNames,data.lipidData.metNames(i)));
-    mets(~(model.metComps(mets) == compId)) = [];
-    mets(contains(model.metNames(mets),'backbone')) = [];
-    
-    % Loop through each metabolite
-    for j = 1:length(mets)
-        chains      = regexp(model.metNames(mets(j)),'(\d\d:\d)','match');
-        [chains,~,n]= unique(chains{1});
-        [n,~]       = histc(n,unique(n));
-        [~,coeff]   = ismember(chains,data.chainData.chain);
-        products    = [data.lipidData.metIDs(i); data.chainData.metIDs(coeff)];
-        totalMW     = sum([data.lipidData.MW(i);data.chainData.MW(coeff).*n]);
-        coeff       = [totalMW; data.chainData.MW(coeff).*n]/1000;
-        
-        rxnsToAdd.mets          = [model.mets(mets(j)); products];
-        rxnsToAdd.stoichCoeffs  = [-1; coeff];
-        rxnsToAdd.rxnNames      = strcat(model.metNames(mets(j)), ' SLIME rxn');
-        rxnsToAdd.rxnMiriams    = struct('name',{'sbo'},'value',{'SBO:0000395'});
-        rxnsToAdd.lb            = 0;
-        rxnsToAdd.rxnConfidenceScores = 1;
-        rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',1);
-        model = addRxns(model,rxnsToAdd);
+    if ~strcmp('ergosterol',data.lipidData.metNames{i});
+        compId = model.metComps(getIndexes(model,data.lipidData.metIDs(i),'mets'));
+        rxnComp = model.comps(compId);
+        % Find lipid metabolites in that compartment
+        mets = find(startsWith(model.metNames,regexprep(data.lipidData.metNames(i),' backbone','')));
+        mets(~(model.metComps(mets) == compId)) = [];
+        mets(contains(model.metNames(mets),'backbone')) = [];
+        % Loop through each metabolite
+        for j = 1:length(mets)
+            chains      = regexp(model.metNames(mets(j)),'(\d\d:\d)','match');
+            [chains,~,n]= unique(chains{1});
+            [n,~]       = histc(n,unique(n));
+            [~,coeff]   = ismember(chains,data.chainData.chain);
+            products    = [data.lipidData.metIDs(i); data.chainData.metIDs(coeff)];
+            totalMW     = sum([data.lipidData.MW(i);data.chainData.MW(coeff).*n]);
+            coeff       = [totalMW; data.chainData.MW(coeff).*n]/1000;
+            rxnsToAdd.mets          = [model.mets(mets(j)); products];
+            rxnsToAdd.stoichCoeffs  = [-1; coeff];
+            rxnsToAdd.rxnNames      = strcat(model.metNames(mets(j)), ' SLIME rxn');
+            rxnsToAdd.rxnMiriams    = struct('name',{{'sbo'}},'value',{{'SBO:0000395'}});
+            rxnsToAdd.lb            = 0;
+            rxnsToAdd.rxnConfidenceScores = 1;
+            rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',1);
+            model = addRxns(model,rxnsToAdd);
+        end
     end
 end
+
+
 clear rxnsToAdd
 for i=5:length(data.chainData.chain)
     % Make sure transport reactions exist
@@ -164,7 +166,7 @@ for i=5:length(data.chainData.chain)
     rxnsToAdd.mets  = mets;
     rxnsToAdd.stoichCoeffs = coeffs;
     rxnsToAdd.rxnNames     = strcat(data.chainData.FA(i), ' SLIME rxn');
-    rxnsToAdd.rxnMiriams   = struct('name',{'sbo'},'value',{'SBO:0000395'});
+    rxnsToAdd.rxnMiriams   = struct('name',{{'sbo'}},'value',{{'SBO:0000395'}});
     rxnsToAdd.lb           = 0;
     rxnsToAdd.rxnConfidenceScores = 1;
     rxnsToAdd.rxns         = generateNewIds(model,'rxns','t_',1);
@@ -197,6 +199,6 @@ sol=solveLP(model,1)
 % %% Model from KEGG
 % modelKEGG=getKEGGModelForOrganism('uma','reRhoto1_prot.fasta','D:\KEGGdump\euk100_kegg80','D:\KEGGdump\rhto',false,false,false)
 % save('modelKEGG_20161220.mat','modelKEGG');
-
+    
 save('../../scrap/model_r5.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
