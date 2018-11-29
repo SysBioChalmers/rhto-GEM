@@ -5,16 +5,11 @@
 %
 % Eduard Kerkhoven. Last update: 2018-07-29
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% Load model
-model=importModel('../../../Rhodosporidium_toruloides-GEM/ModelFiles/xml/rhto.xml');
-    
-data=readTiukovaData(1);
+function [newModel, k] = adjustRhtoBiomass(model,data)
 
 % Change lipid backbone composition
 rxnIdx                  =   getIndexes(model,'r_4063','rxns');
 metIdx                  =   getIndexes(model,data.lipidData.metIDs,'mets');
-%metIdx                  =   getIndexes(model,strcat(data.lipidData.metNames,' backbone[c]'),'metscomps');
 bbIdx                   =   getIndexes(model,'s_3746','mets');
 model.S(:,rxnIdx)       =   0;
 model.S(metIdx,rxnIdx)  =   -data.lipidData.abundance-data.lipidData.std;
@@ -39,4 +34,5 @@ model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 
 sol=solveLP(model,1)
 
-[model,k] = scaleAbundancesRhto(model,data,'tails');
+[newModel,k] = scaleAbundancesRhto(model,data,'tails');
+end

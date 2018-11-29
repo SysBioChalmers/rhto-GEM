@@ -33,19 +33,12 @@ data.chainData.abundance = chainData{4+2*i};
 data.chainData.std       = chainData{5+2*i};
 fclose(fid);
 
-% %Other composition data:
-% fid = fopen('compData_Lahtvee2017.csv');
-% otherData = textscan(fid,[repmat('%s ',[1,2]) repmat('%f32 ',[1,9])],'Delimiter',',','HeaderLines',1);
-% data.otherData.metIDs    = otherData{2};
-% data.otherData.abundance = otherData{2+i};
-% fclose(fid);
-
 %Flux data:
 fid = fopen('../../ComplementaryData/data/fluxData_Tiukova2018.csv');
 fluxData = textscan(fid,[repmat('%s ',[1,2]) repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
 data.fluxData.rxnIDs   = fluxData{2};
-data.fluxData.averages = fluxData{2*i+1};
-data.fluxData.stdevs   = fluxData{2*i+2};
+data.fluxData.averages = fluxData{i+2};%fluxData{2*i+1};
+%data.fluxData.stdevs   = fluxData{2*i+2};
 fclose(fid);
 
 end
