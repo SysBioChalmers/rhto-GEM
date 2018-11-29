@@ -57,5 +57,11 @@ model=addRxnsGenesMets(model,modelSce,forLipids,true,...
     'Identified to produce lipids',1); % Add reactions and metabolites
 sol=solveLP(model)
 
+%% Growth on xylose
+% Through manual curation identified that r_1094 (xylulokinase) is missing
+% for supporting growth on xylose.
+model=addRxnsGenesMets(model,modelSce,'r_1094',true,...
+    'Identified to assimilate xylose',1); % Add reactions and metabolites
+
 save('../../scrap/model_r4.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
