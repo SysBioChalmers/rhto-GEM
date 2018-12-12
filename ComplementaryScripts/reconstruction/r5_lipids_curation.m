@@ -179,26 +179,5 @@ model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 
 sol=solveLP(model,1)
 
-%% Reactions to find gene associations for.
-% % getModelFromHomology left some OLD_sce genes that it could not find
-% % orthologs for. Additionally, the reactions that were added by MENECO and
-% % manually added for coenzyme A are still annotated with the Sce gene (not
-% % prefixed by OLD_sce_!) Try to find the responsible R. toruloides genes.
-%
-% % All Sce genes have a Y in the name, while Rhto genes do not.
-% rxnIdx=strfind(model.grRules,'Y');
-% rxnIdx=~cellfun('isempty',rxnIdx); % Get reaction indexes
-%
-% out=cell(length(find(rxnIdx)),3);
-% out(:,1)=model.rxns(rxnIdx);
-% out(:,2)=model.rxnNames(rxnIdx);
-% out(:,3)=model.grRules(rxnIdx);
-% out
-% save('model_20161220.mat','model');
-% load('model_20161220.mat')
-% %% Model from KEGG
-% modelKEGG=getKEGGModelForOrganism('uma','reRhoto1_prot.fasta','D:\KEGGdump\euk100_kegg80','D:\KEGGdump\rhto',false,false,false)
-% save('modelKEGG_20161220.mat','modelKEGG');
-    
 save('../../scrap/model_r5.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
