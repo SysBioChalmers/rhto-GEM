@@ -17,6 +17,23 @@ model=changeGeneAssoc(model,'r_0438','(COX1 and COX2 and COX3 and RHTO_00755 and
 model=changeGeneAssoc(model,'r_1021','(RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068) or (RHTO_00723 and RHTO_00534 and RHTO_05714 and RHTO_06068)',true);
 model=deleteUnusedGenes(model);
 
+%% Remove unconnected non-gene associated reactions
+subGraphs=getAllSubGraphs(model);
+
+% Find which reactions have no gene associated
+rxnToRemove=[];
+for i=1:size(subGraphs,2)
+    metIdx = subGraphs(:,i);
+    rxnIdx = model.S(metIdx,:);
+    [~,col,~] = find(rxnIdx);
+    col = unique(col);
+    grRules=model.grRules(col);
+    if isempty(grRules{1})
+        rxnToRemove = [rxnToRemove; col];
+    end
+end
+
+model = removeReactions(model,rxnToRemove,true,true,true);
 
 save('../../scrap/model_r6.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
