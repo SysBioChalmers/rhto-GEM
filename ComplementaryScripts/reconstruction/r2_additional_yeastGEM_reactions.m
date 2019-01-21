@@ -1,4 +1,6 @@
 %% Copy pseudoreactions
+load('../../scrap/model_r1.mat','model');
+
 rxns=modelSce.rxns(contains(modelSce.rxnNames,'pseudoreaction'));
 model=addRxnsGenesMets(model,modelSce,rxns,false,...
     'Modeling reaction',1); % Add reactions and metabolites

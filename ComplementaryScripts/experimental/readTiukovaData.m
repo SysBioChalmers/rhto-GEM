@@ -1,7 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % data = readTiukovaData(i)
 %
-% Eduard Kerkhoven. Last update: 2018-07-29
+%   Reads data from Tiukova et al. data on lipid classes, lipid chain
+%   lengths and exchange fluxes, as provided in ComplementaryData. If no
+%   sample index is specified, the first sample is selected.
+%
+% 2019-01-21    Eduard Kerkhoven
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function data = readTiukovaData(i)

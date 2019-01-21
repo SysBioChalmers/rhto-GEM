@@ -1,10 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % [sol,model] = simulateGrowth(model,fluxData)
 %
+%   Simulates growth as part of the scaleAbundancesRhto script.
 %   Modified from SLIMEr, under MIT License:
 %   https://github.com/SysBioChalmers/SLIMEr/blob/master/simulations/simulateGrowth.m
 %
-% 2018-09-25    Eduard Kerkhoven
+% 2019-01-21    Eduard Kerkhoven
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [sol,model] = simulateRhtoGrowth(model,fluxData)

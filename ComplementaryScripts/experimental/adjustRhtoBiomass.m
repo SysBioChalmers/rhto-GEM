@@ -1,9 +1,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% create
+% [newModel, k] = adjustRhtoBiomass(model,data)
 %
-% Usage: model=
+%   Adjusts the biomass equation to match the lipid backbone and chain
+%   length distribution data that is provided. Chain length data is scaled
+%   to agree with the lipid class measurements.
 %
-% Eduard Kerkhoven. Last update: 2018-07-29
+% 2019-01-21    Eduard Kerkhoven
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [newModel, k] = adjustRhtoBiomass(model,data)
 

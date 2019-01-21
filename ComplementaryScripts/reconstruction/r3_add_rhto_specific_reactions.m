@@ -1,4 +1,6 @@
 %% Rhodosporidium specific reactions
+load('../../scrap/model_r2.mat','model');
+
 metsToAdd.metNames={'15-cis-phytoene';'3,4-dehydrolycopene';'O-docosanoylcarnitine';'O-docosanoylcarnitine';'O-hexacosanoylcarnitine';'O-hexacosanoylcarnitine';'O-icosanoylcarnitine';'O-icosanoylcarnitine';'O-lauroylcarnitine';'O-lauroylcarnitine';'O-myristoylcarnitine';'O-myristoylcarnitine';'O-oleoylcarnitine';'O-oleoylcarnitine';'O-palmitoleoylcarnitine';'O-palmitoleoylcarnitine';'O-palmitoylcarnitine';'O-palmitoylcarnitine';'O-stearoylcarnitine';'O-stearoylcarnitine';'O-tetracosanoylcarnitine';'O-tetracosanoylcarnitine';'beta-carotene';'docosanoyl-CoA';'gamma-carotene';'hexacosanoyl-CoA';'icosanoyl-CoA';'lauroyl-CoA';'lycopene';'myristoyl-CoA';'neurosporene';'oleoyl-CoA';'palmitoleoyl-CoA(4-)';'palmitoyl-CoA';'stearoyl-CoA';'tetracosanoyl-CoA';'torulene';'torularhodin'};
 metsToAdd.compartments={'c';'c';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'c';'m';'m';'m';'c';'m';'c';'m';'m';'m';'m';'m';'c';'c'};
 metsToAdd.mets=generateNewIds(model,'mets','st_',length(metsToAdd.metNames));
