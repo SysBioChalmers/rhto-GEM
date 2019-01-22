@@ -21,7 +21,7 @@ _Rhodosporidium toruloides_ (syn. _Rhodotorula toruloides_) is a basidiomycetous
 
 | Taxonomy | Template Model | Reactions | Metabolites | Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-| _Rhodosporidium toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4869 | 3334 | 896 |
+| _Rhodosporidium toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4869 | 3334 | 897 |
 
 
 This repository is administered by [@edkerk](https://github.com/edkerk/), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.

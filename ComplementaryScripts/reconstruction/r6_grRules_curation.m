@@ -15,9 +15,16 @@ out(:,3)=model.grRules(rxnIdx);
 % From this list, through manual curation define the following new grRules
 model=changeGeneAssoc(model,'r_0438','(COX1 and COX2 and COX3 and RHTO_00755 and RHTO_05208 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_01854 and RHTO_06415 and RHTO_06298 and RHTO_04910) or (COX1 and COX2 and COX3 and RHTO_00755 and RHTO_05208 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_06415 and RHTO_06298 and RHTO_04910 and RHTO_01854) or (COX1 and COX2 and COX3 and RHTO_00755 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_01854 and RHTO_05208 and RHTO_06415 and RHTO_06298 and RHTO_04910) or (COX1 and COX2 and COX3 and RHTO_00755 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_05208 and RHTO_06415 and RHTO_06298 and RHTO_04910 and RHTO_01854)',true);
 model=changeGeneAssoc(model,'r_1021','(RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068) or (RHTO_00723 and RHTO_00534 and RHTO_05714 and RHTO_06068)',true);
+% UTR4 (YEL038W in S.cerevisiae) seems to have no homologue in Rhto
 model=changeGeneAssoc(model,'r_0013','RHTO_05673',true);
-model=changeGeneAssoc(model,'r_1027','RHTO_02113',true);
-model=removeGenes(model,{'YPL087W','YBR183W','YGR194C'},false,false,true);
+% VHS3 (YOR054C in S.cerevisiae) seems to have no homologue in Rhto
+model=changeGeneAssoc(model,'r_0906','RHTO_07357',true);
+model=changeGeneAssoc(model,'r_1027','RHTO_02113 and RHTO_06769',true);
+% YDC1 and YPC1 (YBL078W and YBR183W in S.cerevisiae) seem to have no homologue in Rhto
+model=changeGeneAssoc(model,{'r_0340','r_0342'},'',true);
+% xylulokinase gene unknown
+model=changeGeneAssoc(model,'r_1094','',true);
+%model=removeGenes(model,{'YPL087W','YBR183W','YGR194C'},false,false,true);
 model=deleteUnusedGenes(model);
 
 %% Remove unconnected non-gene associated reactions
