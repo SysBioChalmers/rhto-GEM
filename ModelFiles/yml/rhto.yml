@@ -27508,7 +27508,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YEL038W and RHTO_05673
+    - gene_reaction_rule: RHTO_05673
     - subsystem: sce00270  Cysteine and methionine metabolism
     - annotation: !!omap
       - ec-code:
@@ -33074,9 +33074,8 @@
       - s_0475: 1
       - s_1085: -1
       - s_1445: -1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: YPL087W
+    - lower_bound: 0
+    - upper_bound: 0
     - subsystem: sce00600  Sphingolipid metabolism
     - annotation: !!omap
       - ec-code: 3.5.1.-
@@ -33089,8 +33088,7 @@
       - s_1085: 1
       - s_1366: 1
     - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: YBR183W or YPL087W
+    - upper_bound: 0
     - subsystem: sce00600  Sphingolipid metabolism
     - annotation: !!omap
       - ec-code: 3.5.1.-
@@ -42430,7 +42428,7 @@
       - s_1469: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: YFR030W and RHTO_02113
+    - gene_reaction_rule: RHTO_02113
     - subsystem: sce00920  Sulfur metabolism
     - annotation: !!omap
       - ec-code: 1.8.1.2
@@ -43582,8 +43580,7 @@
       - s_0581: 1
       - s_0794: 1
     - lower_bound: 0
-    - upper_bound: 1000
-    - gene_reaction_rule: YGR194C
+    - upper_bound: 0
     - subsystem: sce00040  Pentose and glucuronate interconversions
     - annotation: !!omap
       - ec-code: 2.7.1.17
@@ -75697,8 +75694,8 @@
       - s_0794: 1
       - s_0803: -1
       - s_1322: 1
-    - lower_bound: 0
-    - upper_bound: 0
+    - lower_bound: 0.7
+    - upper_bound: 0.7
     - confidence_score: 1
   - !!omap
     - id: r_4047
@@ -97682,16 +97679,6 @@
     - id: RHTO_08149
   - !!omap
     - id: RHTO_08154
-  - !!omap
-    - id: YBR183W
-  - !!omap
-    - id: YEL038W
-  - !!omap
-    - id: YFR030W
-  - !!omap
-    - id: YGR194C
-  - !!omap
-    - id: YPL087W
 - compartments: !!omap
     - c: cytoplasm
     - ce: cell envelope

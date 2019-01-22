@@ -148,7 +148,6 @@ for i=1:length(data.lipidData.metNames);
     end
 end
 
-
 clear rxnsToAdd
 for i=5:length(data.chainData.chain)
     % Make sure transport reactions exist
