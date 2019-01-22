@@ -27,6 +27,10 @@ model=changeGeneAssoc(model,'r_1094','',true);
 %model=removeGenes(model,{'YPL087W','YBR183W','YGR194C'},false,false,true);
 model=deleteUnusedGenes(model);
 
+
+%% Remove 'sce' from subsystems
+model.subSystems=cellfun(@(x) regexprep(x,'sce[0-9]+ +',''),model.subSystems, 'UniformOutput', 0);
+
 %% Remove unconnected non-gene associated reactions
 subGraphs=getAllSubGraphs(model);
 
