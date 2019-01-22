@@ -2,6 +2,8 @@
 % MENECO requires the target compounds to already be part of the draft
 % model. This should be fine here, as we added the whole biomass equation
 % above.
+load('../../scrap/model_r3.mat','model');
+%load('../../scrap/modelSce.mat');
 
 % Find targets: any substrate for the pseudoreactions
 rxnIdx=find(contains(model.rxnNames,'pseudoreaction'));

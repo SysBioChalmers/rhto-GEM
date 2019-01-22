@@ -41,6 +41,7 @@ end
 modelSce=setParam(modelSce,'obj','r_4041',1);
 sol=solveLP(modelSce)
 printFluxes(modelSce,sol.x)
+%save('../../scrap/modelSce.mat', 'modelSce');
 
 %% Generate draft model, based on homology.
 model=getModelFromHomology(modelSce,blastedRhto,'rhto',{},1,false,10^-20,150,35);
