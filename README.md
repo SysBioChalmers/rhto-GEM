@@ -30,7 +30,7 @@ This repository is administered by [@edkerk](https://github.com/edkerk/), Divisi
 
 ## Citation
 
-* If you use rhto-GEM in your research, whether for simulations, data analysis, model reconstruction of other purposes, we ask you to cite the rhto-GEM paper on [bioRxiv]https://doi.org/10.1101/528489).
+* If you use rhto-GEM in your research, whether for simulations, data analysis, model reconstruction of other purposes, we ask you to cite the rhto-GEM paper on [bioRxiv](https://doi.org/10.1101/528489).
 * In addition, it is good practice to cite the specific version of rhto-GEM that you used, to improve reproducibility. All rhto-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/133515828). Find the corresponding DOI for each release [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%2547988&sort=-publication_date&all_versions=True).
 
 ## Installation
