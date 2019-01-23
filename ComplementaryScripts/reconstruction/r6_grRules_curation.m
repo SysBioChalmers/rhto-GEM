@@ -29,6 +29,7 @@ model=deleteUnusedGenes(model);
 
 %% Curate unlogical grRules
 model=changeGeneAssoc(model,'r_0250','RHTO_04703 or RHTO_05549 or RHTO_06321',true);
+model=changeGeneAssoc(model,{'r_2141','r_2140'},'RHTO_02032 or RHTO_02139',true);
 model=changeGeneAssoc(model,'r_0362','RHTO_02130 or RHTO_02306 or RHTO_07144',true);
 model=changeGeneAssoc(model,'r_0658','RHTO_01289 or RHTO_01290 or RHTO_06717',true);
 model=changeGeneAssoc(model,{'r_0886','r_0887'},'RHTO_00494',true);
@@ -44,6 +45,26 @@ model=changeGeneAssoc(model,'r_0552','(RHTO_03771 and RHTO_06286)',true);
 model=changeGeneAssoc(model,'r_0883','(RHTO_03771 and RHTO_06542)',true);
 model=changeGeneAssoc(model,'r_1021','(RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068)',true);
 model=changeGeneAssoc(model,'r_0510','(RHTO_04065 and RHTO_05749)',true);
+model=changeGeneAssoc(model,'r_0510','(RHTO_04065 and RHTO_05749)',true);
+for n=1:length(model.grRules)
+    if any(model.grRules{n})
+        noAnd=strfind(model.grRules(n),'and');
+        noAnd=any(vertcat(noAnd{:})); % Give 0 if no 'and' is present.
+        if noAnd==0
+            geneList=transpose(cell(unique(regexp(model.grRules{n},'[)(]*|( and )*|( or )*','split'))));
+            geneList=regexprep(geneList,'[(*)*]','');
+            if length(geneList)==1
+                newgrRule=geneList;
+            else
+                newgrRule=geneList{1};
+                for k=2:length(geneList)
+                    newgrRule=[newgrRule ' or ' geneList{k}];
+                end
+            end
+            model.grRules(n)=cellstr(newgrRule);
+        end
+    end
+end
 
 %% Remove 'sce' from subsystems
 model.subSystems=cellfun(@(x) regexprep(x,'sce[0-9]+ +',''),model.subSystems, 'UniformOutput', 0);

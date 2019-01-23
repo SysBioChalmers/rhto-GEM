@@ -31,5 +31,5 @@ model = setParam(model,'lb','r_4046',NGAM);
 [model,GAM]=fitGAM(model);
 disp(['GAM is set to: ' num2str(GAM)])
 
-load('../../scrap/model_r7.mat','model');
+save('../../scrap/model_r7.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
