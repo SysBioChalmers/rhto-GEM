@@ -1,5 +1,7 @@
 # rhto-GEM: Genome-scale metabolic model of _Rhodosporidium toruloides_
 
+[![DOI](https://zenodo.org/badge/52777598.svg)](https://zenodo.org/badge/latestdoi/XXXX) [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Frhto-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Frhto-gem) 
+
 - Brief model description
 
 This repository contains the current genome-scale metabolic model of _Rhodosporidium toruloides_, named **rhto-GEM**. For the latest updated release see [here](https://github.com/SysBioChalmers/rhto-GEM/releases).
@@ -26,6 +28,10 @@ _Rhodosporidium toruloides_ (syn. _Rhodotorula toruloides_) is a basidiomycetous
 
 This repository is administered by [@edkerk](https://github.com/edkerk/), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
+## Citation
+
+* If you use rhto-GEM in your research, whether for simulations, data analysis, model reconstruction of other purposes, we ask you to cite the rhto-GEM paper on [bioRxiv]https://doi.org/10.1101/528489).
+* In addition, it is good practice to cite the specific version of rhto-GEM that you used, to improve reproducibility. All rhto-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/XXXX). Find the corresponding DOI for each release [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True).
 
 ## Installation
 
