@@ -1,5 +1,9 @@
 # History
 
+### rhto v1.0.0:
+* Documentation:
+  * Update readme.md to include correct links to Zenodo and bioRxiv (PR #15).
+
 ### rhto v0.0.2:
 * Features
   * Include script `ComplementaryScripts\validation\growthPrediction.m` to valide model by comparing growth predictions (PR #13).
