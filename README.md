@@ -1,10 +1,10 @@
-# rhto-GEM: Genome-scale metabolic model of _Rhodosporidium toruloides_
+# rhto-GEM: Genome-scale metabolic model of _Rhodotorula toruloides_
 
-[![DOI](https://zenodo.org/badge/52777598.svg)](https://zenodo.org/badge/latestdoi/XXXX) [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Frhto-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Frhto-gem) 
+[![DOI](https://zenodo.org/badge/133515828.svg)](https://zenodo.org/badge/latestdoi/133515828) [![GitHub version](https://badge.fury.io/gh/sysbiochalmers%2Frhto-gem.svg)](https://badge.fury.io/gh/sysbiochalmers%2Frhto-gem) 
 
 - Brief model description
 
-This repository contains the current genome-scale metabolic model of _Rhodosporidium toruloides_, named **rhto-GEM**. For the latest updated release see [here](https://github.com/SysBioChalmers/rhto-GEM/releases).
+This repository contains the current genome-scale metabolic model of _Rhodotorula toruloides_, named **rhto-GEM**. For the latest updated release see [here](https://github.com/SysBioChalmers/rhto-GEM/releases).
 
 - Abstract
 
@@ -12,26 +12,26 @@ _Rhodosporidium toruloides_ (syn. _Rhodotorula toruloides_) is a basidiomycetous
 
 - Model keywords
 
-**GEM category:** Species; **Utilisation:** experimental data reconstruction; **Field:** metabolic-network reconstruction; **Type of model:** reconstruction, curated; **Model source:** [yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM); **Omic source:** genomics; **Taxonomy:** _Rhodosporidium toruloides_; **Metabolic system:** general metabolism; **Bioreactor**; **Strain:** NP11; **Condition:** minimal medium;
+**GEM category:** Species; **Utilisation:** experimental data reconstruction; **Field:** metabolic-network reconstruction; **Type of model:** reconstruction, curated; **Model source:** [yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM); **Omic source:** genomics; **Taxonomy:** _Rhodotorula toruloides_; **Metabolic system:** general metabolism; **Bioreactor**; **Strain:** NP11; **Condition:** minimal medium;
 
 - Reference:  
->bioRxiv
+> Tiukova IA _et al_. (2019) "Genome-scale model of _Rhodotorula toruloides_ metabolism" bioRxiv doi:[10.1101/528489](https://doi.org/10.1101/528489)
 
-- Last update: 2019-01-22
+- Last update: 2019-01-23
 
 - Main model descriptors:
 
 | Taxonomy | Template Model | Reactions | Metabolites | Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-| _Rhodosporidium toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4869 | 3334 | 897 |
+| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4869 | 3334 | 897 |
 
 
 This repository is administered by [@edkerk](https://github.com/edkerk/), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
 ## Citation
 
-* If you use rhto-GEM in your research, whether for simulations, data analysis, model reconstruction of other purposes, we ask you to cite the rhto-GEM paper on [bioRxiv]https://doi.org/10.1101/528489).
-* In addition, it is good practice to cite the specific version of rhto-GEM that you used, to improve reproducibility. All rhto-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/XXXX). Find the corresponding DOI for each release [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:%221494182%22&sort=-publication_date&all_versions=True).
+* If you use rhto-GEM in your research, whether for simulations, data analysis, model reconstruction of other purposes, we ask you to cite the rhto-GEM paper on [bioRxiv](https://doi.org/10.1101/528489).
+* In addition, it is good practice to cite the specific version of rhto-GEM that you used, to improve reproducibility. All rhto-GEM releases are archived in [Zenodo](https://zenodo.org/badge/latestdoi/133515828). Find the corresponding DOI for each release [here](https://zenodo.org/search?page=1&size=20&q=conceptrecid:2547988&sort=-publication_date&all_versions=True).
 
 ## Installation
 
@@ -56,7 +56,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 * `newCommit.m`: RAVEN function that prepares files from a modified model for a new GitHub commit in a development branch.
 * `newCommit.m`: RAVEN function that prepares files from a modified model for a new GitHub release in the master branch.
-* `experimental`: folder with scripts that modify _rhto-GEM_ to incorporate experimental data
+* `experimental`: folder with scripts that modify _rhto-GEM_ to incorporate experimental data.
   * `adjustRhtoBiomass.m`: RAVEN function that adjusts the biomass equation to match the specified lipid data.
   * `readTiukovaData.m`: RAVEN function that reads experimental lipid class, lipid chain length and exchange flux data, as provided in ComplementaryData.
   * `scaleAbundancesRhto.m`: RAVEN function as part of the SLIMEr approach, which scales lipid backbones or chains to reconcile experimental measurements. Called by `adjustRhtoBiomass.m`.
@@ -71,6 +71,10 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
   * `r6_grRules_curation.m`: RAVEN script that corrects gene associations.
   * `menecoGapFill.sh`: BASH script that specifies meneco commands run to identify reactions for gapfilling, as used in `r4_gapfilling.m`.
   * `lipidTemplates.txt` and `lipidTransport.txt`: template reactions for lipid metabolism, as called by `r5_lipids_curation.m`.
+* `analysis`: folder with scripts performing analyses on rhto-GEM.
+  * `fseof_target_prediction.m`: RAVEN script performing FSEOF target prediction for triacylglycerol and linolenic acid production.
+* `validation`: folder with scripts validating performance of rhto-GEM.
+  * `growthPrediction.m`: RAVEN script comparing growth predictions from the model with experimentally measured values.
 
 ### Complementary data
 
