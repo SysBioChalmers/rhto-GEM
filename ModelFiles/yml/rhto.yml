@@ -27353,7 +27353,7 @@
       - s_1399: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_06352 and RHTO_05208) or (RHTO_06352 and RHTO_05208) or (RHTO_05208 and RHTO_02645) or (RHTO_02645 and RHTO_05208)
+    - gene_reaction_rule: (RHTO_06352 and RHTO_05208) or (RHTO_05208 and RHTO_02645)
     - subsystem:
         - Pyruvate metabolism
         - Sulfur metabolism
@@ -27374,7 +27374,7 @@
       - s_1401: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_02645 and RHTO_05208) or (RHTO_02645 and RHTO_05208)
+    - gene_reaction_rule: RHTO_02645 and RHTO_05208
     - subsystem:
         - Pyruvate metabolism
         - Sulfur metabolism
@@ -27413,7 +27413,7 @@
       - s_1399: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_05208 and RHTO_00251) or (RHTO_05208 and RHTO_00251)
+    - gene_reaction_rule: RHTO_05208 and RHTO_00251
     - subsystem:
         - Pyruvate metabolism
         - Sulfur metabolism
@@ -31697,7 +31697,7 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_04703 or RHTO_05549 or (RHTO_06321 and RHTO_04703) or (RHTO_05549 and RHTO_05549) or RHTO_06321
+    - gene_reaction_rule: RHTO_04703 or RHTO_05549 or RHTO_06321
     - subsystem:
         - Pyrimidine metabolism
         - Alanine, aspartate and glutamate metabolism
@@ -33442,7 +33442,7 @@
       - s_1108: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_07144 and RHTO_02130) or RHTO_02130 or RHTO_02306 or RHTO_07144
+    - gene_reaction_rule: RHTO_02130 or RHTO_02306 or RHTO_07144
     - subsystem:
         - Other types of O-glycan biosynthesis
         - Mannose type O-glycan biosynthesis
@@ -33742,7 +33742,7 @@
       - s_0838: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_05208 and RHTO_06193) or (RHTO_05208 and RHTO_06193)
+    - gene_reaction_rule: RHTO_05208 and RHTO_06193
     - subsystem: Sulfur metabolism
     - annotation: !!omap
       - ec-code: 1.11.1.5
@@ -35059,7 +35059,7 @@
       - s_1543: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_04065 and RHTO_05749) or (RHTO_04065 and RHTO_05749) or (RHTO_05749 and RHTO_04065) or (RHTO_05749 and RHTO_04065)
+    - gene_reaction_rule: RHTO_04065 and RHTO_05749
     - subsystem: Starch and sucrose metabolism
     - annotation: !!omap
       - ec-code:
@@ -35771,7 +35771,7 @@
       - s_1620: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_05117 and RHTO_03771) or (RHTO_05117 and RHTO_03771)
+    - gene_reaction_rule: RHTO_05117 and RHTO_03771
     - annotation: !!omap
       - ec-code: 1.11.1.15
       - pubmed: 15210711
@@ -35803,7 +35803,7 @@
       - s_1623: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_03771 and RHTO_06286) or (RHTO_03771 and RHTO_06286)
+    - gene_reaction_rule: RHTO_03771 and RHTO_06286
     - subsystem: Sulfur relay system
     - annotation: !!omap
       - ec-code: 1.11.1.15
@@ -37454,7 +37454,7 @@
       - s_1205: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_01290 and RHTO_01289) or RHTO_01289 or (RHTO_01289 and RHTO_01290) or RHTO_01290 or RHTO_06717
+    - gene_reaction_rule: RHTO_01289 or RHTO_01290 or RHTO_06717
     - subsystem:
         - Citrate cycle (TCA cycle)
         - Biosynthesis of secondary metabolites
@@ -40261,7 +40261,7 @@
       - s_1620: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_03771 and RHTO_06542) or (RHTO_03771 and RHTO_06542)
+    - gene_reaction_rule: RHTO_03771 and RHTO_06542
     - subsystem: Sulfur metabolism
     - annotation: !!omap
       - ec-code: 1.8.4.8
@@ -40304,7 +40304,7 @@
       - s_0794: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_00494 and RHTO_00494) or RHTO_00494
+    - gene_reaction_rule: RHTO_00494
     - subsystem:
         - Gluconeogenesis
         - Glycolysis
@@ -40333,7 +40333,7 @@
       - s_1427: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_00494 and RHTO_00494) or RHTO_00494
+    - gene_reaction_rule: RHTO_00494
     - subsystem:
         - Gluconeogenesis
         - Glycolysis
@@ -40804,7 +40804,7 @@
       - s_1408: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_02591 and RHTO_02591) or RHTO_04328 or (RHTO_02591 and RHTO_02591) or RHTO_04328 or (RHTO_02591 and RHTO_02591) or RHTO_04328
+    - gene_reaction_rule: RHTO_02591 or RHTO_04328
     - subsystem:
         - Pentose phosphate pathway
         - Purine metabolism
@@ -41305,7 +41305,7 @@
       - s_1401: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_07250 and RHTO_01852 and RHTO_07893 and RHTO_01754 and RHTO_03543) or RHTO_03059 or (RHTO_07250 and RHTO_01852 and RHTO_07893 and RHTO_01754 and RHTO_03543)
+    - gene_reaction_rule: (RHTO_07250 and RHTO_01852 and RHTO_07893 and RHTO_01754 and RHTO_03543) or RHTO_03059
     - subsystem:
         - Gluconeogenesis
         - Glycolysis
@@ -42291,7 +42291,7 @@
       - s_1537: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068) or (RHTO_00723 and RHTO_00534 and RHTO_05714 and RHTO_06068)
+    - gene_reaction_rule: RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068
     - subsystem:
         - Citrate cycle (TCA cycle)
         - Oxidative phosphorylation

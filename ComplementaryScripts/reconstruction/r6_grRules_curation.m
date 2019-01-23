@@ -27,6 +27,23 @@ model=changeGeneAssoc(model,'r_1094','',true);
 %model=removeGenes(model,{'YPL087W','YBR183W','YGR194C'},false,false,true);
 model=deleteUnusedGenes(model);
 
+%% Curate unlogical grRules
+model=changeGeneAssoc(model,'r_0250','RHTO_04703 or RHTO_05549 or RHTO_06321',true);
+model=changeGeneAssoc(model,'r_0362','RHTO_02130 or RHTO_02306 or RHTO_07144',true);
+model=changeGeneAssoc(model,'r_0658','RHTO_01289 or RHTO_01290 or RHTO_06717',true);
+model=changeGeneAssoc(model,{'r_0886','r_0887'},'RHTO_00494',true);
+model=changeGeneAssoc(model,'r_0906','RHTO_07357',true);
+model=changeGeneAssoc(model,'r_0916','RHTO_02591 or RHTO_04328',true);
+model=changeGeneAssoc(model,'r_0961','(RHTO_07250 and RHTO_01852 and RHTO_07893 and RHTO_01754 and RHTO_03543) or RHTO_03059',true);
+model=changeGeneAssoc(model,'r_0001','(RHTO_06352 and RHTO_05208) or (RHTO_05208 and RHTO_02645)',true);
+model=changeGeneAssoc(model,'r_0002','(RHTO_02645 and RHTO_05208)',true);
+model=changeGeneAssoc(model,'r_0004','(RHTO_05208 and RHTO_00251)',true);
+model=changeGeneAssoc(model,'r_0437','(RHTO_05208 and RHTO_06193)',true);
+model=changeGeneAssoc(model,'r_0550','(RHTO_05117 and RHTO_03771)',true);
+model=changeGeneAssoc(model,'r_0552','(RHTO_03771 and RHTO_06286)',true);
+model=changeGeneAssoc(model,'r_0883','(RHTO_03771 and RHTO_06542)',true);
+model=changeGeneAssoc(model,'r_1021','(RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068)',true);
+model=changeGeneAssoc(model,'r_0510','(RHTO_04065 and RHTO_05749)',true);
 
 %% Remove 'sce' from subsystems
 model.subSystems=cellfun(@(x) regexprep(x,'sce[0-9]+ +',''),model.subSystems, 'UniformOutput', 0);
