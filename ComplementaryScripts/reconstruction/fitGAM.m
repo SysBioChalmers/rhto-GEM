@@ -11,9 +11,10 @@ function [model,GAM] = fitGAM(model)
 
 %Load chemostat data:
 fid         = fopen('../../ComplementaryData/data/validationData.csv');
-fluxData    = textscan(fid,'%f32 %f32 %f32','Delimiter','\t','HeaderLines',1);
+fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
 fluxData    = [fluxData{1} fluxData{2}];
 fclose(fid);
+fluxData(17:end,:) = [];
 
 %GAMs to span:
 disp('Estimating GAM:')
