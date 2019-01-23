@@ -5,11 +5,11 @@ load('../../scrap/model_r6.mat');
 
 % Plot growth rate vs glucose uptake rate from Shen et al., 
 fid         = fopen('../../ComplementaryData/data/validationData.csv');
-fluxData    = textscan(fid,'%f32 %f32 %f32','Delimiter','\t','HeaderLines',1);
+fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
 fluxData    = [fluxData{1} fluxData{2}];
 fclose(fid);
 
-b=polyfit(fluxData(:,1),fluxData(:,2),1);
+b=polyfit(fluxData(1:16,1),fluxData(1:16,2),1);
 % Offset at zero growth rate, this is the glucose requirement of NGAM
 b(2)
 
@@ -31,5 +31,5 @@ model = setParam(model,'lb','r_4046',NGAM);
 [model,GAM]=fitGAM(model);
 disp(['GAM is set to: ' num2str(GAM)])
 
-save('../../scrap/model_r7.mat','model');
+load('../../scrap/model_r7.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
