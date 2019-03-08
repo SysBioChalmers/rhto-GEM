@@ -34,7 +34,7 @@ chainExIdx  = getIndexes(model,'r_4064','rxns');
 backbExIdx  = getIndexes(model,'r_4062','rxns');
 model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 
-sol=solveLP(model,1)
+sol=solveLP(model,1);
 
-[newModel,k] = scaleAbundancesRhto(model,data,'tails');
+[newModel,k] = scaleLipidsRhto(model,'tails');
 end
