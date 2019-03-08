@@ -3,7 +3,7 @@
 % model. This should be fine here, as we added the whole biomass equation
 % above.
 load('../../scrap/model_r3.mat','model');
-load('../../scrap/modelSce.mat');
+load('../../scrap/modelTemplate.mat');
 exportModel(modelSce,'../meneco/sceRepair.xml')
 
 %% Export model for meneco
@@ -51,15 +51,16 @@ out
 model=setParam(model,'obj','r_2111',1);
 sol=solveLP(model,1)
 
-%% Manual curation identified complex IV missing
-model=addRxnsGenesMets(model,modelSce,'r_0438',true,...
-    'Energy metabolism',1);
+%% Manual curation identified some more reactions, e.g. xylulokinase and
+% complex IV were missing.
 
-%% Growth on xylose
-% Through manual curation identified that r_1094 (xylulokinase) is missing
-% for supporting growth on xylose. Corresponding not known in R. toruloides
-model=addRxnsGenesMets(model,modelSce,'r_1094',false,...
-    'Identified to assimilate xylose',1); % Add reactions and metabolites
+fid     = fopen ('../../ComplementaryData/reconstruction/manualCuration.txt');
+data    = textscan(fid,'%s %s','delimiter','\t');
+rxns    = data{1};
+grRules = regexprep(data{2},'***','');
+fclose(fid); clear data
+
+model = addRxnsGenesMets(model,modelSce,rxns,grRules,'Identified from homology, manual curation',2);
 
 save('../../scrap/model_r4.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')

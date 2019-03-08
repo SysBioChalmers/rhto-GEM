@@ -83,7 +83,7 @@ for i=1:length(data.lipidData.metNames);
     % Find compartment of component in lipid species part of lipid
     % pseudoreaction
     if ~strcmp('ergosterol',data.lipidData.metNames{i});
-        rxnComp = data.lipidData.comp(1);
+        rxnComp = data.lipidData.comp(i);
         compId = find(ismember(model.comps,rxnComp));
         % Find lipid metabolites in that compartment
         mets = find(startsWith(model.metNames,regexprep(data.lipidData.metNames(i),' backbone','')));
@@ -140,7 +140,7 @@ model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 sol=solveLP(model,1)
 
 cd ../experimental
-[model,k] = scaleLipidsRhto(model,'backbones');
+[model,k] = adjustRhtoBiomass(model,data);
 
 save('../../scrap/model_r5.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
