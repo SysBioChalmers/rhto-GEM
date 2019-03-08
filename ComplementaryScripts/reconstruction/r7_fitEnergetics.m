@@ -14,11 +14,15 @@ b=polyfit(fluxData(1:16,1),fluxData(1:16,2),1);
 b(2)
 
 % Determine how much ATP can be produced from glucose in the model
+% Remove NADH-dependent succinate dehydrogenase
+model = removeReactions(model,'r_4264',true,true,true);
+% Set ICDH and THFS as irreversible
+model = setParam(model,'lb',{'r_0659','r_0446'},0);
 model = setParam(model,'ub','r_4046',1000);
 modelTmp = setParam(model,'obj','r_4046',1);
 modelTmp = setParam(modelTmp,'ub','r_4046',1000);
 modelTmp = setParam(modelTmp,'lb','r_1714',-1);
-sol=solveLP(modelTmp)
+sol=solveLP(modelTmp,1)
 % Confirm that nothing else is excreted
 printFluxes(modelTmp,sol.x)
 

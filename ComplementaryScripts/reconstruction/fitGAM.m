@@ -18,7 +18,7 @@ fluxData(17:end,:) = [];
 
 %GAMs to span:
 disp('Estimating GAM:')
-GAM = 60:10:120;
+GAM = 70:15:160;
 
 %1st iteration:
 GAM = iteration(model,GAM,fluxData);
