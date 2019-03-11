@@ -1,5 +1,17 @@
 # History
 
+### rhto v1.1.0:
+* Features
+  * Include model of _Yarrowia lipolytica_ [iYali4.1.1](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM/releases/tag/4.1.1) as template during reconstruction (PR #18).
+  * Standardize identifiers: all new metabolites have ids `m_xxxx`, while new reactions are `t_xxxx` or `tr_xxxx` (for transport reactions) (PR #18).
+  * Reduced the amount of hard-coded ids in scripts (PR #18).
+* Fix
+  * Include missing reactions such as complex I (PR #18).
+  * Re-fit energetics (NGAM and GAM) (PR #18).
+* Reorder:
+  * Reorganize reconstruction process: use TSV files for lists of curations (PR #18).
+  * Include legend in validation graph (PR #18).
+
 ### rhto v1.0.0:
 * Documentation:
   * Update readme.md to include correct links to Zenodo and bioRxiv (PR #15).
