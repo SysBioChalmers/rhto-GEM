@@ -11,6 +11,7 @@ fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
 growth      = fluxData{1};
 rate        = fluxData{2};
 source      = fluxData{3};
+reference   = fluxData{4};
 fclose(fid);
 
 for i = 1:length(growth)
@@ -26,6 +27,17 @@ for i = 1:length(growth)
 end
 out=transpose(out);
 
-plot(growth,out,'o')
-hold on; plot([0 0.3],[0 0.3])
+[~,~,ic] = unique(reference);
+
+cols = [228,26,28; 55,126,184; 77,175,74; 152,78,163; 255,127,0; 255,255,51; 166,86,40; 247,129,191; 153,153,153];
+cols = cols/255;
+
+for i=1:9
+    plot(growth(ic == i), out(ic == i), 'o', 'LineWidth', 2, 'Color', cols(i,:));
+    hold on;
+end
+plot([0 0.3],[0 0.3],':k')
 hold off
+legend(regexprep(unique(reference),'(.*) et al.* ([0-9]{4}).*','$1 $2'),...
+    'Location','NorthWest')
+
