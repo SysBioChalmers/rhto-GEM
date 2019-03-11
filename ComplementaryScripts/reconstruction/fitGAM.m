@@ -61,7 +61,7 @@ function mod_data = simulateChemostat(model,fluxData,GAM)
 model = setGAM(model,GAM);
 
 %pos = getIndexes(model',{'r_4041','r_1714','r_1654'},'rxns');
-pos = getIndexes(model',{'r_4041','r_1714'},'rxns');
+pos = getIndexes(model',{'r_2111','r_1714'},'rxns');
 
 %Simulate chemostats:
 mod_data = zeros(size(fluxData));
