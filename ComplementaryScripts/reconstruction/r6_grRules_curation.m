@@ -13,39 +13,19 @@ out(:,2)=model.rxnNames(rxnIdx);
 out(:,3)=model.grRules(rxnIdx);
 
 % From this list, through manual curation define the following new grRules
-model=changeGeneAssoc(model,'r_0438','(COX1 and COX2 and COX3 and RHTO_00755 and RHTO_05208 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_01854 and RHTO_06415 and RHTO_06298 and RHTO_04910) or (COX1 and COX2 and COX3 and RHTO_00755 and RHTO_05208 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_06415 and RHTO_06298 and RHTO_04910 and RHTO_01854) or (COX1 and COX2 and COX3 and RHTO_00755 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_01854 and RHTO_05208 and RHTO_06415 and RHTO_06298 and RHTO_04910) or (COX1 and COX2 and COX3 and RHTO_00755 and RHTO_04577 and RHTO_01605 and RHTO_03666 and RHTO_05208 and RHTO_06415 and RHTO_06298 and RHTO_04910 and RHTO_01854)',true);
-model=changeGeneAssoc(model,'r_1021','(RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068) or (RHTO_00723 and RHTO_00534 and RHTO_05714 and RHTO_06068)',true);
-% UTR4 (YEL038W in S.cerevisiae) seems to have no homologue in Rhto
-model=changeGeneAssoc(model,'r_0013','RHTO_05673',true);
-% VHS3 (YOR054C in S.cerevisiae) seems to have no homologue in Rhto
-model=changeGeneAssoc(model,'r_0906','RHTO_07357',true);
-model=changeGeneAssoc(model,'r_1027','RHTO_02113 and RHTO_06769',true);
-% YDC1 and YPC1 (YBL078W and YBR183W in S.cerevisiae) seem to have no homologue in Rhto
-model=changeGeneAssoc(model,{'r_0340','r_0342'},'',true);
-% xylulokinase gene unknown
-model=changeGeneAssoc(model,'r_1094','',true);
-%model=removeGenes(model,{'YPL087W','YBR183W','YGR194C'},false,false,true);
-model=deleteUnusedGenes(model);
 
-%% Curate unlogical grRules
-model=changeGeneAssoc(model,'r_0250','RHTO_04703 or RHTO_05549 or RHTO_06321',true);
-model=changeGeneAssoc(model,{'r_2141','r_2140'},'RHTO_02032 or RHTO_02139',true);
-model=changeGeneAssoc(model,'r_0362','RHTO_02130 or RHTO_02306 or RHTO_07144',true);
-model=changeGeneAssoc(model,'r_0658','RHTO_01289 or RHTO_01290 or RHTO_06717',true);
-model=changeGeneAssoc(model,{'r_0886','r_0887'},'RHTO_00494',true);
-model=changeGeneAssoc(model,'r_0906','RHTO_07357',true);
-model=changeGeneAssoc(model,'r_0916','RHTO_02591 or RHTO_04328',true);
-model=changeGeneAssoc(model,'r_0961','(RHTO_07250 and RHTO_01852 and RHTO_07893 and RHTO_01754 and RHTO_03543) or RHTO_03059',true);
-model=changeGeneAssoc(model,'r_0001','(RHTO_06352 and RHTO_05208) or (RHTO_05208 and RHTO_02645)',true);
-model=changeGeneAssoc(model,'r_0002','(RHTO_02645 and RHTO_05208)',true);
-model=changeGeneAssoc(model,'r_0004','(RHTO_05208 and RHTO_00251)',true);
-model=changeGeneAssoc(model,'r_0437','(RHTO_05208 and RHTO_06193)',true);
-model=changeGeneAssoc(model,'r_0550','(RHTO_05117 and RHTO_03771)',true);
-model=changeGeneAssoc(model,'r_0552','(RHTO_03771 and RHTO_06286)',true);
-model=changeGeneAssoc(model,'r_0883','(RHTO_03771 and RHTO_06542)',true);
-model=changeGeneAssoc(model,'r_1021','(RHTO_00723 and RHTO_05714 and RHTO_00534 and RHTO_06068)',true);
-model=changeGeneAssoc(model,'r_0510','(RHTO_04065 and RHTO_05749)',true);
-model=changeGeneAssoc(model,'r_0510','(RHTO_04065 and RHTO_05749)',true);
+fid     = fopen ('../../ComplementaryData/reconstruction/updateGrRules.txt');
+data    = textscan(fid,'%s %s','delimiter','\t');
+rxns    = data{1};
+grRules = data{2};
+fclose(fid); clear data
+
+for i=1:length(rxns)
+    model = changeGeneAssoc(model,rxns{i},grRules{i},true);
+end
+
+% Correct faulty grRules where the same complex is representated multiple
+% times
 for n=1:length(model.grRules)
     if any(model.grRules{n})
         noAnd=strfind(model.grRules(n),'and');

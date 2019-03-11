@@ -1,0 +1,204 @@
+Reading draft network from  preMeneco.xml ... done.
+Reading seeds from  menecoSeeds.sbml ... done.
+Reading targets from  menecoTargets.sbml ... done.
+
+Checking draftnet for unproducible targets ... done.
+  22 unproducible targets:
+  "M_s_1099"
+  "M_s_1379"
+  "M_s_1314"
+  "M_s_3717"
+  "M_s_1520"
+  "M_s_1107"
+  "M_s_1405"
+  "M_s_1533"
+  "M_s_3720"
+  "M_s_1148"
+  "M_s_0672"
+  "M_s_1346"
+  "M_s_3718"
+  "M_s_0649"
+  "M_s_1351"
+  "M_s_1337"
+  "M_s_0542"
+  "M_s_1527"
+  "M_s_0773"
+  "M_s_0666"
+  "M_s_1428"
+  "M_s_3714"
+
+Reading repair network from  sceRepair.xml ... done.
+
+Checking draftnet + repairnet for unproducible targets ... done.
+  still 2 unproducible targets:
+  "M_s_1107"
+  "M_s_3718"
+
+  20 targets to reconstruct:
+  "M_s_1314"
+  "M_s_1428"
+  "M_s_0649"
+  "M_s_1520"
+  "M_s_1379"
+  "M_s_0666"
+  "M_s_1527"
+  "M_s_3717"
+  "M_s_3714"
+  "M_s_1351"
+  "M_s_1533"
+  "M_s_3720"
+  "M_s_1148"
+  "M_s_1405"
+  "M_s_0773"
+  "M_s_1337"
+  "M_s_1346"
+  "M_s_1099"
+  "M_s_0672"
+  "M_s_0542"
+
+Computing essential reactions for target("M_s_1314") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_1428") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_0649") ... done.
+  1 essential reactions found:
+  "R_r_0067"
+
+Computing essential reactions for target("M_s_1520") ... done.
+  2 essential reactions found:
+  "R_r_0195"
+  "R_r_1051"
+
+Computing essential reactions for target("M_s_1379") ... done.
+  1 essential reactions found:
+  "R_r_1887"
+
+Computing essential reactions for target("M_s_0666") ... done.
+  4 essential reactions found:
+  "R_r_0067"
+  "R_r_1027"
+  "R_r_0236"
+  "R_r_0237"
+
+Computing essential reactions for target("M_s_1527") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_3717") ... done.
+  4 essential reactions found:
+  "R_r_0678"
+  "R_r_0067"
+  "R_r_1887"
+  "R_r_1027"
+
+Computing essential reactions for target("M_s_3714") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_1351") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_1533") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_3720") ... done.
+  1 essential reactions found:
+  "R_r_0067"
+
+Computing essential reactions for target("M_s_1148") ... done.
+  2 essential reactions found:
+  "R_r_0067"
+  "R_r_1027"
+
+Computing essential reactions for target("M_s_1405") ... done.
+  1 essential reactions found:
+  "R_r_2030"
+
+Computing essential reactions for target("M_s_0773") ... done.
+  1 essential reactions found:
+  "R_r_0510"
+
+Computing essential reactions for target("M_s_1337") ... done.
+  0 essential reactions found:
+
+Computing essential reactions for target("M_s_1346") ... done.
+  2 essential reactions found:
+  "R_r_0067"
+  "R_r_1027"
+
+Computing essential reactions for target("M_s_1099") ... done.
+  1 essential reactions found:
+  "R_r_0678"
+
+Computing essential reactions for target("M_s_0672") ... done.
+  4 essential reactions found:
+  "R_r_0067"
+  "R_r_1027"
+  "R_r_0236"
+  "R_r_0237"
+
+Computing essential reactions for target("M_s_0542") ... done.
+  1 essential reactions found:
+  "R_r_1027"
+
+Overall 10 essential reactions found.
+  "R_r_1887"
+  "R_r_1051"
+  "R_r_0195"
+  "R_r_0510"
+  "R_r_0067"
+  "R_r_0236"
+  "R_r_1027"
+  "R_r_0678"
+  "R_r_2030"
+  "R_r_0237"
+
+Adding essential reactions to network.
+
+Computing one minimal completion to produce all targets ... done.
+  "R_r_1887"
+  "R_r_1051"
+  "R_r_0195"
+  "R_r_0851"
+  "R_r_1063"
+  "R_r_0510"
+  "R_r_1027"
+  "R_r_0067"
+  "R_r_0236"
+  "R_r_0736"
+  "R_r_0678"
+  "R_r_2030"
+  "R_r_0237"
+
+Computing common reactions in all completion with size 13 ... done.
+  "R_r_1887"
+  "R_r_1051"
+  "R_r_0195"
+  "R_r_0510"
+  "R_r_1027"
+  "R_r_0067"
+  "R_r_0236"
+  "R_r_0678"
+  "R_r_2030"
+  "R_r_0237"
+
+Computing union of reactions from all completion with size 13 ... done.
+  "R_r_1887"
+  "R_r_1051"
+  "R_r_0195"
+  "R_r_0851"
+  "R_r_0738"
+  "R_r_2118"
+  "R_r_1063"
+  "R_r_2117"
+  "R_r_1027"
+  "R_r_0510"
+  "R_r_0735"
+  "R_r_0067"
+  "R_r_0236"
+  "R_r_0736"
+  "R_r_2119"
+  "R_r_0737"
+  "R_r_0678"
+  "R_r_2030"
+  "R_r_0237"

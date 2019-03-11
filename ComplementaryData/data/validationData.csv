@@ -1,4 +1,4 @@
-﻿growth,rate,source,reference
+growth,rate,source,reference
 0.02,0.285460543,glucose,H Shen et al. J Biotech 2013. 10.1016/j.jbiotec.2013.08.010
 0.04,0.561298821,glucose,H Shen et al. J Biotech 2013. 10.1016/j.jbiotec.2013.08.010
 0.06,0.840374496,glucose,H Shen et al. J Biotech 2013. 10.1016/j.jbiotec.2013.08.010
@@ -17,7 +17,13 @@
 0.2,2.724231494,glucose,H Shen et al. J Biotech 2013. 10.1016/j.jbiotec.2013.08.010
 0.076,0.943605684,glucose,Azumbua et al. bioRxiv 2018. 10.1101/278523
 0.092,0.943605684,glucose,Azumbua et al. bioRxiv 2018. 10.1101/278523
-0.0912,1.7131008,glucose,Bonturi et al. Proc Biochem 2017. 10.1016/j.procbio.2017.03.007
-0.06,1.98954,xylose,Bonturi et al. Proc Biochem 2017. 10.1016/j.procbio.2017.03.007
-0.1619,3.420947,glycerol,Bommareddy et al. Microb Cell Fact 2015. 10.1186/s12934-015-0217-5
-0.208,3.52872,glucose,Bommareddy et al. Microb Cell Fact 2015. 10.1186/s12934-015-0217-5
+0.0672,0.6194,glucose,Bonturi et al. Proc Biochem 2017. 10.1016/j.procbio.2017.03.007
+0.0393,1.4404,xylose,Bonturi et al. Proc Biochem 2017. 10.1016/j.procbio.2017.03.007
+0.1759,2.0264,glycerol,Bommareddy et al. Microb Cell Fact 2015. 10.1186/s12934-015-0217-5
+0.208,1.9173,glucose,Bommareddy et al. Microb Cell Fact 2015. 10.1186/s12934-015-0217-5
+0.0462,0.4112,glucose,Shi et al. PLoS ONE 2013. 10.1371/journal.pone.0085532
+0.291,2.8921,glucose,Andrade et al. World J Microbiol Biotechnol 2012. 10.1007/s11274-011-0920-2
+0.2622,3.1391,glucose,Andrade et al. World J Microbiol Biotechnol 2012. 10.1007/s11274-011-0920-2
+0.0334,0.5439,glucose,Wu et al. Bioresource Technology 2010. 10.1016/j.biortech.2010.02.111
+0.0403,0.7013,glucose,Wu et al. Bioresource Technology 2011. 10.1016/j.biortech.2010.09.033
+0.0175,0.5132,glycerol,Tchakouteu et al. J Appl Microbiol 2015. 10.1111/jam.12736

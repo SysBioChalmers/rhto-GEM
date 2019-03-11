@@ -19,3 +19,6 @@
 
 # Scrap folder
 scrap
+
+# memote / pip
+Pipfile*
