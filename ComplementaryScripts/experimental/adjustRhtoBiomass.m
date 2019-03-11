@@ -11,7 +11,7 @@ function [newModel, k] = adjustRhtoBiomass(model,data)
 
 % Change lipid backbone composition
 rxnIdx                  =   getIndexes(model,'r_4063','rxns');
-metIdx                  =   getIndexes(model,data.lipidData.metIDs,'mets');
+metIdx                  =   getIndexes(model,data.lipidData.metIds,'mets');
 bbIdx                   =   getIndexes(model,'s_3746','mets');
 model.S(:,rxnIdx)       =   0;
 model.S(metIdx,rxnIdx)  =   -data.lipidData.abundance-data.lipidData.std;
@@ -34,7 +34,5 @@ chainExIdx  = getIndexes(model,'r_4064','rxns');
 backbExIdx  = getIndexes(model,'r_4062','rxns');
 model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 
-sol=solveLP(model,1)
-
-[newModel,k] = scaleAbundancesRhto(model,data,'tails');
+[newModel,k] = scaleLipidsRhto(model,'tails');
 end
