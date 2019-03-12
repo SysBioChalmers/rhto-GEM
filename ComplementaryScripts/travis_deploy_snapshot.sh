@@ -19,7 +19,7 @@ git checkout "${deployment}"
 mv "/tmp/index.html" ./
 
 # Add, commit and push the files.
-git add "${output}"
+git add "index.html"
 git commit -m "Travis report #${TRAVIS_BUILD_NUMBER}"
 git push --quiet "https://${GITHUB_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" "${deployment}" > /dev/null
 
