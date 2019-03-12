@@ -16,7 +16,7 @@ echo "Generating new snapshot report."
 memote report snapshot --filename "/tmp/index.html"
 git checkout -- ./ComplementaryScripts/travis_deploy*.sh
 git checkout "${deployment}"
-mv "/tmp/${output}" ./
+mv "/tmp/index.html" ./
 
 # Add, commit and push the files.
 git add "${output}"
