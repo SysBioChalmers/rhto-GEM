@@ -14,6 +14,7 @@ git config --global user.name "Travis CI Deployment Bot"
 # Generate the history report on the deployment branch.
 echo "Generating new snapshot report."
 memote report snapshot --filename "/tmp/index.html"
+git checkout -- ./ComplementaryScripts/travis_deploy*.sh
 git checkout "${deployment}"
 mv "/tmp/${output}" ./
 
