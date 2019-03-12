@@ -31,13 +31,18 @@ out=transpose(out);
 
 cols = [228,26,28; 55,126,184; 77,175,74; 152,78,163; 255,127,0; 255,255,51; 166,86,40; 247,129,191; 153,153,153];
 cols = cols/255;
-
 for i=1:9
-    plot(growth(ic == i), out(ic == i), 'o', 'LineWidth', 2, 'Color', cols(i,:));
+    plot(growth(ic == i), out(ic == i), 'o', 'LineWidth', 2.5,...
+        'Color', cols(i,:));
     hold on;
 end
 plot([0 0.3],[0 0.3],':k')
 hold off
+title('Model-predicted growth rate')
+xlabel('Measured growth, h^-^1')
+ylabel('Predicted growth, h^-^1')
 legend(regexprep(unique(reference),'(.*) et al.* ([0-9]{4}).*','$1 $2'),...
-    'Location','NorthWest')
+    'Location','eastoutside')%,'NumColumns',2)
+set(gca,'FontSize',12) % Creates an axes and sets its FontSize to 18
+print('validation.pdf','-dpdf')
 

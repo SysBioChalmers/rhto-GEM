@@ -316,6 +316,7 @@
     - id: m_0064
     - name: beta-carotene
     - compartment: c
+    - formula: C40H56
   - !!omap
     - id: m_0065
     - name: docosanoyl-CoA
