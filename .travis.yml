@@ -10,7 +10,6 @@ branches:
     - gh-pages
 before_install:
   - pip install --upgrade pip setuptools wheel
-  - chmod +x ./ComplementaryScripts/travis_deploy*.sh
 install:
   - pip install --upgrade memote
 script:
