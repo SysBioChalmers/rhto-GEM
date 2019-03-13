@@ -130,3 +130,6 @@ linolenate[c] <=> linolenate[mm]	linolenate transport, cytoplasm-mitochondrial m
 linoleate[c] <=> linoleate[erm]	linoleate transport, cytoplasm-endoplasmic reticulum membrane	***	Transport between c and erm	
 linoleate[c] <=> linoleate[lp]	linoleate transport, cytoplasm-lipid particle	***	Transport between c and lp	
 linoleate[c] <=> linoleate[mm]	linoleate transport,cytoplasm-mitochondrial membrane	***	Transport between c and mm	
+D-xylulose 5-phosphate[c] + phosphate[c] <=> glyceraldehyde 3-phosphate[c] + H2O[c] + acetyl-phosphate[c]	phosphoketolase	RHTO_04463	Pentose phosphate pathway	4.1.2.9
+(S)-malate[c] + NADP(+)[c] => carbon dioxide[c] + NADPH[c] + pyruvate[c]	malic enzyme (NADP) cytoplasmic	RHTO_03795	Pyruvate metabolism	1.1.1.40
+acetyl-CoA[c] + phosphate[c] <=> acetyl-phosphate[c] + coenzyme A[c]	phosphate acyltransferase	***	Pyruvate metabolism	2.3.1.8

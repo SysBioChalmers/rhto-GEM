@@ -11,7 +11,7 @@ fclose(fid);
 
 b=polyfit(fluxData(1:16,1),fluxData(1:16,2),1);
 % Offset at zero growth rate, this is the glucose requirement of NGAM
-b(2)
+b(2);
 
 % Determine how much ATP can be produced from glucose in the model
 % Remove NADH-dependent succinate dehydrogenase
@@ -32,6 +32,7 @@ disp(['NGAM is set to: ' num2str(NGAM)])
 model = setParam(model,'lb','r_4046',NGAM);
 
 % Fit GAM
+cd ../experimental
 [model,GAM]=fitGAM(model);
 disp(['GAM is set to: ' num2str(GAM)])
 
