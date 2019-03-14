@@ -54,14 +54,14 @@ subGraphs=getAllSubGraphs(model);
 
 % Find which reactions have no gene associated
 rxnToRemove=[];
-for i=1:size(subGraphs,2)
+for i=2:size(subGraphs,2)
     metIdx = subGraphs(:,i);
     rxnIdx = model.S(metIdx,:);
     [~,col,~] = find(rxnIdx);
     col = unique(col);
     grRules=model.grRules(col);
     if isempty(grRules{1})
-        rxnToRemove = [rxnToRemove; col];
+         rxnToRemove = [rxnToRemove; col];
     end
 end
 

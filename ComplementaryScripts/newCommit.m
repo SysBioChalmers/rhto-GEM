@@ -24,6 +24,12 @@ if ~exist('model')
     model = importModel('../ModelFiles/xml/rhto.xml');
 end
 
+%Sort model
+model=sortModel(model,true);
+[~,i]=sort(model.rxns);
+model=permuteModel(model,i,'rxns');
+[~,i]=sort(model.mets);
+model=permuteModel(model,i,'mets');
 %Save model
 exportForGit(model,'rhto','../',{'txt', 'xml', 'yml'});
 end
