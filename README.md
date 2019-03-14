@@ -17,14 +17,15 @@ _Rhodosporidium toruloides_ (syn. _Rhodotorula toruloides_) is a basidiomycetous
 - Reference:  
 > Tiukova IA _et al_. (2019) "Genome-scale model of _Rhodotorula toruloides_ metabolism" bioRxiv doi:[10.1101/528489](https://doi.org/10.1101/528489)
 
-- Last update: 2019-03-11
+- Last update: 2019-03-14
 
 - Main model descriptors:
 
 | Taxonomy | Template Model | Reactions | Metabolites | Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4949 | 3373 | 918 |
+| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4941 | 3344 | 911 |
 
+A [Memote](https://memote.readthedocs.io/en/latest/) snapshot report of the most recent release is available [here](https://SysBioChalmers.github.io/rhto-GEM).
 
 This repository is administered by [@edkerk](https://github.com/edkerk/), Division of Systems and Synthetic Biology, Department of Biology and Biological Engineering, Chalmers University of Technology.
 
@@ -57,26 +58,9 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `newCommit.m`: prepares files from a modified model for a new GitHub commit in a development branch.
 * `newCommit.m`: prepares files from a modified model for a new GitHub release in the master branch.
 * `experimental`: folder with scripts that modify _rhto-GEM_ to incorporate experimental data.
-  * `adjustRhtoBiomass.m`: adjusts the biomass equation to match the specified lipid data.
-  * `changeOtherComp.m`: changes the protein content in the biomass equation and subsequently rescales the carbohydrate content.
-  * `readTiukovaData.m`: reads experimental lipid class, lipid chain length and exchange flux data, as provided in ComplementaryData.
-  * `scaleLipidsRhto.m`: part of the SLIMEr approach, which scales lipid backbones or chains to reconcile experimental measurements. Called by `adjustRhtoBiomass.m`.
-  * `setGAM.m`: modifies the stoichiometry of ATP requirement in the biomass equation.
-  * `simulateRhtoGrowth.m`: simulates growth according to the provided flux data, called by `scaleAbundancesRhto.m`.
-  * `sumBioMass.m`: sums different components of the biomass equation, to be used for scaling.
 * `reconstruction`: folder with scripts that detail the model reconstruction and curation process.
-  * `makeRxns.m`: takes lipid templates reactions to produce SLIMEr reactions, called by `r5_lipids_curation.m`.
-  * `r1_draft_from_homology.m`: generates a first draft GEM from homology to _S. cerevisiae_ and _Y. lipolytica_.
-  * `r2_additional_yeastGEM_reactions.m`: performs manual curation based on yeast-GEM reactions.
-  * `r3_add_rhto_specific_reactions.m`: adds _R. toruloides_ specific reactions through manual curation.
-  * `r4_gapfilling.m`: details the gapfilling performed to reach a functional model.
-  * `r5_lipids_curation.m`: curates lipid metabolism by e.g. adding relevant SLIMEr reactions.
-  * `r6_grRules_curation.m`: corrects gene associations.
-  * `lipidTemplates.txt` and `lipidTransport.txt`: template reactions for lipid metabolism, as called by `r5_lipids_curation.m`.
 * `analysis`: folder with scripts performing analyses on rhto-GEM.
-  * `fseof_target_prediction.m`: performes FSEOF target prediction for triacylglycerol and linolenic acid production.
 * `validation`: folder with scripts validating performance of rhto-GEM.
-  * `growthPrediction.m`: compares growth predictions from the model with experimentally measured values.
 
 ### Complementary data
 

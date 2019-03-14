@@ -6,8 +6,7 @@ cache:
 git:
   depth: false
 branches:
-  except:
-    - gh-pages
+  master
 before_install:
   - pip install --upgrade pip setuptools wheel
   - chmod +x ./ComplementaryScripts/travis_deploy*.sh
