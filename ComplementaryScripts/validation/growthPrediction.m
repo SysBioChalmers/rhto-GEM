@@ -6,7 +6,7 @@ model       = setParam(model,'eq',{'r_1808','r_1718','r_1714'},0);
 model       = setParam(model,'obj','r_2111',1);
 
 % Load file
-fid         = fopen('../../ComplementaryData/data/validationData.csv');
+fid         = fopen('../../ComplementaryData/validation/bioreactor_growth.csv');
 fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
 growth      = fluxData{1};
 rate        = fluxData{2};
