@@ -29,7 +29,7 @@ rxnsToAdd.eccodes = regexprep(data{5},'***','');
 rxnsToAdd.rxns = generateNewIds(model,'rxns','t_',length(rxnsToAdd.rxnNames));
 model=addRxns(model,rxnsToAdd,3,'',false,true); clear rxnsToAdd
 
-model=deleteUnusedGenes(model);
+%model=deleteUnusedGenes(model);
 
 save('../../scrap/model_r3.mat','model');
 cd('..'); newCommit(model); cd('reconstruction')
