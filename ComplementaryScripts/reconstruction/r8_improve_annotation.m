@@ -6,10 +6,10 @@
 load('../../scrap/model_r7.mat');
 modelCb = ravenCobraWrapper(model);
 MNXref=buildMNXref('both');
-MNXfields=mapToMNX(model,true,MNXref,false)
-
+MNXfields=mapToMNX(modelCb,true,MNXref,false);
 
 newModel = addMNXannot(modelCb,MNXfields,MNXref);
+
 newModel = convertMiriams(newModel);
 model.metMiriams = newModel.metMiriams;
 model.rxnMiriams = newModel.rxnMiriams;
