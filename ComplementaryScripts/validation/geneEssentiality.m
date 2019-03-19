@@ -3,13 +3,14 @@
 model       = importModel('../../ModelFiles/xml/rhto.xml');
 
 % Make sure that COBRA Toolbox version >3 is installed
+cd('../../../cobratoolbox')
 initCobraToolbox()
 modelCobra = ravenCobraWrapper(model); 
 
 [grRatio, grRateKO, grRateWT, hasEffect, delRxns, fluxSolution] = singleGeneDeletion(modelCobra, 'FBA');
 
 %% Load experimental data
-fid         = fopen('../../ComplementaryData/validation/essential_Coradetti2018.csv');
+fid         = fopen('../rhtoGEM/ComplementaryData/validation/essential_Coradetti2018.csv');
 essData     = textscan(fid,'%s %s','Delimiter',',','HeaderLines',1);
 genes       = essData{1};
 essential   = essData{2};
@@ -24,8 +25,8 @@ disp(['Number of genes with data: ' num2str(gExp)])
 disp(['Model genes with data:     ' num2str(gOverlap) ' (' num2str((gOverlap/gModel)*100) '%)'])
 
 %%
-exp_ess = model.genes(le(grRatio,0.4) | isnan(grRatio));
-exp_non = model.genes(grRatio>0.4);
+exp_ess = model.genes(le(grRatio,0.33) | isnan(grRatio));
+exp_non = model.genes(grRatio>0.33);
 dat_ess = genes(ismember(essential,'Yes'));
 dat_non = genes(ismember(essential,'No'));
 
