@@ -4,13 +4,12 @@
 
 % BLAST against Sce genome. Rhto protein fasta obtained from JGI, modified
 % to have genes in format RHTO_00001. Sce protein fasta
-% blastSce=getBlast('rhto','../../ComplementaryData/genome/rhto_np11.faa',...
-%     'sce','../../ComplementaryData/genome/sce_s288c.faa');
-% blastYli=getBlast('rhto','../../ComplementaryData/genome/rhto_np11.faa',...
-%     'yli','../../ComplementaryData/genome/yli_clib122.faa');
-%mkdir('../../scrap')
-%save('../../scrap/blastStruct.mat','blast*');
-load('../../scrap/blastStruct.mat','blast*');
+%  blastSce=getBlast('rhto','../../ComplementaryData/genome/rhto_np11.faa',...
+%      'sce','../../ComplementaryData/genome/sce_s288c.faa');
+%  blastYli=getBlast('rhto','../../ComplementaryData/genome/rhto_np11.faa',...
+%      'yli','../../ComplementaryData/genome/yli_clib122.faa');
+% mkdir('../../scrap')
+save('../../scrap/blastStruct.mat','blast*');
 
 % Load S. cerevisiae model (corrected by Benjamin), downloaded from
 % https://github.com/SysBioChalmers/yeast-GEM/raw/master/ModelFiles/xml/yeastGEM.xml

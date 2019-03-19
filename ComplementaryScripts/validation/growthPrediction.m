@@ -6,7 +6,7 @@ model       = setParam(model,'eq',{'r_1808','r_1718','r_1714'},0);
 model       = setParam(model,'obj','r_2111',1);
 
 % Load file
-fid         = fopen('../../ComplementaryData/data/validationData.csv');
+fid         = fopen('../../ComplementaryData/validation/bioreactor_growth.csv');
 fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
 growth      = fluxData{1};
 rate        = fluxData{2};
@@ -32,7 +32,7 @@ out=transpose(out);
 cols = [228,26,28; 55,126,184; 77,175,74; 152,78,163; 255,127,0; 255,255,51; 166,86,40; 247,129,191; 153,153,153];
 cols = cols/255;
 for i=1:9
-    plot(growth(ic == i), out(ic == i), 'o', 'LineWidth', 2.5,...
+    plot(growth(ic == i), out(ic == i), 'o', 'LineWidth', 4,...
         'Color', cols(i,:));
     hold on;
 end

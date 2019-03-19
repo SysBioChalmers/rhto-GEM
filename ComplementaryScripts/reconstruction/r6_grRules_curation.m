@@ -20,9 +20,7 @@ rxns    = data{1};
 grRules = data{2};
 fclose(fid); clear data
 
-for i=1:length(rxns)
-    model = changeGeneAssoc(model,rxns{i},grRules{i},true);
-end
+model = changeGrRules(model,rxns,grRules,true);
 
 % Correct faulty grRules where the same complex is representated multiple
 % times
