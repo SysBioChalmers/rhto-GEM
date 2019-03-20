@@ -4,20 +4,22 @@
 load('../../scrap/model_r6.mat');
 
 % Plot growth rate vs glucose uptake rate from Shen et al., 
-fid         = fopen('../../ComplementaryData/data/validationData.csv');
+fid         = fopen('../../ComplementaryData/validation/bioreactor_growth.csv');
 fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
 fluxData    = [fluxData{1} fluxData{2}];
 fclose(fid);
 
 b=polyfit(fluxData(1:16,1),fluxData(1:16,2),1);
 % Offset at zero growth rate, this is the glucose requirement of NGAM
-b(2)
+b(2);
+
 
 % Determine how much ATP can be produced from glucose in the model
 % Remove NADH-dependent succinate dehydrogenase
 model = removeReactions(model,'r_4264',true,true,true);
-% Set ICDH and THFS as irreversible
+% Set ICDH, THFS and all fatty-acid-CoA ligases as irreversible
 model = setParam(model,'lb',{'r_0659','r_0446'},0);
+model = setParam(model,'lb',contains(model.rxnNames,'fatty-acid--CoA ligase'),0);
 model = setParam(model,'ub','r_4046',1000);
 modelTmp = setParam(model,'obj','r_4046',1);
 modelTmp = setParam(modelTmp,'ub','r_4046',1000);
@@ -32,6 +34,7 @@ disp(['NGAM is set to: ' num2str(NGAM)])
 model = setParam(model,'lb','r_4046',NGAM);
 
 % Fit GAM
+cd ../experimental
 [model,GAM]=fitGAM(model);
 disp(['GAM is set to: ' num2str(GAM)])
 

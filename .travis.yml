@@ -1,0 +1,16 @@
+language: python
+sudo: false
+python: 3.5
+cache:
+  pip: true
+git:
+  depth: false
+branches:
+  master
+before_install:
+  - pip install --upgrade pip setuptools wheel
+  - chmod +x ./ComplementaryScripts/travis_deploy*.sh
+install:
+  - pip install --upgrade memote
+script:
+- ./ComplementaryScripts/travis_deploy_snapshot.sh

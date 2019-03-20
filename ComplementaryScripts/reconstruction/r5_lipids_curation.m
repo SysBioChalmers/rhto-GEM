@@ -116,7 +116,7 @@ for i=5:length(data.chainData.chain)
     mets            = getIndexes(model,data.chainData.FA{i},'metnames');
     metComps        = model.comps(model.metComps(mets));
     metComps(ismember(metComps,{'c','p','e'})) = [];
-    model           = addTransport(model,'c',metComps,data.chainData.FA{i},true,false);
+    model           = addTransport(model,'c',metComps,data.chainData.FA{i},true,false,'t_');
     
     % Add SLIME reaction from cytosolic species
     mets            = model.mets(getIndexes(model,[data.chainData.FA{i} '[c]'],'metscomps'));

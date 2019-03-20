@@ -19,7 +19,7 @@ O-stearoylcarnitine	c
 O-stearoylcarnitine	m		
 O-tetracosanoylcarnitine	c		
 O-tetracosanoylcarnitine	m		
-beta-carotene	c		
+beta-carotene	c	C40H56	CHEBI:17579
 docosanoyl-CoA	m		
 gamma-carotene	c		
 hexacosanoyl-CoA	m		
@@ -114,3 +114,4 @@ linoleoyl-CoA	mm
 1-monoglyceride backbone	lp	C3H6O2	
 C18:2 chain	c	C18H32O2	
 C18:3 chain	c	C18H30O2	
+acetyl-phosphate	c	C2H5O5P	
