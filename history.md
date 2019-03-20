@@ -1,5 +1,21 @@
 # History
 
+### rhto v1.1.1:
+* Features
+  * Make Memote snapshot report via Travis with every push to `master`, report available at https://sysbiochalmers.github.io/rhto-GEM/ (PR #23).
+  * Sort reactions and metabolites when saving model, for easier `diff` (PR #23).
+  * Include phosphoketolase and phosphate transacetalyase reactions (PR #23).
+  * Increase annotation coverage for metabolites and reactions by mapping to MetaNetX (PR #23).
+  * Script for gene essentiality validation (PR #23).
+* Fix
+  * Remove duplicated reactions, introduced at various steps of reconstruction (PR #23).
+  * Set fatty-CoA-ligases as irreversible, as they could otherwise form ATP regenerating loops that are unlikely to appear _in vivo_ (PR #23).
+  * Refit energetics with new `NGAM` and `GAM` values (PR #23).
+* Refactor
+  * Change style of graph with growth rate validation (PR #23).
+  * Refactor various simulation scripts (PR #23).
+  * All new (non `yeast-GEM`) reactions are assigned identifiers with prefix `t_`  (PR #23).
+
 ### rhto v1.1.0:
 * Features
   * Include model of _Yarrowia lipolytica_ [iYali4.1.1](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM/releases/tag/4.1.1) as template during reconstruction (PR #18).
@@ -8,7 +24,7 @@
 * Fix
   * Include missing reactions such as complex I (PR #18).
   * Re-fit energetics (NGAM and GAM) (PR #18).
-* Reorder:
+* Reorder
   * Reorganize reconstruction process: use TSV files for lists of curations (PR #18).
   * Include legend in validation graph (PR #18).
 
