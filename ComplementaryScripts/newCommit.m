@@ -25,7 +25,6 @@ if ~exist('model')
 end
 
 %Sort model
-model=sortModel(model,true);
 [~,i]=sort(model.rxns);
 model=permuteModel(model,i,'rxns');
 [~,i]=sort(model.mets);
