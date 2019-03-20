@@ -12,18 +12,18 @@ _Rhodosporidium toruloides_ (syn. _Rhodotorula toruloides_) is a basidiomycetous
 
 - Model keywords
 
-**GEM category:** Species; **Utilisation:** experimental data reconstruction; **Field:** metabolic-network reconstruction; **Type of model:** reconstruction, curated; **Model source:** [yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM); **Omic source:** genomics; **Taxonomy:** _Rhodotorula toruloides_; **Metabolic system:** general metabolism; **Bioreactor**; **Strain:** NP11; **Condition:** minimal medium;
+**GEM category:** Species; **Utilisation:** experimental data reconstruction; **Field:** metabolic-network reconstruction; **Type of model:** reconstruction, curated; **Model source:** [yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM); **Omic source:** genomics; **Taxonomy:** _Rhodotorula toruloides_; **Metabolic system:** general metabolism; **Bioreactor**; **Strain:** NP11; **Condition:** minimal medium;
 
 - Reference:  
 > Tiukova IA _et al_. (2019) "Genome-scale model of _Rhodotorula toruloides_ metabolism" bioRxiv doi:[10.1101/528489](https://doi.org/10.1101/528489)
 
-- Last update: 2019-03-14
+- Last update: 2019-03-20
 
 - Main model descriptors:
 
 | Taxonomy | Template Model | Reactions | Metabolites | Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) | 4941 | 3344 | 911 |
+| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM) | 4930 | 3374 | 926 |
 
 A [Memote](https://memote.readthedocs.io/en/latest/) snapshot report of the most recent release is available [here](https://SysBioChalmers.github.io/rhto-GEM).
 
@@ -57,9 +57,10 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 * `newCommit.m`: prepares files from a modified model for a new GitHub commit in a development branch.
 * `newCommit.m`: prepares files from a modified model for a new GitHub release in the master branch.
+* `analysis`: folder with scripts performing analyses on rhto-GEM.
+* `curation`: folder with additional curation scripts, after the initial reconstruction
 * `experimental`: folder with scripts that modify _rhto-GEM_ to incorporate experimental data.
 * `reconstruction`: folder with scripts that detail the model reconstruction and curation process.
-* `analysis`: folder with scripts performing analyses on rhto-GEM.
 * `validation`: folder with scripts validating performance of rhto-GEM.
 
 ### Complementary data
@@ -67,7 +68,8 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 * `data`: experimentally measured data.
 * `genome`: protein fasta files of _R. toruloides_, _S. cerevisiae_ and _Y. lipolytica_, as used for identifying orthologs.
 * `meneco`: input and output files for meneco, as run for `r4_gapfilling`.
-* `reconstruction`: miscellaneous files used during model reconstruction. 
+* `reconstruction`: miscellaneous files used during model reconstruction.
+* `validation`: experimental data used to validate _rhto-GEM_.
 
 ## Contributors
 * [Ievgeniia Tiukova](https://www.chalmers.se/en/staff/Pages/tiukova.aspx) ([@itaova](https://github.com/itaova)), Chalmers University of Technology, Gothenburg Sweden
