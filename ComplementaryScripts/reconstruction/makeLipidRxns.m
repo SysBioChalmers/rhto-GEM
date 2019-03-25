@@ -70,7 +70,7 @@ if nargin > 7 && ~isempty(chain4{1})
     [newEqns, newNames, chainTrack] = fillEqns(newEqns, newNames, 4, chain4, chainTrack);
 end
 
-if reduced
+if reduced == true
     [~, keep, ~] = unique(chainTrack,'rows','stable');
     newEqns     = newEqns(keep);
     newNames    = newNames(keep);
