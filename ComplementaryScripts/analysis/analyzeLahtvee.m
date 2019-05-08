@@ -2,8 +2,8 @@ root  = regexprep(pwd(),'(.*)\\[^\\]*\\.*','$1');
 scripts = [root '/ComplementaryScripts'];
 data    = [root '/ComplementaryData'];
 cd([scripts '/experimental/']);
-load([root '/scrap/model_r8.mat']);
-
+%load([root '/scrap/model_r8.mat']);
+model = importModel([root '\ModelFiles\xml\rhto.xml']);
 expDat  = readLahtveeData();
 %% Generate glucose model from Tiukova data
 tiukovaData = readTiukovaData(model,2);
@@ -78,14 +78,25 @@ for i=1:numel(models)
     disp([one '   ' two '   ' three '   ' four '   ' five]);
 end
 
-idx = getIndexes(models{1},{'r_2111','r_1634','r_1808','r_1718','r_1672','r_1992','r_2104','r_1654','EXC_OUT_s_3717','r_4046'},'rxns')
+%% Export models
+for i=1:numel(models)
+    fn = ['rhto_' expDat.sample{i} '.xml'];
+    exportModel(models{i},[data '/Lahtvee2019/' fn]);
+end
 
-clear out;for i=1:numel(models); out(i,:) = sols(i).x(idx); end; out=transpose(out);
-
+%% Summarize results
 [~,idx] = getExchangeRxns(model,'both');
-clear out;for i=1:numel(models); out(i,:) = sols(i).x(idx); end
-rmIdx = sum(out,1) == 0;
+clear out;for i=1:numel(models); out(:,i) = sols(i).x(idx); end
+
+rmIdx = sum(out,2) == 0;
 idx = idx(~rmIdx);
-out = out(:,~rmIdx);
-model.rxnNames(idx)
-[mets, ~] = find(model.S(:,idx))
+out = out(~rmIdx,:);
+[mets, ~] = find(model.S(:,idx));
+
+out = [model.metNames(mets) num2cell(out)];
+fid = fopen([data '/Lahtvee2019/exp_exchangeRxns.tsv'],'w');
+fprintf(fid,['%s' repmat('\t%s',1,12) '\n'],["exchange metabolite" string(expDat.sample')]);
+for j=1:length(out)
+    fprintf(fid,['%s' repmat('\t%d',1,12) '\n'],out{j,:});
+end
+fclose(fid)
