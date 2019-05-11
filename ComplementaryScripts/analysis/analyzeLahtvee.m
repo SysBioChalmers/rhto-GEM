@@ -86,17 +86,17 @@ end
 
 %% Summarize results
 [~,idx] = getExchangeRxns(model,'both');
+idx = [idx; getIndexes(model,'r_4046','rxns')]; % Include NGAM
 clear out;for i=1:numel(models); out(:,i) = sols(i).x(idx); end
 
 rmIdx = sum(out,2) == 0;
 idx = idx(~rmIdx);
 out = out(~rmIdx,:);
-[mets, ~] = find(model.S(:,idx));
 
-out = [model.metNames(mets) num2cell(out)];
+out = [model.rxnNames(idx) num2cell(out)];
 fid = fopen([data '/Lahtvee2019/exp_exchangeRxns.tsv'],'w');
-fprintf(fid,['%s' repmat('\t%s',1,12) '\n'],["exchange metabolite" string(expDat.sample')]);
+fprintf(fid,['%s' repmat('\t%s',1,12) '\n'],["reaction" string(expDat.sample')]);
 for j=1:length(out)
     fprintf(fid,['%s' repmat('\t%d',1,12) '\n'],out{j,:});
 end
-fclose(fid)
+fclose(fid);
