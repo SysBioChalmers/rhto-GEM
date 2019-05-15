@@ -1,3 +1,5 @@
+%% Generate condition-specific models by modifying biomass composition and
+% constraining with measured fluxes
 root  = regexprep(pwd(),'(.*)\\[^\\]*\\.*','$1');
 scripts = [root '/ComplementaryScripts'];
 data    = [root '/ComplementaryData'];
@@ -5,7 +7,9 @@ cd([scripts '/experimental/']);
 %load([root '/scrap/model_r8.mat']);
 model = importModel([root '\ModelFiles\xml\rhto.xml']);
 expDat  = readLahtveeData();
-%% Generate glucose model from Tiukova data
+
+%% Generate glucose model from Tiukova data, to be modified further in the
+% next lines
 tiukovaData = readTiukovaData(model,2);
 model = adjustRhtoBiomass(model,tiukovaData);
 %% Readjust some reactions
@@ -51,8 +55,7 @@ for i=1:length(expDat.sample)
     sol(1,i)=solveLP(models{i},1);
     disp(['Growth rate in sample ' num2str(i) ': ' num2str(-sol(1,i).f)]);
 end
-models2=models;
-models=models2;
+
 %% Set further constraints.
 for i=1:numel(models)
     disp(['NGAM of condition ' expDat.sample{i} ' after fixing:']);
@@ -84,7 +87,7 @@ for i=1:numel(models)
     exportModel(models{i},[data '/Lahtvee2019/' fn]);
 end
 
-%% Summarize results
+%% Write file with exchange fluxes
 [~,idx] = getExchangeRxns(model,'both');
 idx = [idx; getIndexes(model,'r_4046','rxns')]; % Include NGAM
 clear out;for i=1:numel(models); out(:,i) = sols(i).x(idx); end
@@ -94,7 +97,18 @@ idx = idx(~rmIdx);
 out = out(~rmIdx,:);
 
 out = [model.rxnNames(idx) num2cell(out)];
-fid = fopen([data '/Lahtvee2019/exp_exchangeRxns.tsv'],'w');
+fid = fopen([data '/Lahtvee2019/exp_exchangeFluxes.tsv'],'w');
+fprintf(fid,['%s' repmat('\t%s',1,12) '\n'],["reaction" string(expDat.sample')]);
+for j=1:length(out)
+    fprintf(fid,['%s' repmat('\t%d',1,12) '\n'],out{j,:});
+end
+fclose(fid);
+
+%% Write file with all fluxes
+clear out;for i=1:numel(models); out(:,i) = sols(i).x; end
+
+out = [model.rxnNames num2cell(out)];
+fid = fopen([data '/Lahtvee2019/exp_allFluxes.tsv'],'w');
 fprintf(fid,['%s' repmat('\t%s',1,12) '\n'],["reaction" string(expDat.sample')]);
 for j=1:length(out)
     fprintf(fid,['%s' repmat('\t%d',1,12) '\n'],out{j,:});
