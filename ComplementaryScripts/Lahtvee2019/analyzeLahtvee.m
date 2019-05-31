@@ -37,6 +37,7 @@ for i=1:length(expDat.sample)
     end
     %% Scale protein & other biomass components
     [models{i},GAMpol] = changeOtherComp(models{i},expDat,i);
+    models{i} = setGAM(models{i},GAMpol);
     chainExIdx  = getIndexes(models{i},'r_4064','rxns');
     backbExIdx  = getIndexes(models{i},'r_4062','rxns');
     models{i} = setParam(models{i},'ub',[chainExIdx,backbExIdx],1000);
@@ -80,6 +81,8 @@ for i=1:numel(models)
     disp('Growth  Xylitol CTR     OTR     Ammonium');
     disp([one '   ' two '   ' three '   ' four '   ' five]);
 end
+
+save([root '/scrap/models.mat'],'models')
 
 %% Export models
 for i=1:numel(models)
