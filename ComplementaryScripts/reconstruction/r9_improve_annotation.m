@@ -3,10 +3,18 @@
 % branch (https://github.com/SysBioChalmers/RAVEN/tree/feat/add_MetaNetX),
 % which queries metabolites and reactions to MetaNetX and subsequently
 % incorporates the relevant annotations.
-load('../../scrap/model_r7.mat');
+load([root '/scrap/model_r8.mat']);
+load([root '/scrap/modelTemplate.mat']); % yeast-GEM 8.2.0
+
+[match, matchIdx]   = ismember(modelSce.rxns,model.rxns);
+model.rxnMiriams(matchIdx(match)) = modelSce.rxnMiriams(match);
+
+[match, matchIdx]   = ismember(modelSce.mets,model.mets);
+model.metMiriams(matchIdx(match)) = modelSce.metMiriams(match);
+
 modelCb = ravenCobraWrapper(model);
-MNXref=buildMNXref('both');
-MNXfields=mapToMNX(modelCb,true,MNXref,false);
+MNXref  = buildMNXref('both');
+MNXfields = mapToMNX(modelCb,true,MNXref,false);
 
 newModel = addMNXannot(modelCb,MNXfields,MNXref);
 
@@ -14,5 +22,5 @@ newModel = convertMiriams(newModel);
 model.metMiriams = newModel.metMiriams;
 model.rxnMiriams = newModel.rxnMiriams;
 
-save('../../scrap/model_r8.mat','model');
+save([root '/scrap/model_r9.mat'],'model');
 cd('..'); newCommit(model); cd('reconstruction')
