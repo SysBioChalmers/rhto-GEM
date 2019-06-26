@@ -25,7 +25,7 @@ model.S(:,rxnIdx)       =   0;
 % Normalize lipid chain data to lipid backbone level, to get reasonable
 % estimate before final scaling
 scaling = sum([data.lipidData.abundance;data.lipidData.std]);
-scaling = scaling / sum([data.chainData.abundance;data.chainData.std]);
+scaling = scaling / sum([data.chainData.abundance;data.chainData.std],'omitnan');
 scaling = (data.chainData.abundance + data.chainData.std) * scaling;
 model.S(metIdx,rxnIdx)  =   -scaling;
 model.S(bbIdx,rxnIdx)   =   1;

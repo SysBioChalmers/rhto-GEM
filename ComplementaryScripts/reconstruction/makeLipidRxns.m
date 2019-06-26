@@ -1,4 +1,4 @@
-function [newEqns, newNames] = makeLipidRxns(templEqn, templName, reduced, comps, chain1, chain2, chain3, chain4)
+function [newEqns, newNames] = makeLipidRxns(templEqn, templName, chains, comps)
 % makeLipidRxns
 %   Given a template reaction equation and name, new equations and names
 %   generated using the specified fatty acid chains on the indicated
@@ -6,19 +6,9 @@ function [newEqns, newNames] = makeLipidRxns(templEqn, templName, reduced, comps
 %
 %   templEqn        template reaction equation (see example below)
 %   templName       template reaction name (see example below)
-%   reduced         logical whether the number of reactions should be
-%                   reduced by excluding duplicate reactions that have
-%                   similar total chain profile (see example below)
+%   chains          
 %   comps           string or cell array of compartment abbreviations, such
 %                   as 'ce' or {'mm','erm'}
-%   chain1          cell array with strings of fatty acid chains for the
-%                   first position, e.g. {'16:0','18:1'}
-%   chain2          cell array with strings of fatty acid chains for the
-%                   second position, if relevant (opt)
-%   chain2          cell array with strings of fatty acid chains for the
-%                   third position, if relevant (opt)
-%   chain2          cell array with strings of fatty acid chains for the
-%                   fourth position, if relevant (opt)
 %
 %   newEqns         cell array of strings with new reaction equations
 %   newNames        cell array of strings with new reaction names
@@ -45,8 +35,8 @@ function [newEqns, newNames] = makeLipidRxns(templEqn, templName, reduced, comps
 %   If 'reduced' is set to true, a reduced set of reactions are given,
 %   filtered for duplicate position-aspecific fatty acids. Example:
 %   Reaction 1: chain 1 = 16:0, chain 2: 16:1, chain 3: 18:0
-%   Reaction 2: chain 2 = 16:1, chain 2: 18:0, chain 3: 16:0
-%   Reaction 3: chain 2 = 16:0, chain 2: 18:0, chain 3: 16:0
+%   Reaction 2: chain 1 = 16:1, chain 2: 18:0, chain 3: 16:0
+%   Reaction 3: chain 1 = 16:0, chain 2: 18:0, chain 3: 16:0
 %   Both reaction 1 and 2 involve 1x 16:0, 1x 16:1 and 1x 18:0. Reaction 2
 %   will therefore be filtered out. This reduces the number of possible
 %   combinations, but retains the overall profile.
@@ -55,77 +45,45 @@ function [newEqns, newNames] = makeLipidRxns(templEqn, templName, reduced, comps
 %   adjusted for your model, this is done in the code below, under fillEqns
 %   and fillComps.
 %
-%   Eduard Kerkhoven, 2019-03-08
+%   Eduard Kerkhoven, 2019-06-25
 
 
-[newEqns, newNames, chainTrack] = fillEqns(templEqn, templName, 1, chain1);
+chainDB.numb     = {'16:0', '16:1', '18:0', '18:1', '18:2', '18:3'};
+chainDB.ate      = {'palmitate', 'palmitoleate', 'stearate', 'oleate', ...
+    'linoleate', 'linolenate'};
+chainDB.coa      = {'palmitoyl-CoA', 'palmitoleoyl-CoA', ...
+    'stearoyl-CoA', 'oleoyl-CoA', 'linoleoyl-CoA', 'linolenoyl-CoA'};
 
-if nargin > 5 && ~isempty(chain2{1})
-    [newEqns, newNames, chainTrack] = fillEqns(newEqns, newNames, 2, chain2, chainTrack);
+chains(cellfun('isempty',chains)) = [];
+
+%% Duplicate number of reactions for number of chain compositions
+newEqns = cellstr(repmat(templEqn, length(chains),1));
+newNames = cellstr(repmat(templName, length(chains),1));
+
+for i = 1:numel(newEqns)
+    chainComb = strtrim(split(chains{i},','));
+    for j = 1:numel(chainComb)
+        POS = ['CHAIN' num2str(j)];
+        [~, chainLoc]   = ismember(chainComb{j},chainDB.numb);
+        chainAtes       = chainDB.ate(chainLoc);
+        chainCoas       = chainDB.coa(chainLoc);
+        
+        newEqns(i) = regexprep(newEqns(i),[POS '_NUMB'],chainComb{j});
+        newEqns(i) = regexprep(newEqns(i),[POS '_ATE'],chainAtes);
+        newEqns(i) = regexprep(newEqns(i),[POS '_COA'],chainCoas);
+        newNames(i)= regexprep(newNames(i),[POS '_COA'],chainCoas);
+        newNames(i)= regexprep(newNames(i),[POS '_ATE'],chainAtes);
+        newNames(i)= regexprep(newNames(i),POS,chainComb{j});
+    end
 end
-if nargin > 6 && ~isempty(chain3{1})
-    [newEqns, newNames, chainTrack] = fillEqns(newEqns, newNames, 3, chain3, chainTrack);
-end
-if nargin > 7 && ~isempty(chain4{1})
-    [newEqns, newNames, chainTrack] = fillEqns(newEqns, newNames, 4, chain4, chainTrack);
-end
 
-if reduced == true
-    [~, keep, ~] = unique(chainTrack,'rows','stable');
-    newEqns     = newEqns(keep);
-    newNames    = newNames(keep);
-end
-
-if ~isempty(comps)
+if exist('comps')
     [newEqns, newNames] = fillComps(newEqns, newNames, comps);
 end
+
 end
 
-function [newEqns, newNames, chainTrack] = fillEqns(templEqns, templNames, position, chains, chainTrack)
-
-chainDB.numb     = {'16:0', '18:0', '18:1', '18:2', '18:3'};
-chainDB.ate      = {'palmitate', 'stearate', 'oleate', 'linoleate', ...
-    'linolenate'};
-chainDB.coa      = {'palmitoyl-CoA', 'stearoyl-CoA', 'oleoyl-CoA', ...
-    'linoleoyl-CoA', 'linolenoyl-CoA'};
-
-if nargin<5
-    chainTrack = zeros(length(chains),length(chainDB.numb));
-else
-    chainTrack = repmat(chainTrack, length(chains),1);
-end
-
-POS = ['CHAIN' num2str(position)];
-
-chainNumbs      = chains;
-[~, chainLoc]   = ismember(chains,chainDB.numb);
-chainAtes       = chainDB.ate(chainLoc);
-chainCoas       = chainDB.coa(chainLoc);
-
-if ~iscell(templEqns)
-    newEqns         = cell(length(chains),1);
-    newEqns(:)      = {templEqns};
-    newNames        = cell(length(chains),1);
-    newNames(:)     = {templNames};
-else
-    newEqns         = repmat(templEqns,length(chains),1);
-    newNames        = repmat(templNames,length(chains),1);
-end
-
-idx = 1:1:length(newEqns);
-idx = reshape(idx,[length(idx)/length(chains),length(chains)]);
-
-for j = 1:length(chains)
-    newEqns(idx(:,j)) = regexprep(newEqns(idx(:,j)),[POS '_NUMB'],chainNumbs{j});
-    newEqns(idx(:,j)) = regexprep(newEqns(idx(:,j)),[POS '_ATE'],chainAtes{j});
-    newEqns(idx(:,j)) = regexprep(newEqns(idx(:,j)),[POS '_COA'],chainCoas{j});
-    newNames(idx(:,j))= regexprep(newNames(idx(:,j)),[POS '_COA'],chainCoas{j});
-    newNames(idx(:,j))= regexprep(newNames(idx(:,j)),[POS '_ATE'],chainCoas{j});
-    newNames(idx(:,j))= regexprep(newNames(idx(:,j)),POS,chainNumbs{j});
-    chainTrack(idx(:,j),chainLoc(j)) = chainTrack(idx(:,j),chainLoc(j)) + 1;
-end
-end
-
+%% Duplicate for compartments
 function [newEqns, newNames] = fillComps(templEqns, templNames, comps)
 
 compsDB.id      = {'c','ce','e','er','erm','g','gm','lp','m','mm','n',...

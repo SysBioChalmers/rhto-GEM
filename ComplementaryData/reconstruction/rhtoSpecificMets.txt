@@ -1,46 +1,31 @@
 15-cis-phytoene	c	C40H64	CHEBI:27787
-O-docosanoylcarnitine	c		
-O-docosanoylcarnitine	m		
-O-hexacosanoylcarnitine	c		
-O-hexacosanoylcarnitine	m		
-O-icosanoylcarnitine	c		
-O-icosanoylcarnitine	m		
-O-lauroylcarnitine	c		
-O-lauroylcarnitine	m		
-O-myristoylcarnitine	c		
-O-myristoylcarnitine	m		
-O-oleoylcarnitine	c		
-O-oleoylcarnitine	m		
-O-palmitoleoylcarnitine	c		
-O-palmitoleoylcarnitine	m		
-O-palmitoylcarnitine	c		
-O-palmitoylcarnitine	m		
-O-stearoylcarnitine	c		
-O-stearoylcarnitine	m		
-O-tetracosanoylcarnitine	c		
-O-tetracosanoylcarnitine	m		
+O-docosanoylcarnitine	c	C29H57NO4	CHEBI:73105
+O-docosanoylcarnitine	m	C29H57NO4	CHEBI:73105
+O-hexacosanoylcarnitine	c	C33H65NO4	CHEBI:139536
+O-hexacosanoylcarnitine	m	C33H65NO4	CHEBI:139536
+O-icosanoylcarnitine	c	C27H53NO4	CHEBI:73100
+O-icosanoylcarnitine	m	C27H53NO4	CHEBI:73100
+O-palmitoylcarnitine	c	C23H45NO4	CHEBI:17490
+O-palmitoylcarnitine	m	C23H45NO4	CHEBI:17490
+O-stearoylcarnitine	c	C25H49NO4	CHEBI:73074
+O-stearoylcarnitine	m	C25H49NO4	CHEBI:73074
+O-tetracosanoylcarnitine	c	C31H61NO4	CHEBI:140753
+O-tetracosanoylcarnitine	m	C31H61NO4	CHEBI:140753
 beta-carotene	c	C40H56	CHEBI:17579
-docosanoyl-CoA	m		
-gamma-carotene	c		
-hexacosanoyl-CoA	m		
-icosanoyl-CoA	m		
+docosanoyl-CoA	m	C43H78N7O17P3S	CHEBI:65088
+gamma-carotene	c	C40H56	CHEBI:27740
+hexacosanoyl-CoA	m	C47H86N7O17P3S	CHEBI:52966
+icosanoyl-CoA	m	C41H74N7017P3S	
 lauroyl-CoA	m		
 lycopene	c		
 myristoyl-CoA	m		
 neurosporene	c		
 oleoyl-CoA	m		
-palmitoleoyl-CoA(4-)	m		
 palmitoyl-CoA	m		
 stearoyl-CoA	m		
 tetracosanoyl-CoA	m		
 torulene	c		
 torularhodin	c		
-(R)-3-hydroxy-cis-dodec-5-enoyl-CoA	m		
-(R)-3-hydroxy-cis-hexadec-7-enoyl-CoA	m		
-(R)-3-hydroxy-cis-hexadec-9-enoyl-CoA	m		
-(R)-3-hydroxy-cis-octadec-9-enoyl-CoA	m		
-(R)-3-hydroxy-cis-tetradec-5-enoyl-CoA	m		
-(R)-3-hydroxy-cis-tetradec-7-enoyl-CoA	m		
 (R)-3-hydroxybutanoyl-CoA	m		
 (R)-3-hydroxydecanoyl-CoA	m		
 (R)-3-hydroxydocosanoyl-CoA	m		
@@ -53,12 +38,6 @@ torularhodin	c
 (S)-3-hydroxypalmitoyl-CoA	m		
 (S)-3-hydroxytetradecanoyl-CoA	m		
 3-hydroxyoctadecanoyl-CoA	m		
-3-oxo-cis-dodec-5-enoyl-CoA	m		
-3-oxo-cis-hexadec-7-enoyl-CoA	m		
-3-oxo-cis-hexadec-9-enoyl-CoA	m		
-3-oxo-cis-octadec-9-enoyl-CoA	m		
-3-oxo-cis-tetradec-5-enoyl-CoA	m		
-3-oxo-cis-tetradec-7-enoyl-CoA	m		
 3-oxodecanoyl-CoA	m		
 3-oxodocosanoyl-CoA	m		
 3-oxohexacosanoyl-CoA	m		
@@ -71,22 +50,10 @@ torularhodin	c
 3-oxotetracosanoyl-CoA	m		
 3-oxotetradecanoyl-CoA	m		
 butanoyl-CoA	m		
-cis-dec-3-enoyl-CoA	m		
-cis-dodec-3-enoyl-CoA	m		
-cis-dodec-5-enoyl-CoA	m		
-cis-hexadec-7-enoyl-CoA	m		
-cis-tetradec-5-enoyl-CoA	m		
-cis-tetradec-7-enoyl-CoA	m		
 decanoyl-CoA	m		
 hexadec-2-enoyl-CoA	m		
 hexanoyl-CoA	m		
 octanoyl-CoA	m		
-trans-2,cis-5-dodecadienoyl-CoA	m		
-trans-2,cis-5-tetradecadienoyl-CoA	m		
-trans-2,cis-7-hexadecadienoyl-CoA	m		
-trans-2,cis-7-tetradecadienoyl-CoA	m		
-trans-2,cis-9-hexadecadienoyl-CoA	m		
-trans-2,cis-9-octadecadienoyl-CoA	m		
 trans-but-2-enoyl-CoA	m		
 trans-dec-2-enoyl-CoA	m		
 trans-docos-2-enoyl-CoA	m		

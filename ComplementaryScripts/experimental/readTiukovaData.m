@@ -15,7 +15,7 @@ if nargin<2
 end
 %Lipid data:
 fid = fopen('../../ComplementaryData/data/lipidData_Tiukova2018.csv');
-lipidData = textscan(fid,['%s %s %s %f32 %s' repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
+lipidData = textscan(fid,['%q %q %q %f32 %q' repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
 data.lipidData.metAbbrev = lipidData{1};
 data.lipidData.metNames  = lipidData{2};
 data.lipidData.formulas  = lipidData{3};
@@ -32,7 +32,7 @@ fclose(fid);
 
 %Chain data:
 fid = fopen('../../ComplementaryData/data/chainData_Tiukova2018.csv');
-chainData = textscan(fid,['%s %s %s %f32 %s' repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
+chainData = textscan(fid,['%q %q %q %f32 %q' repmat('%f32 ',[1,8])],'Delimiter',',','HeaderLines',1);
 data.chainData.chain     = chainData{1};
 data.chainData.FA        = chainData{2};
 data.chainData.formulas  = chainData{3};
