@@ -1,34 +1,44 @@
-%% Remove reactions involving C16:1, this chain is only present at very low
-% levels and is not considered to reduce the complexity of lipid metabolism
-load('../../scrap/model_r4.mat');
-load('../../scrap/modelTemplate.mat');
-% Remove reactions where one of the reactants contains 16:1 or similar in
-% % % the metNames
-% toRemove = find(contains(model.metNames,{'16:1','palmitoleate','palmitoleoyl'}));
-% [row,col] = find(model.S(toRemove,:));
-% col(ismember(model.rxns(col),'r_4065')) = []; % Keep lipid pseudoreaction
-% model = removeReactions(model,col,true,true,true);
+if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+%% Curate lipid metabolism, by modifying reactions with metabolites that
+% have an acyl-chain.
+load([root '/scrap/model_r4.mat']);
+load([root '/scrap/modelTemplate.mat']); % yeast-GEM 8.2.0
 
-% % Remove all SLIME reactions, will be manually added if needed
-% model = removeReactions(model,contains(model.rxnNames,'SLIME rxn'));
+%% Remove all SLIME reactions, will be manually added if needed
+model = removeReactions(model,contains(model.rxnNames,'SLIME rxn'));
 
 %% Curate reactions specified in lipidTemplates.txt
-fid     = fopen ('lipidTemplates.txt');
-data    = textscan(fid,'%s %s %s %s %s %s %s %s','delimiter','\t');
+cd([scripts '/reconstruction'])
+% Load text file that contains template reactions, in which compartments
+% they are located, which grRules should be applied (specified for each
+% compartment), and which sets of acyl-chains are used.
+fid         = fopen([data '/reconstruction/lipidTemplates.txt']);
+loadedData  = textscan(fid,[repmat('%q ',[1,21]) '%q'],'delimiter','\t');
 fclose(fid);
-templNames = data{1};   templEqns  = data{2};   chain1     = data{3};
-chain2     = data{4};   chain3     = data{5};   chain4     = data{6};
-comps      = data{7};   grRules    = data{8};
+templNames  = loadedData{1};   templEqns = loadedData{2};   comps = loadedData{3};
+grRules     = loadedData{4};   chains = {};
+for k = 1:length(loadedData)-4
+    chains(:,k) = loadedData{k+4};
+end
+
+% Remove reactions that match a lipid template reaction (ignoring acyl-chains)
+toRemove    = regexprep(templNames,'CHAIN.*','');
+% Specifically make sure that all MLCL reactions are removed
+toRemove    = [toRemove; 'MLCL'];
+toRemove    = startsWith(model.rxnNames,toRemove);
+model       = removeReactions(model,toRemove);
+
+% Loop through all template reactions, and make new reactions for each set
+% of acyl-chains, and for each specified compartment.
 for i = 1:length(templNames)
     clear rxnsToAdd
     grRule  = strtrim(split(grRules{i},','));
     comp    = strtrim(split(comps{i},','));
-    ch1     = strtrim(split(chain1{i},','));
-    ch2     = strtrim(split(chain2{i},','));
-    ch3     = strtrim(split(chain3{i},','));
-    ch4     = strtrim(split(chain4{i},','));
-    [newEqns, newNames] = makeLipidRxns(templEqns(i),templNames(i),true,...
-        comp,ch1,ch2,ch3,ch4);
+    chain   = chains(i,:);
+    % Replace compartments and acyl-chains in template reactions
+    [newEqns, newNames] = makeLipidRxns(templEqns(i),templNames(i),chain,comp);
+    % Repeat grRule for all reactions generated above. If no grRule is
+    % specified, make empty matrix.
     if length(grRule)==1
         rxnsToAdd.grRules = cell(repmat(grRule,length(newEqns),1));
     else
@@ -38,109 +48,135 @@ for i = 1:length(templNames)
             rxnsToAdd.grRules(idx(:,j),1) = grRule(j);
         end
     end
-    [Lia, Locb] = ismember(newNames, model.rxnNames); % Find if reaction already exists
-    rxnsToAdd.grRules(Lia)= [];
-    rxnsToAdd.equations = newEqns(~Lia);
-    rxnsToAdd.rxnNames  = newNames(~Lia);
-    rxnsToAdd.rxns      = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
-    [Lia,Locb]=ismember(rxnsToAdd.rxnNames, modelSce.rxnNames);
+    % Query reaction name to see if it already exists in the model. If so,
+    % then don't add it.
+    [Lia, Locb]             = ismember(newNames, model.rxnNames);
+    rxnsToAdd.grRules(Lia)  = [];
+    rxnsToAdd.equations     = newEqns(~Lia);
+    rxnsToAdd.rxnNames      = newNames(~Lia);
+    rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
+    % Query reaction name to see if it also existed in yeast-GEM. If so,
+    % then use the reaction ID from yeast-GEM.
+    [Lia,Locb]              = ismember(rxnsToAdd.rxnNames, modelSce.rxnNames);
     if any(Locb)
         rxnsToAdd.rxns(Lia) = modelSce.rxns(Locb(Lia));
     end
-    model = addRxns(model,rxnsToAdd,3,'','m_',true);
+    model                   = addRxns(model,rxnsToAdd,3,'','m_',true);
 end
 
-%% Add lipid transport reactions
-fid     = fopen ('lipidTransport.txt');
-data    = textscan(fid,'%s %s %s %s %s','delimiter','\t');
+%% New lipid transport - similar as above, convert template reactions based
+% on acyl-chains.
+fid             = fopen([data '/reconstruction/lipidTransport.txt']);
+loadedData      = textscan(fid,[repmat('%q ',[1,19]) '%q'],'delimiter','\t');
 fclose(fid);
-templNames = data{1};   templEqns  = data{2};   chain1     = data{3};
-chain2     = data{4};   chain3     = data{5};
+templNames      = loadedData{1};   templEqns = loadedData{2}; chains = {};
+for k = 1:length(loadedData)-2
+    chains(:,k) = loadedData{k+2};
+end
+
+% Remove existing lipid transport reactions
+rxnNames        = regexprep(templNames,'CHAIN.*transport.*','');
+rxnNames        = startsWith(model.rxnNames,rxnNames);
+model           = removeReactions(model,rxnNames);
+
 for i = 1:length(templNames)
     clear rxnsToAdd
-    ch1     = strtrim(split(chain1{i},','));
-    ch2     = strtrim(split(chain2{i},','));
-    ch3     = strtrim(split(chain3{i},','));
-    [newEqns, newNames] = makeLipidRxns(templEqns(i),templNames(i),true,...
-        '',ch1,ch2,ch3);
-    [Lia, Locb] = ismember(newNames, model.rxnNames); % Find if reaction already exists
+    chain               = chains(i,:);
+    [newEqns, newNames] = makeLipidRxns(templEqns(i),templNames(i),chain);
+    [Lia, Locb]         = ismember(newNames, model.rxnNames);
     rxnsToAdd.equations = newEqns(~Lia);
     rxnsToAdd.rxnNames  = newNames(~Lia);
     rxnsToAdd.rxns      = generateNewIds(model,'rxns','t_',length(rxnsToAdd.equations));
-    [Lia,Locb]=ismember(rxnsToAdd.rxnNames, modelSce.rxnNames);
+    [Lia,Locb]          = ismember(rxnsToAdd.rxnNames, modelSce.rxnNames);
     if any(Locb)
         rxnsToAdd.rxns(Lia) = modelSce.rxns(Locb(Lia));
     end
-    model = addRxns(model,rxnsToAdd,3,'','m_',true);
+    model               = addRxns(model,rxnsToAdd,3,'','m_',true);
 end
 
 %% Add SLIME reactions
 cd ../experimental
-data = readTiukovaData(model,1);
+% First gather which acyl-chains and lipid classes are present in the
+% biomass measurements.
+expData = readTiukovaData(model,1);
 cd ../reconstruction
-clear rxnsToAdd
-for i=1:length(data.lipidData.metNames);
-    % Find compartment of component in lipid species part of lipid
-    % pseudoreaction
-    if ~strcmp('ergosterol',data.lipidData.metNames{i});
-        rxnComp = data.lipidData.comp(i);
-        compId = find(ismember(model.comps,rxnComp));
-        % Find lipid metabolites in that compartment
-        mets = find(startsWith(model.metNames,regexprep(data.lipidData.metNames(i),' backbone','')));
-        mets(~(model.metComps(mets) == compId)) = [];
-        mets(contains(model.metNames(mets),'backbone')) = [];
-        % Loop through each metabolite
-        for j = 1:length(mets)
-            chains      = regexp(model.metNames(mets(j)),'(\d\d:\d)','match');
-            [chains,~,n]= unique(chains{1});
-            [n,~]       = histc(n,unique(n));
-            [~,coeff]   = ismember(chains,data.chainData.chain);
-            products    = [data.lipidData.metIds(i); data.chainData.metIds(coeff)];
-            totalMW     = sum([data.lipidData.MW(i);data.chainData.MW(coeff).*n]);
-            coeff       = [totalMW; data.chainData.MW(coeff).*n]/1000;
-            rxnsToAdd.mets          = [model.mets(mets(j)); products];
-            rxnsToAdd.stoichCoeffs  = [-1; coeff];
-            rxnsToAdd.rxnNames      = strcat(model.metNames(mets(j)), ' SLIME rxn');
-            rxnsToAdd.rxnMiriams    = struct('name',{{'sbo'}},'value',{{'SBO:0000395'}});
-            rxnsToAdd.lb            = 0;
-            rxnsToAdd.rxnConfidenceScores = 1;
-            rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',1);
-            model = addRxns(model,rxnsToAdd);
-        end
-    end
+
+% Load SLIME template reactions.
+fid             = fopen([data '/reconstruction/SLIMERtemplates.txt']);
+loadedData      = textscan(fid,[repmat('%q ',[1,21]) '%q'],'delimiter','\t');
+fclose(fid);
+lipids          = loadedData{2};	abbrev = loadedData{1};   comps = loadedData{3};
+rxnNames        = loadedData{4}; chains = {};
+for k = 1:length(loadedData)-4
+    chains(:,k) = loadedData{k+4};
 end
 
-clear rxnsToAdd
-for i=5:length(data.chainData.chain)
-    % Make sure transport reactions exist
-    mets            = getIndexes(model,data.chainData.FA{i},'metnames');
-    metComps        = model.comps(model.metComps(mets));
-    metComps(ismember(metComps,{'c','p','e'})) = [];
-    model           = addTransport(model,'c',metComps,data.chainData.FA{i},true,false,'t_');
+for i = 1:length(lipids)
+    clear rxnsToAdd
+    % Find MW of backbone
+    bbIdx       = find(ismember(expData.lipidData.metAbbrev,abbrev(i)));
+    bbMW        = expData.lipidData.MW(bbIdx);
     
-    % Add SLIME reaction from cytosolic species
-    mets            = model.mets(getIndexes(model,[data.chainData.FA{i} '[c]'],'metscomps'));
+    % Go through list of chains per backbone
+    chainList   = chains(i,:);
+    chainList   = chainList(~cellfun('isempty',chainList));
+    for j = 1:length(chainList)
+        chain   = split(chainList(j),',');
+        lipid   = lipids(i);
+        for k = 1:length(chain)
+            lipid   = regexprep(lipid,['CHAIN' num2str(k)],chain{k});
+        end
+        [chainCount,~,n]    = unique(chain);
+        [n,~]       = histc(n,unique(n));
+        [~,coeff]   = ismember(chainCount,expData.chainData.chain);
+        products    = [expData.lipidData.metIds(bbIdx); expData.chainData.metIds(coeff)];
+        totalMW     = sum([expData.lipidData.MW(bbIdx); expData.chainData.MW(coeff).*n]);
+        coeff       = [totalMW; expData.chainData.MW(coeff).*n]/1000;
+        substrate   = model.mets(getIndexes(model,[lipid{1} '[' comps{i} ']'], 'metscomps'));
+        
+        rxnsToAdd.mets          = [substrate; products];
+        rxnsToAdd.stoichCoeffs  = [-1; coeff];
+        rxnsToAdd.rxnNames      = {[lipid{1} ' ' rxnNames{i}]};
+        rxnsToAdd.rxnMiriams    = struct('name',{{'sbo'}},'value',{{'SBO:0000395'}});
+        rxnsToAdd.lb            = 0;
+        rxnsToAdd.rxnConfidenceScores = 1;
+        rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',1);
+        [Lia,Locb]=ismember(rxnsToAdd.rxnNames, modelSce.rxnNames);
+        if any(Locb)
+            rxnsToAdd.rxns(Lia) = modelSce.rxns(Locb(Lia));
+        end        
+        model                   = addRxns(model,rxnsToAdd);
+    end
+end
+% Add transport of free fatty acids between cytoplasm and ER membrane
+model           = addTransport(model,'c','erm',expData.chainData.FA,true,false,'t_');
+model           = addTransport(model,'c','ce',expData.chainData.FA,true,false,'t_');
+
+% Add SLIME reactions for free fatty acids
+clear rxnsToAdd
+for i=1:length(expData.chainData.chain)
+    mets            = model.mets(getIndexes(model,[expData.chainData.FA{i} '[c]'],'metscomps'));
     mets            = [mets, model.mets(getIndexes(model,'fatty acid backbone[c]','metscomps'))];
-    mets            = [mets, model.mets(getIndexes(model,['C' data.chainData.chain{i} ' chain[c]'],'metscomps'))];
-    coeffs          = data.chainData.MW(i);
+    mets            = [mets, model.mets(getIndexes(model,['C' expData.chainData.chain{i} ' chain[c]'],'metscomps'))];
+    coeffs          = expData.chainData.MW(i);
     coeffs          = [-1, (coeffs+1.008)/1000, coeffs/1000];
     rxnsToAdd.mets  = mets;
-    rxnsToAdd.stoichCoeffs = coeffs;
-    rxnsToAdd.rxnNames     = strcat(data.chainData.FA(i), ' SLIME rxn');
-    rxnsToAdd.rxnMiriams   = struct('name',{{'sbo'}},'value',{{'SBO:0000395'}});
-    rxnsToAdd.lb           = 0;
+    rxnsToAdd.stoichCoeffs  = coeffs;
+    rxnsToAdd.rxnNames      = strcat(expData.chainData.FA(i), ' SLIME rxn');
+    rxnsToAdd.rxnMiriams    = struct('name',{{'sbo'}},'value',{{'SBO:0000395'}});
+    rxnsToAdd.lb            = 0;
     rxnsToAdd.rxnConfidenceScores = 1;
-    rxnsToAdd.rxns         = generateNewIds(model,'rxns','t_',1);
-    model = addRxns(model,rxnsToAdd);
+    rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',1);
+    model                   = addRxns(model,rxnsToAdd);
 end
 
 chainExIdx  = getIndexes(model,'r_4064','rxns');
 backbExIdx  = getIndexes(model,'r_4062','rxns');
-model = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
-sol=solveLP(model,1)
+model       = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
+solveLP(model,1)
 
 cd ../experimental
-[model,k] = adjustRhtoBiomass(model,data);
+[model,k]   = adjustRhtoBiomass(model,expData);
 
-save('../../scrap/model_r5.mat','model');
-cd('..'); newCommit(model); cd('reconstruction')
+save([root '/scrap/model_r5.mat'],'model');
+%cd('..'); newCommit(model); cd('reconstruction')
