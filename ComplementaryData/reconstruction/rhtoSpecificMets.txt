@@ -78,7 +78,4 @@ linolenoyl-CoA	lp
 linolenoyl-CoA	mm		
 linolenoyl-CoA	p		
 linoleoyl-CoA	mm		
-1-monoglyceride backbone	lp	C3H6O2	
-C18:2 chain	c	C18H32O2	
-C18:3 chain	c	C18H30O2	
 acetyl-phosphate	c	C2H5O5P	

@@ -1,4 +1,4 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% Copy pseudoreactions
 load([root '/scrap/model_r1.mat']);
 load([root '/scrap/modelTemplate.mat']);
