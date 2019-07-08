@@ -1,7 +1,15 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 
 %% Rhodosporidium specific reactions
 load([root,'/scrap/model_r2.mat'],'model');
+
+% Manually lipid pseudometabolites, need specific metabolic ID for later scripts
+metsToAdd.metNames      = {'1-monoglyceride backbone','C18:2 chain','C18:3 chain'};
+metsToAdd.compartments  = {'lp','c','c'};
+metsToAdd.metFormulas   = {'C3H6O2','',''};
+metsToAdd.mets          = {'m_0100','m_0102','m_0103'};
+metsToAdd.metMiriams    = repmat({struct('name',{{'sbo'}},'value',{{'SBO:0000649'}})},1,3);
+model                   = addMets(model,metsToAdd); clear metsToAdd;
 
 % Colated a list of reactions from caretonoid metabolism, mitochondrial
 % beta-oxidation and lipid metabolism related to C18:2
