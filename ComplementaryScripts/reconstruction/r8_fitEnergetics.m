@@ -1,4 +1,4 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% Fit to continuous glucose-limited chemostat cultivation, using data
 % from Shen et al, J Biotech, 2013, doi:10.1016/j.jbiotec.2013.08.010,
 % table 1.

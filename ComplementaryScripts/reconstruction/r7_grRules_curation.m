@@ -1,4 +1,4 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% getModelFromHomology left some OLD_sce genes that it could not find
 % orthologs for. Additionally, the reactions that were added by MENECO and
 % manually added for coenzyme A are still annotated with the Sce gene (not
@@ -45,7 +45,7 @@ end
 exportToExcelFormat(model,'rhto.xlsx');
 tmp = haveFlux(model);
 modelCb=ravenCobraWrapper(model);
-model = removeUnusedGenes(model);
+model = deleteUnusedGenes(model);
 
 save([root '/scrap/model_r7.mat'],'model');
 %cd('..'); newCommit(model); cd('reconstruction')
