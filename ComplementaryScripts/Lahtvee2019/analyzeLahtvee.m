@@ -133,7 +133,7 @@ for i={'NADPH','NADH'}
     out.rxnEqns = constructEquations(model,rxnIdx);
     out.fluxes  = num2cell(fluxes);
     out = [out.rxns out.rxnNames out.rxnEqns out.fluxes];
-    fid = fopen([data '/Lahtvee2019/exp_fba_' i{1} '_productionFluxes.tsv'],'w');
+    fid = fopen([data '/Lahtvee2019/exp_pFBA_' i{1} '_productionFluxes.tsv'],'w');
     fprintf(fid,['%s' repmat('\t%s',1,14) '\n'],["rxnID" "rxnName" ...
         "rxnEqn" string(expDat.sample')]);
     for j=1:length(out)
