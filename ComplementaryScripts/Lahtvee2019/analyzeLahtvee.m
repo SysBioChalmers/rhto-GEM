@@ -41,7 +41,7 @@ for i=1:length(expDat.sample)
     end
     %% Scale protein & other biomass components
     [models{i},GAMpol]  = changeOtherComp(models{i},expDat,i);
-    %models{i}           = setGAM(models{i},GAMpol);
+    models{i}           = setGAM(models{i},GAMpol);
     %% Protein excretion
     if ~(expDat.rates(i,9) == 0)
         [~,P]  = sumBioMass(models{i}); % Weight of protein pseudometabolite
@@ -87,6 +87,7 @@ exIdx = getIndexes(model,{'r_1634','r_1808','r_1718','r_1714',...
     'EXC_OUT_s_3717','r_2104','r_1672','r_1992','r_1654','r_2111','r_4046'},'rxns');
 
 nsamples = 5000;%
+load([root '/scrap/randsampl.mat'], 'goodRxns*')
 for i=1:numel(models)
     % Fix measured exchange fluxes + NGAM around 5% of the value from FBA.
     fluxes = sol(1,i).x(exIdx);
@@ -118,6 +119,7 @@ save([root '/scrap/randsampl.mat'], 'fba', 'rs', 'fluxMean', 'models', 'goodRxns
 %% Write files
 %FBA results, only exchange fluxes. For internal fluxes, refer to mean from
 %random sampling.
+out = [models{1}.rxns models{1}.rxnNames num2cell(fba)];
 out = out(allExIdx,:);
 rmIdx = find(sum(cell2mat(out(:,3:end)),2) == 0);
 out(rmIdx,:) =[];
