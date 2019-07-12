@@ -56,6 +56,16 @@ for i=1:length(expDat.sample)
     models{i} = setParam(models{i},'ub','r_1654',-expDat.rates(i,8)); % Ammonium    
     % Growth rate
     sol(1,i)=solveLP(models{i},1);
+    gasIdx = getIndexes(models{i},{'r_1672','r_1992'},'rxns');
+    atBound = find(sol(1,i).x(gasIdx) == transpose(expDat.rates(i,5:6)));
+    if any(atBound)
+       if atBound == 1
+           models{i} = setParam(models{i},'ub','r_1672',1000);
+       elseif atBound == 2
+           models{i} = setParam(models{i},'lb','r_1992',-1000);
+       end
+    end
+    sol(1,i)=solveLP(models{i},1);
     out(:,i)=sol(1,i).x;
     disp(['Growth rate in sample ' num2str(i) ': ' num2str(-sol(1,i).f)]);
 end
@@ -74,7 +84,7 @@ end
 %% Random sampling
 % Fix measured exchange fluxes around 5% of the value from FBA
 exIdx = getIndexes(model,{'r_1634','r_1808','r_1718','r_1714',...
-    'EXC_OUT_s_3717','r_2104','r_1672','r_1992','r_1654','r_2111','r_4046'},'rxns')
+    'EXC_OUT_s_3717','r_2104','r_1672','r_1992','r_1654','r_2111','r_4046'},'rxns');
 
 nsamples = 5000;%
 for i=1:numel(models)
@@ -106,15 +116,8 @@ save([root '/scrap/randsampl.mat'], 'fba', 'rs', 'fluxMean', 'models', 'goodRxns
 
 
 %% Write files
-%FBA results
-out = [model.rxns model.rxnNames num2cell(fba)];
-fid = fopen([data '/Lahtvee2019/exp_pFBA_allFluxes.tsv'],'w');
-fprintf(fid,['%s' repmat('\t%s',1,13) '\n'],["reaction" "reactionName" string(expDat.sample')]);
-for j=1:size(out,1)
-    fprintf(fid,['%s\t%s' repmat('\t%f',1,12) '\n'],out{j,:});
-end
-fclose(fid);
-
+%FBA results, only exchange fluxes. For internal fluxes, refer to mean from
+%random sampling.
 out = out(allExIdx,:);
 rmIdx = find(sum(cell2mat(out(:,3:end)),2) == 0);
 out(rmIdx,:) =[];
@@ -125,25 +128,8 @@ for j=1:size(out,1)
 end
 fclose(fid);
 
-for i={'NADPH','NADH'}
-    [fluxes, rxnIdx] = getMetProduction(model,i,fba,true);
-    clear out
-    out.rxns    = model.rxns(rxnIdx);
-    out.rxnNames= model.rxnNames(rxnIdx);
-    out.rxnEqns = constructEquations(model,rxnIdx);
-    out.fluxes  = num2cell(fluxes);
-    out = [out.rxns out.rxnNames out.rxnEqns out.fluxes];
-    fid = fopen([data '/Lahtvee2019/exp_pFBA_' i{1} '_productionFluxes.tsv'],'w');
-    fprintf(fid,['%s' repmat('\t%s',1,14) '\n'],["rxnID" "rxnName" ...
-        "rxnEqn" string(expDat.sample')]);
-    for j=1:length(out)
-        fprintf(fid,['%s\t%s\t%s' repmat('\t%f',1,12) '\n'],out{j,:});
-    end
-    fclose(fid);
-end
-
 %% Write file with all mean fluxes
-clear out;for i=1:numel(models); out(:,i) = fluxMean(:,1); end
+clear out;for i=1:numel(models); out(:,i) = fluxMean(:,i); end
 
 out = [models{1}.rxns models{1}.rxnNames num2cell(out)];
 fid = fopen([data '/Lahtvee2019/exp_randSampl_allFluxes.tsv'],'w');
