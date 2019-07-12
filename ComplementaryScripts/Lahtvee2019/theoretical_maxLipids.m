@@ -1,8 +1,6 @@
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% Theoretical simulations
 % Take rhtoGEM model as it is
-root  = regexprep(pwd(),'(.*)\\[^\\]*\\.*','$1');
-scripts = [root '/ComplementaryScripts'];
-data    = [root '/ComplementaryData'];
 cd([scripts '/experimental/']);
 model = importModel([root '\ModelFiles\xml\rhto.xml']);
 model.rev(getIndexes(model,{'r_1634','r_1718','r_1808'},'rxns')) = 1;
