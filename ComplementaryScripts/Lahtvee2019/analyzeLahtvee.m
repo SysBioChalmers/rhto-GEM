@@ -132,12 +132,14 @@ fclose(fid);
 
 %% Write file with all mean fluxes
 clear out;for i=1:numel(models); out(:,i) = fluxMean(:,i); end
+clear out2;for i=1:numel(models); out2(:,i) = fluxSD(:,i); end
 
-out = [models{1}.rxns models{1}.rxnNames num2cell(out)];
+out = [models{1}.rxns models{1}.rxnNames num2cell(out) num2cell(out2)];
 fid = fopen([data '/Lahtvee2019/exp_randSampl_allFluxes.tsv'],'w');
-fprintf(fid,['%s' repmat('\t%s',1,13) '\n'],["rxnID" "reactionName" string(expDat.sample')]);
+fprintf(fid,['%s' repmat('\t%s',1,25) '\n'],["rxnID" "reactionName" ...
+    strcat('mean_',string(expDat.sample')) strcat('std_',string(expDat.sample'))]);
 for j=1:length(out)
-    fprintf(fid,['%s\t%s' repmat('\t%d',1,12) '\n'],out{j,:});
+    fprintf(fid,['%s\t%s' repmat('\t%d',1,24) '\n'],out{j,:});
 end
 fclose(fid);
 
@@ -146,9 +148,10 @@ out = out(allExIdx,:);
 rmIdx = find(sum(cell2mat(out(:,3:end)),2) == 0);
 out(rmIdx,:) =[];
 fid = fopen([data '/Lahtvee2019/exp_randSampl_exchFluxes.tsv'],'w');
-fprintf(fid,['%s' repmat('\t%s',1,13) '\n'],["rxnID" "reactionName" string(expDat.sample')]);
+fprintf(fid,['%s' repmat('\t%s',1,25) '\n'],["rxnID" "reactionName" ...
+    strcat('mean_',string(expDat.sample')) strcat('std_',string(expDat.sample'))]);
 for j=1:length(out)
-    fprintf(fid,['%s\t%s' repmat('\t%d',1,12) '\n'],out{j,:});
+    fprintf(fid,['%s\t%s' repmat('\t%d',1,24) '\n'],out{j,:});
 end
 fclose(fid);
 
