@@ -8,7 +8,6 @@ model   = importModel([root '\ModelFiles\xml\rhto.xml']);
 model = setParam(model,'rev',{'r_1634','r_1718','r_1808'},1);
 model = setParam(model,'eq',{'r_1126','r_1127','r_1128'},0); % Fix citrate antiporter
 model = setParam(model,'eq','y300057',0); %L-Glutamate 5-semialdehyde:NAD+ oxidoreductase
-model = setParam(model,'eq','t_0082',0); %phosphate acyltransferase
 model = setParam(model,'lb','r_4046',0); % NGAM set to zero, maximized later on
 
 % Add protein excretion reation.
@@ -28,7 +27,6 @@ clear out
 for i=1:length(expDat.sample)
     models{i} = model;
     %% Set exchange fluxes
-    models{i} = setGAM(models{i},0);
     % Set carbon source uptake, with 5% variance (95 - 105%).
     models{i} = setParam(models{i},'lb',{'r_1634','r_1808','r_1718','r_1714'},[-expDat.rates(i,2:4),0]);
     %% Scale lipids in biomass to fit measured total lipid content
@@ -56,15 +54,6 @@ for i=1:length(expDat.sample)
     models{i} = setParam(models{i},'ub','r_1654',-expDat.rates(i,8)); % Ammonium    
     % Growth rate
     sol(1,i)=solveLP(models{i},1);
-    gasIdx = getIndexes(models{i},{'r_1672','r_1992'},'rxns');
-    atBound = find(sol(1,i).x(gasIdx) == transpose(expDat.rates(i,5:6)));
-    if any(atBound)
-       if atBound == 1
-           models{i} = setParam(models{i},'ub','r_1672',1000);
-       elseif atBound == 2
-           models{i} = setParam(models{i},'lb','r_1992',-1000);
-       end
-    end
     sol(1,i)=solveLP(models{i},1);
     out(:,i)=sol(1,i).x;
     disp(['Growth rate in sample ' num2str(i) ': ' num2str(-sol(1,i).f)]);
@@ -92,13 +81,13 @@ for i=1:numel(models)
     % Fix measured exchange fluxes + NGAM around 5% of the value from FBA.
     fluxes = sol(1,i).x(exIdx);
     models{i} = setParam(models{i},'var',exIdx,fluxes,5);
-%     if i==1
-%         [~, goodRxns1] = randomSampling(models{i},1,true,true,true);
-%     elseif i==5
-%         [~, goodRxns5] = randomSampling(models{i},1,true,true,true);
-%     elseif i==9
-%         [~, goodRxns9] = randomSampling(models{i},1,true,true,true);
-%     end
+    if i==1
+        [~, goodRxns1] = randomSampling(models{i},1,true,true,true);
+    elseif i==5
+        [~, goodRxns5] = randomSampling(models{i},1,true,true,true);
+    elseif i==9
+        [~, goodRxns9] = randomSampling(models{i},1,true,true,true);
+    end
     if i<5
         rs{i} = randomSampling(models{i},nsamples,true,true,true,goodRxns1);
     elseif i<9
@@ -114,7 +103,6 @@ for i=1:length(rs)
 end
 
 save([root '/scrap/randsampl.mat'], 'fba', 'rs', 'fluxMean', 'models', 'goodRxns*','fluxSD')
-
 
 %% Write files
 %FBA results, only exchange fluxes. For internal fluxes, refer to mean from
