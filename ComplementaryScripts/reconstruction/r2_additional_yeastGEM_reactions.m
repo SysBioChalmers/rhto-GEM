@@ -23,4 +23,9 @@ rxns        = modelSce.rxns(rxnIdx); % Obtain reaction IDs
 model       = addRxnsGenesMets(model,modelSce,rxns,false,'Modeling reaction required for intercellular transport, gene unknown',1);
 
 save([root '/scrap/model_r2.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model);cd('reconstruction')

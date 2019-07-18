@@ -5,17 +5,6 @@ load([root '/scrap/model_r5.mat']);
 % Set exchange reactions to alternative carbon sources to reversible
 model = setParam(model,'rev',{'r_1634','r_1718','r_1808'},1);
 
-% Scope of model is central metabolism. Protein modification reactions are
-% not part of this
-model = removeReactions(model,{'r_0518','r_0521','r_0523'});
-model = removeReactions(model,{'r_4240','r_4243','r_4244','r_4271',...
-    'r_4272','r_4320','r_4165','r_4166','r_4314'});
-model = removeReactions(model,{'r_4252','r_4323','r_4324'});
-model = removeReactions(model,{'r_0281','r_0282','r_0283','r_0284',...
-    'r_0285','r_0286','r_0287','r_0288','r_0289','r_0290','r_0291',...
-    'r_0292','r_0293','r_0294','r_0295','r_0296','r_0297','r_0298',...
-    'r_0299'});
-
 % Remove NADH-dependent succinate dehydrogenase, uses CoQ instead.
 model = removeReactions(model,'r_4264',true,true,true);
 % Remove L-Glutamate 5-semialdehyde:NAD+ oxidoreductase, already
@@ -59,4 +48,9 @@ end
 model = removeReactions(model,rxnToRemove,true,true,true);
 
 save([root '/scrap/model_r6.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')
