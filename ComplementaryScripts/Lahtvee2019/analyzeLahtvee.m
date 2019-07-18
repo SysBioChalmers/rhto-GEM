@@ -8,6 +8,7 @@ model   = importModel([root '\ModelFiles\xml\rhto.xml']);
 model = setParam(model,'rev',{'r_1634','r_1718','r_1808'},1);
 model = setParam(model,'eq',{'r_1126','r_1127','r_1128'},0); % Fix citrate antiporter
 model = setParam(model,'eq','y300057',0); %L-Glutamate 5-semialdehyde:NAD+ oxidoreductase
+model = setParam(model,'lb','t_0081',0); % Set phosphoketolase irreversible
 model = setParam(model,'lb','r_4046',0); % NGAM set to zero, maximized later on
 
 % Add protein excretion reation.
