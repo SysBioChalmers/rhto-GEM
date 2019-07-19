@@ -42,10 +42,13 @@ for n = 1:length(model.grRules)
         end
     end
 end
-exportToExcelFormat(model,'rhto.xlsx');
-tmp = haveFlux(model);
-modelCb=ravenCobraWrapper(model);
+
 model = deleteUnusedGenes(model);
 
 save([root '/scrap/model_r7.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')

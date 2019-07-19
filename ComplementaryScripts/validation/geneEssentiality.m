@@ -1,16 +1,17 @@
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% Gene essentiality prediction based on T-DNA random insertion mutant
 % library, from Coradetti et al (2018) eLife. doi:10.7554/eLife.32110
-model       = importModel('../../ModelFiles/xml/rhto.xml');
+model       = importModel([root '/ModelFiles/xml/rhto.xml']);
 
 % Make sure that COBRA Toolbox version >3 is installed
-cd('../../../cobratoolbox')
-initCobraToolbox()
+initCobraToolbox(false)
 modelCobra = ravenCobraWrapper(model); 
 
-[grRatio, grRateKO, grRateWT, hasEffect, delRxns, fluxSolution] = singleGeneDeletion(modelCobra, 'FBA');
 
+[grRatio, grRateKO, grRateWT, hasEffect, delRxns, fluxSolution] = singleGeneDeletion(modelCobra, 'FBA');
+save([root '/scrap/GeneEss.mat'])
 %% Load experimental data
-fid         = fopen('../rhtoGEM/ComplementaryData/validation/essential_Coradetti2018.csv');
+fid         = fopen([data '/validation/essential_Coradetti2018.csv']);
 essData     = textscan(fid,'%s %s','Delimiter',',','HeaderLines',1);
 genes       = essData{1};
 essential   = essData{2};

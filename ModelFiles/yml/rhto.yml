@@ -6413,6 +6413,33 @@
       - metanetx.chemical: MNXM38512
       - sbo: SBO:0000247
   - !!omap
+    - id: s_0331
+    - name: 6-(N-acetyl-alpha-D-glucosaminyl)-1-phosphatidyl-1D-myo-inositol
+    - compartment: er
+    - formula: C19H29NO18PR2
+    - charge: -1
+    - annotation: !!omap
+      - bigg.metabolite:
+        - acgpail_cho
+        - acgpail_hs
+      - kegg.compound: C01288
+      - metacyc.compound: CPD-452
+      - metanetx.chemical:
+        - MNXM92477
+        - MNXM999
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd24489
+        - cpd11839
+  - !!omap
+    - id: s_0332
+    - name: 6-[6-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-2-(2-aminoethylphosphoryl)-alpha-mannosyl-(1->6)-alpha-2-(2-aminoethylphosphoryl)mannosyl-(1->4)-alpha-glucosaminyl]-O-acyl-1-phosphatidyl-1D-myo-inositol [endoplasmic reticulum]
+    - compartment: er
+    - formula: C43H44N9O
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
     - id: s_0333
     - name: 6-diphospho-1D-myo-inositol pentakisphosphate
     - compartment: c
@@ -6446,6 +6473,20 @@
   - !!omap
     - id: s_0337
     - name: 6-O-{2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol [endoplasmic reticulum]
+    - compartment: er
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_0338
+    - name: 6-O-{alpha-D-mannosyl-(1->2)-alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol [endoplasmic reticulum]
+    - compartment: er
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_0339
+    - name: 6-O-{alpha-D-mannosyl-(1->6)-2-O-[(2-aminoethyl)phosphoryl]-alpha-D-mannosyl-(1->4)-alpha-D-glucosaminyl}-O-acyl-1-phosphatidyl-1D-myo-inositol [endoplasmic reticulum]
     - compartment: er
     - charge: 0
     - annotation: !!omap
@@ -6700,6 +6741,21 @@
     - id: s_0362
     - name: acetate
     - compartment: c
+    - formula: C2H3O2
+    - charge: -1
+    - annotation: !!omap
+      - bigg.metabolite: ac
+      - kegg.compound: C00033
+      - lipidmaps: LMFA01010002
+      - metacyc.compound: ACET
+      - metanetx.chemical: MNXM26
+      - sbo: SBO:0000247
+      - seed.compound: cpd00029
+      - swisslipid: 000000449
+  - !!omap
+    - id: s_0363
+    - name: acetate
+    - compartment: er
     - formula: C2H3O2
     - charge: -1
     - annotation: !!omap
@@ -9417,6 +9473,32 @@
       - seed.compound: cpd03128
       - swisslipid: 000000709
   - !!omap
+    - id: s_0606
+    - name: decaprenyl diphosphate
+    - compartment: lp
+    - formula: C50H84O7P2
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: decdp
+      - kegg.compound:
+        - C17432
+        - C04509
+      - lipidmaps:
+        - LMPR03030011
+        - LMPR03030009
+      - metacyc.compound:
+        - CPD-9610
+        - CPD-9452
+      - metanetx.chemical:
+        - MNXM1721
+        - MNXM7284
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd02746
+        - cpd29583
+        - cpd19241
+        - cpd28934
+  - !!omap
     - id: s_0607
     - name: dehydro-D-arabinono-1,4-lactone
     - compartment: c
@@ -9539,6 +9621,28 @@
       - metanetx.chemical: MNXM2174
       - sbo: SBO:0000247
       - seed.compound: cpd00976
+  - !!omap
+    - id: s_0620
+    - name: diglyceride backbone
+    - compartment: er
+    - formula: C3H4O
+    - annotation: !!omap
+      - bigg.metabolite: dag_hs
+      - kegg.compound:
+        - C00165
+        - C00641
+      - lipidmaps: LMGL02010000
+      - metacyc.compound: DIACYLGLYCEROL
+      - metanetx.chemical: MNXM59
+      - sbo: SBO:0000649
+      - seed.compound:
+        - cpd11423
+        - cpd19004
+        - cpd26855
+      - swisslipid:
+        - 000000262
+        - 000000401
+        - 000000423
   - !!omap
     - id: s_0625
     - name: dihydrofolic acid
@@ -9714,6 +9818,26 @@
       - metanetx.chemical: MNXM1325
       - sbo: SBO:0000247
       - seed.compound: cpd00977
+  - !!omap
+    - id: s_0640
+    - name: docosaprenyl diphosphate
+    - compartment: lp
+    - formula: C110H180O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM51449
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_0641
+    - name: dodecaprenyl diphosphate
+    - compartment: lp
+    - formula: C60H100O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metacyc.compound: CPD-9650
+      - metanetx.chemical: MNXM11433
+      - sbo: SBO:0000247
+      - seed.compound: cpd25776
   - !!omap
     - id: s_0642
     - name: dolichol
@@ -10242,6 +10366,20 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00982
   - !!omap
+    - id: s_0692
+    - name: farnesyl diphosphate
+    - compartment: lp
+    - formula: C15H25O7P2
+    - charge: -3
+    - annotation: !!omap
+      - bigg.metabolite: frdp
+      - kegg.compound: C00448
+      - lipidmaps: LMPR0103010002
+      - metacyc.compound: FARNESYL-PP
+      - metanetx.chemical: MNXM34
+      - sbo: SBO:0000247
+      - seed.compound: cpd00350
+  - !!omap
     - id: s_0694
     - name: fatty acid backbone
     - compartment: c
@@ -10654,6 +10792,20 @@
       - metanetx.chemical: MNXM100
       - sbo: SBO:0000247
       - seed.compound: cpd00283
+  - !!omap
+    - id: s_0746
+    - name: geranylgeranyl diphosphate
+    - compartment: lp
+    - formula: C20H33O7P2
+    - charge: -3
+    - annotation: !!omap
+      - bigg.metabolite: ggdp
+      - kegg.compound: C00353
+      - lipidmaps: LMPR0104010001
+      - metacyc.compound: GERANYLGERANYL-PP
+      - metanetx.chemical: MNXM139
+      - sbo: SBO:0000247
+      - seed.compound: cpd00289
   - !!omap
     - id: s_0747
     - name: Gln-tRNA(Gln)
@@ -11464,6 +11616,46 @@
       - sbo: SBO:0000247
       - seed.compound: cpd11313
   - !!omap
+    - id: s_0813
+    - name: henicosaprenyl diphosphate
+    - compartment: lp
+    - formula: C105H172O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM56060
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_0814
+    - name: heptadecaprenyl diphosphate
+    - compartment: lp
+    - formula: C85H140O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM56121
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_0815
+    - name: heptaprenyl diphosphate
+    - compartment: lp
+    - formula: C35H60O7P2
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: hepdp
+      - kegg.compound:
+        - C04216
+        - C17436
+      - lipidmaps: LMPR03030006
+      - metacyc.compound:
+        - ALL-TRANS-HEPTAPRENYL-DIPHOSPHATE
+        - CPD-9455
+      - metanetx.chemical:
+        - MNXM1722
+        - MNXM7285
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd02590
+        - cpd17566
+  - !!omap
     - id: s_0816
     - name: hexacosanoyl-CoA
     - compartment: c
@@ -11535,6 +11727,37 @@
       - metanetx.chemical: MNXM528
       - sbo: SBO:0000247
       - seed.compound: cpd00405
+  - !!omap
+    - id: s_0829
+    - name: hexadecaprenyl diphosphate
+    - compartment: lp
+    - formula: C80H132O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM56347
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_0830
+    - name: hexaprenyl diphosphate
+    - compartment: lp
+    - formula: C30H52O7P2
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: hexdp
+      - kegg.compound:
+        - C01230
+        - C17434
+      - lipidmaps: LMPR03030005
+      - metacyc.compound:
+        - ALL-TRANS-HEXAPRENYL-DIPHOSPHATE
+        - CPD-9456
+      - metanetx.chemical:
+        - MNXM1067
+        - MNXM7286
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd00906
+        - cpd17564
   - !!omap
     - id: s_0831
     - name: hexaprenyl diphosphate
@@ -11712,6 +11935,15 @@
       - metanetx.chemical: MNXM213
       - sbo: SBO:0000247
       - seed.compound: cpd00226
+  - !!omap
+    - id: s_0845
+    - name: icosaprenyl diphosphate
+    - compartment: lp
+    - formula: C100H164O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM57076
+      - sbo: SBO:0000247
   - !!omap
     - id: s_0846
     - name: IDP
@@ -12825,6 +13057,20 @@
     - id: s_0943
     - name: isopentenyl diphosphate
     - compartment: c
+    - formula: C5H9O7P2
+    - charge: -3
+    - annotation: !!omap
+      - bigg.metabolite: ipdp
+      - kegg.compound: C00129
+      - lipidmaps: LMPR01010008
+      - metacyc.compound: DELTA3-ISOPENTENYL-PP
+      - metanetx.chemical: MNXM83
+      - sbo: SBO:0000247
+      - seed.compound: cpd00113
+  - !!omap
+    - id: s_0944
+    - name: isopentenyl diphosphate
+    - compartment: lp
     - formula: C5H9O7P2
     - charge: -3
     - annotation: !!omap
@@ -16066,6 +16312,36 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00355
   - !!omap
+    - id: s_1229
+    - name: nonadecaprenyl diphosphate
+    - compartment: lp
+    - formula: C95H156O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM64863
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_1232
+    - name: nonaprenyl diphosphate
+    - compartment: lp
+    - formula: C45H76O7P2
+    - charge: 0
+    - annotation: !!omap
+      - kegg.compound:
+        - C17438
+        - C04145
+      - lipidmaps: LMPR03030007
+      - metacyc.compound:
+        - CPD-9453
+        - SOLANESYL-PYROPHOSPHATE
+      - metanetx.chemical:
+        - MNXM7287
+        - MNXM968
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd17568
+        - cpd02172
+  - !!omap
     - id: s_1233
     - name: O-acetyl-L-homoserine
     - compartment: c
@@ -16186,6 +16462,15 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00822
   - !!omap
+    - id: s_1246
+    - name: octadecaprenyl diphosphate
+    - compartment: lp
+    - formula: C90H148O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM65303
+      - sbo: SBO:0000247
+  - !!omap
     - id: s_1254
     - name: octanoyl-ACP
     - compartment: m
@@ -16215,6 +16500,29 @@
       - sbo: SBO:0000247
       - seed.compound: cpd01335
       - swisslipid: 000000707
+  - !!omap
+    - id: s_1259
+    - name: octaprenyl diphosphate
+    - compartment: lp
+    - formula: C40H68O7P2
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: octdp
+      - kegg.compound:
+        - C17437
+        - C04146
+      - metacyc.compound:
+        - CPD-9454
+        - FARNESYLFARNESYLGERANIOL
+        - OCTAPRENYL-DIPHOSPHATE
+      - metanetx.chemical:
+        - MNXM7288
+        - MNXM811
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd17567
+        - cpd02557
+        - cpd30761
   - !!omap
     - id: s_1260
     - name: oleate
@@ -16679,9 +16987,31 @@
         - cpd27835
         - cpd11601
   - !!omap
+    - id: s_1310
+    - name: pentadecaprenyl diphosphate
+    - compartment: lp
+    - formula: C75H124O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM73155
+      - sbo: SBO:0000247
+  - !!omap
     - id: s_1311
     - name: pentaprenyl diphosphate
     - compartment: c
+    - formula: C25H44O7P2
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: pendp
+      - kegg.compound: C04217
+      - lipidmaps: LMPR0105010014
+      - metanetx.chemical: MNXM2210
+      - sbo: SBO:0000247
+      - seed.compound: cpd02591
+  - !!omap
+    - id: s_1312
+    - name: pentaprenyl diphosphate
+    - compartment: lp
     - formula: C25H44O7P2
     - charge: 0
     - annotation: !!omap
@@ -18381,6 +18711,15 @@
       - seed.compound: cpd15297
       - swisslipid: 000000416
   - !!omap
+    - id: s_1483
+    - name: tetradecaprenyl diphosphate
+    - compartment: lp
+    - formula: C70H116O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM83846
+      - sbo: SBO:0000247
+  - !!omap
     - id: s_1486
     - name: tetrahydropteroyltri-L-glutamic acid
     - compartment: c
@@ -18673,6 +19012,19 @@
         - MNXM87661
       - sbo: SBO:0000247
       - seed.compound: cpd00794
+  - !!omap
+    - id: s_1523
+    - name: tridecaprenyl diphosphate
+    - compartment: lp
+    - formula: C65H108O7P2
+    - charge: 0
+    - annotation: !!omap
+      - metacyc.compound: CPD-9972
+      - metanetx.chemical:
+        - MNXM5721
+        - MNXM725810
+      - sbo: SBO:0000247
+      - seed.compound: cpd25921
   - !!omap
     - id: s_1524
     - name: triglyceride backbone
@@ -18985,6 +19337,31 @@
       - metanetx.chemical: MNXM80
       - sbo: SBO:0000247
       - seed.compound: cpd00091
+  - !!omap
+    - id: s_1549
+    - name: undecaprenyl diphosphate
+    - compartment: lp
+    - formula: C55H92O7P2
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite:
+        - dtpcudcpp
+        - udcpdp
+      - kegg.compound: C04574
+      - lipidmaps:
+        - LMPR03030008
+        - LMPR03030004
+      - metacyc.compound:
+        - UNDECAPRENYL-DIPHOSPHATE
+        - CPD-9649
+      - metanetx.chemical:
+        - MNXM326
+        - MNXM5043
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd02229
+        - cpd25775
+        - cpd29584
   - !!omap
     - id: s_1550
     - name: uracil
@@ -25011,6 +25388,51 @@
       - sbo: SBO:0000247
       - seed.compound: cpd00101
   - !!omap
+    - id: s_3771
+    - name: G00171
+    - compartment: er
+    - formula: C86H142N4O67R
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM9298
+      - sbo: SBO:0000247
+      - seed.compound: cpd29782
+  - !!omap
+    - id: s_3772
+    - name: D-glucose
+    - compartment: er
+    - formula: C6H12O6
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: glc__D
+      - kegg.compound: C00031
+      - metacyc.compound: D-Glucose
+      - metanetx.chemical: MNXM41
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd00027
+        - cpd26821
+  - !!omap
+    - id: s_3773
+    - name: G00010
+    - compartment: er
+    - formula: C80H132N4O62R
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM9295
+      - sbo: SBO:0000247
+      - seed.compound: cpd30048
+  - !!omap
+    - id: s_3774
+    - name: G00011
+    - compartment: er
+    - formula: C74H122N4O57R
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM6479
+      - sbo: SBO:0000247
+      - seed.compound: cpd29768
+  - !!omap
     - id: s_3778
     - name: chloride
     - compartment: c
@@ -26147,6 +26569,120 @@
       - sbo: SBO:0000247
       - seed.compound: cpd11710
   - !!omap
+    - id: s_3886
+    - name: Protein asparagine
+    - compartment: er
+    - formula: C4H6N2O2R
+    - charge: 0
+    - annotation: !!omap
+      - kegg.compound: C03021
+      - metanetx.chemical: MNXM162863
+      - sbo: SBO:0000247
+      - seed.compound: cpd12235
+  - !!omap
+    - id: s_3887
+    - name: G00008
+    - compartment: er
+    - formula: C108H182N2O77P2R
+    - charge: -2
+    - annotation: !!omap
+      - metanetx.chemical: MNXM9308
+      - sbo: SBO:0000247
+      - seed.compound: cpd29766
+  - !!omap
+    - id: s_3888
+    - name: Dolichyl diphosphate
+    - compartment: er
+    - formula: C20H35O7P2R
+    - charge: -3
+    - annotation: !!omap
+      - bigg.metabolite: doldp
+      - kegg.compound: C00621
+      - lipidmaps: LMPR03090023
+      - metacyc.compound:
+        - CPD-17851
+        - CPD-224
+      - metanetx.chemical: MNXM2370
+      - sbo: SBO:0000247
+      - seed.compound: cpd11713
+  - !!omap
+    - id: s_3889
+    - name: G00009
+    - compartment: er
+    - formula: C92H152N4O72R
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM9288
+      - sbo: SBO:0000247
+      - seed.compound: cpd29767
+  - !!omap
+    - id: s_3890
+    - name: GDP-alpha-D-mannose
+    - compartment: er
+    - formula: C16H23N5O16P2
+    - charge: -2
+    - annotation: !!omap
+      - bigg.metabolite: gdpmann
+      - kegg.compound: C00096
+      - metacyc.compound: GDP-MANNOSE
+      - metanetx.chemical:
+        - MNXM167791
+        - MNXM82
+        - MNXM89631
+      - sbo: SBO:0000247
+      - seed.compound: cpd00083
+  - !!omap
+    - id: s_3891
+    - name: G10694
+    - compartment: er
+    - formula: C68H112N4O52R
+    - charge: 0
+    - annotation: !!omap
+      - sbo: SBO:0000247
+  - !!omap
+    - id: s_3892
+    - name: GDP
+    - compartment: er
+    - formula: C10H12N5O11P2
+    - charge: -3
+    - annotation: !!omap
+      - bigg.metabolite: gdp
+      - kegg.compound: C00035
+      - metacyc.compound: GDP
+      - metanetx.chemical: MNXM30
+      - sbo: SBO:0000247
+      - seed.compound: cpd00031
+  - !!omap
+    - id: s_3894
+    - name: G00003
+    - compartment: er
+    - formula: C42H72N2O22P2R
+    - charge: -2
+    - annotation: !!omap
+      - metanetx.chemical: MNXM512169
+      - sbo: SBO:0000247
+      - seed.compound: cpd29762
+  - !!omap
+    - id: s_3895
+    - name: G00004
+    - compartment: er
+    - formula: C48H82N2O27P2R
+    - charge: -2
+    - annotation: !!omap
+      - metanetx.chemical: MNXM512170
+      - sbo: SBO:0000247
+      - seed.compound: cpd29763
+  - !!omap
+    - id: s_3896
+    - name: G00005
+    - compartment: er
+    - formula: C54H92N2O32P2R
+    - charge: -2
+    - annotation: !!omap
+      - metanetx.chemical: MNXM9296
+      - sbo: SBO:0000247
+      - seed.compound: cpd30047
+  - !!omap
     - id: s_3897
     - name: 2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate
     - compartment: v
@@ -26302,6 +26838,26 @@
       - seed.compound:
         - cpd11427
         - cpd22517
+  - !!omap
+    - id: s_3909
+    - name: Sulfur donor
+    - compartment: c
+    - charge: 0
+    - annotation: !!omap
+      - kegg.compound: C17023
+      - metanetx.chemical: MNXM4111
+      - sbo: SBO:0000247
+      - seed.compound: cpd17287
+  - !!omap
+    - id: s_3910
+    - name: ADP-5-ethyl-4-methylthiazole-2-carboxylate
+    - compartment: c
+    - formula: C17H19N6O12P2S
+    - charge: -3
+    - annotation: !!omap
+      - kegg.compound: C20784
+      - metanetx.chemical: MNXM722955
+      - sbo: SBO:0000247
   - !!omap
     - id: s_3911
     - name: Dolichyl beta-D-glucosyl phosphate
@@ -26512,6 +27068,31 @@
       - metanetx.chemical: MNXM6057
       - sbo: SBO:0000247
       - seed.compound: cpd00513
+  - !!omap
+    - id: s_3932
+    - name: G00012
+    - compartment: er
+    - formula: C50H66N4O29
+    - charge: 0
+    - annotation: !!omap
+      - metanetx.chemical: MNXM9328
+      - sbo: SBO:0000247
+      - seed.compound: cpd29769
+  - !!omap
+    - id: s_3933
+    - name: D-mannose
+    - compartment: er
+    - formula: C6H12O6
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: man
+      - kegg.compound: C00159
+      - metacyc.compound: MANNOSE
+      - metanetx.chemical: MNXM182
+      - sbo: SBO:0000247
+      - seed.compound:
+        - cpd00138
+        - cpd27437
   - !!omap
     - id: s_3936
     - name: iron(3+)
@@ -27150,6 +27731,16 @@
       - sbo: SBO:0000247
       - seed.compound: cpd29788
   - !!omap
+    - id: s_3996
+    - name: G00007
+    - compartment: er
+    - formula: C90H152N2O62P2R
+    - charge: -2
+    - annotation: !!omap
+      - metanetx.chemical: MNXM512172
+      - sbo: SBO:0000247
+      - seed.compound: cpd29765
+  - !!omap
     - id: s_3997
     - name: glycolate
     - compartment: c
@@ -27226,6 +27817,29 @@
       - metanetx.chemical: MNXM9336
       - sbo: SBO:0000247
       - seed.compound: cpd29789
+  - !!omap
+    - id: s_4004
+    - name: Sulfur donor
+    - compartment: m
+    - charge: 0
+    - annotation: !!omap
+      - kegg.compound: C17023
+      - metanetx.chemical: MNXM4111
+      - sbo: SBO:0000247
+      - seed.compound: cpd17287
+  - !!omap
+    - id: s_4005
+    - name: 5'-Deoxyadenosine
+    - compartment: m
+    - formula: C10H13N5O3
+    - charge: 0
+    - annotation: !!omap
+      - bigg.metabolite: dad_5
+      - kegg.compound: C05198
+      - metacyc.compound: CH33ADO
+      - metanetx.chemical: MNXM316
+      - sbo: SBO:0000247
+      - seed.compound: cpd03091
   - !!omap
     - id: s_4006
     - name: S-sulfanyl-[L-cysteine desulfurase] [mitochondrion]
@@ -33760,6 +34374,416 @@
       - seed.reaction: rxn01388
     - confidence_score: 2
   - !!omap
+    - id: r_0281
+    - name: cis-prenyltransferase step 01
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0692: -1
+      - s_0746: 1
+      - s_0944: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - bigg.reaction:
+        - FRTT
+        - GGPS_1
+      - kegg.reaction: R02061
+      - metacyc.reaction: FARNESYLTRANSTRANSFERASE-RXN
+      - metanetx.reaction: MNXR99650
+      - rhea: 17653
+      - sabiork.reaction: 2078
+      - sbo: SBO:0000176
+      - seed.reaction: rxn01486
+    - confidence_score: 2
+  - !!omap
+    - id: r_0282
+    - name: cis-prenyltransferase step 02
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0746: -1
+      - s_0944: -1
+      - s_1312: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - bigg.reaction: GGTT
+      - kegg.reaction: R07475
+      - metanetx.reaction: MNXR100137
+      - rhea: 25694
+      - sbo: SBO:0000176
+      - seed.reaction: rxn05287
+    - confidence_score: 2
+  - !!omap
+    - id: r_0283
+    - name: cis-prenyltransferase step 03
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0830: 1
+      - s_0944: -1
+      - s_1312: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - bigg.reaction:
+        - PPTT
+        - PPTTm
+      - kegg.reaction: R05613
+      - metanetx.reaction: MNXR103150
+      - rhea: 22632
+      - sbo: SBO:0000176
+      - seed.reaction: rxn03892
+    - confidence_score: 2
+  - !!omap
+    - id: r_0284
+    - name: cis-prenyltransferase step 04
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0815: 1
+      - s_0830: -1
+      - s_0944: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - bigg.reaction: HEXTT
+      - kegg.reaction:
+        - R05612
+        - R08750
+      - metanetx.reaction:
+        - MNXR100621
+        - MNXR112249
+      - rhea: 20836
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn03891
+        - rxn14334
+    - confidence_score: 2
+  - !!omap
+    - id: r_0285
+    - name: cis-prenyltransferase step 05
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0815: -1
+      - s_0944: -1
+      - s_1259: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - kegg.reaction:
+        - R05611
+        - R08751
+      - metanetx.reaction:
+        - MNXR109713
+        - MNXR112250
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn12008
+        - rxn14040
+    - confidence_score: 2
+  - !!omap
+    - id: r_0286
+    - name: cis-prenyltransferase step 06
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0944: -1
+      - s_1232: 1
+      - s_1259: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - kegg.reaction:
+        - R07267
+        - R08752
+      - metanetx.reaction:
+        - MNXR110950
+        - MNXR112251
+      - rhea: 11324
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn05028
+        - rxn14011
+    - confidence_score: 2
+  - !!omap
+    - id: r_0287
+    - name: cis-prenyltransferase step 07
+    - metabolites: !!omap
+      - s_0606: 1
+      - s_0635: 1
+      - s_0944: -1
+      - s_1232: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - kegg.reaction:
+        - R08747
+        - R08753
+      - metanetx.reaction:
+        - MNXR112246
+        - MNXR112252
+        - MNXR139637
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn14012
+        - rxn13957
+    - confidence_score: 2
+  - !!omap
+    - id: r_0288
+    - name: cis-prenyltransferase step 08
+    - metabolites: !!omap
+      - s_0606: -1
+      - s_0635: 1
+      - s_0944: -1
+      - s_1549: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - bigg.reaction: UDPDPS
+      - kegg.reaction: R07269
+      - metanetx.reaction:
+        - MNXR105052
+        - MNXR110952
+        - MNXR139515
+      - sbo: SBO:0000176
+      - seed.reaction: rxn05030
+    - confidence_score: 2
+  - !!omap
+    - id: r_0289
+    - name: cis-prenyltransferase step 09
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0641: 1
+      - s_0944: -1
+      - s_1549: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0290
+    - name: cis-prenyltransferase step 10
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0641: -1
+      - s_0944: -1
+      - s_1523: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0291
+    - name: cis-prenyltransferase step 11
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0944: -1
+      - s_1483: 1
+      - s_1523: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0292
+    - name: cis-prenyltransferase step 12
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0944: -1
+      - s_1310: 1
+      - s_1483: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0293
+    - name: cis-prenyltransferase step 13
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0829: 1
+      - s_0944: -1
+      - s_1310: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0294
+    - name: cis-prenyltransferase step 14
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0814: 1
+      - s_0829: -1
+      - s_0944: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0295
+    - name: cis-prenyltransferase step 15
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0814: -1
+      - s_0944: -1
+      - s_1246: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0296
+    - name: cis-prenyltransferase step 16
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0944: -1
+      - s_1229: 1
+      - s_1246: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0297
+    - name: cis-prenyltransferase step 17
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0845: 1
+      - s_0944: -1
+      - s_1229: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0298
+    - name: cis-prenyltransferase step 18
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0813: 1
+      - s_0845: -1
+      - s_0944: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0299
+    - name: cis-prenyltransferase step 19
+    - metabolites: !!omap
+      - s_0635: 1
+      - s_0640: 1
+      - s_0813: -1
+      - s_0944: -1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05050
+    - subsystem:
+        - Terpenoid backbone biosynthesis
+        - Biosynthesis of secondary metabolites
+    - annotation: !!omap
+      - ec-code: 2.5.1.87
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
     - id: r_0300
     - name: citrate synthase
     - metabolites: !!omap
@@ -37075,6 +38099,33 @@
       - seed.reaction: rxn00917
     - confidence_score: 2
   - !!omap
+    - id: r_0518
+    - name: GPI-anchor assembly, step 2
+    - metabolites: !!omap
+      - s_0329: 1
+      - s_0331: -1
+      - s_0363: 1
+      - s_0795: 1
+      - s_0804: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_07749
+    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+    - annotation: !!omap
+      - ec-code: 3.5.1.89
+      - bigg.reaction:
+        - ACGPID
+        - ACGPID_cho
+      - kegg.reaction: R03482
+      - metacyc.reaction: 3.1.1.69-RXN
+      - metanetx.reaction:
+        - MNXR95257
+        - MNXR95258
+      - rhea: 11660
+      - sbo: SBO:0000176
+      - seed.reaction: rxn06392
+    - confidence_score: 2
+  - !!omap
     - id: r_0520
     - name: GPI-anchor assembly, step 6
     - metabolites: !!omap
@@ -37084,6 +38135,38 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04504
+    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+    - annotation: !!omap
+      - ec-code: 2.-.-.-
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0521
+    - name: GPI-anchor assembly, step 7
+    - metabolites: !!omap
+      - s_0337: -1
+      - s_0339: 1
+      - s_0644: -1
+      - s_0646: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_01588
+    - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+    - annotation: !!omap
+      - ec-code: 2.4.1.-
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_0523
+    - name: GPI-anchor assembly, step 9
+    - metabolites: !!omap
+      - s_0332: 1
+      - s_0338: -1
+      - s_0620: 1
+      - s_1352: -1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_04838
     - subsystem: Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
     - annotation: !!omap
       - ec-code: 2.-.-.-
@@ -48209,48 +49292,6 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_05288
-    - annotation: !!omap
-      - sbo: SBO:0000655
-    - confidence_score: 2
-  - !!omap
-    - id: r_1126
-    - name: citrate transport
-    - metabolites: !!omap
-      - s_0066: 1
-      - s_0068: -1
-      - s_0522: -1
-      - s_0524: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: RHTO_03384
-    - annotation: !!omap
-      - sbo: SBO:0000655
-    - confidence_score: 2
-  - !!omap
-    - id: r_1127
-    - name: citrate transport
-    - metabolites: !!omap
-      - s_0522: -1
-      - s_0524: 1
-      - s_1360: 1
-      - s_1361: -1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: RHTO_03384
-    - annotation: !!omap
-      - sbo: SBO:0000655
-    - confidence_score: 2
-  - !!omap
-    - id: r_1128
-    - name: citrate transport
-    - metabolites: !!omap
-      - s_0522: -1
-      - s_0524: 1
-      - s_0940: 1
-      - s_0941: -1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: RHTO_03384
     - annotation: !!omap
       - sbo: SBO:0000655
     - confidence_score: 2
@@ -64044,13 +65085,13 @@
     - id: r_4041
     - name: biomass pseudoreaction
     - metabolites: !!omap
-      - s_0394: 132.5
-      - s_0434: -132.5
+      - s_0394: 132.2
+      - s_0434: -132.2
       - s_0450: 1
-      - s_0794: 132.5
-      - s_0803: -132.5
+      - s_0794: 132.2
+      - s_0803: -132.2
       - s_1096: -1
-      - s_1322: 132.5
+      - s_1322: 132.2
       - s_1405: -0.00099
       - s_1467: -0.02
       - s_3714: -1e-06
@@ -64581,6 +65622,40 @@
       - rhea: 22864
       - sbo: SBO:0000655
       - seed.reaction: rxn00320
+    - confidence_score: 2
+  - !!omap
+    - id: r_4165
+    - name: Glucosidase 2 subunit alpha (EC 3.2.1.84) (Alpha-glucosidase II subunit alpha) (Glucosidase II subunit alpha) (Reversal of TOR2 lethality protein 2)
+    - metabolites: !!omap
+      - s_0804: -1
+      - s_3771: -1
+      - s_3772: 1
+      - s_3773: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_06958
+    - annotation: !!omap
+      - ec-code: 3.2.1.84
+      - kegg.reaction: R05980
+      - metanetx.reaction: MNXR109971
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4166
+    - name: Glucosidase 2 subunit alpha (EC 3.2.1.84) (Alpha-glucosidase II subunit alpha) (Glucosidase II subunit alpha) (Reversal of TOR2 lethality protein 2)
+    - metabolites: !!omap
+      - s_0804: -1
+      - s_3772: 1
+      - s_3773: -1
+      - s_3774: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_06958
+    - annotation: !!omap
+      - ec-code: 3.2.1.84
+      - kegg.reaction: R05981
+      - metanetx.reaction: MNXR109972
+      - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
     - id: r_4168
@@ -65659,6 +66734,60 @@
       - seed.reaction: rxn11996
     - confidence_score: 2
   - !!omap
+    - id: r_4240
+    - name: Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3 (Oligosaccharyl transferase subunit STT3) (EC 2.4.99.18)
+    - metabolites: !!omap
+      - s_0795: 1
+      - s_3886: -1
+      - s_3887: -1
+      - s_3888: 1
+      - s_3889: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_02269
+    - annotation: !!omap
+      - ec-code: 2.4.99.18
+      - kegg.reaction: R05976
+      - metanetx.reaction: MNXR109968
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4243
+    - name: Alpha-1,3/1,6-mannosyltransferase ALG2 (EC 2.4.1.132) (EC 2.4.1.257) (Asparagine-linked glycosylation protein 2) (GDP-Man:Man(1)GlcNAc(2)-PP-Dol alpha-1,3-mannosyltransferase) (GDP-Man:Man(1)GlcNAc(2)-PP-dolichol mannosyltransferase) (GDP-Man:Man(2)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase)
+    - metabolites: !!omap
+      - s_0795: 1
+      - s_3890: -1
+      - s_3892: 1
+      - s_3894: -1
+      - s_3895: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_02687
+    - annotation: !!omap
+      - ec-code:
+        - 2.4.1.132
+        - 2.4.1.257
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4244
+    - name: GDP-D-mannose:D-Man-alpha-(1->3)-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-6-mannosyltransferase
+    - metabolites: !!omap
+      - s_0795: 1
+      - s_3890: -1
+      - s_3892: 1
+      - s_3895: -1
+      - s_3896: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_02687
+    - annotation: !!omap
+      - ec-code:
+        - 2.4.1.132
+        - 2.4.1.257
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
     - id: r_4245
     - name: 2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate 6-phosphomannohydrolase
     - metabolites: !!omap
@@ -65762,6 +66891,24 @@
       - sabiork.reaction: 336
       - sbo: SBO:0000176
       - seed.reaction: rxn06043
+    - confidence_score: 2
+  - !!omap
+    - id: r_4252
+    - name: Thiamine thiazole synthase (Thiazole biosynthetic enzyme)
+    - metabolites: !!omap
+      - s_0803: 3
+      - s_1003: -1
+      - s_1198: -1
+      - s_1216: 1
+      - s_3909: -1
+      - s_3910: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_05679
+    - annotation: !!omap
+      - kegg.reaction: R10685
+      - metanetx.reaction: MNXR139808
+      - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
     - id: r_4254
@@ -66033,6 +67180,42 @@
       - ec-code: 3.6.1.9
       - metanetx.reaction: MNXR128220
       - rhea: 44644
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4271
+    - name: Endoplasmic reticulum mannosyl-oligosaccharide 1,2-alpha-mannosidase (EC 3.2.1.113) (ER alpha-1,2-mannosidase) (Man(9)-alpha-mannosidase)
+    - metabolites: !!omap
+      - s_0804: -4
+      - s_3774: -1
+      - s_3932: 1
+      - s_3933: 4
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_00429
+    - annotation: !!omap
+      - ec-code:
+        - 3.2.1.-
+        - 3.2.1.113
+      - kegg.reaction: R05982
+      - metanetx.reaction: MNXR109973
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4272
+    - name: alpha 1,2-mannosyloligosaccharide alpha-D-mannohydrolase
+    - metabolites: !!omap
+      - s_0804: -1
+      - s_3774: -1
+      - s_3891: 1
+      - s_3933: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_00429
+    - annotation: !!omap
+      - ec-code:
+        - 3.2.1.-
+        - 3.2.1.113
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
@@ -66660,6 +67843,23 @@
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
+    - id: r_4314
+    - name: Alpha-1,2-mannosyltransferase ALG9 (EC 2.4.1.259) (EC 2.4.1.261) (Asparagine-linked glycosylation protein 9) (Dol-P-Man:Man(6)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase) (Dol-P-Man:Man(8)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase)
+    - metabolites: !!omap
+      - s_0644: -1
+      - s_0646: 1
+      - s_3995: -1
+      - s_3996: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_00321
+    - annotation: !!omap
+      - ec-code:
+        - 2.4.1.259
+        - 2.4.1.261
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
     - id: r_4315
     - name: Glycolate:NAD+ oxidoreductase
     - metabolites: !!omap
@@ -66774,6 +67974,22 @@
         - rxn09989
     - confidence_score: 2
   - !!omap
+    - id: r_4320
+    - name: dolichyl beta-D-glucosyl phosphate:D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
+    - metabolites: !!omap
+      - s_0646: 1
+      - s_0795: 1
+      - s_3911: -1
+      - s_3996: -1
+      - s_4001: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_07577
+    - annotation: !!omap
+      - ec-code: 2.4.1.267
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
     - id: r_4321
     - name: dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase
     - metabolites: !!omap
@@ -66789,6 +68005,44 @@
       - ec-code: 2.4.1.265
       - kegg.reaction: R06263
       - metanetx.reaction: MNXR110097
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4323
+    - name: protein N6-(octanoyl)lysine:sulfur sulfurtransferase
+    - metabolites: !!omap
+      - s_1031: 2
+      - s_1419: -2
+      - s_3945: -1
+      - s_3947: 1
+      - s_4004: -2
+      - s_4005: 2
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_03571
+    - annotation: !!omap
+      - ec-code: 2.8.1.8
+      - kegg.reaction: R07767
+      - metanetx.reaction: MNXR111355
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4324
+    - name: octanoyl-[acp]:sulfur sulfurtransferase
+    - metabolites: !!omap
+      - s_1031: 2
+      - s_1254: -1
+      - s_1419: -2
+      - s_3946: 1
+      - s_4004: -2
+      - s_4005: 2
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_03571
+    - annotation: !!omap
+      - ec-code: 2.8.1.8
+      - kegg.reaction: R07768
+      - metanetx.reaction: MNXR111356
       - sbo: SBO:0000176
     - confidence_score: 2
   - !!omap
@@ -67057,6 +68311,7 @@
     - gene_reaction_rule: RHTO_04605
     - subsystem: Caretonoid metabolism
     - annotation: !!omap
+      - ec-code: 2.5.1.32
       - kegg.reaction: R10177
       - metanetx.reaction: MNXR113543
       - rhea: 34475
@@ -67073,6 +68328,8 @@
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04602
     - subsystem: Caretonoid metabolism
+    - annotation: !!omap
+      - ec-code: 1.3.99.28
   - !!omap
     - id: t_0004
     - name: phytoene dehydrogenase
@@ -67088,6 +68345,8 @@
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04602
     - subsystem: Caretonoid metabolism
+    - annotation: !!omap
+      - ec-code: 1.3.99.31
   - !!omap
     - id: t_0005
     - name: phytoene synthase
@@ -67099,6 +68358,7 @@
     - gene_reaction_rule: RHTO_04605
     - subsystem: Caretonoid metabolism
     - annotation: !!omap
+      - ec-code: 5.5.1.19
       - bigg.reaction:
         - LCYG
         - LYCOPC
@@ -67118,6 +68378,7 @@
     - gene_reaction_rule: RHTO_04605
     - subsystem: Caretonoid metabolism
     - annotation: !!omap
+      - ec-code: 5.5.1.19
       - bigg.reaction:
         - GCATENEC
         - LCYB
@@ -67157,6 +68418,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01903
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0010
     - name: cytoplasmatic carnitine acyltransferase (C18:0)
@@ -67168,6 +68432,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01903
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0011
     - name: cytoplasmatic carnitine acyltransferase (C20:0)
@@ -67179,6 +68446,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01903
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0012
     - name: cytoplasmatic carnitine acyltransferase (C22:0)
@@ -67190,6 +68460,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01903
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0013
     - name: cytoplasmatic carnitine acyltransferase (C24:0)
@@ -67201,6 +68474,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01903
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0014
     - name: cytoplasmatic carnitine acyltransferase (C26:0)
@@ -67212,6 +68488,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01903
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0015
     - name: fatty acylcarnitine transport (C16:0)
@@ -67223,6 +68502,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01354
+    - subsystem: Fatty acid degradation (mitochondrial)
   - !!omap
     - id: t_0016
     - name: fatty acylcarnitine transport (C18:0)
@@ -67234,6 +68514,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01354
+    - subsystem: Fatty acid degradation (mitochondrial)
   - !!omap
     - id: t_0017
     - name: fatty acylcarnitine transport (C20:0)
@@ -67245,6 +68526,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01354
+    - subsystem: Fatty acid degradation (mitochondrial)
   - !!omap
     - id: t_0018
     - name: fatty acylcarnitine transport (C22:0)
@@ -67256,6 +68538,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01354
+    - subsystem: Fatty acid degradation (mitochondrial)
   - !!omap
     - id: t_0019
     - name: fatty acylcarnitine transport (C24:0)
@@ -67267,6 +68550,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01354
+    - subsystem: Fatty acid degradation (mitochondrial)
   - !!omap
     - id: t_0020
     - name: fatty acylcarnitine transport (C26:0)
@@ -67278,6 +68562,7 @@
     - lower_bound: -1000
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01354
+    - subsystem: Fatty acid degradation (mitochondrial)
   - !!omap
     - id: t_0021
     - name: mitochondrial carnitine acyltransferase (C16:0)
@@ -67289,6 +68574,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0022
     - name: mitochondrial carnitine acyltransferase (C18:0)
@@ -67300,6 +68588,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0023
     - name: mitochondrial carnitine acyltransferase (C20:0)
@@ -67311,6 +68602,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0024
     - name: mitochondrial carnitine acyltransferase (C22:0)
@@ -67322,6 +68616,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0025
     - name: mitochondrial carnitine acyltransferase (C24:0)
@@ -67333,6 +68630,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0026
     - name: mitochondrial carnitine acyltransferase (C26:0)
@@ -67344,6 +68644,9 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_01064 and RHTO_01341 and RHTO_00095
+    - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.7
   - !!omap
     - id: t_0027
     - name: malic enzyme (NADP) cytoplasmic
@@ -67378,9 +68681,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02523 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - kegg.reaction: R03027
       - metacyc.reaction: 3-HYDROXBUTYRYL-COA-DEHYDRATASE-RXN
       - metanetx.reaction: MNXR107898
@@ -67400,6 +68704,7 @@
     - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - bigg.reaction:
         - ECOAH4
         - ECOAH4_1
@@ -67428,9 +68733,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02527 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - bigg.reaction: RE0571C
       - metacyc.reaction: RXN-13303
       - metanetx.reaction: MNXR103456
@@ -67444,9 +68750,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02518 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - bigg.reaction:
         - ECOAH5
         - ECOAH5_1
@@ -67473,8 +68780,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02522 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 4.2.1.119
   - !!omap
     - id: t_0033
     - name: 2-enoyl-CoA hydratase (3-hydroxyhexadecanoyl-CoA)
@@ -67484,8 +68793,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02520 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 4.2.1.119
   - !!omap
     - id: t_0034
     - name: 2-enoyl-CoA hydratase (3-hydroxyhexanoyl-CoA)
@@ -67495,9 +68806,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02524 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - metanetx.reaction: MNXR128558
       - rhea: 46720
       - sabiork.reaction: 13238
@@ -67510,8 +68822,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02526 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 4.2.1.119
   - !!omap
     - id: t_0036
     - name: 2-enoyl-CoA hydratase (3-hydroxyoctadecanoyl-CoA)
@@ -67521,9 +68835,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02521 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - bigg.reaction: RE0582N
       - kegg.reaction: R07760
       - metanetx.reaction: MNXR103466
@@ -67538,9 +68853,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02525 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - metacyc.reaction: RXN-14276
       - metanetx.reaction: MNXR118594
       - rhea: 40187
@@ -67554,9 +68870,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02528 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - bigg.reaction: RE0575C
       - metanetx.reaction: MNXR138742
   - !!omap
@@ -67568,9 +68885,10 @@
       - s_0807: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_02519 or RHTO_04298 or RHTO_05407
+    - gene_reaction_rule: RHTO_02517 or RHTO_04298 or RHTO_05407
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 4.2.1.119
       - bigg.reaction:
         - ECOAH6
         - ECOAH6_1
@@ -67593,9 +68911,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05525
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - metanetx.reaction: MNXR137466
       - seed.reaction: rxn13421
   - !!omap
@@ -67612,6 +68931,7 @@
     - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - bigg.reaction:
         - HACD4
         - HACD4_1
@@ -67639,8 +68959,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05529
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.1.1.35
   - !!omap
     - id: t_0043
     - name: 3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA)
@@ -67652,9 +68974,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05521
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - bigg.reaction:
         - HACD5
         - HACD5_1
@@ -67676,8 +68999,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05524
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.1.1.35
   - !!omap
     - id: t_0045
     - name: 3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA)
@@ -67689,9 +69014,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05522
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - bigg.reaction:
         - HACD7
         - HACD7_1
@@ -67715,9 +69041,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05526
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - metanetx.reaction: MNXR128399
       - rhea: 45828
   - !!omap
@@ -67731,8 +69058,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05528
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.1.1.35
   - !!omap
     - id: t_0048
     - name: 3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA)
@@ -67744,9 +69073,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05523
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - metanetx.reaction: MNXR126787
       - rhea: 35275
       - seed.reaction: rxn12277
@@ -67761,9 +69091,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05527
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - metacyc.reaction: RXN-14275
       - metanetx.reaction: MNXR118593
       - rhea: 40191
@@ -67778,8 +69109,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05530
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.1.1.35
   - !!omap
     - id: t_0051
     - name: 3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA)
@@ -67791,9 +69124,10 @@
       - s_1205: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05537
+    - gene_reaction_rule: RHTO_05520
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.1.1.35
       - bigg.reaction:
         - HACD6
         - HACD6_1
@@ -67815,9 +69149,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00481
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction:
         - ACACT1
         - ACACT1m
@@ -67840,9 +69175,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00482
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction:
         - ACACT4m
         - ACACT4p
@@ -67864,9 +69200,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00482
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction:
         - ACACT2
         - ACACT2m
@@ -67888,9 +69225,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00480
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction: ACACT5r_1
       - kegg.reaction: R04742
       - metacyc.reaction: RXN-14274
@@ -67908,8 +69246,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00486
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.9
   - !!omap
     - id: t_0057
     - name: acetyl-CoA C-acyltransferase (hexanoyl-CoA)
@@ -67920,9 +69260,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00483
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - kegg.reaction: R04747
       - metacyc.reaction: RXN-14277
       - metanetx.reaction: MNXR109092
@@ -67939,8 +69280,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00485
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.9
   - !!omap
     - id: t_0059
     - name: acetyl-CoA C-acyltransferase (lauroyl-CoA)
@@ -67951,9 +69294,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00479
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction:
         - ACACT6m
         - ACACT6p
@@ -67974,9 +69318,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00478
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction:
         - ACACT7m
         - ACACT7p
@@ -68004,6 +69349,7 @@
     - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - bigg.reaction:
         - ACACT8p
         - ACACT8r
@@ -68020,8 +69366,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00484
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 2.3.1.9
   - !!omap
     - id: t_0063
     - name: acetyl-CoA C-acyltransferase (tetracosanoyl-CoA)
@@ -68032,9 +69380,10 @@
       - s_0532: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00477
+    - gene_reaction_rule: RHTO_00476
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 2.3.1.9
       - metanetx.reaction: MNXR124343
       - seed.reaction: rxn09480
   - !!omap
@@ -68047,9 +69396,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04585 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - bigg.reaction:
         - ACOA40OR
         - ACOAD1f
@@ -68072,6 +69422,7 @@
     - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - kegg.reaction: R04754
       - metanetx.reaction: MNXR109095
       - rhea: 28354
@@ -68087,9 +69438,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04589 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - metanetx.reaction: MNXR124477
       - rhea: 47228
   - !!omap
@@ -68102,9 +69454,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04580 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - bigg.reaction:
         - ACOA120OR
         - ACOAD5f
@@ -68123,9 +69476,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04581 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - metanetx.reaction: MNXR128766
       - rhea: 48216
   - !!omap
@@ -68138,8 +69492,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04582 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
   - !!omap
     - id: t_0070
     - name: acyl-CoA oxidase (hexanoyl-CoA)
@@ -68150,9 +69506,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04586 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - kegg.reaction: R04751
       - metanetx.reaction: MNXR109093
       - rhea: 31207
@@ -68168,8 +69525,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04588 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
   - !!omap
     - id: t_0072
     - name: acyl-CoA oxidase (stearoyl-CoA)
@@ -68180,9 +69539,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04583 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - bigg.reaction: ACOAD8f
       - metanetx.reaction: MNXR95317
       - rhea: 40843
@@ -68198,9 +69558,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04587 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - bigg.reaction:
         - ACOA80OR
         - ACOAD3f
@@ -68219,8 +69580,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04590 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
+    - annotation: !!omap
+      - ec-code: 1.3.3.6
   - !!omap
     - id: t_0075
     - name: acyl-CoA oxidase (tetradecanoyl-CoA)
@@ -68231,9 +69594,10 @@
       - s_0690: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04584 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
+    - gene_reaction_rule: RHTO_00397 or RHTO_01625 or RHTO_03594 or RHTO_04579 or RHTO_04971 or RHTO_05797 or RHTO_05970 or RHTO_06738
     - subsystem: Fatty acid degradation (mitochondrial)
     - annotation: !!omap
+      - ec-code: 1.3.3.6
       - bigg.reaction:
         - ACOA140OR
         - ACOAD6f
@@ -68258,6 +69622,7 @@
     - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_03890
+    - subsystem: Fatty acid degradation (peroxisome)
   - !!omap
     - id: t_0077
     - name: linoleoyl-CoA desaturase (n-C18:2CoA - n-C18:3CoA), ER membrane
@@ -68271,6 +69636,7 @@
       - s_2820: 1
     - lower_bound: 0
     - upper_bound: 1000
+    - subsystem: 1.14.19.1
   - !!omap
     - id: t_0078
     - name: peroxisomal acyl-CoA thioesterase (18:3)
@@ -68282,6 +69648,7 @@
       - s_0809: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - subsystem: 3.1.2.20
     - annotation: !!omap
       - bigg.reaction: FACOAE1839Z12Z15Z
       - kegg.reaction: R08178
@@ -68298,6 +69665,7 @@
       - s_0809: -1
     - lower_bound: 0
     - upper_bound: 1000
+    - subsystem: 3.1.2.20
     - annotation: !!omap
       - bigg.reaction: FACOAE1829Z12Z
       - kegg.reaction: R08177
@@ -68319,9 +69687,6 @@
       - s_1322: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - subsystem: Pentose phosphate pathway
-    - annotation: !!omap
-      - ec-code: 4.1.2.9
   - !!omap
     - id: t_0081
     - name: phosphoketolase
@@ -68331,12 +69696,12 @@
       - s_0764: 1
       - s_0803: 1
       - s_1322: -1
-    - lower_bound: -1000
+    - lower_bound: 0
     - upper_bound: 1000
     - gene_reaction_rule: RHTO_04463
-    - subsystem: Pyruvate metabolism
+    - subsystem: Pentose phosphate pathway
     - annotation: !!omap
-      - ec-code: 2.3.1.8
+      - ec-code: 4.1.2.9
       - kegg.reaction: R01621
       - metacyc.reaction: PHOSPHOKETOLASE-RXN
       - metanetx.reaction: MNXR107093
@@ -68345,7 +69710,7 @@
       - seed.reaction: rxn01187
   - !!omap
     - id: t_0082
-    - name: phosphate acyltransferase
+    - name: phosphate transacetylase
     - metabolites: !!omap
       - m_0184: 1
       - s_0373: -1
@@ -68353,7 +69718,9 @@
       - s_1322: -1
     - lower_bound: -1000
     - upper_bound: 1000
+    - subsystem: Pyruvate metabolism
     - annotation: !!omap
+      - ec-code: 2.3.1.8
       - bigg.reaction:
         - PTAr
         - PTArh
@@ -75550,16 +76917,6 @@
     - confidence_score: 1
   - !!omap
     - id: t_0827
-    - name: palmitoleate transport, cytoplasm-endoplasmic reticulum membrane
-    - metabolites: !!omap
-      - s_1293: -1
-      - s_2837: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - subsystem: Transport between c and erm
-    - confidence_score: 1
-  - !!omap
-    - id: t_0828
     - name: stearate transport, cytoplasm-endoplasmic reticulum membrane
     - metabolites: !!omap
       - s_1449: -1
@@ -75569,7 +76926,7 @@
     - subsystem: Transport between c and erm
     - confidence_score: 1
   - !!omap
-    - id: t_0829
+    - id: t_0828
     - name: oleate transport, cytoplasm-endoplasmic reticulum membrane
     - metabolites: !!omap
       - s_1260: -1
@@ -75579,7 +76936,7 @@
     - subsystem: Transport between c and erm
     - confidence_score: 1
   - !!omap
-    - id: t_0830
+    - id: t_0829
     - name: linoleate transport, cytoplasm-endoplasmic reticulum membrane
     - metabolites: !!omap
       - m_0003: 1
@@ -75589,7 +76946,7 @@
     - subsystem: Transport between c and erm
     - confidence_score: 1
   - !!omap
-    - id: t_0831
+    - id: t_0830
     - name: linolenate transport, cytoplasm-endoplasmic reticulum membrane
     - metabolites: !!omap
       - m_0173: -1
@@ -75599,7 +76956,7 @@
     - subsystem: Transport between c and erm
     - confidence_score: 1
   - !!omap
-    - id: t_0832
+    - id: t_0831
     - name: palmitate transport, cytoplasm-cell envelope
     - metabolites: !!omap
       - s_1286: -1
@@ -75609,17 +76966,7 @@
     - subsystem: Transport between c and ce
     - confidence_score: 1
   - !!omap
-    - id: t_0833
-    - name: palmitoleate transport, cytoplasm-cell envelope
-    - metabolites: !!omap
-      - s_1293: -1
-      - s_3451: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - subsystem: Transport between c and ce
-    - confidence_score: 1
-  - !!omap
-    - id: t_0834
+    - id: t_0832
     - name: stearate transport, cytoplasm-cell envelope
     - metabolites: !!omap
       - s_1449: -1
@@ -75629,7 +76976,7 @@
     - subsystem: Transport between c and ce
     - confidence_score: 1
   - !!omap
-    - id: t_0835
+    - id: t_0833
     - name: oleate transport, cytoplasm-cell envelope
     - metabolites: !!omap
       - s_1260: -1
@@ -75639,7 +76986,7 @@
     - subsystem: Transport between c and ce
     - confidence_score: 1
   - !!omap
-    - id: t_0836
+    - id: t_0834
     - name: linoleate transport, cytoplasm-cell envelope
     - metabolites: !!omap
       - m_0019: -1
@@ -75649,7 +76996,7 @@
     - subsystem: Transport between c and ce
     - confidence_score: 1
   - !!omap
-    - id: t_0837
+    - id: t_0835
     - name: linolenate transport, cytoplasm-cell envelope
     - metabolites: !!omap
       - m_0173: -1
@@ -76625,32 +77972,6 @@
       - seed.reaction: rxn00222
     - confidence_score: 2
   - !!omap
-    - id: y300057
-    - name: L-Glutamate 5-semialdehyde:NAD+ oxidoreductase
-    - metabolites: !!omap
-      - s_0794: 1
-      - s_0803: -1
-      - s_0991: 1
-      - s_0997: -1
-      - s_1198: -1
-      - s_1203: 1
-    - lower_bound: -1000
-    - upper_bound: 1000
-    - gene_reaction_rule: RHTO_07378
-    - subsystem: Arginine and proline metabolism
-    - annotation: !!omap
-      - ec-code: 1.5.1.12
-      - bigg.reaction:
-        - PUTA3
-        - r0074
-      - kegg.reaction: R00245
-      - metacyc.reaction: RXN-14116
-      - metanetx.reaction: MNXR103352
-      - rhea: 30235
-      - sabiork.reaction: 756
-      - seed.reaction: rxn00183
-    - confidence_score: 2
-  - !!omap
     - id: y300058
     - name: 5-oxo-L-proline amidohydrolase (ATP-hydrolysing)
     - metabolites: !!omap
@@ -77171,6 +78492,8 @@
   - !!omap
     - id: RHTO_00425
   - !!omap
+    - id: RHTO_00429
+  - !!omap
     - id: RHTO_00448
   - !!omap
     - id: RHTO_00450
@@ -77189,25 +78512,7 @@
   - !!omap
     - id: RHTO_00476
   - !!omap
-    - id: RHTO_00477
-  - !!omap
-    - id: RHTO_00478
-  - !!omap
-    - id: RHTO_00479
-  - !!omap
-    - id: RHTO_00480
-  - !!omap
-    - id: RHTO_00481
-  - !!omap
-    - id: RHTO_00482
-  - !!omap
     - id: RHTO_00483
-  - !!omap
-    - id: RHTO_00484
-  - !!omap
-    - id: RHTO_00485
-  - !!omap
-    - id: RHTO_00486
   - !!omap
     - id: RHTO_00494
   - !!omap
@@ -77423,6 +78728,8 @@
   - !!omap
     - id: RHTO_01587
   - !!omap
+    - id: RHTO_01588
+  - !!omap
     - id: RHTO_01605
   - !!omap
     - id: RHTO_01610
@@ -77557,6 +78864,8 @@
   - !!omap
     - id: RHTO_02268
   - !!omap
+    - id: RHTO_02269
+  - !!omap
     - id: RHTO_02272
   - !!omap
     - id: RHTO_02273
@@ -77615,27 +78924,7 @@
   - !!omap
     - id: RHTO_02517
   - !!omap
-    - id: RHTO_02518
-  - !!omap
-    - id: RHTO_02519
-  - !!omap
-    - id: RHTO_02520
-  - !!omap
-    - id: RHTO_02521
-  - !!omap
     - id: RHTO_02522
-  - !!omap
-    - id: RHTO_02523
-  - !!omap
-    - id: RHTO_02524
-  - !!omap
-    - id: RHTO_02525
-  - !!omap
-    - id: RHTO_02526
-  - !!omap
-    - id: RHTO_02527
-  - !!omap
-    - id: RHTO_02528
   - !!omap
     - id: RHTO_02531
   - !!omap
@@ -77670,6 +78959,8 @@
     - id: RHTO_02661
   - !!omap
     - id: RHTO_02671
+  - !!omap
+    - id: RHTO_02687
   - !!omap
     - id: RHTO_02709
   - !!omap
@@ -77807,8 +79098,6 @@
   - !!omap
     - id: RHTO_03383
   - !!omap
-    - id: RHTO_03384
-  - !!omap
     - id: RHTO_03399
   - !!omap
     - id: RHTO_03406
@@ -77852,6 +79141,8 @@
     - id: RHTO_03557
   - !!omap
     - id: RHTO_03559
+  - !!omap
+    - id: RHTO_03571
   - !!omap
     - id: RHTO_03579
   - !!omap
@@ -78059,28 +79350,6 @@
   - !!omap
     - id: RHTO_04579
   - !!omap
-    - id: RHTO_04580
-  - !!omap
-    - id: RHTO_04581
-  - !!omap
-    - id: RHTO_04582
-  - !!omap
-    - id: RHTO_04583
-  - !!omap
-    - id: RHTO_04584
-  - !!omap
-    - id: RHTO_04585
-  - !!omap
-    - id: RHTO_04586
-  - !!omap
-    - id: RHTO_04587
-  - !!omap
-    - id: RHTO_04588
-  - !!omap
-    - id: RHTO_04589
-  - !!omap
-    - id: RHTO_04590
-  - !!omap
     - id: RHTO_04601
   - !!omap
     - id: RHTO_04602
@@ -78130,6 +79399,8 @@
     - id: RHTO_04826
   - !!omap
     - id: RHTO_04835
+  - !!omap
+    - id: RHTO_04838
   - !!omap
     - id: RHTO_04846
   - !!omap
@@ -78188,6 +79459,8 @@
     - id: RHTO_05040
   - !!omap
     - id: RHTO_05042
+  - !!omap
+    - id: RHTO_05050
   - !!omap
     - id: RHTO_05066
   - !!omap
@@ -78273,27 +79546,7 @@
   - !!omap
     - id: RHTO_05521
   - !!omap
-    - id: RHTO_05522
-  - !!omap
-    - id: RHTO_05523
-  - !!omap
-    - id: RHTO_05524
-  - !!omap
-    - id: RHTO_05525
-  - !!omap
-    - id: RHTO_05526
-  - !!omap
-    - id: RHTO_05527
-  - !!omap
-    - id: RHTO_05528
-  - !!omap
-    - id: RHTO_05529
-  - !!omap
-    - id: RHTO_05530
-  - !!omap
     - id: RHTO_05534
-  - !!omap
-    - id: RHTO_05537
   - !!omap
     - id: RHTO_05549
   - !!omap
@@ -78322,6 +79575,8 @@
     - id: RHTO_05653
   - !!omap
     - id: RHTO_05673
+  - !!omap
+    - id: RHTO_05679
   - !!omap
     - id: RHTO_05680
   - !!omap
@@ -78607,6 +79862,8 @@
   - !!omap
     - id: RHTO_06955
   - !!omap
+    - id: RHTO_06958
+  - !!omap
     - id: RHTO_06970
   - !!omap
     - id: RHTO_06979
@@ -78699,6 +79956,8 @@
   - !!omap
     - id: RHTO_07569
   - !!omap
+    - id: RHTO_07577
+  - !!omap
     - id: RHTO_07590
   - !!omap
     - id: RHTO_07628
@@ -78726,6 +79985,8 @@
     - id: RHTO_07718
   - !!omap
     - id: RHTO_07727
+  - !!omap
+    - id: RHTO_07749
   - !!omap
     - id: RHTO_07750
   - !!omap

@@ -1,4 +1,4 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% This script generates a first draft of a genome-scale model (here: R.
 % toruloides) using the getModelFromHomology function in RAVEN. It uses
 % S. cerevisiae as a template model, 
@@ -108,4 +108,8 @@ model.id                      = 'rhto';
 model.description             = 'Genome-scale metabolic model of Rhodotorula toruloides';
 
 save([root '/scrap/model_r1.mat'],'model');
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')

@@ -1,6 +1,5 @@
 clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
-
-%% Rhodosporidium specific reactions
+%% Rhodotorula toruloides specific reactions
 load([root,'/scrap/model_r2.mat'],'model');
 
 % Manually lipid pseudometabolites, need specific metabolic ID for later scripts
@@ -42,4 +41,9 @@ rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',length(rxnsToAdd.rxnN
 model                   = addRxns(model,rxnsToAdd,3,'',false,true); clear rxnsToAdd
 
 save([root '/scrap/model_r3.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')

@@ -80,8 +80,8 @@ backbExIdx  = getIndexes(model,'r_4062','rxns');
 model       = setParam(model,'ub',[chainExIdx,backbExIdx],1000);
 solveLP(model,1)
 
-model           = addTransport(model,'c','erm',expData.chainData.FA,true,false,'t_');
-model           = addTransport(model,'c','ce',expData.chainData.FA,true,false,'t_');
+model           = addTransport(model,'c','erm',{'palmitate','stearate','oleate','linoleate','linolenate'},true,false,'t_');
+model           = addTransport(model,'c','ce',{'palmitate','stearate','oleate','linoleate','linolenate'},true,false,'t_');
 
 cd ../experimental
 expData = readTiukovaData(model,1);
@@ -89,4 +89,9 @@ expData = readTiukovaData(model,1);
 sol=solveLP(model,1)
 
 save([root '/scrap/model_r5.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')

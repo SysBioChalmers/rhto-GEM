@@ -33,4 +33,9 @@ cd ../experimental
 disp(['GAM is set to: ' num2str(GAM)])
 
 save([root '/scrap/model_r8.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')
