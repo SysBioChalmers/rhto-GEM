@@ -72,7 +72,7 @@ exIdx = getIndexes(model,{'r_1634','r_1808','r_1718','r_1714',...
     'EXC_OUT_s_3717','r_2104','r_1672','r_1992','r_1654','r_2111','r_4046'},'rxns');
 
 nsamples = 5000;%
-load([root '/scrap/randsampl.mat'], 'goodRxns*')
+%load([root '/scrap/randsampl.mat'], 'goodRxns*')
 for i=1:numel(models)
     % Fix measured exchange fluxes + NGAM around 5% of the value from FBA.
     fluxes = sol(1,i).x(exIdx);
