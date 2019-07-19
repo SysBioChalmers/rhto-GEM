@@ -1,13 +1,12 @@
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% This script compares experimentally measured with model predicted growth rates
-
-model       = importModel('../../ModelFiles/xml/rhto.xml');
-model       = setParam(model,'rev',{'r_1808','r_1718'},1); %glycerol, xylose
+model       = importModel([root '/ModelFiles/xml/rhto.xml']);
 model       = setParam(model,'eq',{'r_1808','r_1718','r_1714'},0);
 model       = setParam(model,'obj','r_2111',1);
 
 % Load file
 fid         = fopen('../../ComplementaryData/validation/bioreactor_growth.csv');
-fluxData    = textscan(fid,'%f32 %f32 %s %s','Delimiter',',','HeaderLines',1);
+fluxData    = textscan(fid,'%f32 %f32 %q %q','Delimiter',',','HeaderLines',1);
 growth      = fluxData{1};
 rate        = fluxData{2};
 source      = fluxData{3};

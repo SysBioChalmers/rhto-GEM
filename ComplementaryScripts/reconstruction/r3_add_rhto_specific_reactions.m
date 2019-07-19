@@ -1,7 +1,14 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
-
-%% Rhodosporidium specific reactions
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+%% Rhodotorula toruloides specific reactions
 load([root,'/scrap/model_r2.mat'],'model');
+
+% Manually lipid pseudometabolites, need specific metabolic ID for later scripts
+metsToAdd.metNames      = {'1-monoglyceride backbone','C18:2 chain','C18:3 chain'};
+metsToAdd.compartments  = {'lp','c','c'};
+metsToAdd.metFormulas   = {'C3H6O2','',''};
+metsToAdd.mets          = {'m_0100','m_0102','m_0103'};
+metsToAdd.metMiriams    = repmat({struct('name',{{'sbo'}},'value',{{'SBO:0000649'}})},1,3);
+model                   = addMets(model,metsToAdd); clear metsToAdd;
 
 % Colated a list of reactions from caretonoid metabolism, mitochondrial
 % beta-oxidation and lipid metabolism related to C18:2
@@ -34,4 +41,9 @@ rxnsToAdd.rxns          = generateNewIds(model,'rxns','t_',length(rxnsToAdd.rxnN
 model                   = addRxns(model,rxnsToAdd,3,'',false,true); clear rxnsToAdd
 
 save([root '/scrap/model_r3.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')

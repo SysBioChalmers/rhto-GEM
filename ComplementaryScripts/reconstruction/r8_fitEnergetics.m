@@ -1,4 +1,4 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% Fit to continuous glucose-limited chemostat cultivation, using data
 % from Shen et al, J Biotech, 2013, doi:10.1016/j.jbiotec.2013.08.010,
 % table 1.
@@ -33,4 +33,9 @@ cd ../experimental
 disp(['GAM is set to: ' num2str(GAM)])
 
 save([root '/scrap/model_r8.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')

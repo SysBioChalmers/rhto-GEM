@@ -1,4 +1,4 @@
-if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% Run MENECO
 % MENECO requires the target compounds to already be part of the draft
 % model. This should be fine here, as we added the whole biomass equation
@@ -62,4 +62,9 @@ grRules     = regexprep(loadedData{2},'***','');
 model = addRxnsGenesMets(model,modelSce,rxns,grRules,'Identified from homology, manual curation',2);
 
 save([root '/scrap/model_r4.mat'],'model');
+
+disp(['Number of genes / rxns / mets in model:  ' ...
+    num2str(length(model.genes)) ' / ' ...
+    num2str(length(model.rxns)) ' / ' ...
+    num2str(length(model.mets))])
 %cd('..'); newCommit(model); cd('reconstruction')
