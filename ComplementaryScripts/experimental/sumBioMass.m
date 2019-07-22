@@ -12,7 +12,7 @@
 %   https://github.com/SysBioChalmers/SLIMEr/blob/master/models/scaleAbundancesInModel.m
 %
 % Benjamin J. Sanchez. Last update: 2018-09-04
-% Eduard Kerkhoven. Last modified: 2019-02-19
+% Eduard Kerkhoven. Last modified: 2019-07-22
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [X,P,C,R,D,L] = sumBioMass(model)
