@@ -141,11 +141,11 @@ fclose(fid);
 
 %% NADH and NADPH reactions
 for i={'NADPH','NADH'}
-    [fluxes, rxnIdx] = getMetProduction(model,i,fluxMean,true);
+    [fluxes, rxnIdx] = getMetProduction(models{1},i,fluxMean,true);
     clear out
-    out.rxns    = model.rxns(rxnIdx);
-    out.rxnNames= model.rxnNames(rxnIdx);
-    out.rxnEqns = constructEquations(model,rxnIdx);
+    out.rxns    = models{1}.rxns(rxnIdx);
+    out.rxnNames= models{1}.rxnNames(rxnIdx);
+    out.rxnEqns = constructEquations(models{1},rxnIdx);
     out.fluxes  = num2cell(fluxes);
     out = [out.rxns out.rxnNames out.rxnEqns out.fluxes];
     fid = fopen([data '/Lahtvee2019/exp_randSampl_' i{1} '_productionFluxes.tsv'],'w');

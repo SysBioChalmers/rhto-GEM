@@ -3,19 +3,16 @@ function [fluxes, rxnIdx] = getMetProduction(model,metName,solVector,nonZero)
 % reactions).
 % nonZero   only include non zero fluxes, default false
 
-metLoc          = find(ismember(model.metNames,metName));
-[metIdx,rxnIdx] = find(model.S(metLoc,:));
-coeff           = full(model.S(metLoc(metIdx),rxnIdx));
+metLoc      = find(ismember(model.metNames,metName));
+subS        = full(model.S(metLoc,:));
+[~,rxnIdx]  = find(subS);
+coeff       = sum(subS(:,rxnIdx),1);
 
-for i=1:size(solVector,2)
-    fluxes(i,:) = sum(solVector(rxnIdx,i) .* transpose(coeff),2);
-end
+fluxes = solVector(rxnIdx,:) .* transpose(coeff);
 
 if nonZero
-    nonZero     = sum(fluxes,1)~=0;
-    fluxes      = transpose(fluxes(:,nonZero));
+    nonZero     = sum(fluxes,2)~=0;
+    fluxes      = fluxes(nonZero,:);
     rxnIdx      = rxnIdx(nonZero);
-else
-    fluxes      = transpose(fluxes);
 end
 end
