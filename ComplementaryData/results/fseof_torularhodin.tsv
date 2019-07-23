@@ -1,0 +1,23 @@
+glucose	xylose	glycerol	rxnName	grRule
+3.968410e+00	3.967374e+00	3.968572e+00	mevalonate kinase (atp)	RHTO_02122
+3.952753e+00	3.951204e+00	3.952993e+00	hydroxymethylglutaryl CoA reductase	RHTO_04045
+3.952753e+00	3.951204e+00	3.952993e+00	mevalonate pyrophoshate decarboxylase	RHTO_06005
+3.952753e+00	3.951204e+00	3.952993e+00	phosphomevalonate kinase	RHTO_02073
+3.134021e+00	3.729792e+00	NaN	ribulose 5-phosphate 3-epimerase	RHTO_05984
+1.735781e+00	1.661539e+00	1.747267e+00	inorganic diphosphatase	RHTO_00177
+1.673709e+00	1.598425e+00	NaN	6-phosphogluconolactonase	RHTO_07939
+1.673709e+00	1.598425e+00	NaN	glucose 6-phosphate dehydrogenase	RHTO_07853
+1.673709e+00	1.598425e+00	NaN	phosphogluconate dehydrogenase	RHTO_02788
+1	1	1	farnesyltranstransferase	RHTO_01660 or RHTO_02504
+1	1	1	phytoene synthase	RHTO_04605
+1	1	1	phytoene dehydrogenase	RHTO_04602
+1	1	1	phytoene dehydrogenase	RHTO_04602
+1	1	1	phytoene synthase	RHTO_04605
+1	1	1	phytoene synthase	RHTO_04605
+9.842510e-01	9.837347e-01	9.843310e-01	dimethylallyltranstransferase	RHTO_01660
+9.842510e-01	9.837347e-01	9.843310e-01	geranyltranstransferase	RHTO_01660
+9.842510e-01	9.837347e-01	9.843310e-01	isopentenyl-diphosphate D-isomerase	RHTO_05138
+NaN	9.437262e-01	NaN	glucose-6-phosphate isomerase	RHTO_04058
+8.285942e-01	NaN	NaN	hexokinase (D-glucose:ATP)	RHTO_06072 or RHTO_06870
+NaN	NaN	3.717980e-02	dihydroxyacetone kinase	RHTO_04669
+NaN	NaN	3.717980e-02	glycerol dehydrogenase (NADP-dependent)	RHTO_00641 or RHTO_03032 or RHTO_03963 or RHTO_06555 or RHTO_07387
