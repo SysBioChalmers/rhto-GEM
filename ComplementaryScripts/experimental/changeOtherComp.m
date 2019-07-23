@@ -54,15 +54,17 @@ comps = {'s_0404'	89.09       'P'     % A     Alanine         ala
          's_1467'    96.06       'N'};   % sulphate
 
 %Change given abundances in model:
-[~,P,~,~,~,~]   = sumBioMass(model);
-protPos         = strcmp(model.rxnNames,'protein pseudoreaction');
-fP              = expData.protein(i)/P;       	%ratio to scale
-isAA            = contains(model.metNames,'tRNA');	%protein components
-model.S(isAA,protPos) = full(model.S(isAA,protPos))*fP;
+if isfield(expData,'protein')
+    [~,P,~,~,~,~]   = sumBioMass(model);
+    protPos         = strcmp(model.rxnNames,'protein pseudoreaction');
+    fP              = expData.protein(i)/P;       	%ratio to scale
+    isAA            = contains(model.metNames,'tRNA');	%protein components
+    model.S(isAA,protPos) = full(model.S(isAA,protPos))*fP;
+end
 
 %Compute new biomass and lipid fraction:
-[X,~,C,~,~,~] = sumBioMass(model);
-delta         = X - 1;                      %difference to balance
+[X,~,C,~,~,L] = sumBioMass(model);
+delta         = X + L - 1;                      %difference to balance
 
 %Balance out mass with all sugars:
 mets     = comps(strcmp(comps(:,3),'C'),1);
