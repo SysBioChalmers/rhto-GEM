@@ -1,9 +1,9 @@
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% This script evaluates importance of reactions for oleaginous phenotype
 % (or more precisely: TAG production).
-model = importModel('../../ModelFiles/xml/rhto.xml');
-backup=model;
-model=backup;
-% Add exchange reactions for triglyceride (18:0/18:1/18:0-TAG).
+model = importModel([root '/ModelFiles/xml/rhto.xml']);
+
+%  Add exchange reactions for triglyceride (18:0/18:1/18:0-TAG).
 idx = getIndexes(model, {'triglyceride (1-18:0, 2-18:1, 3-18:0)[erm]', ...
     'triglyceride (1-18:0, 2-18:1, 3-18:0)[lp]'}, 'metscomps');
 % Add exchange reactions for products
@@ -19,21 +19,26 @@ sol=solveLP(model,1)
 printFluxes(model,sol.x)
 
 % Make sure that COBRA Toolbox version >3 is installed
-initCobraToolbox()
+initCobraToolbox(false)
 
-[Glc.grRatio, Glc.grRateKO, Glc.grRateWT, Glc.hasEffect, Glc.delRxn, Glc.fluxSolution] = singleRxnDeletion(model,'FBA');
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [-1, 0, 0]);
+Glc.grRatio = singleRxnDeletion(model,'FBA');
 
-modelXyl = setParam(model,'lb',{'r_1714','r_1718'},[0,-1]);
-[Xyl.grRatio, Xyl.grRateKO, Xyl.grRateWT, Xyl.hasEffect, Xyl.delRxn, Xyl.fluxSolution] = singleRxnDeletion(modelXyl,'FBA');
+modelXyl    = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [0, -1, 0]);
+Xyl.grRatio = singleRxnDeletion(modelXyl,'FBA');
 
-idx = find(Glc.grRatio < 0.90 | Xyl.grRatio < 0.90);
+modelGly    = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [0, 0, -1]);
+Gly.grRatio = singleRxnDeletion(modelGly,'FBA');
+
+idx = find(Glc.grRatio < 0.90 | Xyl.grRatio < 0.90 | Gly.grRatio < 0.90);
 
 out = [num2cell(Glc.grRatio(idx)*100) num2cell(Xyl.grRatio(idx)*100) ...
-    model.rxns(idx) model.rxnNames(idx) constructEquations(model,idx)];
+    num2cell(Gly.grRatio(idx)*100) model.rxns(idx) model.rxnNames(idx) ...
+    constructEquations(model,idx)];
 
-fid = fopen('ComplementaryData/results/oleaginous.tsv','w');
-fprintf(fid,'%s\t%s\t%s\t%s\t%s\n',["glucose" "xylose" "rxns" "rxnName" "eqn"]);
+fid = fopen([data '/results/oleaginous.tsv'],'w');
+fprintf(fid,'%s\t%s\t%s\t%s\t%s\t%s\n',["glucose" "xylose" "glycerol" "rxns" "rxnName" "eqn"]);
 for j=1:length(idx)
-    fprintf(fid,'%d\t%d\t%s\t%s\t%s\n',out{j,:});
+    fprintf(fid,'%d\t%d\t%d\t%s\t%s\t%s\n',out{j,:});
 end
-fclose(fid)
+fclose(fid);
