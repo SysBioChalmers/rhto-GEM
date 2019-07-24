@@ -1,5 +1,20 @@
 # History
 
+### rhto v1.2.0:
+* Features
+  * Set alternative carbon source exchange reactions as reversible (glycerol, xylose) (PR #28).
+  * `init_rhto-GEM.m` script that prepares MATLAB environment with path to repo's folders (PR #28).
+  * `makeLipidRxns` now takes list of acyl-chain configurations, instead of defining these by itself from a list of allowed acyl-chains.  (PR #28).
+  * Correct gene associations of mitochondrial beta-oxidation reaction (PR #29).
+  * Curate subsystems and EC numbers (PR #29).
+  * Update DNA, RNA and amino acid pseudoreactions, based on frequency of nucleotides and amino acids in genome, transcript and protein FASTA files (PR #30).
+  * Scale carbohydrate fraction to ensure that biomass pseudoreaction generates 1 gDCW (PR #30).
+  * Refit energetics (PR #30).
+* Fix
+  * Curate acyl-chains: simplify number of possible chain combinations, based on measured chain distribution (e.g. 16:1 level is around 1% and therefore not included in the biomass), and distribution of acyl-chains on TAGs ([10.1007/s00253-017-8126-7](http://doi.org/10.1007/s00253-017-8126-7)):  sn-1 is 16:0 or 18:0, sn-2 is 18:1, 18:2 or 18:3; sn-3 is 16:0, 18:0 or 18:1. (PR #28).
+  * Use template SLIMER reactions (PR #28).
+  * Various curations of lipid metabolism (PR #28, PR #30).
+
 ### rhto v1.1.1:
 * Features
   * Make Memote snapshot report via Travis with every push to `master`, report available at https://sysbiochalmers.github.io/rhto-GEM/ (PR #23).
