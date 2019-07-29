@@ -3,6 +3,12 @@ clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run(
 % literature data
 model = importModel([root '/ModelFiles/xml/rhto.xml']);
 
+% Set default UB and LB
+model.annotation.defaultUB = 1000;
+model.annotation.defaultLB = -1000;
+model.lb(isinf(model.lb)) = -1000;
+model.ub(isinf(model.ub)) = 1000;
+
 %% Curate glucose and xylose transporters
 % From proteomics measurements of cultivations on glucose and xylose, infer
 % which genes code for transporters (https://doi.org/10.1186/s13068-019-1478-8).
