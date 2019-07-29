@@ -134,7 +134,7 @@ model = changeOtherComp(model,expData,1);
 sol=solveLP(model,1)
 
 % Rescale carbohydrates
-model = changeOtherComp(model,expData,1)
+model = changeOtherComp(model,expData,1);
 cd ../reconstruction
 save([root '/scrap/model_r5.mat'],'model');
 

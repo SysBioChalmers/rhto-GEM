@@ -59,7 +59,7 @@ comps = {'s_0404'	89.09       'P'     % A     Alanine         ala
 [C,X] = getFraction(model,comps,'C',X);
 [R,X] = getFraction(model,comps,'R',X);
 [D,X] = getFraction(model,comps,'D',X);
-[L,X] = getFraction(model,comps,'L',X);
+[L,~] = getFraction(model,comps,'L',X);
 
 %Add up any remaining components:
 bioPos = strcmp(model.rxns,'r_4041');
