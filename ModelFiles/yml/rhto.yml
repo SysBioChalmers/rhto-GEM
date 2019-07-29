@@ -3210,11 +3210,6 @@
       - seed.compound: cpd25135
       - swisslipid: 000013565
   - !!omap
-    - id: m_0512
-    - name: L-xylulose
-    - compartment: c
-    - formula: C5H10O5
-  - !!omap
     - id: s_0001
     - name: (1->3)-beta-D-glucan
     - compartment: ce
@@ -10557,6 +10552,19 @@
         - MNXM722726
       - sbo: SBO:0000247
       - seed.compound: cpd00050
+  - !!omap
+    - id: s_0717
+    - name: FMNH2
+    - compartment: c
+    - formula: C17H21N4O9P
+    - charge: -2
+    - annotation: !!omap
+      - bigg.metabolite: fmnh2
+      - kegg.compound: C01847
+      - metacyc.compound: FMNH2
+      - metanetx.chemical: MNXM208
+      - sbo: SBO:0000247
+      - seed.compound: cpd01270
   - !!omap
     - id: s_0721
     - name: formaldehyde
@@ -32635,7 +32643,7 @@
       - s_1212: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_00641 or RHTO_07387
+    - gene_reaction_rule: RHTO_00641 or RHTO_03963
     - subsystem: Pentose and glucuronate interconversions
     - annotation: !!omap
       - ec-code:
@@ -34735,7 +34743,7 @@
       - s_1273: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_07345
+    - gene_reaction_rule: RHTO_06406 or RHTO_06409
     - subsystem:
         - 2-Oxocarboxylic acid metabolism
         - Biosynthesis of amino acids
@@ -34772,7 +34780,7 @@
       - s_1274: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_06406
+    - gene_reaction_rule: RHTO_06406 or RHTO_06409
     - subsystem:
         - 2-Oxocarboxylic acid metabolism
         - Biosynthesis of amino acids
@@ -36589,7 +36597,7 @@
       - s_1460: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_05714
+    - gene_reaction_rule: RHTO_01560 or RHTO_05714
     - annotation: !!omap
       - ec-code: 1.3.1.6
       - bigg.reaction:
@@ -36620,7 +36628,7 @@
       - s_1458: 1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_01560
+    - gene_reaction_rule: RHTO_01560 or RHTO_05714
     - annotation: !!omap
       - ec-code: 1.3.1.6
       - bigg.reaction:
@@ -38698,7 +38706,7 @@
       - s_1205: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_06717
+    - gene_reaction_rule: RHTO_01289 or RHTO_01290 or RHTO_04315 or RHTO_06717
     - subsystem:
         - 2-Oxocarboxylic acid metabolism
         - Biosynthesis of amino acids
@@ -40549,7 +40557,7 @@
       - s_1205: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_01289 or RHTO_01290
+    - gene_reaction_rule: RHTO_01289 or RHTO_01290 or RHTO_06717
     - subsystem:
         - 2-Oxocarboxylic acid metabolism
         - Biosynthesis of amino acids
@@ -44068,7 +44076,7 @@
       - s_1464: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_02312 and RHTO_07893 and RHTO_04225) or (RHTO_02312 and RHTO_07893 and RHTO_07860)
+    - gene_reaction_rule: (RHTO_02312 and RHTO_07893 and RHTO_04225) or (RHTO_02312 and RHTO_07893 and RHTO_07860) or RHTO_07860
     - subsystem:
         - Biosynthesis of antibiotics
         - Biosynthesis of secondary metabolites
@@ -44108,7 +44116,7 @@
       - s_1411: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: (RHTO_02312 and RHTO_07893 and RHTO_04225) or (RHTO_02312 and RHTO_07893 and RHTO_07860)
+    - gene_reaction_rule: (RHTO_02312 and RHTO_07893 and RHTO_04225) or (RHTO_02312 and RHTO_07893 and RHTO_07860) or RHTO_07860
     - subsystem:
         - Biosynthesis of antibiotics
         - Biosynthesis of secondary metabolites
@@ -46746,6 +46754,23 @@
       - seed.reaction: rxn02056
     - confidence_score: 2
   - !!omap
+    - id: r_1000
+    - name: fumarate reductase (FMN)
+    - metabolites: !!omap
+      - s_0714: 1
+      - s_0717: -1
+      - s_0725: -1
+      - s_1458: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_01560 or RHTO_05714
+    - annotation: !!omap
+      - ec-code: 1.3.1.6
+      - metanetx.reaction: MNXR141428
+      - sabiork.reaction: 10591
+      - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
     - id: r_1001
     - name: spermidine synthase
     - metabolites: !!omap
@@ -48837,7 +48862,6 @@
       - s_0794: 1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_04556
     - subsystem: Pentose and glucuronate interconversions
     - annotation: !!omap
       - ec-code: 2.7.1.17
@@ -49457,7 +49481,7 @@
       - s_0565: -1
     - lower_bound: 0
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_06080 or RHTO_01923 or RHTO_04266 or RHTO_00984 or RHTO_06016 or RHTO_03685 or RHTO_05157
+    - gene_reaction_rule: RHTO_00228 or RHTO_00630 or RHTO_03685 or RHTO_04057 or RHTO_04266 or RHTO_06016 or RHTO_06080
     - subsystem: Meiosis - yeast
     - annotation: !!omap
       - bigg.reaction:
@@ -52962,7 +52986,6 @@
       - s_0579: -1
     - lower_bound: -1000
     - upper_bound: 1000
-    - gene_reaction_rule: RHTO_01630 or RHTO_03448 or RHTO_07444 or RHTO_06801 or RHTO_06080 or RHTO_01923
     - annotation: !!omap
       - metacyc.reaction: RXN-14503
       - metanetx.reaction: MNXR118725
@@ -64620,13 +64643,13 @@
     - id: r_4041
     - name: biomass pseudoreaction
     - metabolites: !!omap
-      - s_0394: 160
-      - s_0434: -160
+      - s_0394: 129.7
+      - s_0434: -129.7
       - s_0450: 1
-      - s_0794: 160
-      - s_0803: -160
+      - s_0794: 129.7
+      - s_0803: -129.7
       - s_1096: -1
-      - s_1322: 160
+      - s_1322: 129.7
       - s_1405: -0.00099
       - s_1467: -0.02
       - s_3714: -1e-06
@@ -64820,11 +64843,11 @@
     - id: r_4048
     - name: carbohydrate pseudoreaction
     - metabolites: !!omap
-      - s_0001: -0.78301
-      - s_0004: -0.26154
-      - s_0773: -0.31239
-      - s_1107: -0.74371
-      - s_1520: -0.1258
+      - s_0001: -1.0783
+      - s_0004: -0.36019
+      - s_0773: -0.43021
+      - s_1107: -1.0242
+      - s_1520: -0.17325
       - s_3718: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -64939,8 +64962,8 @@
       - m_0102: -0.027769
       - m_0103: -0.013992
       - s_3740: -0.019661
-      - s_3742: -0.0092674
-      - s_3743: -0.043835
+      - s_3742: -0.0092673
+      - s_3743: -0.043834
       - s_3747: 1
     - lower_bound: 0
     - upper_bound: 1000
@@ -66167,6 +66190,30 @@
       - seed.reaction: rxn06710
     - confidence_score: 2
   - !!omap
+    - id: r_4235
+    - name: ATP:D-glucose 6-phosphotransferase
+    - metabolites: !!omap
+      - s_0394: 1
+      - s_0434: -1
+      - s_0563: -1
+      - s_0568: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_06072 or RHTO_06870
+    - annotation: !!omap
+      - ec-code: 2.7.1.1
+      - bigg.reaction: HEX1
+      - kegg.reaction: R00299
+      - metanetx.reaction: MNXR100612
+      - rhea: 17825
+      - sabiork.reaction:
+        - 6915
+        - 793
+        - 9175
+      - sbo: SBO:0000176
+      - seed.reaction: rxn00216
+    - confidence_score: 2
+  - !!omap
     - id: r_4236
     - name: (R)-lactate hydro-lyase
     - metabolites: !!omap
@@ -66538,6 +66585,37 @@
     - annotation: !!omap
       - ec-code: 3.5.1.-
       - sbo: SBO:0000176
+    - confidence_score: 2
+  - !!omap
+    - id: r_4262
+    - name: citrate hydroxymutase
+    - metabolites: !!omap
+      - s_0524: -1
+      - s_0941: 1
+    - lower_bound: -1000
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_00539 or RHTO_08030
+    - annotation: !!omap
+      - ec-code: 4.2.1.-
+      - bigg.reaction:
+        - ACONT
+        - CITtcm
+        - ACONTm
+        - CITtcp
+        - ACONTx
+      - kegg.reaction: R01324
+      - metacyc.reaction: RXN-14047
+      - metanetx.reaction:
+        - MNXR95384
+        - MNXR96755
+        - MNXR118496
+      - rhea: 10336
+      - sabiork.reaction: 272
+      - sbo: SBO:0000176
+      - seed.reaction:
+        - rxn00973
+        - rxn09777
+        - rxn09861
     - confidence_score: 2
   - !!omap
     - id: r_4263
@@ -76486,36 +76564,6 @@
     - subsystem: Transport between c and ce
     - confidence_score: 1
   - !!omap
-    - id: t_0881
-    - name: arabinitol 4-dehydrogenase
-    - metabolites: !!omap
-      - m_0512: 1
-      - s_0794: 1
-      - s_0961: -1
-      - s_1198: -1
-      - s_1203: 1
-    - lower_bound: -Inf
-    - upper_bound: Inf
-    - gene_reaction_rule: RHTO_01629
-    - subsystem: Pentose and glucuronate interconversions
-    - annotation: !!omap
-      - ec-code: 1.1.1.12
-  - !!omap
-    - id: t_0882
-    - name: L-xylulose reductase
-    - metabolites: !!omap
-      - m_0512: -1
-      - s_0794: -1
-      - s_1207: 1
-      - s_1212: -1
-      - s_1566: 1
-    - lower_bound: -Inf
-    - upper_bound: Inf
-    - gene_reaction_rule: RHTO_00373
-    - subsystem: Pentose and glucuronate interconversions
-    - annotation: !!omap
-      - ec-code: 1.1.1.10
-  - !!omap
     - id: y200001
     - name: glycinamide ribonucleotide transformylase
     - metabolites: !!omap
@@ -76586,6 +76634,29 @@
       - rhea: 21160
       - sabiork.reaction: 266
       - seed.reaction: rxn00257
+    - confidence_score: 2
+  - !!omap
+    - id: y200008
+    - name: O-succinylhomoserine lyase (elimination)
+    - metabolites: !!omap
+      - s_0178: 1
+      - s_0419: 1
+      - s_1241: -1
+      - s_1458: 1
+    - lower_bound: 0
+    - upper_bound: 1000
+    - gene_reaction_rule: RHTO_00815 or RHTO_05589 or RHTO_05605
+    - subsystem: Cysteine and methionine metabolism
+    - annotation: !!omap
+      - ec-code: 2.5.1.48
+      - bigg.reaction:
+        - SHSL4h
+        - SHSL4r
+      - kegg.reaction: R00999
+      - metacyc.reaction: METBALT-RXN
+      - metanetx.reaction: MNXR104384
+      - sabiork.reaction: 1292
+      - seed.reaction: rxn00740
     - confidence_score: 2
   - !!omap
     - id: y200010
@@ -78224,8 +78295,6 @@
     - id: RHTO_00975
     - name: RHTO_00975
   - !!omap
-    - id: RHTO_00984
-  - !!omap
     - id: RHTO_01001
     - name: RHTO_01001
   - !!omap
@@ -78415,8 +78484,6 @@
     - id: RHTO_01629
     - name: RHTO_01629
   - !!omap
-    - id: RHTO_01630
-  - !!omap
     - id: RHTO_01639
     - name: RHTO_01639
   - !!omap
@@ -78497,8 +78564,6 @@
   - !!omap
     - id: RHTO_01922
     - name: RHTO_01922
-  - !!omap
-    - id: RHTO_01923
   - !!omap
     - id: RHTO_01930
     - name: RHTO_01930
@@ -78986,8 +79051,6 @@
     - id: RHTO_03444
     - name: RHTO_03444
   - !!omap
-    - id: RHTO_03448
-  - !!omap
     - id: RHTO_03472
     - name: RHTO_03472
   - !!omap
@@ -79327,8 +79390,6 @@
     - id: RHTO_04544
     - name: RHTO_04544
   - !!omap
-    - id: RHTO_04556
-  - !!omap
     - id: RHTO_04566
     - name: RHTO_04566
   - !!omap
@@ -79548,8 +79609,6 @@
     - id: RHTO_05155
     - name: RHTO_05155
   - !!omap
-    - id: RHTO_05157
-  - !!omap
     - id: RHTO_05159
     - name: RHTO_05159
   - !!omap
@@ -79658,11 +79717,17 @@
     - id: RHTO_05582
     - name: RHTO_05582
   - !!omap
+    - id: RHTO_05589
+    - name: RHTO_05589
+  - !!omap
     - id: RHTO_05597
     - name: RHTO_05597
   - !!omap
     - id: RHTO_05602
     - name: RHTO_05602
+  - !!omap
+    - id: RHTO_05605
+    - name: RHTO_05605
   - !!omap
     - id: RHTO_05609
     - name: RHTO_05609
@@ -80033,8 +80098,6 @@
     - id: RHTO_06799
     - name: RHTO_06799
   - !!omap
-    - id: RHTO_06801
-  - !!omap
     - id: RHTO_06808
     - name: RHTO_06808
   - !!omap
@@ -80206,8 +80269,6 @@
     - id: RHTO_07341
     - name: RHTO_07341
   - !!omap
-    - id: RHTO_07345
-  - !!omap
     - id: RHTO_07353
     - name: RHTO_07353
   - !!omap
@@ -80222,8 +80283,6 @@
   - !!omap
     - id: RHTO_07387
     - name: RHTO_07387
-  - !!omap
-    - id: RHTO_07444
   - !!omap
     - id: RHTO_07452
     - name: RHTO_07452
