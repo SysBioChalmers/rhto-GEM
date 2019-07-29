@@ -18,11 +18,6 @@ model = setParam(model,'lb',{'r_0659','r_0446'},0);
 model = setParam(model,'lb',contains(model.rxnNames,'fatty-acid--CoA ligase'),0);
 model = setParam(model,'ub','r_4046',1000);
 
-% % Mitochondrial tRNA synthetases: GEM doesn't model mitochondrial translation
-% model = removeReactions(model,{'r_0210','r_0213','r_0540','r_0666',...
-%     'r_0712','r_0730','r_0853','r_1043','r_1058','r_1067','r_1090',...
-%     'r_0480','r_4155'},true,true,true);
-
 %% Remove 'sce' from subsystems
 model.subSystems = cellfun(@(x) regexprep(x,'sce[0-9]+ +',''),model.subSystems, 'UniformOutput', 0);
 
