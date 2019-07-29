@@ -41,6 +41,7 @@ model       = removeReactions(model,toRemove);
 % will use the same reaction identifier.
 model = addLipidReactions(template,model,modelSce);
 
+%% Add lipid transport reactions
 fid         = fopen([data '/reconstruction/lipidTransport.txt']);
 firstLine   = fgets(fid);
 numCols     = numel(strfind(firstLine,char(9))); % number of \t
@@ -52,10 +53,13 @@ template.rxns   = loadedData{1};   template.eqns        = loadedData{2};
 template.comps  = loadedData{3};   template.chains = {};
 for k = 1:numCols-2; template.chains(:,k) = loadedData{k+3}; end
 template.chains = regexprep(template.chains,':0(\d)', ':$1');
+toRemove    = regexprep(template.rxns,'CHAIN.*','');
+toRemove    = find(startsWith(model.rxnNames,toRemove));
+model       = removeReactions(model,toRemove);
 
 model = addLipidReactions(template,model,modelSce);
 
-%SLIMER SLIMER SLIMER
+%% Add SLIME reactions
 clear template
 % First remove any SLIME reactions that might exist in the draft model.
 model = removeReactions(model,contains(model.rxnNames,'SLIME rxn'));
@@ -84,10 +88,54 @@ model           = addTransport(model,'c','erm',{'palmitate','stearate','oleate',
 model           = addTransport(model,'c','ce',{'palmitate','stearate','oleate','linoleate','linolenate'},true,false,'t_');
 
 cd ../experimental
+
+%% Before adjusting lipid content, first curate other biomass components, 
+% so that they can be appropriately scaled afterwards. GC content of NP11
+% genome is 62%, in RNA ACGT ratio is 0.19 / 0.34 / 0.29 / 0.18, as
+% determined from NP11 DNA FASTA. Assume that the total RNA and DNA content
+% remains constant. Amino acid ratio determined from protein FASTA. For
+% both RNA and protein ignore the effect of differential expression.
 expData = readTiukovaData(model,1);
+
+% Load biomass information
+fid             = fopen([data '/data/biomassCuration.csv']);
+loadedData      = textscan(fid, '%q %q %q %f','delimiter', ',', 'HeaderLines', 1);
+fclose(fid);
+
+BM.name         = loadedData{1};    BM.mets     = loadedData{2};
+BM.pseudorxn    = loadedData{3};    BM.coeff    = loadedData{4};
+
+% Nucleotides (DNA)
+% Find out which rows contain the relevant information
+indexes = find(contains(BM.pseudorxn, 'DNA'));
+% Define new stoichiometries
+equations.mets          = BM.mets(indexes);
+equations.stoichCoeffs  = BM.coeff(indexes);
+% Change reaction
+model = changeRxns(model, 'r_4050', equations, 1);
+
+% Ribonucleotides (RNA)
+indexes = find(contains(BM.pseudorxn, 'RNA'));
+equations.mets          = BM.mets(indexes);
+equations.stoichCoeffs  = BM.coeff(indexes);
+model = changeRxns(model, 'r_4049', equations, 1);
+
+% Amino acids (protein)
+indexes = find(contains(BM.pseudorxn, 'AA'));
+equations.mets          = BM.mets(indexes);
+equations.stoichCoeffs  = BM.coeff(indexes);
+model = changeRxns(model, 'r_4047', equations, 1);
+
+% Scale carbohydrates
+model = changeOtherComp(model,expData,1);
+
+%% Scale to biomass
 [model,k]   = adjustRhtoBiomass(model,expData);
 sol=solveLP(model,1)
 
+% Rescale carbohydrates
+model = changeOtherComp(model,expData,1)
+cd ../reconstruction
 save([root '/scrap/model_r5.mat'],'model');
 
 disp(['Number of genes / rxns / mets in model:  ' ...

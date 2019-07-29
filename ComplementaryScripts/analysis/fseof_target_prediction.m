@@ -1,6 +1,8 @@
+clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run('../../init_rhtoGEM.m'); end
 %% This script predicts metabolic engineering targets for increased
 % production of triglycerides and linolenic acid.
 model = importModel('../../ModelFiles/xml/rhto.xml');
+load([root '/scrap/model_r8.mat']);
 
 % Add exchange reactions for linolenate and triglyceride. For the
 % triglyceride, we specifically choose 18:0/18:1/18:0-TAG (so called SOS)
@@ -15,43 +17,84 @@ rxn1 = model.rxns(end-1);
 rxn2 = model.rxns(end);
 
 %% Perform FSEOF for linolenic acid and TAG on glucose
-model       = setParam(model, 'eq', {'r_1714', 'r_1718'}, [-1, 0]);
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [-1, 0, 0]);
 
-targets = FSEOF(model, 'r_2111', rxn1, 10, 0.9, 'fseof_linolenic acid_glc.tab');
-targets = FSEOF(model, 'r_2111', rxn2, 10, 0.9, 'fseof_TAG_glc.tab');
+targets{1} = FSEOF(model, 'r_2111', rxn1, 10, 0.9);
+targets{2} = FSEOF(model, 'r_2111', rxn2, 10, 0.9);
 
 %% Perform FSEOF for linolenic acid and TAG on xylose
-model       = setParam(model, 'eq', {'r_1714', 'r_1718'}, [0, -1]);
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [0, -1, 0]);
 
-targets = FSEOF(model, 'r_2111', rxn1, 10, 0.9, 'fseof_linolenic acid_xyl.tab');
-targets = FSEOF(model, 'r_2111', rxn2, 10, 0.9, 'fseof_TAG_xyl.tab');
+targets{3} = FSEOF(model, 'r_2111', rxn1, 10, 0.9);
+targets{4} = FSEOF(model, 'r_2111', rxn2, 10, 0.9);
+
+%% Perform FSEOF for linolenic acid and TAG on glycerol
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [0, 0, -1]);
+
+targets{5} = FSEOF(model, 'r_2111', rxn1, 10, 0.9);
+targets{6} = FSEOF(model, 'r_2111', rxn2, 10, 0.9);
+
+%% Summarize results in table
+geneAssoc = ~cellfun('isempty',model.grRules);
+for i=1:size(targets,2)
+    target(:,i)=targets{i}.logical;
+end
+for i=1:size(targets,2)
+    slope(:,i)=targets{i}.slope;
+    slope(~target(:,i),i)=nan;
+end
+
+target  = find(sum(target,2) & geneAssoc);
+[~,I]=sort(sum(slope(target,:),2,'omitnan'),'descend');
+out     = [num2cell(slope(target(I),:)), model.rxnNames(target(I)), model.grRules(target(I))];
+
+fid = fopen([data '/results/fseof_TAG_linolenicAcid.tsv'],'w');
+fprintf(fid,'%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n',["glu_LA" "glu_TAG" "xyl_LA" "xyl_TAG" ...
+    "gly_LA" "gly_TAG" "rxnName" "grRule"]);
+for j=1:length(I)
+    fprintf(fid,'%d\t%d\t%d\t%d\t%d\t%d\t%s\t%s\n',out{j,:});
+end
+fclose(fid);
 
 %% R. toruloides produces a number of carotenoid pigments including
 % torularhodin, torulene, b-carotene and y-carotene.
 % https://www.ncbi.nlm.nih.gov/pubmed/17898860
-
-idx = getIndexes(model, {'torularhodin[c]', 'torulene[c]', ...
-    'beta-carotene[c]', 'gamma-carotene'}, 'metscomps');
+clear target targets out slope
+idx = getIndexes(model, 'torularhodin[c]', 'metscomps');
 
 model = addExchangeRxns(model, 'out', idx);
 % Keep track of ids of exchange reactions
-rxn1 = model.rxns(end-3);
-rxn2 = model.rxns(end-2);
-rxn3 = model.rxns(end-1);
-rxn4 = model.rxns(end);
+rxn = model.rxns(end);
 
-%% Perform FSEOF for linolenic acid and TAG on glucose
-model       = setParam(model, 'eq', {'r_1714', 'r_1718'}, [-1, 0]);
+%% Perform FSEOF for carotenoids on glucose
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [-1, 0, 0]);
+targets{1}  = FSEOF(model, 'r_2111', rxn, 10, 0.9);
 
-targets = FSEOF(model, 'r_2111', rxn1, 10, 0.9, 'fseof_torularhodin_glc.tab');
-targets = FSEOF(model, 'r_2111', rxn2, 10, 0.9, 'fseof_torulene_glc.tab');
-targets = FSEOF(model, 'r_2111', rxn3, 10, 0.9, 'fseof_beta-carotene_glc.tab');
-targets = FSEOF(model, 'r_2111', rxn4, 10, 0.9, 'fseof_gamma-carotene_glc.tab');
+%% Perform FSEOF for carotenoids on xylose
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [0, -1, 0]);
+targets{2}  = FSEOF(model, 'r_2111', rxn, 10, 0.9);
 
-%% Perform FSEOF for linolenic acid and TAG on xylose
-model       = setParam(model, 'eq', {'r_1714', 'r_1718'}, [0, -1]);
+%% Perform FSEOF for carotenoids on glycerol
+model       = setParam(model, 'eq', {'r_1714', 'r_1718', 'r_1808'}, [0, 0, -1]);
+targets{3}  = FSEOF(model, 'r_2111', rxn, 10, 0.9);
 
-targets = FSEOF(model, 'r_2111', rxn1, 10, 0.9, 'fseof_torularhodin_xyl.tab');
-targets = FSEOF(model, 'r_2111', rxn2, 10, 0.9, 'fseof_torulene_xyl.tab');
-targets = FSEOF(model, 'r_2111', rxn3, 10, 0.9, 'fseof_beta-carotene_xyl.tab');
-targets = FSEOF(model, 'r_2111', rxn4, 10, 0.9, 'fseof_gamma-carotene_xyl.tab');
+%% Summarize results in table
+geneAssoc = ~cellfun('isempty',model.grRules);
+for i=1:size(targets,2)
+    target(:,i)=targets{i}.logical;
+end
+for i=1:size(targets,2)
+    slope(:,i)=targets{i}.slope;
+    slope(~target(:,i),i)=nan;
+end
+
+target  = find(sum(target,2) & geneAssoc);
+[~,I]=sort(sum(slope(target,:),2,'omitnan'),'descend');
+out     = [num2cell(slope(target(I),:)), model.rxnNames(target(I)), model.grRules(target(I))];
+
+fid = fopen([data '/results/fseof_torularhodin.tsv'],'w');
+fprintf(fid,'%s\t%s\t%s\t%s\t%s\n',["glucose" "xylose" "glycerol" "rxnName" "grRule"]);
+for j=1:length(I)
+    fprintf(fid,'%d\t%d\t%d\t%s\t%s\n',out{j,:});
+end
+fclose(fid);
