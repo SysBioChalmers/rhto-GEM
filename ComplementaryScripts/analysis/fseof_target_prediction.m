@@ -2,7 +2,6 @@ clear;clc;if ~exist('scripts') | ~endsWith(scripts,'ComplementaryScripts'); run(
 %% This script predicts metabolic engineering targets for increased
 % production of triglycerides and linolenic acid.
 model = importModel('../../ModelFiles/xml/rhto.xml');
-load([root '/scrap/model_r8.mat']);
 
 % Add exchange reactions for linolenate and triglyceride. For the
 % triglyceride, we specifically choose 18:0/18:1/18:0-TAG (so called SOS)
