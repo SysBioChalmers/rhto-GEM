@@ -1,5 +1,15 @@
 # History
 
+### rhto v1.2.1:
+* Features:
+  * Curate grRules and existence of several reactions based on [doi:10.1186/s12934-015-0217-5](https://doi.org/10.1186/s12934-015-0217-5) (PR #34).
+  * Curate grRules of xylose and glucose transporters based on differential expression in proteomics study [doi:10.1186/s13068-019-1478-8](https://doi.org/10.1186/s13068-019-1478-8) (PR #34).
+* Fix:
+  * Bug in `sumBioMass` resulted in incorrect fitted carbohydrate fraction of biomass equation, also resulting in incorrect NGAM (PR #33).
+  * Remove four duplicate reactions (`r_4235`, `y200008`, `r_1000`, `r_4262`) (PR #34).
+* Refactor:
+  * Standardize two complex gene associations (`r_0831`, `r_0832`) (PR #34).
+
 ### rhto v1.2.0:
 * Features
   * Set alternative carbon source exchange reactions as reversible (glycerol, xylose) (PR #28).
