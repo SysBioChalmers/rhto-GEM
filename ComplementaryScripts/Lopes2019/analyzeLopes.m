@@ -42,7 +42,7 @@ for i=1:length(expDat.sample)
         models{i}.S(find(models{1}.S(:,pIdx)),pIdx) = -1/P; % Make flux represent 1 g/gDCW/h
         models{i} = setParam(models{i},'eq','EXC_OUT_s_3717',expDat.rates(i,9));
     end
-    %% Xylitol excretion
+    %% Xylitol excretion, and limit gas exchanges
     models{i} = setParam(models{i},'eq','r_2104',expDat.rates(i,7)); % Xylitol    
     models{i} = setParam(models{i},'ub','r_1672',expDat.rates(i,5)); % CO2
     models{i} = setParam(models{i},'lb','r_1992',expDat.rates(i,6)); % O2
@@ -63,6 +63,20 @@ for i=1:length(models)
    models{i} = setParam(models{i},'obj','r_4046',1);
    sol(1,i) = solveLP(models{i},1);
    fba(:,i)=sol(1,i).x;
+end
+%% Attempt to fix CO2 and O2 close to measured value
+for i=1:length(models)
+    disp(['Model: ' num2str(i)])
+    models{i} = setParam(models{i},'obj','r_1672',1);
+    tmp2 = solveLP(models{i});
+    models{i} = setParam(models{i},'lb', 'r_1672', 0.999*-tmp2.f);
+    models{i} = setParam(models{i},'obj','r_1992',-1);
+    tmp2 = solveLP(models{i});
+    models{i} = setParam(models{i},'ub', 'r_1992', 0.999*tmp2.f);
+    models{i} = setParam(models{i},'obj','r_4046',1);
+    tmp2 = solveLP(models{i});
+    fba(:,i)=tmp2.x;
+    disp(num2str(-tmp2.f))
 end
 
 %% Random sampling
