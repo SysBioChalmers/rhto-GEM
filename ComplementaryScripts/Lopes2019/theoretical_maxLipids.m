@@ -23,7 +23,8 @@ solGly = solveLP(tmp,1);
 tmp = setParam(tmp,'lb',{'r_1634','r_1808','r_1718','r_1714'},[0,0,-1/5,0]);
 solXyl = solveLP(tmp,1);
 
-tmp = setParam(tmp,'eq','t_0182',0); % Disable phosphoketolase
+rxnIdx = find(ismember(model.rxnNames,'phosphoketolase'));
+tmp = setParam(tmp,'eq',rxnIdx,0); % Disable phosphoketolase
 solXylnoPK = solveLP(tmp,1);
 
 % Print maximum lipid yields
