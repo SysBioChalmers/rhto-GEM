@@ -15,15 +15,18 @@ _Rhodotorula toruloides_ (syn. _Rhodosporidium toruloides_) is a basidiomycetous
 **GEM category:** Species; **Utilisation:** experimental data reconstruction; **Field:** metabolic-network reconstruction; **Type of model:** reconstruction, curated; **Model source:** [yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM); **Omic source:** genomics; **Taxonomy:** _Rhodotorula toruloides_; **Metabolic system:** general metabolism; **Bioreactor**; **Strain:** NP11; **Condition:** minimal medium;
 
 - Reference:  
-> Tiukova IA _et al_. (2019) "Genome-scale model of _Rhodotorula toruloides_ metabolism" bioRxiv doi:[10.1101/528489](https://doi.org/10.1101/528489)
+> Tiukova IA, Prigent S, Nielsen J, Sandgren M & Kerkhoven EJ (2019) "Genome-scale model of _Rhodotorula toruloides_ metabolism" _Biotechnol Bioeng_. doi:[10.1002/bit.27162](https://onlinelibrary.wiley.com/doi/full/10.1002/bit.27162)
 
-- Last update: 2019-07-24
+
+> Lopes HJS _et al_. "C/N ratio and carbon source-dependent lipid production profiling in _Rhodotorula toruloides_" _Under review_
+
+- Last update: 2019-10-21
 
 - Main model descriptors:
 
 | Taxonomy | Template Model | Reactions | Metabolites | Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM) | 2731 | 2277 | 852 |
+| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM) | 2729 | 2277 | 859 |
 
 A [Memote](https://memote.readthedocs.io/en/latest/) snapshot report of the most recent release is available [here](https://SysBioChalmers.github.io/rhto-GEM).
 
@@ -57,6 +60,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 * `newCommit.m`: prepares files from a modified model for a new GitHub commit in a development branch.
 * `newCommit.m`: prepares files from a modified model for a new GitHub release in the master branch.
+* `Lopes2019`: folder with scripts related to Lopes _et al_. (2019)
 * `analysis`: folder with scripts performing analyses on rhto-GEM.
 * `curation`: folder with additional curation scripts, after the initial reconstruction
 * `experimental`: folder with scripts that modify _rhto-GEM_ to incorporate experimental data.
@@ -65,6 +69,7 @@ The model is available in `.xml`, `.txt`, `.yml`, `.mat` and `.xlsx` (the last 2
 
 ### Complementary data
 
+* `Lopes2019`: folder with data related to Lopes _et al_. (2019)
 * `data`: experimentally measured data.
 * `genome`: protein fasta files of _R. toruloides_, _S. cerevisiae_ and _Y. lipolytica_, as used for identifying orthologs.
 * `meneco`: input and output files for meneco, as run for `r4_gapfilling`.
