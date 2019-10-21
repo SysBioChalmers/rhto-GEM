@@ -37,4 +37,4 @@ FP = length(intersect(exp_ess,dat_non));
 FN = length(intersect(exp_non,dat_ess));
 
 disp(sprintf(['TP: ' num2str(TP) '\nTN: ' num2str(TN) '\nFP: ' num2str(FP)...
-    '\nFN: ' num2str(FN) '\nAccuracy: ' num2str(TN/(TN+FP))]));
+    '\nFN: ' num2str(FN) '\nSpecificity: ' num2str(TN/(TN+FP))]));
