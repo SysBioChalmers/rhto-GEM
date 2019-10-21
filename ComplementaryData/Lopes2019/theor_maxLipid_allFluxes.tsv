@@ -1,0 +1,2730 @@
+reaction	Acetate	Glycerol	Xylose	Xylose (no PK-PTA)
+(R)-lactate:ferricytochrome-c 2-oxidoreductase	0	0	0	0
+(R)-lactate:ferricytochrome-c 2-oxidoreductase	0	0	0	0
+(R,R)-butanediol dehydrogenase	0	0	0	0
+(S)-lactate:ferricytochrome-c 2-oxidoreductase	0	0	0	0
+1,3-beta-glucan synthase	0	0	0	0
+1,6-beta-glucan synthase	0	0	0	0
+1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase	0	0	0	0
+1-pyrroline-5-carboxylate dehydrogenase	0	0	0	0
+2,3-diketo-5-methylthio-1-phosphopentane degradation reaction	0	0	0	0
+2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	0	0	0	0
+2,5-diamino-6-ribosylamino-4(3H)-pyrimidinone 5'-phosphate reductase (NADPH)	0	0	0	0
+2-aceto-2-hydroxybutanoate synthase	0	0	0	0
+2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase	0	0	0	0
+2-aminoadipate transaminase	0	0	0	0
+2-dehydropantoate 2-reductase	0	0	0	0
+2-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	0	0	0	0
+2-hexaprenyl-6-methoxy-1,4-benzoquinone methyltransferase	0	0	0	0
+2-hexaprenyl-6-methoxyphenol monooxygenase	0	0	0	0
+2-isopropylmalate hydratase	0	0	0	0
+2-isopropylmalate synthase	0	0	0	0
+2-isopropylmalate synthase	0	0	0	0
+2-keto-4-methylthiobutyrate transamination	0	0	0	0
+2-methylcitrate dehydratase	0	0	0	0
+2-methylcitrate synthase	0	0	0	0
+2-oxo-4-methyl-3-carboxypentanoate decarboxylation	0	0	0	0
+2-oxo-4-methyl-3-carboxypentanoate decarboxylation	0	0	0	0
+3',5'-bisphosphate nucleotidase	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase	0	0	0	0
+3',5'-cyclic-nucleotide phosphodiesterase	0	0	0	0
+3,4-dihydroxy-2-butanone-4-phosphate synthase	0	0	0	0
+3-dehydroquinate dehydratase	0	0	0	0
+3-dehydroquinate synthase	0	0	0	0
+3-dehydrosphinganine reductase	0	0	0	0
+3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase	0	0	0	0
+3-hexaprenyl-4,5-dihydroxybenzoate hydroxylase	0	0	0	0
+3-hydroxy-L-kynurenine hydrolase	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA)	0	0	0	0
+3-hydroxyanthranilate 3,4-dioxygenase	0	0	0	0
+3-isopropylmalate 3-methyltransferase	0	0	0	0
+3-isopropylmalate dehydratase	0	0	0	0
+3-isopropylmalate dehydrogenase	0	0	0	0
+3-methyl-2-oxobutanoate decarboxylase	0	0	0	0
+3-methyl-2-oxobutanoate hydroxymethyltransferase	0	0	0	0
+3-methyl-2-oxopentanoate decarboxylase	0	0	0	0
+3-phosphoshikimate 1-carboxyvinyltransferase	0	0	0	0
+4-amino-4-deoxychorismate synthase	0	0	0	0
+4-aminobenzoate synthase	0	0	0	0
+4-aminobutyrate transaminase	8.969348e-06	0	0	0
+4-hydroxy-L-threonine synthase	0	0	0	0
+4-methyl-2-oxopentanoate decarboxylase	0	0	0	0
+4PP-IP5 depyrophosphorylation to IP6	0	0	0	0
+5'-methylthioadenosine phosphorylase	0	0	0	0
+5'-nucleotidase (CMP)	0	0	0	0
+5'-nucleotidase (UMP)	0	0	0	0
+5'-phosphoribosylformyl glycinamidine synthetase	0	0	0	0
+5,10-methylenetetrahydrofolate reductase (NADPH)	2.223099e-03	3.074120e-03	2.736845e-03	2.628259e-03
+5-aminolevulinate synthase	0	0	0	0
+5-formethyltetrahydrofolate cyclo-ligase	0	0	0	0
+5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase	0	0	0	0
+5-methylthio-5-deoxy-D-ribulose 1-phosphate dehydratase	0	0	0	0
+5-methylthioribose-1-phosphate isomerase	0	0	0	0
+5PP-IP5 pyrophosphorylation to 4,5-PP2-IP4	0	0	0	0
+5PP-IP5 pyrophosphorylation to 5,6-PP2-IP4	0	0	0	0
+6-phosphofructo-2-kinase	0	0	0	0
+6-phosphogluconolactonase	1.373347e-01	1.273104e-01	3.620352e-01	1.143172e-01
+6PP-IP5 depyrophosphorylation to IP6	0	0	0	0
+acetaldehyde condensation	0	0	0	0
+acetohydroxy acid isomeroreductase	0	0	0	0
+acetolactate synthase	0	0	0	0
+acetyl-CoA ACP transacylase	0	0	0	0
+acetyl-CoA C-acyltransferase (palmitoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (tetracosanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (myristoyl-CoA)	0	0	0	0
+acetyl-CoA C-acetyltransferase	7.249261e-03	0	4.551639e-03	0
+acetyl-CoA C-acetyltransferase	0	1.002434e-02	4.372885e-03	8.570438e-03
+acetyl-CoA C-acyltransferase (lauroyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (octanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (decanoyl-CoA)	0	0	0	0
+acetyl-Coa carboxylase	0	0	0	0
+acetyl-CoA carboxylase, reaction	1.949078e-01	2.695201e-01	2.399499e-01	2.304297e-01
+acetyl-CoA hydrolase	0	0	0	0
+acetyl-CoA synthetase	5.000000e-01	1.382510e-01	0	2.599165e-01
+acetyl-CoA synthetase	0	0	0	0
+acetyl-CoA synthetase nuclear	0	0	0	0
+acetylglutamate kinase	0	0	0	0
+acid phosphatase (secreted)	0	0	0	0
+aconitase	0	0	0	0
+acteylornithine transaminase	0	0	0	0
+acyl-CoA oxidase (decanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (dodecanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (hexacosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (hexadecanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (octadecanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (tetradecanoyl-CoA)	0	0	0	0
+acyl-CoA:sterol acyltransferase (oleoyl-CoA:episterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (oleoyl-CoA:ergosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (oleoyl-CoA:fecosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (oleoyl-CoA:lanosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (oleoyl-CoA:zymosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (palmitoleoyl-CoA:episterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (palmitoleoyl-CoA:ergosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (palmitoleoyl-CoA:fecosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (palmitoleoyl-CoA:lanosterol), ER membrane	0	0	0	0
+acyl-CoA:sterol acyltransferase (palmitoleoyl-CoA:zymosterol), ER membrane	0	0	0	0
+acylation of GPI inositol at 2 position, GPI-anchor assembly, step 3	0	0	0	0
+adenine deaminase	0	0	0	0
+adenine phosphoribosyltransferase	0	0	0	0
+adenosine deaminase	0	0	0	0
+adenosine kinase	2.223099e-03	3.074120e-03	2.736845e-03	2.628259e-03
+adenosine monophosphate deaminase	0	0	0	0
+adenosylhomocysteinase	2.223099e-03	3.074120e-03	2.736845e-03	2.628259e-03
+adenosylmethionine decarboxylase	0	0	0	0
+adenosylmethionine-8-amino-7-oxononanoate transaminase	0	0	0	0
+adenylate cyclase	0	0	0	0
+adenylate kinase	5.082106e-01	1.496047e-01	1.010804e-02	2.696235e-01
+adenylate kinase	0	0	0	0
+adenylate kinase (GTP)	0	0	0	0
+adenylosuccinate lyase (AICAR)	0	0	0	0
+adenylosuccinate lyase	0	0	0	0
+adenylosuccinate synthase	0	0	0	0
+adenylyl-sulfate kinase	0	0	0	0
+alanine glyoxylate aminotransferase	0	0	0	0
+alanyl-tRNA synthetase	0	0	0	0
+alcohol dehydrogenase (ethanol to acetaldehyde)	2.062841e-02	0	0	0
+alcohol dehydrogenase (glycerol, NADP)	0	0	0	0
+mitochondrial alcohol dehydrogenase	2.062841e-02	0	0	0
+aldehyde dehydrogenase (2-methylbutanol, NAD)	0	0	0	0
+aldehyde dehydrogenase (2-methylbutanol, NAD)	0	0	0	0
+aldehyde dehydrogenase (2-methylbutanol, NADP)	0	0	0	0
+aldehyde dehydrogenase (2-phenylethanol, NAD)	0	0	0	0
+aldehyde dehydrogenase (2-phenylethanol, NAD)	0	0	0	0
+aldehyde dehydrogenase (2-phenylethanol, NADP)	0	0	0	0
+aldehyde dehydrogenase (3-aminopropanal, NAD)	0	0	0	0
+aldehyde dehydrogenase (acetaldehyde, NADP)	0	0	0	2.599165e-01
+aldehyde dehydrogenase (acetylaldehyde, NAD)	0	0	0	0
+aldehyde dehydrogenase (acetylaldehyde, NADP)	0	0	0	0
+aldehyde dehydrogenase (indole-3-acetaldehyde, NAD)	0	0	0	0
+aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)	0	0	0	0
+aldehyde dehydrogenase (indole-3-acetaldehyde, NADP)	0	0	0	0
+aldehyde dehydrogenase (isoamyl alcohol, NAD)	0	0	0	0
+aldehyde dehydrogenase (isoamyl alcohol, NAD)	0	0	0	0
+aldehyde dehydrogenase (isoamyl alcohol, NADP)	0	0	0	0
+aldehyde dehydrogenase (isobutyl alcohol, NAD)	0	0	0	0
+aldehyde dehydrogenase (isobutyl alcohol, NAD)	0	0	0	0
+aldehyde dehydrogenase (isobutyl alcohol, NADP)	0	0	0	0
+aldehyde dehydrogenase (phenylacetaldehyde, NAD)	0	0	0	0
+aldehyde dehydrogenase (tryptophol, NAD)	0	0	0	0
+aldehyde dehydrogenase (tryptophol, NAD)	0	0	0	0
+alkaline phosphatase (dihydroneopterin)	0	0	0	0
+allantoate amidinohydrolase	0	0	0	0
+allantoinase, reaction	0	0	0	0
+allophanate hydrolase	0	0	0	0
+alpha 1,2-mannosyltransferase	0	0	0	0
+alpha,alpha-trehalase	0	0	0	0
+alpha,alpha-trehalase	0	0	0	0
+alpha,alpha-trehalose-phosphate synthase (UDP-forming)	0	0	0	0
+alpha-glucosidase	0	0	0	0
+amidase	0	0	0	0
+Aminobutyraldehyde dehydrogenase	0	0	0	0
+anthranilate phosphoribosyltransferase	0	0	0	0
+anthranilate synthase	0	0	0	0
+Ap4A hydrolase	0	0	0	0
+arabinose reductase	0	0	0	0
+arginase	0	0	0	0
+argininosuccinate lyase	0	0	0	0
+argininosuccinate synthase	0	0	0	0
+arginyl-tRNA synthetase	0	0	0	0
+arginyl-tRNA synthetase	0	0	0	0
+asparagine synthase (glutamine-hydrolysing)	0	0	0	0
+Asparaginyl-tRNA synthetase	0	0	0	0
+asparaginyl-tRNA synthetase, miotchondrial	0	0	0	0
+aspartate carbamoyltransferase	0	0	0	0
+aspartate kinase	0	0	0	0
+aspartate transaminase	0	2.625039e-01	1.707874e-01	2.302443e-01
+aspartate transaminase	0	2.625039e-01	1.707874e-01	2.302443e-01
+aspartate transaminase	0	0	0	0
+aspartate-semialdehyde dehydrogenase	0	0	0	0
+Aspartyl-tRNA synthetase	0	0	0	0
+ATP adenylyltransferase	0	0	0	0
+ATP phosphoribosyltransferase	0	0	0	0
+ATP synthase	1.200064e+00	8.159583e-01	4.856659e-01	7.578323e-01
+ATPase, cytosolic	0	2.118234e-01	1.490433e-02	1.431299e-02
+beta-1,4 mannosyltransferase	0	0	0	0
+biotin synthase	0	0	0	0
+biotin-[acetyl-CoA-carboxylase] ligase	0	0	0	0
+C-14 sterol reductase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-22 sterol desaturase (NADP)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-3 sterol dehydrogenase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-3 sterol dehydrogenase (4-methylzymosterol)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-3 sterol keto reductase (4-methylzymosterol)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-3 sterol keto reductase (zymosterol)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-4 methyl sterol oxidase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-4 methyl sterol oxidase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-4 methyl sterol oxidase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-4 sterol methyl oxidase (4,4-dimethylzymosterol)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-5 sterol desaturase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-8 sterol isomerase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+C-s24 sterol reductase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+carbamoyl-phosphate synthase (glutamine-hydrolysing)	0	0	0	0
+carnitine O-acetyltransferase	2.027894e-01	0	0	0
+carnitine O-acetyltransferase	0	0	0	0
+carnitine O-acetyltransferase	2.027894e-01	0	0	0
+catalase	0	0	0	0
+catalase	0	0	0	0
+ceramide-1 hydroxylase (24C)	0	0	0	0
+ceramide-1 hydroxylase (24C)	0	0	0	0
+ceramide-1 hydroxylase (26C)	0	0	0	0
+ceramide-1 hydroxylase (26C)	0	0	0	0
+ceramide-1 synthase (24C)	0	0	0	0
+ceramide-1 synthase (26C)	0	0	0	0
+ceramide-2 synthase (24C)	0	0	0	0
+ceramide-2 synthase (26C)	0	0	0	0
+ceramide-3 synthase (24C)	0	0	0	0
+ceramide-3 synthase (26C)	0	0	0	0
+ceramide-4 synthase (24C)	0	0	0	0
+ceramide-4 synthase (26C)	0	0	0	0
+chitin deacetylase	0	0	0	0
+chitin synthase	0	0	0	0
+choline kinase	0	0	0	0
+choline phosphate cytididyltransferase	0	0	0	0
+chorismate mutase	0	0	0	0
+chorismate synthase	0	0	0	0
+cis-aconitate(3-) to isocitrate	0	0	0	0
+cis-prenyltransferase step 01	0	0	0	0
+cis-prenyltransferase step 02	0	0	0	0
+cis-prenyltransferase step 03	0	0	0	0
+cis-prenyltransferase step 04	0	0	0	0
+cis-prenyltransferase step 05	0	0	0	0
+cis-prenyltransferase step 06	0	0	0	0
+cis-prenyltransferase step 07	0	0	0	0
+cis-prenyltransferase step 08	0	0	0	0
+cis-prenyltransferase step 09	0	0	0	0
+cis-prenyltransferase step 10	0	0	0	0
+cis-prenyltransferase step 11	0	0	0	0
+cis-prenyltransferase step 12	0	0	0	0
+cis-prenyltransferase step 13	0	0	0	0
+cis-prenyltransferase step 14	0	0	0	0
+cis-prenyltransferase step 15	0	0	0	0
+cis-prenyltransferase step 16	0	0	0	0
+cis-prenyltransferase step 17	0	0	0	0
+cis-prenyltransferase step 18	0	0	0	0
+cis-prenyltransferase step 19	0	0	0	0
+citrate synthase	2.027894e-01	1.043100e-05	0	0
+citrate synthase, peroxisomal	0	0	0	0
+citrate to cis-aconitate(3-)	0	0	0	0
+citrate to cis-aconitate(3-), cytoplasmic	2.027894e-01	0	0	0
+coproporphyrinogen oxidase (O2 required)	0	0	0	0
+CTP synthase (glutamine)	0	0	0	0
+CTP synthase (NH3)	0	0	0	0
+cystathionine b-lyase	0	0	0	0
+cystathionine beta-synthase	0	0	0	0
+cystathionine g-lyase	0	0	0	0
+cystathionine gamma-synthase	0	0	0	0
+cysteine synthase	0	0	0	0
+cysteinyl-tRNA synthetase	0	0	0	0
+cytidine kinase (GTP)	0	0	0	0
+cytochrome P450 lanosterol 14-alpha-demethylase (NADP)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+cytosine deaminase	0	0	0	0
+D-arabinono-1,4-lactone oxidase	0	0	0	0
+D-arabinose 1-dehydrogenase (NAD)	0	0	0	0
+D-arabinose 1-dehydrogenase (NADP)	0	0	0	0
+D-fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase	0	0	0	0
+D-sorbitol dehydrogenase (D-fructose producing)	0	0	0	0
+dCMP deaminase	0	0	0	0
+dCTP deaminase	0	0	0	0
+deoxyadenosine deaminase	0	0	0	0
+deoxyguanylate kinase (dGMP:ATP)	0	0	0	0
+deoxyhypusine synthase, cytosolic/mitochondrial	0	0	0	0
+deoxyribokinase	0	0	0	0
+dephospho-CoA kinase	0	0	0	0
+dihydrofolate reductase	0	0	0	0
+dihydrofolate reductase	0	0	0	0
+dihydrofolate synthase	0	0	0	0
+dihydroneopterin aldolase	0	0	0	0
+dihydroneopterin monophosphate dephosphorylase	0	0	0	0
+dihydroorotase	0	0	0	0
+dihydropteroate synthase	0	0	0	0
+dihydropteroate synthase	0	0	0	0
+dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)	0	0	0	0
+dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	0	0	0	0
+dihydroxyacetone kinase	3.237814e-03	3.378106e-01	3.986054e-03	2.163605e-01
+dimethylallyltranstransferase	2.416420e-03	3.341446e-03	2.974841e-03	2.856813e-03
+diphosphoglyceromutase	0	0	0	0
+diphosphoinositol-1,3,4,6-tetrakisphosphate diphosphohydrolase	0	0	0	0
+diphthine synthase	0	0	0	0
+dolichol kinase	0	0	0	0
+dolichyl-phosphate D-mannosyltransferase	0	0	0	0
+dolichyl-phosphate-mannose--protein mannosyltransferase	0	0	0	0
+dTMP kinase	0	0	0	0
+dUTP diphosphatase	0	0	0	0
+endopolygalacturonase	0	0	0	0
+enolase	-5.561381e-02	1.683344e-01	1.311866e-02	2.856278e-01
+ethanolamine kinase	0	0	0	0
+ethyl acetate-hydrolyzing esterase	0	0	0	0
+exo-1,3-beta-glucan glucohydrase	0	0	0	0
+farnesyltranstransferase	0	0	0	0
+ferrochelatase	0	0	0	0
+ferrocytochrome-c:hydrogen-peroxide oxidoreductase	0	0	0	0
+ferrocytochrome-c:oxygen oxidoreductase	1.050642e+00	5.882696e-01	3.690615e-01	5.131215e-01
+ubiquinol:ferricytochrome c reductase	5.253208e-01	2.941348e-01	1.845308e-01	2.565608e-01
+FMN adenylyltransferase	0	0	0	0
+formaldehyde dehydrogenase	0	0	0	0
+formate dehydrogenase	1.208210e-03	1.670723e-03	0	0
+formate-tetrahydrofolate ligase	0	0	1.487421e-03	1.428406e-03
+formate-tetrahydrofolate ligase	0	0	0	0
+fructose-2,6-bisphosphate 2-phosphatase	0	0	0	0
+fructose-bisphosphatase	4.597064e-02	1.532013e-01	1.771218e-01	0
+fructose-bisphosphate aldolase	-4.597064e-02	-1.532013e-01	-1.771218e-01	0
+fumarase	1.493897e-01	0	0	0
+fumarase, cytoplasmic	5.339968e-02	0	0	0
+dihydoorotic acid dehydrogenase	0	0	0	0
+fumarate reductase	0	0	0	0
+soluble fumarate reductase	0	0	0	0
+g-glutamyltransferase	0	0	0	0
+galactokinase	0	0	0	0
+galactose-1-phosphate uridylyltransferase	0	0	0	0
+gamma-glutamylcysteine synthetase	0	0	0	0
+geranyltranstransferase	2.416420e-03	3.341446e-03	2.974841e-03	2.856813e-03
+glucan 1,4-alpha-glucosidase	0	0	0	0
+glucose 6-phosphate dehydrogenase	1.373347e-01	1.273104e-01	3.620352e-01	1.143172e-01
+glucose-6-phosphate isomerase	-1.375271e-01	-1.275765e-01	-3.622720e-01	-1.145447e-01
+glutamate 5-kinase	0	0	0	0
+glutamate decarboxylase	8.969348e-06	0	0	0
+glutamate dehydrogenase (NAD)	0	0	0	0
+glutamate dehydrogenase (NADP)	1.446275e-03	3.536981e-03	2.284637e-03	0
+glutamate synthase (NADH2)	0	0	1.205758e-04	2.309785e-03
+glutamate-5-semialdehyde dehydrogenase	0	0	0	0
+glutaminase	0	0	0	0
+glutamine synthetase	0	0	1.205758e-04	2.309785e-03
+glutamine-fructose-6-phosphate transaminase	0	0	0	0
+glutaminyl-tRNA synthetase	0	0	0	0
+glutamyl-tRNA synthetase	0	0	0	0
+glutamyl-tRNA synthetase	0	0	0	0
+glutathione oxidoreductase	0	0	0	0
+glutathione oxidoreductase	0	0	0	0
+glutathione peridoxase	0	0	0	0
+glutathione peroxidase, mitochondria	0	0	0	0
+glutathione synthetase	0	0	0	0
+glyceraldehyde-3-phosphate dehydrogenase	-5.194444e-02	1.718714e-01	1.552387e-02	2.879376e-01
+glycerol dehydrogenase (NADP-dependent)	3.237814e-03	3.378106e-01	3.986054e-03	2.163605e-01
+glycerol kinase	0	0	0	0
+glycerol-3-phosphatase	0	0	0	2.125326e-01
+glycerol-3-phosphate dehydrogenase (fad)	0	0	0	0
+glycerol-3-phosphate dehydrogenase (NAD)	0	1.247183e-02	1.110349e-02	2.231955e-01
+glycerol-3-phosphate dehydrogenase (NAD)	9.019206e-03	0	0	0
+glycinamide ribotide transformylase	0	0	0	0
+glycine cleavage system	0	1.537060e-03	6.247120e-04	5.999261e-04
+glycine hydroxymethyltransferase	2.223099e-03	3.074120e-03	1.249424e-03	1.199852e-03
+glycine hydroxymethyltransferase	0	-1.537060e-03	-6.247120e-04	-5.999261e-04
+glycine-cleavage complex (lipoamide)	0	0	0	0
+glycine-cleavage complex (lipoamide)	1.493897e-01	0	0	0
+glycine-cleavage complex (lipoylprotein)	0	0	0	0
+glycine-cleavage complex (lipoylprotein)	0	0	0	0
+glycine-cleavage complex (lipoylprotein)	0	0	0	0
+glycine-cleavage system (lipoamide)	0	0	0	0
+glycogen (starch) synthase	0	0	0	0
+glycogen phosphorylase	0	0	0	0
+glycyl-tRNA synthetase	0	0	0	0
+GMP synthase	0	0	0	0
+GPI-anchor assembly, step 2	0	0	0	0
+GPI-anchor assembly, step 6	0	0	0	0
+GPI-anchor assembly, step 7	0	0	0	0
+GPI-anchor assembly, step 9	0	0	0	0
+GTP cyclohydrolase I	0	0	0	0
+GTP cyclohydrolase II	0	0	0	0
+guanine deaminase	0	0	0	0
+guanine phosphoribosyltransferase	0	0	0	0
+guanylate kinase	0	0	0	0
+guanylate kinase (GMP:dATP)	0	0	0	0
+heme O monooxygenase	0	0	0	0
+Heme O synthase	0	0	0	0
+hexaprenyldihydroxybenzoate methyltransferase	0	0	0	0
+hexokinase (D-fructose:ATP)	0	0	0	0
+hexokinase (D-glucose:ATP)	0	0	0	0
+hexokinase (D-mannose:ATP)	0	0	0	0
+histidinol dehydrogenase	0	0	0	0
+histidinol-phosphatase	0	0	0	0
+histidinol-phosphate transaminase	0	0	0	0
+histidyl-tRNA synthetase	0	0	0	0
+histidyl-tRNA synthetase	0	0	0	0
+hnRNP arginine N-methyltransferase	0	0	0	0
+homoacontinate hydratase	0	0	0	0
+homocitrate synthase	0	0	0	0
+homocysteine S-methyltransferase	0	0	0	0
+homoisocitrate dehydrogenase	0	0	0	0
+homoserine dehydrogenase (NADH)	0	0	0	0
+homoserine dehydrogenase (NADP)	0	0	0	0
+homoserine kinase	0	0	0	0
+homoserine O-trans-acetylase	0	0	0	0
+hydrogen peroxide reductase (thioredoxin)	0	0	0	0
+hydrogen peroxide reductase (thioredoxin)	0	0	0	0
+hydrogen peroxide reductase (thioredoxin)	0	0	0	0
+hydroxyacylglutathione hydrolase	0	0	0	0
+hydroxyacylglutathione hydrolase	0	0	0	0
+hydroxybenzoate octaprenyltransferase	0	0	0	0
+hydroxyethylthiazole kinase	0	0	0	0
+hydroxymethylbilane synthase	0	0	0	0
+hydroxymethylglutaryl CoA reductase	7.249261e-03	1.002434e-02	8.924524e-03	8.570438e-03
+hydroxymethylglutaryl CoA synthase	7.249261e-03	0	4.551639e-03	0
+hydroxymethylglutaryl CoA synthase	0	1.002434e-02	4.372885e-03	8.570438e-03
+hydroxymethylpyrimidine kinase (ATP)	0	0	0	0
+hypoxanthine phosphoribosyltransferase (Hypoxanthine)	0	0	0	0
+Imidazole-glycerol-3-phosphate synthase	0	0	0	0
+imidazoleglycerol-phosphate dehydratase	0	0	0	0
+IMP dehydrogenase	0	0	0	0
+indole-3-glycerol-phosphate synthase	0	0	0	0
+indole-3-pyruvate decarboxylase	0	0	0	0
+inorganic diphosphatase	0	0	0	0
+inorganic diphosphatase	5.171388e-01	1.619506e-01	2.109942e-02	2.801788e-01
+inosine monophosphate cyclohydrolase	0	0	0	0
+inositol-1,3,4,5-triphosphate 6-kinase, nucleus	0	0	0	0
+inositol-1,4,5,6- tetrakisphosphate 3-kinase, nucleus	0	0	0	0
+inositol-1,4,5-triphosphate 6-kinase, nucleus	0	0	0	0
+inositol-1,4,5-trisphosphate 3-kinase, nucleus	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+IPS phospholipase C	0	0	0	0
+isoamyl acetate-hydrolyzing esterase	0	0	0	0
+isobutyl acetate-hydrolyzing esterase	0	0	0	0
+isocitrate dehydrogenase (NAD+)	0	0	0	0
+isocitrate dehydrogenase (NADP)	1.493986e-01	0	0	0
+isocitrate dehydrogenase (NADP+), peroxisomal	0	0	0	0
+isocitrate lyase	5.339071e-02	0	0	0
+isoleucine transaminase	0	0	0	0
+isoleucine transaminase	0	0	0	0
+isoleucyl-tRNA synthetase	0	0	0	0
+isoleucyl-tRNA synthetase	0	0	0	0
+isopentenyl-diphosphate D-isomerase	2.416420e-03	3.341446e-03	2.974841e-03	2.856813e-03
+itaconate-CoA ligase (ADP-forming)	0	0	0	0
+ketol-acid reductoisomerase (2-aceto-2-hydroxybutanoate)	0	0	0	0
+kynureninase	0	0	0	0
+kynurenine 3-monooxygenase	0	0	0	0
+L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase	0	0	0	0
+L-4-hydroxyglutamate semialdehyde dehydrogenase	0	0	0	0
+L-alanine transaminase	0	0	0	0
+L-allo-threonine aldolase	0	0	0	0
+L-allo-threonine dehydrogenase	0	0	0	0
+L-aminoadipate-semialdehyde dehydrogenase (NADPH)	0	0	0	0
+L-asparaginase	0	0	0	0
+L-asparaginase	0	0	0	0
+L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase	0	0	0	0
+L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase	0	0	0	0
+L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase	0	0	0	0
+L-hydroxyproline reductase (NADP)	0	0	0	0
+L-lactaldehyde:NADP+ 1-oxidoreductase	0	0	0	0
+L-serine deaminase	0	0	0	0
+L-serine dehydrogenase	0	0	0	0
+L-sorbitol dehydrogenase (L-sorbose-producing)	0	0	0	0
+L-threonine deaminase	0	0	0	0
+L-threonine deaminase	0	0	0	0
+L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing)	0	0	0	0
+lactaldehyde dehydrogenase	0	0	0	0
+lactoylglutathione lyase	0	0	0	0
+lanosterol synthase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+leucine transaminase	0	0	0	0
+leucine transaminase	0	0	0	0
+leucyl-tRNA synthetase	0	0	0	0
+leukotriene A4 hydrolase	0	0	0	0
+leukotriene A4 hydrolase	0	0	0	0
+leukotriene A4 hydrolase	0	0	0	0
+leukotriene A4 hydrolase	0	0	0	0
+leukotriene A4 hydrolase	0	0	0	0
+leukotriene A4 hydrolase	0	0	0	0
+lysyl-tRNA synthetase	0	0	0	0
+lysyl-tRNA synthetase	0	0	0	0
+malate dehydrogenase	2.027894e-01	2.625143e-01	1.707874e-01	2.302443e-01
+malate dehydrogenase, cytoplasmic	5.561381e-02	-2.625143e-01	-1.707874e-01	-2.302443e-01
+malate dehydrogenase, peroxisomal	0	0	0	0
+malate synthase	5.561381e-02	0	0	0
+malate synthase	0	0	0	0
+malic enzyme (NAD)	0	0	0	0
+malic enzyme (NADP)	0	0	0	0
+mannose-1-phosphate guanylyltransferase	0	0	0	0
+mannose-6-phosphate isomerase	0	0	0	0
+methenyltetrahydrifikate cyclohydrolase	0	0	0	0
+methenyltetrahydrofolate cyclohydrolase	0	0	-1.487421e-03	-1.428406e-03
+methionine adenosyltransferase	2.223099e-03	3.074120e-03	2.736845e-03	2.628259e-03
+methionine synthase	2.223099e-03	3.074120e-03	2.736845e-03	2.628259e-03
+methionyl-tRNA synthetase	0	0	0	0
+methionyl-tRNA synthetase	0	0	0	0
+methylenetetrahydrofolate dehydrogenase (NAD)	0	0	0	0
+methylenetetrahydrofolate dehydrogenase (NADP)	0	0	-1.487421e-03	-1.428406e-03
+methylenetetrahydrofolate dehydrogenase (NADP)	0	0	0	0
+methylisocitrate lyase	0	0	0	0
+mevalonate kinase (atp)	7.249261e-03	1.002434e-02	8.924524e-03	8.570438e-03
+mevalonate kinase (ctp)	0	0	0	0
+mevalonate kinase (gtp)	0	0	0	0
+mevalonate kinase (UTP)	0	0	0	0
+mevalonate pyrophoshate decarboxylase	7.249261e-03	1.002434e-02	8.924524e-03	8.570438e-03
+myo-inositol 1-phosphatase	1.924075e-04	2.660627e-04	2.368718e-04	2.274738e-04
+myo-inositol-1-phosphate synthase	1.924075e-04	2.660627e-04	2.368718e-04	2.274738e-04
+N-acetyl-g-glutamyl-phosphate reductase	0	0	0	0
+N-acetylglucosamine-6-phosphate synthase	0	0	0	0
+N-acteylglutamate synthase	0	0	0	0
+NAD diphosphatase	0	0	0	0
+NAD kinase	0	0	0	0
+NAD kinase	0	0	0	0
+NAD nucleosidase nuclear	0	0	0	0
+NAD synthase	0	0	0	0
+NAD synthase	0	0	0	0
+NADH dehydrogenase, cytosolic/mitochondrial	0	0	0	5.249000e-06
+NADH kinase	0	0	0	0
+NADH kinase mitochondrial	0	0	0	0
+NADH:ubiquinone oxidoreductase	0	0	0	0
+NAPRtase	0	0	0	0
+NAPRtase	0	0	0	0
+nicotinamidase	0	0	0	0
+nicotinamide N-methyltransferase	0	0	0	0
+nicotinamide-nucleotide adenylyltransferase	0	0	0	0
+nicotinamide-nucleotide adenylyltransferase	0	0	0	0
+nicotinate-nucleotide adenylyltransferase	0	0	0	0
+nicotinate-nucleotide diphosphorylase (carboxylating)	0	0	0	0
+nicotinate-nucleotide diphosphorylase (carboxylating)	0	0	0	0
+nucleoside diphosphatase	0	0	0	0
+nucleoside diphosphatase	0	0	0	0
+nucleoside diphosphatase	0	0	0	0
+nucleoside diphosphatase	0	0	0	0
+nucleoside diphosphatase	0	0	0	0
+nucleoside diphosphatase	0	0	0	0
+nucleoside diphosphate kinase	1.678881e-03	2.321571e-03	2.066861e-03	1.984857e-03
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside diphosphate kinase	0	0	0	0
+nucleoside triphosphatase	0	0	0	0
+nucleoside triphosphatase	0	0	0	0
+nucleoside triphosphatase	0	0	0	0
+nucleoside triphosphatase	0	0	0	0
+nucleoside-diphosphatase (GDP), Golgi	0	0	0	0
+nucleoside-diphosphate kinase (ATP:UDP)	0	0	0	0
+O-acetylhomoserine (thiol)-lyase	0	0	0	0
+O-acetylhomoserine (thiol)-lyase	0	0	0	0
+O-succinylhomoserine lyase (L-cysteine)	0	0	0	0
+ornithine carbamoyltransferase	0	0	0	0
+ornithine decarboxylase	0	0	0	0
+ornithine transacetylase	0	0	0	0
+ornithine transaminase	0	0	0	0
+orotate phosphoribosyltransferase	0	0	0	0
+orotidine-5'-phosphate decarboxylase	0	0	0	0
+oxoglutarate dehydrogenase (dihydrolipoamide S-succinyltransferase)	1.493897e-01	0	0	0
+oxoglutarate dehydrogenase (lipoamide)	1.493897e-01	0	0	0
+pantetheine-phosphate adenylyltransferase	0	0	0	0
+pantothenate kinase	0	0	0	0
+pantothenate synthase	0	0	0	0
+peroxisomal acyl-CoA thioesterase	0	0	0	0
+phenylalanine transaminase	0	0	0	0
+phenylalanyl-tRNA synthetase	0	0	0	0
+phenylalanyl-tRNA synthetase	0	0	0	0
+phopshoribosylaminoimidazole synthetase	0	0	0	0
+phosphoacetylglucosamine mutase	0	0	0	0
+phosphoadenylyl-sulfate reductase (thioredoxin)	0	0	0	0
+phosphoenolpyruvate carboxykinase	5.561381e-02	0	0	0
+phosphoethanolamine cytidyltransferase	0	0	0	0
+phosphofructokinase	0	0	0	0
+phosphofructokinase (s7p)	0	0	0	9.500012e-02
+phosphoglucomutase	0	0	0	0
+phosphogluconate dehydrogenase	1.373347e-01	1.273104e-01	3.620352e-01	1.143172e-01
+phosphoglucosamine mutase	0	0	0	0
+phosphoglycerate dehydrogenase	3.669374e-03	3.536981e-03	2.405213e-03	2.309785e-03
+phosphoglycerate kinase	-5.194444e-02	1.718714e-01	1.552387e-02	2.879376e-01
+phosphoglycerate mutase	-5.561381e-02	1.683344e-01	1.311866e-02	2.856278e-01
+phosphomannomutase	0	0	0	0
+phosphomethylpyrimidine kinase	0	0	0	0
+phosphomevalonate kinase	7.249261e-03	1.002434e-02	8.924524e-03	8.570438e-03
+phosphopantothenate-cysteine ligase	0	0	0	0
+phosphopantothenoylcysteine decarboxylase	0	0	0	0
+phosphopentomutase	0	0	0	0
+phosphoribosyl amino imidazolesuccinocarbozamide synthetase	0	0	0	0
+phosphoribosyl-AMP cyclohydrolase	0	0	0	0
+phosphoribosyl-ATP pyrophosphatase	0	0	0	0
+phosphoribosylaminoimidazole-carboxylase	0	0	0	0
+phosphoribosylaminoimidazolecarboxamide formyltransferase	0	0	0	0
+phosphoribosylanthranilate isomerase	0	0	0	0
+phosphoribosylglycinamidine synthetase	0	0	0	0
+phosphoribosylpyrophosphate amidotransferase	0	0	0	0
+phosphoribosylpyrophosphate synthetase	0	0	0	0
+phosphoserine phosphatase (L-serine)	3.669374e-03	3.536981e-03	2.405213e-03	2.309785e-03
+phosphoserine transaminase	3.669374e-03	3.536981e-03	2.405213e-03	2.309785e-03
+phytoceramidase	0	0	0	0
+Phytosphingosine phosphate lyase	0	0	0	0
+phytosphingosine synthesis	0	0	0	0
+porphobilinogen synthase	0	0	0	0
+poylamine oxidase	0	0	0	0
+prephenate dehydratase	0	0	0	0
+prephenate dehydrogenase (NADP)	0	0	0	0
+prolyl-tRNA synthetase	0	0	0	0
+protoporphyrinogen oxidase	0	0	0	0
+purine-nucleoside phosphorylase	0	0	0	0
+guanosine phosphorylase	0	0	0	0
+guanosine phosphorylase	0	0	0	0
+inosine phosphorylase	0	0	0	0
+pyridoxal oxidase	0	0	0	0
+pyridoxamine 5'-phosphate oxidase	0	0	0	0
+pyridoxine 5'-phosphate oxidase	0	0	0	0
+pyridoxine oxidase	0	0	0	0
+pyrroline-5-carboxylate reductase	0	0	0	0
+pyruvate carboxylase	0	0	0	0
+pyruvate decarboxylase	0	1.382510e-01	0	2.599165e-01
+pyruvate decarboxylase (acetoin-forming)	0	0	0	0
+pyruvate dehydrogenase	0	3.008344e-02	1.311866e-02	2.571131e-02
+pyruvate kinase	0	1.683344e-01	1.311866e-02	2.856278e-01
+quinone oxidoreductase	0	0	0	0
+reduced glutathione via ABC system	0	0	0	0
+riboflavin kinase	0	0	0	0
+riboflavin kinase	0	0	0	0
+riboflavin synthase	0	0	0	0
+riboflavin synthase	0	0	0	0
+ribokinase	0	0	0	0
+ribonucleoside-triphosphate reductase (ATP)	0	0	0	0
+ribonucleoside-triphosphate reductase (CTP)	0	0	0	0
+ribonucleoside-triphosphate reductase (GTP)	0	0	0	0
+ribonucleoside-triphosphate reductase (UTP)	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribose-5-phosphate isomerase	4.577823e-02	-1.281241e-02	9.257511e-02	1.047724e-01
+ribosylnicotinamide kinase	0	0	0	0
+ribulose 5-phosphate 3-epimerase	9.155646e-02	1.401228e-01	2.694601e-01	9.544810e-03
+S-adenosyl-L-methionine:3-hexaprenyl-4,5-dihydroxylate O-methyltransferase	0	0	0	0
+S-adenosyl-methionine delta-24-sterol-c-methyltransferase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+S-formylglutathione hydralase	0	0	0	0
+saccharopine dehydrogenase (NAD, L-lysine forming)	0	0	0	0
+saccharopine dehydrogenase (NADP, L-glutamate forming)	0	0	0	0
+sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase	0	0	0	9.500012e-02
+serine O-acetyltransferase	0	0	0	0
+serine palmitotransferase	0	0	0	0
+seryl-tRNA synthetase	0	0	0	0
+shikimate dehydrogenase	0	0	0	0
+shikimate kinase	0	0	0	0
+sirohydrochlorin dehydrogenase	0	0	0	0
+sirohydrochlorin ferrochetalase	0	0	0	0
+spermidine synthase	0	0	0	0
+spermine synthase	0	0	0	0
+sphinganine phosphate lyase	0	0	0	0
+sphingoid base-phosphate phosphatase (phytosphingosine 1-phosphate)	0	0	0	0
+sphingoid base-phosphate phosphatase (sphinganine 1-phosphatase)	0	0	0	0
+sphingolipid long chain base kinase (phytosphingosine)	0	0	0	0
+sphingolipid long chain base kinase (sphinganine)	0	0	0	0
+squalene epoxidase (NAD)	0	0	0	0
+squalene epoxidase (NADP)	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+squalene synthase	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+succinate dehydrogenase (ubiquinone-6)	2.027894e-01	0	0	0
+succinate-CoA ligase (ADP-forming)	1.493897e-01	0	0	0
+succinate-semialdehyde dehydrogenase (NADP)	8.969348e-06	0	0	0
+sucrose hydrolyzing enxyme	0	0	0	0
+sulfate adenylyltransferase	0	0	0	0
+sulfate adenylyltransferase (ADP)	0	0	0	0
+sulfite reductase (NADPH2)	0	0	0	0
+taurcholate via ABC system	0	0	0	0
+taurine dioxygenase	0	0	0	0
+tetrahydrofolate aminomethyltransferase	0	0	0	0
+tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)	0	0	0	0
+thiamin diphosphatase	0	0	0	0
+thiamin phosphatase	0	0	0	0
+thiamine diphosphokinase	0	0	0	0
+thiamine-diphosphate kinase	0	0	0	0
+thiamine-phosphate diphosphorylase	0	0	0	0
+thioredoxin reductase (NADPH)	0	0	0	0
+thioredoxin reductase (NADPH)	0	0	0	0
+threonine aldolase	0	0	0	0
+threonine synthase	0	0	0	0
+threonyl-tRNA synthetase	0	0	0	0
+threonyl-tRNA synthetase	0	0	0	0
+thymidylate synthase	0	0	0	0
+trans-aconitate 3-methyltransferase	0	0	0	0
+trans-pentaprenyltranstransferase	0	0	0	0
+transaldolase	4.577823e-02	-1.281241e-02	9.257511e-02	9.772283e-03
+transketolase 1	4.577823e-02	-1.281241e-02	9.257511e-02	1.047724e-01
+transketolase 2	4.577823e-02	-1.281241e-02	9.257511e-02	1.047724e-01
+trehalose-phosphatase	0	0	0	0
+triose-phosphate isomerase	-5.175203e-02	1.721375e-01	-1.842393e-01	8.816507e-02
+tryptophan synthase (indoleglycerol phosphate)	0	0	0	0
+tryptophan transaminase	0	0	0	0
+tryptophanyl-tRNA synthetase	0	0	0	0
+tryptophanyl-tRNA synthetase	0	0	0	0
+tyrosine transaminase	0	0	0	0
+tyrosine transaminase	0	0	0	0
+tyrosyl-tRNA synthetase	0	0	0	0
+tyrosyl-tRNA synthetase	0	0	0	0
+UDP-glucose:ergosterol glucosyltransferase	0	0	0	0
+UDP-N-acetylglucosamine diphosphorylase	0	0	0	0
+UDPglucose 4-epimerase	0	0	0	0
+UDPglucose--hexose-1-phosphate uridylyltransferase	0	0	0	0
+UMP kinase	0	0	0	0
+UMP kinase	0	0	0	0
+uracil phosphoribosyltransferase	0	0	0	0
+urea carboxylase	0	0	0	0
+ureidoglycolate hydrolase	0	0	0	0
+uridine kinase (ATP:uridine)	0	0	0	0
+uridine kinase (GTP:uridine)	0	0	0	0
+uridylate kinase (dUMP)	0	0	0	0
+uridylate kinase (dUMP)	0	0	0	0
+uroporphyrinogen decarboxylase (uroporphyrinogen III)	0	0	0	0
+uroporphyrinogen methyltransferase	0	0	0	0
+uroporphyrinogen-III synthase	0	0	0	0
+UTP-glucose-1-phosphate uridylyltransferase	0	0	0	0
+V-ATPase, Golgi	0	0	0	0
+V-ATPase, vacuole	0	0	0	0
+valine transaminase	0	0	0	0
+valine transaminase, mitochondiral	0	0	0	0
+valyl-tRNA synthetase	0	0	0	0
+valyl-tRNA synthetase	0	0	0	0
+xanthine phosphoribosyltransferase	0	0	0	0
+xylitol dehydrogenase (D-xyulose-forming)	0	0	2.000000e-01	2.000000e-01
+xylose reductase	0	0	2.000000e-01	2.000000e-01
+xylulokinase	0	0	2.000000e-01	2.000000e-01
+yUMP synthetase	0	0	0	0
+(R)-mevalonate transport	0	0	0	0
+(R,R)-butanediol transport	0	0	0	0
+2-oxoadipate and 2-oxoglutarate transport	0	0	0	0
+3-hexaprenyl-4,5-dihydroxybenzoate transport	0	0	0	0
+4-aminobutyrate transport	0	0	0	0
+5-aminolevulinate transport	0	0	0	0
+5-formyltetrahydrofolic acid transport	0	0	0	0
+8-Amino-7-oxononanoate transport	0	0	0	0
+acetate transport	-5.000000e-01	0	0	0
+acetic ester transport	0	0	0	0
+adenine transport	0	0	0	0
+adenosine transport	0	0	0	0
+ADP/ATP transporter	1.349454e+00	8.159583e-01	4.856659e-01	7.578323e-01
+ADP/ATP transporter	0	0	0	0
+AKG transporter, mitochonrial	2.027894e-01	1.043100e-05	0	0
+allantoate uniport	0	0	0	0
+allantoin uniport	0	0	0	0
+ammonia transport	1.446275e-03	1.999921e-03	1.780501e-03	1.709859e-03
+AMP/ATP transporter	0	0	0	0
+aspartate-glutamate transporter	0	2.625039e-01	1.707874e-01	2.302443e-01
+biotin uptake	0	0	0	0
+carnithine-acetylcarnithine carrier	2.027894e-01	0	0	0
+ceramide-2' (sphinganine:n-C24:0OH) transport	0	0	0	0
+ceramide-2' (sphinganine:n-C26:0OH) transport	0	0	0	0
+ceramide-3 (Phytosphingosine:n-C24:0OH) transport	0	0	0	0
+ceramide-3 (Phytosphingosine:n-C26:0OH) transport	0	0	0	0
+choline transport	0	0	0	0
+coenzyme A transport	0	1.002434e-02	4.372885e-03	8.570438e-03
+CTP transport	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+CTP/CMP antiport	0	0	0	0
+cytidine transport	0	0	0	0
+cytosine transport	0	0	0	0
+D-fructose transport	0	0	0	0
+D-galactose transport	0	0	0	0
+D-lactate transport	0	0	0	0
+D-lactate transport	0	0	0	0
+D-lactate/pyruvate antiport	0	0	0	0
+D-mannose transport	0	0	0	0
+episterol transport	0	0	0	0
+ergosterol transport	0	0	0	0
+ethanolamine transport	0	0	0	0
+fadH2 transport	0	0	0	0
+fecosterol transport	0	0	0	0
+GDP-mannose antiport	0	0	0	0
+glucose transport	0	0	0	0
+glutathione transport	0	0	0	0
+glutathione transport	0	0	0	0
+glycero-3-phospho-1-inositol transport	0	0	0	0
+glycero-3-phosphocholine transport	0	0	0	0
+glycerol transport	0	3.333333e-01	0	0
+glycerol transport via channel	0	0	0	0
+glycine transport	0	0	0	0
+glycogen vacuolar 'transport' via autophagy	0	0	0	0
+GTP/GDP translocase	0	0	0	0
+guanine transport	0	0	0	0
+inositol transport	0	0	0	0
+iron (II) transport	0	0	0	0
+iron (II) transport	0	0	0	0
+isoamyl acetate transport	0	0	0	0
+isobutyl acetate transport	0	0	0	0
+isopentenyl diphosphate transport	0	0	0	0
+L-alanine transport	0	0	0	0
+L-arganine transport	0	0	0	0
+L-arganine transport	0	0	0	0
+L-asparagine transport	0	0	0	0
+L-asparagine transport	0	0	0	0
+L-aspartate transport	0	0	0	0
+L-aspartate transport	0	0	0	0
+L-aspartate transport	0	0	0	0
+L-carnitine transport	0	0	0	0
+L-cystine transport	0	0	0	0
+L-cystine transport	0	0	0	0
+L-glutamate transport	0	0	0	0
+L-glutamate transport	0	0	0	0
+L-glutamate transport	0	0	0	0
+L-glutamine transport	0	0	0	0
+L-glutamine transport	0	0	0	0
+L-glutamine transport	0	0	0	0
+L-histidine transport, vacuolar	0	0	0	0
+L-histidine transport	0	0	0	0
+L-isoleucine transport	0	0	0	0
+L-isoleucine transport	0	0	0	0
+L-isoleucine transport	0	0	0	0
+L-isoleucine transport	0	0	0	0
+L-lactate transport	0	0	0	0
+L-lactate transport	0	0	0	0
+L-leucine transport, vacuoluar	0	0	0	0
+L-leucine transport, vacuoluar	0	0	0	0
+L-leucine transport, vacuoluar	0	0	0	0
+L-leucine transport	0	0	0	0
+L-lysine transport	0	0	0	0
+L-lysine transport	0	0	0	0
+L-methionine transport	0	0	0	0
+L-phenylalanine transport	0	0	0	0
+L-proline transport	0	0	0	0
+L-serine transport	0	0	0	0
+L-threonine transport	0	0	0	0
+L-tryptophan transport	0	0	0	0
+L-tyrosine transport	0	0	0	0
+L-tyrosine transport	0	0	0	0
+L-tyrosine transport	0	0	0	0
+L-tyrosine transport	0	0	0	0
+L-valine transport	0	0	0	0
+lanosterol transport	0	0	0	0
+malate transport	0	0	0	0
+maltose transport	0	0	0	0
+NAD transport	0	0	0	0
+NAD transport	0	0	0	0
+NAD transport	0	0	0	0
+NAD transport	0	0	0	0
+nicotinate transport	0	0	0	0
+octadecanoate (n-C18:0) transport	0	0	0	0
+ornithine transport	0	0	0	0
+orntithine transport	0	0	0	0
+oxaloacetate transport	0	0	0	0
+pantothenate transport	0	0	0	0
+pentaprenyl diphosphate transport	0	0	0	0
+phosphate transport	1.678881e-03	2.321571e-03	2.066861e-03	1.984857e-03
+phosphate transport	3.151561e-01	4.920294e-01	4.434423e-01	1.974510e-01
+potassium transport	0	0	0	0
+putrescine excretion	0	0	0	0
+putrescine transport	0	0	0	0
+putrescine transport	0	0	0	0
+pyridoxine symport	0	0	0	0
+pyruvate transport	0	0	0	0
+S-adenosyl-L-methionine transport	0	0	0	0
+S-adenosyl-L-methionine transport	0	0	0	0
+S-methylmethionine permease	0	0	0	0
+sodium proton antiporter	0	0	0	0
+spermidine transport	0	0	0	0
+spermidine transport	0	0	0	0
+spermine transport	0	0	0	0
+spermine transport	0	0	0	0
+succinate transport	0	0	0	0
+succinate-fumarate transport	5.339968e-02	0	0	0
+sulfate uniport	0	0	0	0
+sulfite transport	0	0	0	0
+taurine transport	0	0	0	0
+thiamine transport	0	0	0	0
+UDPgalactose transport	0	0	0	0
+uracil transport	0	0	0	0
+urea transport	0	0	0	0
+uridine transport	0	0	0	0
+UTP transport	0	0	0	0
+UTP/UMP antiport	0	0	0	0
+water diffusion	-5.529470e-01	-7.151447e-01	-4.496356e-01	-4.714716e-01
+zymosterol transport	0	0	0	0
+(1->3)-beta-D-glucan exchange	0	0	0	0
+(1->3)-beta-D-glucan transport	0	0	0	0
+(R)-carnitine exchange	0	0	0	0
+(R)-lactate exchange	0	0	0	0
+(R)-mevalonate exchange	0	0	0	0
+(R)-pantothenate exchange	0	0	0	0
+(R,R)-2,3-butanediol exchange	0	0	0	0
+(S)-3-methyl-2-oxopentanoate exchange	0	0	0	0
+(S)-lactate exchange	0	0	0	0
+(S)-malate exchange	0	0	0	0
+1-(sn-glycero-3-phospho)-1D-myo-inositol exchange	0	0	0	0
+1D-myo-inositol 1,3,4,5,6-pentakisphosphate diffusion	0	0	0	0
+1D-myo-inositol 1-phosphate transport	0	0	0	0
+2'-deoxyadenosine exchange	0	0	0	0
+2'-deoxyinosine exchange	0	0	0	0
+2-dehydro-3-deoxy-D-arabino-heptonate7-phohsphate transport	0	0	0	0
+2-dehydropantoate transport	0	0	0	0
+2-isopropylmalate exchange	0	0	0	0
+2-isopropylmalate transport	0	0	0	0
+2-isopropylmalate transport	0	0	0	0
+2-methyl-1-butanol transport	0	0	0	0
+2-methyl-1-butanol transport	0	0	0	0
+2-methylbutanal exchange	0	0	0	0
+2-methylbutanal transport	0	0	0	0
+2-methylbutanal transport	0	0	0	0
+2-methylbutanol exchange	0	0	0	0
+2-methylpropanal transport	0	0	0	0
+2-methylpropanal transport	0	0	0	0
+2-oxobutanoate transporter	0	0	0	0
+2-oxoglutarate exchange	0	0	0	0
+2-oxoglutarate transport	0	0	0	0
+2-oxoglutarate transport	0	0	0	0
+2-phenylethanol exchange	0	0	0	0
+2-phenylethanol transport	0	0	0	0
+2-phenylethanol transport	0	0	0	0
+3-carboxy-4-methyl-2-oxopentanoate transport	0	0	0	0
+3-methyl-2-oxopentanoate transport	0	0	0	0
+3-methyl-oxopentanoate trasport	0	0	0	0
+3-methylbutanal exchange	0	0	0	0
+3-methylbutanal transport	0	0	0	0
+3-methylbutanal transport	0	0	0	0
+3-octaprenyl-4-hydroxybenzoate transport	0	0	0	0
+4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase	0	0	0	0
+4-aminobenzoate exchange	0	0	0	0
+4-aminobenzoate transport	0	0	0	0
+4-aminobenzoate transport	0	0	0	0
+4-aminobutanal transport	0	0	0	0
+4-aminobutyrate transport	0	0	0	0
+4-hydroxy-2-oxoglutarate transport	0	0	0	0
+4-hydroxy-2-oxoglutarate transport	0	0	0	0
+4-hydroxybenzoate transport	0	0	0	0
+5'-nucleotidase (GMP)	0	0	0	0
+5-aminolevulinate exchange	0	0	0	0
+5-aminolevulinate transport	0	0	0	0
+5-formethyltetrahydrofolate cyclo-ligase	0	0	0	0
+5-formyltetrahydrofolate:10-formyltetrahydrofolate isomerase	0	0	0	0
+5-formyltetrahydrofolic acid exchange	0	0	0	0
+7,8-diaminononanoate exchange	0	0	0	0
+7,8-diaminononanoate transport	0	0	0	0
+8-amino-7-oxononanoate exchange	0	0	0	0
+9H-xanthine exchange	0	0	0	0
+acetaldehyde exchange	0	0	0	0
+acetaldehyde transport	-2.062841e-02	0	0	0
+acetaldehyde transport	0	0	0	0
+acetate exchange	-5.000000e-01	0	0	0
+acetate transport	0	0	0	0
+acetyl-CoA transport	0	0	0	0
+acetylcarnitine transport	0	0	0	0
+adenine exchange	0	0	0	0
+adenine transport	0	0	0	0
+adenosine 3',5'-bismonophosphate exchange	0	0	0	0
+adenosine 3',5'-bisphosphate transport	0	0	0	0
+adenosine exchange	0	0	0	0
+ADP transport	0	0	0	0
+ADP transport	0	0	0	0
+AKG transporter, peroxisome	0	0	0	0
+allantoate exchange	0	0	0	0
+allantoin exchange	0	0	0	0
+alpha,alpha-trehalose exchange	0	0	0	0
+alpha-D-glucosamine 6-phosphate exchange	0	0	0	0
+alpha-ketoglutarate/malate transporter	0	0	0	0
+ammonium exchange	-1.446275e-03	-1.999921e-03	-1.780501e-03	-1.709859e-03
+AMP transport	0	0	0	0
+arginine transport	0	0	0	0
+asparagine transport	0	0	0	0
+aspartate-glutamate transporter	0	0	0	0
+ATP diffusion	0	0	0	0
+ATP transport	0	0	0	0
+bicarbonate formation	1.949078e-01	2.695201e-01	2.399499e-01	2.304297e-01
+bicarbonate transport	0	0	0	0
+biotin exchange	0	0	0	0
+carbon dioxide exchange	5.032288e-01	3.130608e-01	3.884278e-01	4.126924e-01
+carnitine transport	0	0	0	0
+carnitine-acetylcarnitine carrier	0	0	0	0
+CDP transport	0	0	0	0
+ceramide transport	0	0	0	0
+ceramide transport	0	0	0	0
+ceramide transport	0	0	0	0
+ceramide transport	0	0	0	0
+ceramide transport	0	0	0	0
+ceramide transport	0	0	0	0
+choline exchange	0	0	0	0
+choline transport	0	0	0	0
+citrate transport	0	0	0	0
+citrate(3-) exchange	0	0	0	0
+citrate/isocitrate antiport	0	0	0	0
+citrate/malate antiport	0	0	0	0
+CO2 transport	0	0	0	0
+CO2 transport	0	0	0	0
+CO2 transport	0	0	0	0
+CO2 transport	-1.493897e-01	-3.162050e-02	-1.374337e-02	-2.631124e-02
+CO2 transport	5.032288e-01	3.130608e-01	3.884278e-01	4.126924e-01
+coenzyme A transport	0	0	0	0
+coenzyme A transport	0	0	0	0
+coenzyme A transport	0	0	0	0
+cytidine exchange	0	0	0	0
+cytidylate kinase (CMP)	1.678881e-03	2.321571e-03	2.066861e-03	1.984857e-03
+cytidylate kinase (dCMP)	0	0	0	0
+cytosine exchange	0	0	0	0
+D-arabinose exchange	0	0	0	0
+D-arabinose transport	0	0	0	0
+D-erythrose 4-phosphate transport	0	0	0	0
+D-fructose exchange	0	0	0	0
+D-galactose exchange	0	0	0	0
+D-galacturonate exchange	0	0	0	0
+D-glucitol exchange	0	0	0	0
+D-glucosamine 6-phosphate uniport	0	0	0	0
+D-glucose exchange	0	0	0	0
+D-mannose exchange	0	0	0	0
+D-ribose exchange	0	0	0	0
+D-sorbitol transport	0	0	0	0
+D-xylose exchange	0	0	-2.000000e-01	-2.000000e-01
+D-xylose transport	0	0	2.000000e-01	2.000000e-01
+dADP transport	0	0	0	0
+dCDP transport	0	0	0	0
+deamino-NAD+ diffusion	0	0	0	0
+decanoate exchange	0	0	0	0
+deoxyadenosine transport	0	0	0	0
+deoxyadenylate kinase	0	0	0	0
+deoxyinosine transport	0	0	0	0
+dGDP transport	0	0	0	0
+dhnpt transport	0	0	0	0
+dihydrofolate transport	0	0	0	0
+dihydropteroate transport	0	0	0	0
+dihydroxyacetone phosphate transport	-9.019206e-03	0	0	0
+diphosphate transport	0	0	0	0
+dolichol phosphate transport	0	0	0	0
+dTTP exchange	0	0	0	0
+dTTP uniport	0	0	0	0
+dUDP diffusion	0	0	0	0
+dUMP transport	0	0	0	0
+episterol exchange	0	0	0	0
+ergosta-5,6,22,24,(28)-tetraen-3beta-ol transport	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+ergosterol exchange	0	0	0	0
+ergosterol transport	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+ergosterol transport	0	0	0	0
+ergosterol transport	0	0	0	0
+ethanol exchange	0	0	0	0
+ethanol transport	0	0	0	0
+ethanol transport, mitochondrial	-2.062841e-02	0	0	0
+ethanolamine exchange	0	0	0	0
+ethyl acetate exchange	0	0	0	0
+farnesyl diphosphate transport	0	0	0	0
+fatty acid transport	0	0	0	0
+fatty acid transport	0	0	0	0
+fatty acid transport	0	0	0	0
+fecosterol exchange	0	0	0	0
+FMN adenylyltransferase	0	0	0	0
+FMN exchange	0	0	0	0
+formate exchange	0	0	0	0
+formate transport	0	0	0	0
+formate transport	0	0	0	0
+formate transport	0	0	0	0
+fumarate(2-) exchange	0	0	0	0
+gamma-aminobutyrate exchange	0	0	0	0
+GDP transport	0	0	0	0
+GDP transport	0	0	0	0
+GDP-alpha-D-mannose transport	0	0	0	0
+glucose transport, vacuolar	0	0	0	0
+glutathione disulfide exchange	0	0	0	0
+glutathione exchange	0	0	0	0
+glycerol exchange	0	-3.333333e-01	0	0
+glycerol-3-phosphate shuttle	-8.999107e-03	2.779355e-05	2.474420e-05	2.376246e-05
+glycine exchange	0	0	0	0
+glycine transport	0	3.074120e-03	1.249424e-03	1.199852e-03
+glycoaldehyde transport	0	0	0	0
+glycoaldehyde transport	0	0	0	0
+glycolaldehyde exchange	0	0	0	0
+glyoxylate exchange	0	0	0	0
+glyoxylate transport	0	0	0	0
+glyoxylate transport	0	0	0	0
+guanine exchange	0	0	0	0
+guanine transport	0	0	0	0
+guanosine exchange	0	0	0	0
+guanosine transport	0	0	0	0
+guanosine transport	0	0	0	0
+H+ diffusion	4.878934e-01	0	0	0
+H+ diffusion	2.416420e-03	3.341446e-03	2.974841e-03	2.856813e-03
+H+ diffusion	0	0	0	0
+H+ diffusion	-6.812616e-03	-9.420541e-03	-8.386972e-03	-8.054213e-03
+H+ diffusion	0	0	0	0
+H+ diffusion	0	0	0	0
+H+ diffusion	0	0	0	0
+H+ exchange	-4.895723e-01	-1.238315e-01	1.283747e-02	1.232813e-02
+hexacosanoyl-CoA transport	0	0	0	0
+hexadecanoate (n-C16:0) transport	0	0	0	0
+hexadecenoate (n-C16:1) transport	0	0	0	0
+L-histidine transport, mitochondrial	0	0	0	0
+homocitrate synthase	0	0	0	0
+hydrogen peroxide transport	0	0	0	0
+hydroxymethylglutaryl-CoA transport	0	-1.002434e-02	-4.372885e-03	-8.570438e-03
+hypoxanthine exchange	0	0	0	0
+hypoxanthine transport	0	0	0	0
+indol-3-ylacetaldehyde exchange	0	0	0	0
+indole-3-acetaldehyde transport	0	0	0	0
+indole-3-acetaldehyde transport	0	0	0	0
+indole-3-acetate transport	0	0	0	0
+inosine exchange	0	0	0	0
+inosine transport	0	0	0	0
+inositol hexakisphosphate transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+IPC transport	0	0	0	0
+iron(2+) exchange	0	0	0	0
+isoamyl acetate exchange	0	0	0	0
+isoamyl alcohol transport	0	0	0	0
+isoamyl alcohol transport	0	0	0	0
+isoamylol exchange	0	0	0	0
+isobutanol exchange	0	0	0	0
+isobutyl acetate exchange	0	0	0	0
+isobutyl alcohol transport	0	0	0	0
+isobutyl alcohol transport	0	0	0	0
+isobutyraldehyde exchange	0	0	0	0
+L-alanine exchange	0	0	0	0
+L-alanine transport	0	0	0	0
+L-arabinitol exchange	0	0	0	0
+L-arabinitol transport	0	0	0	0
+L-arabinoase transport	0	0	0	0
+L-arabinose exchange	0	0	0	0
+L-arginine exchange	0	0	0	0
+L-asparagine exchange	0	0	0	0
+L-aspartate exchange	0	0	0	0
+L-carnitine transport	0	0	0	0
+L-cysteine exchange	0	0	0	0
+L-erythro-4-hydroxyglutamate transport	0	0	0	0
+L-erythro-4-hydroxyglutamate transport	0	0	0	0
+L-glucitol exchange	0	0	0	0
+L-glutamate 5-semialdehyde dehydratase	0	0	0	0
+L-glutamate exchange	0	0	0	0
+L-glutamate transport	0	0	0	0
+L-glutamine exchange	0	0	0	0
+L-glutamine transport	0	0	0	0
+L-histidine exchange	0	0	0	0
+L-homoserine transport	0	0	0	0
+L-homoserine transport	0	0	0	0
+L-isoleucine exchange	0	0	0	0
+L-isoleucine transport	0	0	0	0
+L-leucine exchange	0	0	0	0
+L-lysine exchange	0	0	0	0
+L-malate transport	0	0	0	0
+L-methionine exchange	0	0	0	0
+L-phenylalanine exchange	0	0	0	0
+L-proline exchange	0	0	0	0
+L-proline transport	0	0	0	0
+L-serine exchange	0	0	0	0
+L-serine transport	0	0	0	0
+L-sorbitol transport	0	0	0	0
+L-sorbose exchange	0	0	0	0
+L-sorbose transport	0	0	0	0
+L-threonine exchange	0	0	0	0
+L-tryptophan exchange	0	0	0	0
+L-tyrosine exchange	0	0	0	0
+L-valine exchange	0	0	0	0
+lanosterol exchange	0	0	0	0
+lysine transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+M(IP)2C transport	0	0	0	0
+malate/oxaloacetate shuttle	0	0	0	0
+maltose exchange	0	0	0	0
+mannan transport	0	0	0	0
+methionine transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+MIPC transport	0	0	0	0
+myo-inositol exchange	0	0	0	0
+NADP(+) transport	-2.416420e-03	-3.341446e-03	-2.974841e-03	-2.856813e-03
+NADPH transport	2.416420e-03	3.341446e-03	2.974841e-03	2.856813e-03
+NH3 transport	0	-1.537060e-03	-6.247120e-04	-5.999261e-04
+nicotinamide diffusion	0	0	0	0
+nicotinate exchange	0	0	0	0
+NMN exchange	0	0	0	0
+NMN transport	0	0	0	0
+NMN transport	0	0	0	0
+NMN transport	0	0	0	0
+O-acetylcarnintine transport into mitochondria	0	0	0	0
+O2 transport	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+O2 transport	2.626604e-01	1.470674e-01	9.226538e-02	1.282804e-01
+O2 transport	3.075425e-01	2.091307e-01	1.475195e-01	1.813422e-01
+O2 transport	0	0	0	0
+octadecanoate (n-C18:0) transport	0	0	0	0
+ornithine exchange	0	0	0	0
+oxaloacetate transport	0	0	0	0
+oxaloacetate(2-) exchange	0	0	0	0
+oxidized glutathione uniport	0	0	0	0
+oxidized thioredoxin transport	0	0	0	0
+oxygen exchange	-3.075425e-01	-2.091307e-01	-1.475195e-01	-1.813422e-01
+palmitate exchange	0	0	0	0
+palmitoleate exchange	0	0	0	0
+palmitoyl-CoA transport	0	0	0	0
+panthetheine 4'-phosphate transport	0	0	0	0
+PAP uniport	0	0	0	0
+pectin exchange	0	0	0	0
+phenylacetaldehyde exchange	0	0	0	0
+phenylacetaldehyde transport	0	0	0	0
+phenylacetaldehyde transport	0	0	0	0
+phenylalanine transport	0	0	0	0
+phosphate exchange	-1.678881e-03	-2.321571e-03	-2.066861e-03	-1.984857e-03
+phosphate transport	0	0	0	0
+potassium exchange	0	0	0	0
+protoporphyrinogen IX transport	0	0	0	0
+PRPP transport	0	0	0	0
+putrescine exchange	0	0	0	0
+pyridoxal kinase	0	0	0	0
+pyridoxine exchange	0	0	0	0
+pyridoxine kinase	0	0	0	0
+pyrimidine phosphatase	0	0	0	0
+pyrophosphate transport	5.170986e-01	1.618950e-01	2.104994e-02	2.801313e-01
+pyruvate exchange	0	0	0	0
+pyruvate transport	0	3.008344e-02	1.311866e-02	2.571131e-02
+quinolinate transport	0	0	0	0
+reduced thioredoxin transport	0	0	0	0
+riboflavin exchange	0	0	0	0
+riboflavin transport	0	0	0	0
+riboflavin transport	0	0	0	0
+ribose transporter	0	0	0	0
+S-adenosyl-L-homocysteine transport	0	0	0	0
+S-adenosyl-L-methionine exchange	0	0	0	0
+S-methyl-L-methionine exchange	0	0	0	0
+serine transport	0	-1.537060e-03	-6.247120e-04	-5.999261e-04
+sn-glycero-3-phosphocholine exchange	0	0	0	0
+sodium exchange	0	0	0	0
+spermidine exchange	0	0	0	0
+spermine exchange	0	0	0	0
+squalene transport	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+squalene-2,3-epoxide transport	1.208210e-03	1.670723e-03	1.487421e-03	1.428406e-03
+stearate exchange	0	0	0	0
+succinate exchange	0	0	0	0
+succinate transport	0	0	0	0
+sucrose exchange	0	0	0	0
+sulphate exchange	0	0	0	0
+sulphite exchange	0	0	0	0
+taurine exchange	0	0	0	0
+tetracosanoyl-CoA transport	0	0	0	0
+thiamine(1+) diphosphate(1-) exchange	0	0	0	0
+thiamine(1+) exchange	0	0	0	0
+thiamine(1+) monophosphate exchange	0	0	0	0
+threonine transport	0	0	0	0
+trehalose transporter	0	0	0	0
+trehalose vacuolar transport	0	0	0	0
+tryptophan transport	0	0	0	0
+tryptophol exchange	0	0	0	0
+tryptophol transport	0	0	0	0
+tryptophol transport	0	0	0	0
+tyrosine transport	0	0	0	0
+tyrosine transport	0	0	0	0
+UMP transport	0	0	0	0
+uracil exchange	0	0	0	0
+urea exchange	0	0	0	0
+uridine exchange	0	0	0	0
+valine transport	0	0	0	0
+water diffusion	-1.208210e-03	-1.670723e-03	-1.487421e-03	-1.428406e-03
+water diffusion	0	0	0	0
+water diffusion	-8.560670e-01	-9.365707e-01	-6.440997e-01	-7.250439e-01
+water diffusion	0	0	0	0
+water diffusion	0	0	0	0
+water diffusion	0	0	0	0
+water exchange	5.529470e-01	7.151447e-01	4.496356e-01	4.714716e-01
+xanthine transport	0	0	0	0
+xylitol exchange	0	0	0	0
+xylitol transport	0	0	0	0
+zymosterol exchange	0	0	0	0
+zymosterol transport	0	0	0	0
+lipid pseudoreaction - merge	0	0	0	0
+growth	0	0	0	0
+kynurenine aminotransferase	0	0	0	0
+alcohol dehydrogenase, (acetaldehyde to ethanol)	0	0	0	0
+acetaldehyde dehydrogenase	0	1.382510e-01	0	0
+phenylalanine transaminase	0	0	0	0
+tryptophan transaminase	0	0	0	0
+tyrosine transaminase	0	0	0	0
+coenzyme A: cytoplasm to LP	0	0	0	0
+sedoheptulose bisphosphatase	0	0	0	0
+proton leak	0	0	0	0
+isocitrate dehydrogenase	0	0	0	0
+oxoglutarate/malate exchange	5.339968e-02	2.625143e-01	1.707874e-01	2.302443e-01
+14-demethyllanosterol exchange	0	0	0	0
+14-demethyllanosterol transport	0	0	0	0
+ergosta-5,7,22,24(28)-tetraen-3beta-ol exchange	0	0	0	0
+ergosta-5,7,22,24(28)-tetraen-3beta-ol transport	0	0	0	0
+fatty-acyl-CoA synthase (n-C16:0CoA)	4.622472e-03	6.391992e-03	5.690699e-03	5.464917e-03
+fatty-acyl-CoA synthase (n-C18:0CoA)	2.031881e-02	2.809701e-02	2.501437e-02	2.402191e-02
+enoyl-ACP reductase (butanoyl-ACP)	0	0	0	0
+enoyl-ACP reductase (hexanoyl-ACP)	0	0	0	0
+enoyl-ACP reductase (octanoyl-ACP)	0	0	0	0
+elongase I (3-oxotetradecanoyl-CoA)	0	0	0	0
+elongase I (3-oxopalmitoyl-CoA)	0	0	0	0
+elongase II (3-oxooctadecanoyl-CoA)	0	0	0	0
+elongase II or III (3-oxoicosanoyl-CoA)	0	0	0	0
+elongase II or III (3-oxodocosanoyl-CoA)	0	0	0	0
+elongase II or III (3-oxotetracosanoyl-CoA)	0	0	0	0
+elongase III (3-oxohexacosanoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase ((S)-3-hydroxytetradecanoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase ((S)-3-hydroxypalmitoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase (3-hydroxyoctadecanoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase (3-hydroxyicosanoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase (3-hydroxydocosanoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase (3-hydroxytetracosanoyl-CoA)	0	0	0	0
+B-ketoacyl-CoA reductase ((S)-3-hydroxyhexacosanoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-tetradec-2-enoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-hexadec-2-enoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-octadec-2-enoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-icos-2-enoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-docos-2-enoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-tetracos-2-enoyl-CoA)	0	0	0	0
+B-hydroxyacyl-CoA dehydratase (trans-hexacos-2-enoyl-CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C14:0CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C16:0CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C18:0CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C20:0CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C22:0CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C24:0CoA)	0	0	0	0
+trans-2-enoyl-CoA reductase (n-C26:0CoA)	0	0	0	0
+palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA), ER membrane	0	0	0	0
+stearoyl-CoA desaturase (n-C18:0CoA -> n-C18:1CoA), ER membrane	1.835489e-02	2.538129e-02	2.259660e-02	2.170006e-02
+decanoate (n-C10:0) transport	0	0	0	0
+butyrate exchange	0	0	0	0
+hexanoate exchange	0	0	0	0
+oleate exchange	0	0	0	0
+butyrate (n-C4:0) transport	0	0	0	0
+hexanoate (n-C6:0) transport	0	0	0	0
+octadecenoate (n-C18:1) transport	0	0	0	0
+fatty acyl-CoA transport via ABC system (C12:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C14:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C16:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C16:1)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C18:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C18:1)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C20:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C22:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C24:0)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C26:0)	0	0	0	0
+butyrate (n-C4:0) transport, cytoplasm-peroxisome	0	0	0	0
+hexanoate (n-C6:0) transport, cytoplasm-peroxisome	0	0	0	0
+octadecenoate (n-C18:1) transport, cytoplasm-peroxisome	0	0	0	0
+peroxisomal acyl-CoA thioesterase (4:0)	0	0	0	0
+peroxisomal acyl-CoA thioesterase (6:0)	0	0	0	0
+acyl-CoA oxidase (butanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (hexanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (octanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (icosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (docosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (tetracosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (palmitoleoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (cis-tetradec-7-enoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (cis-dodec-5-enoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (oleoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (cis-hexadec-7-enoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (cis-tetradec-5-enoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxydecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxydodecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxytetradecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyhexadecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyoctadecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyhexacosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxybutanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyhexanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyoctanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyicosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxydocosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxytetracosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxy-cis-hexadec-9-enoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxy-cis-tetradec-7-enoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxy-cis-dodec-5-enoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxy-cis-octadec-9-enoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxy-cis-hexadec-7-enoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxy-cis-tetradec-5-enoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxobutanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxoicosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxodocosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxotetracosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-hexadec-9-enoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-tetradec-7-enoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-dodec-5-enoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-octadec-9-enoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-hexadec-7-enoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxo-cis-tetradec-5-enoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (acetyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (butanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (hexanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (stearoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (icosanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (docosanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (cis-tetradec-7-enoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (cis-dodec-5-enoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (cis-dec-3-enoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (cis-hexadec-7-enoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (cis-tetradec-5-enoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (cis-dodec-3-enoyl-CoA)	0	0	0	0
+delta3,delta2-enoyl-CoA isomerase (cis-dec-3-enoyl-CoA)	0	0	0	0
+delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-dodecadienoyl-CoA)	0	0	0	0
+delta3,delta2-enoyl-CoA isomerase (trans-dodec-3-enoyl-CoA)	0	0	0	0
+delta3,delta2-enoyl-CoA isomerase (cis-dodec-3-enoyl-CoA)	0	0	0	0
+delta3,delta2-enoyl-CoA isomerase (trans-2,cis-5-tetradecadienoyl-CoA)	0	0	0	0
+delta3,delta2-enoyl-CoA isomerase (trans-tetradec-3-enoyl-CoA)	0	0	0	0
+2,4-dienoyl-CoA reductase (trans-2,trans-4-dodecadienoyl-CoA)	0	0	0	0
+2,4-dienoyl-CoA reductase (trans-2,trans-4-tetradecadienoyl-CoA)	0	0	0	0
+cis-aconitate(3-) to isocitrate	2.027894e-01	0	0	0
+glycerol-3-phosphate acyltransferase (16:0), lipid particle	0	0	0	0
+glycerol-3-phosphate acyltransferase (18:0), lipid particle	0	0	0	0
+dihydroxyacetone phosphate acyltransferase (16:0), lipid particle	0	0	0	0
+dihydroxyacetone phosphate acyltransferase (18:0), lipid particle	0	0	0	0
+acyl dhap reductase (16:0), lipid particle	0	0	0	0
+acyl dhap reductase (18:0), lipid particle	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-18:1), lipid particle	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-18:0, 2-18:1), lipid particle	0	0	0	0
+PA phosphatase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+PA phosphatase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:1, 3-16:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:1, 3-16:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:1, 3-18:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:1, 3-18:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:1, 3-18:1), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:1, 3-18:1), lipid particle	0	0	0	0
+CDP-diacylglycerol synthase (1-16:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PS decarboxylase (1-16:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PS decarboxylase (1-18:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PS decarboxylase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+PS decarboxylase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+phosphatidylglycerolphosphate synthase (1-16:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PGP phosphatase (1-16:0, 2-18:1), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:1, 3-16:0, 4-18:1), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:1, 3-16:0, 4-18:1) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+MLCL (2-18:1, 3-16:0, 4-18:1):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+lysoPC acyltransferase (1-16:0, 2-18:1), mitochondrial membrane	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+lysoPC acyltransferase (1-18:0, 2-18:1), mitochondrial membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:1), cell envelope	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:1), cell envelope	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:1), Golgi membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:1), Golgi membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:1), nucleus	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:1), nucleus	0	0	0	0
+phosphatidylinositol 3-kinase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+phosphatidylinositol 3-kinase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+PI 4-P 5-kinase (1-16:0, 2-18:1), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-18:0, 2-18:1), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PI 4-P 5-kinase (1-18:0, 2-18:1), cell envelope	0	0	0	0
+PI 3-P 5-kinase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+PI 3-P 5-kinase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+PC phospholipase B (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PC phospholipase B (1-18:0, 2-18:1), cell envelope	0	0	0	0
+LPC phospholipase B (16:0), cell envelope	0	0	0	0
+LPC phospholipase B (18:0), cell envelope	0	0	0	0
+PE phospholipase B (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PE phospholipase B (1-18:0, 2-18:1), cell envelope	0	0	0	0
+LPE phospholipase B (16:0), cell envelope	0	0	0	0
+LPE phospholipase B (18:0), cell envelope	0	0	0	0
+PS phospholipase B (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PS phospholipase B (1-18:0, 2-18:1), cell envelope	0	0	0	0
+LPS phospholipase B (16:0), cell envelope	0	0	0	0
+LPS phospholipase B (18:0), cell envelope	0	0	0	0
+PI phospholipase B (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PI phospholipase B (1-18:0, 2-18:1), cell envelope	0	0	0	0
+LPI phospholipase B (16:0), cell envelope	0	0	0	0
+LPI phospholipase B (18:0), cell envelope	0	0	0	0
+PI 4,5-P2 phospholipase C (1-16:0, 2-18:1), nucleus	0	0	0	0
+PI 4,5-P2 phospholipase C (1-18:0, 2-18:1), nucleus	0	0	0	0
+PG phospholipase C (1-16:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PC phospholipase D (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PC phospholipase D (1-18:0, 2-18:1), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-18:0, 2-18:1), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-16:0, 2-18:1), Golgi membrane	0	0	0	0
+PI 3-P phosphatase (1-18:0, 2-18:1), Golgi membrane	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:1), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:1), Golgi membrane	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:1), Golgi membrane	0	0	0	0
+PI 3,5-P2 phosphatase (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PI 3,5-P2 phosphatase (1-18:0, 2-18:1), cell envelope	0	0	0	0
+PI 4,5-P2 phosphatase (1-16:0, 2-18:1), cell envelope	0	0	0	0
+PI 4,5-P2 phosphatase (1-18:0, 2-18:1), cell envelope	0	0	0	0
+PI 3,5-P2 phosphatase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+PI 3,5-P2 phosphatase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+DGPP phosphatase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+DGPP phosphatase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+lysoPA phosphatase (16:0), vacuolar membrane	0	0	0	0
+lysoPA phosphatase (18:0), vacuolar membrane	0	0	0	0
+ergosteryl ester hydrolase (16:1), lipid particle	0	0	0	0
+ergosteryl ester hydrolase (18:1), lipid particle	0	0	0	0
+episteryl ester hydrolase (16:1), lipid particle	0	0	0	0
+episteryl ester hydrolase (18:1), lipid particle	0	0	0	0
+fecosteryl ester hydrolase (16:1), lipid particle	0	0	0	0
+fecosteryl ester hydrolase (18:1), lipid particle	0	0	0	0
+lanosteryl ester hydrolase (16:1), lipid particle	0	0	0	0
+lanosteryl ester hydrolase (18:1), lipid particle	0	0	0	0
+zymosteryl ester hydrolase (16:1), lipid particle	0	0	0	0
+zymosteryl ester hydrolase (18:1), lipid particle	0	0	0	0
+zymosteryl ester hydrolase (16:1), cell envelope	0	0	0	0
+zymosteryl ester hydrolase (18:1), cell envelope	0	0	0	0
+TAG lipase (1-16:0, 2-18:1, 3-16:0), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:1, 3-18:0), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:1, 3-18:1), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:1, 3-16:0), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:1, 3-18:0), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:1, 3-18:1), lipid particle	0	0	0	0
+DAG lipase (1-16:0, 2-18:1), lipid particle	0	0	0	0
+DAG lipase (1-18:0, 2-18:1), lipid particle	0	0	0	0
+lysoPE (1-16:0) oleoyl-CoA acyltransferase, lipid particle	0	0	0	0
+lysoPE (1-18:0) oleoyl-CoA acyltransferase, lipid particle	0	0	0	0
+PE phospholipase A2 (1-16:0, 2-18:1), lipid particle	0	0	0	0
+PE phospholipase A2 (1-18:0, 2-18:1), lipid particle	0	0	0	0
+PA kinase (1-16:0, 2-18:1), vacuolar membrane	0	0	0	0
+PA kinase (1-18:0, 2-18:1), vacuolar membrane	0	0	0	0
+IPC synthase (PI (1-16:0, 2-18:1) ceramide-1 (C24))	0	0	0	0
+IPC synthase (PI (1-18:0, 2-18:1) ceramide-1 (C24))	0	0	0	0
+IPC synthase (PI (1-16:0, 2-18:1) ceramide-1 (C26))	0	0	0	0
+IPC synthase (PI (1-18:0, 2-18:1) ceramide-1 (C26))	0	0	0	0
+palmitate transport, cytoplasm-ER membrane	0	3.336317e-03	0	0
+palmitoleate transport, cytoplasm-ER membrane	0	0	0	0
+stearate transport, cytoplasm-ER membrane	0	0	0	0
+oleate transport, cytoplasm-ER membrane	-6.829364e-03	-9.443700e-03	-8.407591e-03	-8.074014e-03
+malonyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+lauroyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+myristoyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+palmitoyl-CoA transport, cytoplasm-ER membrane	4.622472e-03	6.391992e-03	5.690699e-03	5.464917e-03
+palmitoleoyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+stearoyl-CoA transport, cytoplasm-ER membrane	2.031881e-02	2.809701e-02	2.501437e-02	2.402191e-02
+oleoyl-CoA transport, cytoplasm-ER membrane	-4.019870e-05	-5.558710e-05	-4.948840e-05	-4.752491e-05
+icosanoyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+docosanoyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+tetracosanoyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+hexacosanoyl-CoA transport, cytoplasm-ER membrane	0	0	0	0
+H+ transport, cytoplasm-ER membrane	1.896452e-02	2.622430e-02	2.334712e-02	2.242080e-02
+H2O transport, cytoplasm-ER membrane	-4.304277e-02	-5.951989e-02	-5.298970e-02	-5.088730e-02
+CO2 transport, cytoplasm-ER membrane	0	0	0	0
+coenzyme A transport, cytoplasm-ER membrane	-2.490108e-02	-3.443342e-02	-3.065558e-02	-2.943930e-02
+NADPH transport, cytoplasm-ER membrane	0	0	0	0
+NADP(+) transport, cytoplasm-ER membrane	0	0	0	0
+O2 transport, cytoplasm-ER membrane	3.038358e-02	4.201466e-02	3.740505e-02	3.592098e-02
+NADH transport, cytoplasm-ER membrane	3.038358e-02	4.201466e-02	3.740505e-02	3.592098e-02
+NAD transport, cytoplasm-ER membrane	-3.038358e-02	-4.201466e-02	-3.740505e-02	-3.592098e-02
+glycerol 3-phosphate transport, cytoplasm-ER membrane	8.999107e-03	1.244404e-02	1.107875e-02	1.063919e-02
+dihydroxyacetone phosphate transport, cytoplasm-ER membrane	0	0	0	0
+diphosphate transport, cytoplasm-ER membrane	-4.051394e-03	-5.602301e-03	-4.987648e-03	-4.789760e-03
+phosphate transport, cytoplasm-ER membrane	-7.320225e-03	-1.012247e-02	-9.011888e-03	-8.654335e-03
+CTP transport, cytoplasm-ER membrane	1.638683e-03	2.265984e-03	2.017373e-03	1.937332e-03
+CDP transport, cytoplasm-ER membrane	0	0	0	0
+CMP transport, cytoplasm-ER membrane	-1.638683e-03	-2.265984e-03	-2.017373e-03	-1.937332e-03
+CDP-ethanolamine transport, cytoplasm-ER membrane	0	0	0	0
+CDP-choline transport, cytoplasm-ER membrane	0	0	0	0
+ATP transport, cytoplasm-ER membrane	2.412711e-03	3.336317e-03	2.970275e-03	2.852428e-03
+AMP transport, cytoplasm-ER membrane	-2.412711e-03	-3.336317e-03	-2.970275e-03	-2.852428e-03
+L-serine transport, cytoplasm-ER membrane	1.446275e-03	1.999921e-03	1.780501e-03	1.709859e-03
+myo-inositol transport, cytoplasm-ER membrane	1.924075e-04	2.660627e-04	2.368718e-04	2.274738e-04
+S-adenosyl-L-methionine transport, cytoplasm-ER membrane	1.014889e-03	1.403397e-03	1.249424e-03	1.199852e-03
+S-adenosyl-L-homocysteine transport, cytoplasm-ER membrane	-1.014889e-03	-1.403397e-03	-1.249424e-03	-1.199852e-03
+episterol transport, cytoplasm-ER membrane	0	0	0	0
+fecosterol transport, cytoplasm-ER membrane	0	0	0	0
+lanosterol transport, cytoplasm-ER membrane	0	0	0	0
+ergosterol transport, cytoplasm-ER membrane	0	0	0	0
+zymosterol transport, cytoplasm-ER membrane	0	0	0	0
+sn-glycero-3-phosphocholine transport, ER membrane-cytoplasm	0	0	0	0
+hexadecanoate (n-C16:0) transport, cytoplasm-lipid particle	-3.237814e-03	-4.477276e-03	-3.986054e-03	-3.827905e-03
+hexadecenoate (n-C16:1) transport, cytoplasm-lipid particle	0	0	0	0
+octadecanoate (n-C18:0) transport, cytoplasm-lipid particle	0	0	0	0
+octadecenoate (n-C18:1) transport, cytoplasm-lipid particle	0	0	0	0
+lauroyl-CoA transport, cytoplasm-lipid particle	0	0	0	0
+myristoyl-CoA transport, cytoplasm-lipid particle	0	0	0	0
+palmitoyl-CoA transport, cytoplasm-lipid particle	0	0	0	0
+palmitoleoyl-CoA transport, cytoplasm-lipid particle	0	0	0	0
+stearoyl-CoA transport, cytoplasm-lipid particle	0	0	0	0
+oleoyl-CoA transport, cytoplasm-lipid particle	0	0	0	0
+glycerol 3-phosphate transport, cytoplasm-lipid particle	0	0	0	0
+dihydroxyacetone phosphate transport, cytoplasm-lipid particle	0	0	0	0
+NADPH transport, cytoplasm-lipid particle	0	0	0	0
+NADP(+) transport, cytoplasm-lipid particle	0	0	0	0
+ATP transport, cytoplasm-lipid particle	3.574802e-03	4.943265e-03	4.400918e-03	4.226308e-03
+AMP transport, cytoplasm-lipid particle	-3.574802e-03	-4.943265e-03	-4.400918e-03	-4.226308e-03
+diphosphate transport, cytoplasm-lipid particle	-3.574802e-03	-4.943265e-03	-4.400918e-03	-4.226308e-03
+H2O transport, cytoplasm-lipid particle	6.812616e-03	9.420541e-03	8.386972e-03	8.054213e-03
+glycerol transport, lipid particle-cytoplasm	3.237814e-03	4.477276e-03	3.986054e-03	3.827905e-03
+docosanoyl-CoA transport, lipid particle-cytoplasm	0	0	0	0
+tetracosanoyl-CoA transport, lipid particle-cytoplasm	0	0	0	0
+hexacosanoyl-CoA transport, lipid particle-cytoplasm	0	0	0	0
+ATP transport, cytoplasm-cell envelope	0	0	0	0
+ADP transport, cytoplasm-cell envelope	0	0	0	0
+H+ transport, cytoplasm-cell envelope	0	0	0	0
+H2O transport, cytoplasm-cell envelope	0	0	0	0
+phosphate transport, cytoplasm-cell envelope	0	0	0	0
+sn-glycero-3-phosphocholine transport, cell envelope-cytoplasm	0	0	0	0
+1-(sn-glycero-3-phospho)-1D-myo-inositol transport, cell envelope-cytoplasm	0	0	0	0
+palmitate transport, cell envelope-cytoplasm	0	0	0	0
+palmitoleate transport, cell envelope-cytoplasm	0	0	0	0
+stearate transport, cell envelope-cytoplasm	0	0	0	0
+oleate transport, cell envelope-cytoplasm	0	0	0	0
+icosanoyl-CoA transport, cell envelope-cytoplasm	0	0	0	0
+docosanoyl-CoA transport, cell envelope-cytoplasm	0	0	0	0
+tetracosanoyl-CoA transport, cell envelope-cytoplasm	0	0	0	0
+hexacosanoyl-CoA transport, cell envelope-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1) transport, cell envelope-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1) transport, cell envelope-cytoplasm	0	0	0	0
+H2O transport, cytoplasm-vacuolar membrane	0	0	0	0
+phosphate transport, cytoplasm-vacuolar membrane	0	0	0	0
+H+ transport, cytoplasm-vacuolar membrane	0	0	0	0
+ATP transport, cytoplasm-vacuolar membrane	0	0	0	0
+ADP transport, cytoplasm-vacuolar membrane	0	0	0	0
+carbon dioxide transport, cytoplasm-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1) transport, vacuolar membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1) transport, vacuolar membrane-cytoplasm	0	0	0	0
+H2O transport, cytoplasm-Golgi membrane	0	0	0	0
+phosphate transport, cytoplasm-Golgi membrane	0	0	0	0
+H+ transport, cytoplasm-Golgi membrane	0	0	0	0
+carbon dioxide transport, cytoplasm-Golgi membrane	0	0	0	0
+ATP transport, cytoplasm-Golgi membrane	0	0	0	0
+ADP transport, cytoplasm-Golgi membrane	0	0	0	0
+H2O transport, cytoplasm-mitochondrial membrane	6.029806e-05	8.338065e-05	7.423260e-05	7.128737e-05
+carbon dioxide transport, cytoplasm-mitochondrial membrane	-6.091720e-04	-8.423680e-04	-7.499482e-04	-7.201935e-04
+palmitoleoyl-CoA transport, cytoplasm-mitochondrial membrane	0	0	0	0
+oleoyl-CoA transport, cytoplasm-mitochondrial membrane	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+palmitate transport, mitochondrial membrane-cytoplasm	0	0	0	0
+stearate transport, mitochondrial membrane-cytoplasm	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+coenzyme A transport, mitochondrial membrane-cytoplasm	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+cerotic acid transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:1, 3-16:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:1, 3-18:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:1, 3-18:1) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:1, 3-16:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:1, 3-18:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:1, 3-18:1) transport, ER membrane-lipid particle	0	0	0	0
+episterol transport, ER membrane-lipid particle	0	0	0	0
+fecosterol transport, ER membrane-lipid particle	0	0	0	0
+lanosterol transport, ER membrane-lipid particle	0	0	0	0
+zymosterol transport, ER membrane-lipid particle	0	0	0	0
+ergosteryl palmitoleate transport, ER membrane-lipid particle	0	0	0	0
+ergosteryl oleate transport, ER membrane-lipid particle	0	0	0	0
+episteryl palmitoleate transport, ER membrane-lipid particle	0	0	0	0
+episteryl oleate transport, ER membrane-lipid particle	0	0	0	0
+fecosteryl palmitoleate transport, ER membrane-lipid particle	0	0	0	0
+fecosteryl oleate transport, ER membrane-lipid particle	0	0	0	0
+lanosteryl palmitoleate transport, ER membrane-lipid particle	0	0	0	0
+lanosteryl oleate transport, ER membrane-lipid particle	0	0	0	0
+zymosteryl palmitoleate transport, ER membrane-lipid particle	0	0	0	0
+zymosteryl oleate transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+1-acylglycerophosphocholine (16:0) transport, ER membrane-lipid particle	0	0	0	0
+1-acylglycerophosphocholine (18:0) transport, ER membrane-lipid particle	0	0	0	0
+1-acylglycerophosphoethanolamine (16:0) transport, ER membrane-lipid particle	3.574802e-03	4.943265e-03	4.400918e-03	3.826358e-03
+1-acylglycerophosphoethanolamine (18:0) transport, ER membrane-lipid particle	0	0	0	3.999508e-04
+phosphatidate (1-16:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:1) transport, ER membrane-Golgi membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:1) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:1) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:1) transport, ER membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) transport, ER membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+cerotic acid transport, cell envelope-ER membrane	0	0	0	0
+zymosteryl palmitoleate transport, ER membrane-cell envelope	0	0	0	0
+zymosteryl oleate transport, ER membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) transport, ER membrane-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) transport, ER membrane-nucleus	0	0	0	0
+cerotic acid transport, ER membrane-ER	0	0	0	0
+ergosterol transport, ER-ER membrane	0	0	0	0
+phosphate transport, ER-ER membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1) transport, vacuolar membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1) transport, vacuolar membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:1) transport, vacuolar membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:1) transport, vacuolar membrane-cell envelope	0	0	0	0
+H+ transport, mitochondrion-mitochondrial membrane	5.689733e-04	7.867809e-04	7.004598e-04	6.726686e-04
+glycerol 3-phosphate transport, mitochondrion-mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+CMP transport, mitochondrion-mitochondrial membrane	-4.019870e-05	-5.558710e-05	-4.948840e-05	-4.752491e-05
+CTP transport, mitochondrion-mitochondrial membrane	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+phosphate transport, mitochondrion-mitochondrial membrane	-2.009935e-05	-2.779355e-05	-2.474420e-05	-2.376246e-05
+diphosphate transport, mitochondrion-mitochondrial membrane	-4.019870e-05	-5.558710e-05	-4.948840e-05	-4.752491e-05
+phosphatidyl-L-serine transport, ER membrane-cytoplasm	0	0	0	0
+phosphatidylcholine transport, ER membrane-cytoplasm	0	0	0	0
+phosphatidylethanolamine transport, ER membrane-cytoplasm	0	0	0	0
+triglyceride transport, ER membrane-cytoplasm	0	0	0	0
+succinyl-CoA:acetate CoA transferase	0	0	0	0
+heme a transport	0	0	0	0
+biomass pseudoreaction	0	0	0	0
+raffinose invertase	0	0	0	0
+raffinose exchange	0	0	0	0
+melibiose exchange	0	0	0	0
+uridine hydrolase	0	0	0	0
+non-growth associated maintenance reaction	0	0	0	0
+protein pseudoreaction	0	0	0	0
+carbohydrate pseudoreaction	0	0	0	0
+RNA pseudoreaction	0	0	0	0
+DNA pseudoreaction	0	0	0	0
+diglyceride transport	7.440782e-04	1.028917e-03	9.160305e-04	8.796864e-04
+phosphatidylglycerol transport	0	0	0	0
+cardiolipin transport	0	0	0	0
+lipid backbone exchange	6.035038e-02	8.345300e-02	7.429701e-02	7.134922e-02
+lipid backbone pseudoreaction	6.035038e-02	8.345300e-02	7.429701e-02	7.134922e-02
+lipid chain exchange	6.028702e-02	8.336538e-02	7.421900e-02	7.127431e-02
+lipid chain pseudoreaction	6.028702e-02	8.336538e-02	7.421900e-02	7.127431e-02
+Cytochrome c apocytochrome-c-lyase	0	0	0	0
+(R)-Acetoin:NAD+ oxidoreductase	0	0	0	0
+Probable diacetyl reductase [(R)-acetoin forming] 2 (EC 1.1.1.303)	0	0	0	0
+Glutamyl-tRNA(Gln) amidotransferase subunit B, mitochondrial (Glu-AdT subunit B) (EC 6.3.5.-) (Cytochrome c oxidase assembly factor PET112)	0	0	0	0
+Methionine aminopeptidase 2 (MAP 2) (MetAP 2) (EC 3.4.11.18) (Peptidase M)	0	0	0	0
+NADPH2:quinone oxidoreductase	0	0	0	0
+ADP-ribose pyrophosphatase (EC 3.6.1.13) (ADP-ribose diphosphatase) (ADP-ribose phosphohydrolase) (Adenosine diphosphoribose pyrophosphatase) (ADPR-PPase)	0	0	0	0
+Probable vacuolar amino acid transporter YPQ3 (PQ-loop repeat-containing protein 3) (Protein RTC2) (Restriction of telomere capping protein 2)	0	0	0	0
+Probable vacuolar amino acid transporter YPQ3 (PQ-loop repeat-containing protein 3) (Protein RTC2) (Restriction of telomere capping protein 2)	0	0	0	0
+Probable vacuolar amino acid transporter YPQ3 (PQ-loop repeat-containing protein 3) (Protein RTC2) (Restriction of telomere capping protein 2)	0	0	0	0
+Glucosidase 2 subunit alpha (EC 3.2.1.84) (Alpha-glucosidase II subunit alpha) (Glucosidase II subunit alpha) (Reversal of TOR2 lethality protein 2)	0	0	0	0
+Glucosidase 2 subunit alpha (EC 3.2.1.84) (Alpha-glucosidase II subunit alpha) (Glucosidase II subunit alpha) (Reversal of TOR2 lethality protein 2)	0	0	0	0
+Probable metabolite transport protein YBR241C	0	0	0	0
+Probable metabolite transport protein YBR241C	0	0	0	0
+UDP-N-acetyl-D-glucosamine:dolichyl-phosphate N-acetyl-D-glucosamine phosphotransferase	0	0	0	0
+L-cysteine:sulfur-acceptor sulfurtransferase	0	0	0	0
+Probable ATP-dependent permease	0	0	0	0
+Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)	0	0	0	0
+Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)	0	0	0	0
+Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)	0	0	0	0
+Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)	0	0	0	0
+Putative aryl-alcohol dehydrogenase AAD3 (EC 1.1.1.-)	0	0	0	0
+Benzyl alcohol:NAD+ oxidoreductase	0	0	0	0
+Manganese-transporting ATPase 1 (EC 3.6.3.-)	0	0	0	0
+4-hydroxy-4-methyl-2-oxoglutarate pyruvate-lyase (pyruvate-forming)	0	0	0	0
+oxaloacetate carboxy-lyase (pyruvate-forming)	0	0	0	0
+L-methionine:thioredoxin-disulfide S-oxidoreductase	0	0	0	0
+Glutathione-specific gamma-glutamylcyclotransferase (Gamma-GCG) (EC 4.3.2.-)	0	0	0	0
+superoxide:superoxide oxidoreductase	0	0	0	0
+S-Adenosyl-L-methionine:histone-L-lysine N6-methyltransferase	0	0	0	0
+Zinc transporter YKE4	0	0	0	0
+NADH:ferricytochrome-b5 oxidoreductase	0	0	0	0
+NADH-cytochrome b5 reductase 1 (EC 1.6.2.2) (Microsomal cytochrome b reductase) (P35)	0	0	0	0
+Benzil reductase ((S)-benzoin forming) IRC24 (EC 1.1.1.320) (Increased recombination centers protein 24)	0	0	0	0
+Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	0	0	0	0
+Glutathione S-transferase 1 (EC 2.5.1.18) (GST-I)	0	0	0	0
+L-methionine:oxidized-thioredoxin S-oxidoreductase	0	0	0	0
+Vacuolar aminopeptidase 1 (EC 3.4.11.22) (Aminopeptidase yscI) (Leucine aminopeptidase IV) (LAPIV) (Lysosomal aminopeptidase III) (Polypeptidase) (Vacuolar aminopeptidase I)	0	0	0	0
+Vacuolar aminopeptidase 1 (EC 3.4.11.22) (Aminopeptidase yscI) (Leucine aminopeptidase IV) (LAPIV) (Lysosomal aminopeptidase III) (Polypeptidase) (Vacuolar aminopeptidase I)	0	0	0	0
+5-oxo-L-proline amidohydrolase (ATP-hydrolysing)	0	0	0	0
+threo-3-hydroxy-L-aspartate ammonia-lyase	0	0	0	0
+Glutathione S-transferase omega-like 2 (EC 2.5.1.18) (Extracellular mutant protein 4) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1)	0	0	0	0
+glutathione:dehydroascorbate oxidoreductase	0	0	0	0
+Glutathione S-transferase omega-like 2 (EC 2.5.1.18) (Extracellular mutant protein 4) (Glutathione-dependent dehydroascorbate reductase) (EC 1.8.5.1)	0	0	0	0
+D-ribose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5-phosphate-lyase (glutamine-hydrolyzing)	0	0	0	0
+D-ribulose 5-phosphate,D-glyceraldehyde 3-phosphate pyridoxal 5-phosphate-lyase	0	0	0	0
+L-cysteinylglycine dipeptidase	0	0	0	0
+Cys-Gly metallodipeptidase DUG1 (EC 3.4.13.-) (Deficient in utilization of glutathione protein 1) (GSH degradosomal complex subunit DUG1)	0	0	0	0
+D-aminoacyl-tRNA deacylase (DTD) (EC 3.1.1.96) (D-tyrosyl-tRNA(Tyr) deacylase) (Gly-tRNA(Ala) deacylase) (EC 3.1.1.-)	0	0	0	0
+D-aminoacyl-tRNA deacylase (DTD) (EC 3.1.1.96) (D-tyrosyl-tRNA(Tyr) deacylase) (Gly-tRNA(Ala) deacylase) (EC 3.1.1.-)	0	0	0	0
+4-nitrophenyl phosphate phosphohydrolase	0	0	0	0
+D-Iditol:NAD+ 2-oxidoreductase	0	0	0	0
+ATP:alpha-D-galactose 1-phosphotransferase	0	0	0	0
+3-Hydroxy-2-methylpropanoyl-CoA hydrolase	0	0	0	0
+Sodium transport ATPase 5 (EC 3.6.3.7)	0	0	0	0
+Broad-range acid phosphatase DET1 (EC 3.1.3.-) (Decreased ergosterol transport protein 1)	0	0	0	0
+L-Alanine:2-oxoglutarate aminotransferase	2.223099e-03	0	0	0
+ATP:D-Gluconate 6-phosphotransferase	0	0	0	0
+S-Adenosyl-L-methionine:protein-C-terminal-S-farnesyl-L-cysteine O-methyltransferase	0	0	0	0
+(R)-lactate hydro-lyase	0	0	0	0
+Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	0	0	0	0
+Calcium-transporting ATPase 2 (EC 3.6.3.8) (Vacuolar Ca(2+)-ATPase)	0	0	0	0
+L-arginyl-tRNA(Arg):protein arginyltransferase	0	0	0	0
+Dolichyl-diphosphooligosaccharide--protein glycosyltransferase subunit STT3 (Oligosaccharyl transferase subunit STT3) (EC 2.4.99.18)	0	0	0	0
+Alpha-1,3/1,6-mannosyltransferase ALG2 (EC 2.4.1.132) (EC 2.4.1.257) (Asparagine-linked glycosylation protein 2) (GDP-Man:Man(1)GlcNAc(2)-PP-Dol alpha-1,3-mannosyltransferase) (GDP-Man:Man(1)GlcNAc(2)-PP-dolichol mannosyltransferase) (GDP-Man:Man(2)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase)	0	0	0	0
+GDP-D-mannose:D-Man-alpha-(1->3)-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-6-mannosyltransferase	0	0	0	0
+2-O-(6-phospho-alpha-D-mannosyl)-D-glycerate 6-phosphomannohydrolase	0	0	0	0
+Alpha-mannosidase (EC 3.2.1.24) (Alpha-D-mannoside mannohydrolase)	0	0	0	0
+ATP:L-threonyl,bicarbonate adenylyltransferase	0	0	0	0
+O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase; O3-acetyl-L-serine acetate-lyase (adding hydrogen sulfide)	0	0	0	0
+CTP:phosphatidate cytidyltransferase	0	0	0	0
+Thiamine thiazole synthase (Thiazole biosynthetic enzyme)	0	0	0	0
+nitric oxide, NADPH2:oxygen oxidoreductase	0	0	0	0
+Flavohemoprotein (EC 1.14.12.17) (Flavohemoglobin) (Hemoglobin-like protein) (Nitric oxide dioxygenase) (NO oxygenase) (NOD)	0	0	0	0
+Putative lipoate-protein ligase A (EC 6.3.1.20) (Altered inheritance rate of mitochondria protein 22)	0	0	0	0
+[lipoyl-carrier protein]-L-lysine:lipoate ligase (AMP-forming)	0	0	0	0
+Deaminated glutathione amidase (dGSH amidase) (EC 3.5.1.-) (Nitrilase homolog 1)	0	0	0	0
+Deaminated glutathione amidase (dGSH amidase) (EC 3.5.1.-) (Nitrilase homolog 1)	0	0	0	0
+Anion/proton exchange transporter GEF1 (CLC protein GEF1) (ClC-A) (ClC-Y1) (Voltage-gated chloride channel) [Cleaved into: GEF1 N-terminal; GEF1 C-terminal]	0	0	0	0
+nucleoside-triphosphate diphosphohydrolase	0	0	0	0
+Inosine triphosphate pyrophosphatase (ITPase) (Inosine triphosphatase) (EC 3.6.1.9) (Hydroxylaminopurine sensitivity protein 1) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	0	0	0	0
+2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase	0	0	0	0
+dTTP diphosphohydrolase	0	0	0	0
+Inosine triphosphate pyrophosphatase (ITPase) (Inosine triphosphatase) (EC 3.6.1.9) (Hydroxylaminopurine sensitivity protein 1) (Non-canonical purine NTP pyrophosphatase) (Non-standard purine NTP pyrophosphatase) (Nucleoside-triphosphate diphosphatase) (Nucleoside-triphosphate pyrophosphatase) (NTPase)	0	0	0	0
+Endoplasmic reticulum mannosyl-oligosaccharide 1,2-alpha-mannosidase (EC 3.2.1.113) (ER alpha-1,2-mannosidase) (Man(9)-alpha-mannosidase)	0	0	0	0
+alpha 1,2-mannosyloligosaccharide alpha-D-mannohydrolase	0	0	0	0
+O-Succinyl-L-homoserine succinate-lyase (deaminating; 2-oxobutanoate-forming)	0	0	0	0
+Fe(II):NADP+ oxidoreductase	0	0	0	0
+Fe(II):NADP+ oxidoreductase	0	0	0	0
+diphthine:ammonia ligase (AMP-forming)	0	0	0	0
+octanoyl-[acp]:protein N6-octanoyltransferase	0	0	0	0
+lipoyl-[acp]:protein N6-lipoyltransferase	0	0	0	0
+ATP:D-fructose-6-phosphate 2-phosphotransferase	0	0	0	0
+alpha-D-Glucose 6-phosphate ketol-isomerase	0	0	0	0
+D-Glyceraldehyde:NAD+ oxidoreductase	0	0	0	0
+4-Aminobutyraldehyde:NAD+ oxidoreductase	0	0	0	0
+4-aminobutanal:NAD+ 1-oxidoreductase; 4-aminobutyraldehyde:NAD+ oxidoreductase	0	0	0	0
+Indole-3-acetaldehyde:NAD+ oxidoreductase	0	0	0	0
+2-Propyn-1-al:NAD+ oxidoreductase	0	0	0	0
+D-Glucuronolactone:NAD+ oxidoreductase	0	0	0	0
+4-Trimethylammoniobutanal:NAD+ 1-oxidoreductase; 4-Trimethylammoniobutanal:NAD+ oxidoreductase	0	0	0	0
+(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase	0	0	0	0
+Imidazole acetaldehyde:NAD+ oxidoreductase	0	0	0	0
+3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase	0	0	0	0
+5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase	0	0	0	0
+N4-Acetylaminobutanal:NAD+ oxidoreductase	0	0	0	0
+Fatty aldehyde dehydrogenase HFD1 (EC 1.2.1.3)	0	0	0	0
+Fatty aldehyde dehydrogenase HFD1 (EC 1.2.1.3)	0	0	0	0
+Chloroacetaldehyde:NAD+ oxidoreductase	0	0	0	0
+Aldehyde:NAD+ oxidoreductase	0	0	0	0
+farnesal:NAD+ oxidoreductase	0	0	0	0
+Probable phospholipid-transporting ATPase DNF3 (EC 3.6.3.1) (Aminophospholipid translocase) (APT) (Phospholipid translocase) (PLT)	0	0	0	0
+S-adenosyl-L-methionine:carnosine N-methyltransferase	0	0	0	0
+Alpha-1,2-mannosyltransferase ALG9 (EC 2.4.1.259) (EC 2.4.1.261) (Asparagine-linked glycosylation protein 9) (Dol-P-Man:Man(6)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase) (Dol-P-Man:Man(8)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase)	0	0	0	0
+Alpha-1,2-mannosyltransferase ALG9 (EC 2.4.1.259) (EC 2.4.1.261) (Asparagine-linked glycosylation protein 9) (Dol-P-Man:Man(6)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase) (Dol-P-Man:Man(8)GlcNAc(2)-PP-Dol alpha-1,2-mannosyltransferase)	0	0	0	0
+Glycolate:NAD+ oxidoreductase	0	0	0	0
+Dol-P-Man:Man(7)GlcNAc(2)-PP-Dol alpha-1,6-mannosyltransferase (EC 2.4.1.260) (Asparagine-linked glycosylation protein 12) (Dolichyl-P-Man:Man(7)GlcNAc(2)-PP-dolichyl-alpha-1,6-mannosyltransferase) (Extracellular mutant protein 39) (Mannosyltransferase ALG12)	0	0	0	0
+sucrose glucohydrolase	0	0	0	0
+Isomaltose 6-alpha-D-glucanohydrolase	0	0	0	0
+Dextrin 6-alpha-D-glucanohydrolase	0	0	0	0
+dolichyl beta-D-glucosyl phosphate:D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase	0	0	0	0
+dolichyl beta-D-glucosyl phosphate:D-Glc-alpha-(1->3)-D-Man-alpha-(1->2)-D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->3)-[D-Man-alpha-(1->2)-D-Man-alpha-(1->6)]-D-Man-alpha-(1->6)]-D-Man-beta-(1->4)-D-GlcNAc-beta-(1->4)-D-GlcNAc-diphosphodolichol alpha-1,3-glucosyltransferase	0	0	0	0
+protein N6-(octanoyl)lysine:sulfur sulfurtransferase	0	0	0	0
+octanoyl-[acp]:sulfur sulfurtransferase	0	0	0	0
+Iron sulfur cluster assembly protein 2, mitochondrial (Iron sulfur cluster scaffold protein 2)	0	0	0	0
+thiosulfate:cyanide sulfurtranserase	0	0	0	0
+Magnesium transporter MRS2, mitochondrial (RNA-splicing protein MRS2)	0	0	0	0
+UDPglucose:dolichyl-phosphate beta-D-glucosyltransferase	0	0	0	0
+Putative sulfate transporter YPR003C	0	0	0	0
+Pyridoxine:NADP+ 4-oxidoreductase	0	0	0	0
+Protein PNS1 (pH nine-sensitive protein 1)	0	0	0	0
+Polyphosphate phosphohydrolase	0	0	0	0
+Copper-transporting ATPase (EC 3.6.3.54) (Cu(2+)-ATPase)	0	0	0	0
+Monoamide of a dicarboxylic acid amidohydrolase	0	0	0	0
+Iron-sulfur clusters transporter ATM1, mitochondrial	0	0	0	0
+Oligo-1,6-glucosidase IMA2 (EC 3.2.1.10) (Alpha-glucosidase) (Isomaltase 2)	0	0	0	0
+NADH dehydrogenase (complex I)	3.225314e-01	2.941348e-01	1.845308e-01	2.565555e-01
+phytoene synthase	0	0	0	0
+phytoene dehydrogenase	0	0	0	0
+phytoene dehydrogenase	0	0	0	0
+phytoene synthase	0	0	0	0
+phytoene synthase	0	0	0	0
+phytoene synthase	0	0	0	0
+torularhodin synthase	0	0	0	0
+cytoplasmatic carnitine acyltransferase (C16:0)	0	0	0	0
+cytoplasmatic carnitine acyltransferase (C18:0)	0	0	0	0
+cytoplasmatic carnitine acyltransferase (C20:0)	0	0	0	0
+cytoplasmatic carnitine acyltransferase (C22:0)	0	0	0	0
+cytoplasmatic carnitine acyltransferase (C24:0)	0	0	0	0
+cytoplasmatic carnitine acyltransferase (C26:0)	0	0	0	0
+fatty acylcarnitine transport (C16:0)	0	0	0	0
+fatty acylcarnitine transport (C18:0)	0	0	0	0
+fatty acylcarnitine transport (C20:0)	0	0	0	0
+fatty acylcarnitine transport (C22:0)	0	0	0	0
+fatty acylcarnitine transport (C24:0)	0	0	0	0
+fatty acylcarnitine transport (C26:0)	0	0	0	0
+mitochondrial carnitine acyltransferase (C16:0)	0	0	0	0
+mitochondrial carnitine acyltransferase (C18:0)	0	0	0	0
+mitochondrial carnitine acyltransferase (C20:0)	0	0	0	0
+mitochondrial carnitine acyltransferase (C22:0)	0	0	0	0
+mitochondrial carnitine acyltransferase (C24:0)	0	0	0	0
+mitochondrial carnitine acyltransferase (C26:0)	0	0	0	0
+malic enzyme (NADP) cytoplasmic	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxybutanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxydecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxydocosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxydodecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyhexacosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyhexadecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyhexanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyicosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyoctadecanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxyoctanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxytetracosanoyl-CoA)	0	0	0	0
+2-enoyl-CoA hydratase (3-hydroxytetradecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxobutanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxodocosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxoicosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxotetracosanoyl-CoA)	0	0	0	0
+3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (acetyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (octanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (butanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (decanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (docosanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (hexanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (icosanoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (lauroyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (myristoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (palmitoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (stearoyl-CoA)	0	0	0	0
+acetyl-CoA C-acyltransferase (tetracosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (butanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (decanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (docosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (lauroyl-CoA)	0	0	0	0
+acyl-CoA oxidase (hexacosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (palmitoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (hexanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (icosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (stearoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (octanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (tetracosanoyl-CoA)	0	0	0	0
+acyl-CoA oxidase (tetradecanoyl-CoA)	0	0	0	0
+fatty acid oxidation (C18:2)	0	0	0	0
+linoleoyl-CoA desaturase (n-C18:2CoA - n-C18:3CoA), ER membrane	3.029586e-03	4.189336e-03	3.729706e-03	3.581727e-03
+peroxisomal acyl-CoA thioesterase (18:3)	0	0	0	0
+peroxisomal acyl-CoA thioesterase (18:2)	0	0	0	0
+fatty acyl-CoA transport via ABC system (C18:3)	0	0	0	0
+phosphoketolase	0	1.657477e-01	2.843098e-01	0
+phosphate transacetylase	0	-1.657477e-01	-2.843098e-01	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	4.137293e-03	5.594560e-03	4.980757e-03	4.891314e-03
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	2.897890e-03	4.133749e-03	3.680218e-03	3.426030e-03
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	1.832227e-03	2.660142e-03	2.368286e-03	2.166150e-03
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	1.316958e-04	5.558710e-05	4.948840e-05	1.556974e-04
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-18:2), lipid particle	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-16:0, 2-18:3), lipid particle	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-18:0, 2-18:2), lipid particle	0	0	0	0
+1-acyl-sn-glycerol-3-phosphate acyltransferase (1-18:0, 2-18:3), lipid particle	0	0	0	0
+acyl dhap reductase (16:0), endoplasmic reticulum membrane	0	0	0	0
+acyl dhap reductase (18:0), endoplasmic reticulum membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-16:0, 2-18:2), endoplasmic reticulum membrane	6.091720e-04	8.423680e-04	0	7.201935e-04
+CDP-diacylglycerol synthase (1-16:0, 2-18:3), endoplasmic reticulum membrane	1.029511e-03	1.423616e-03	2.017373e-03	1.217139e-03
+CDP-diacylglycerol synthase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-16:0, 2-18:2), mitochondrial membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-16:0, 2-18:3), mitochondrial membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-18:0, 2-18:1), mitochondrial membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-18:0, 2-18:2), mitochondrial membrane	0	0	0	0
+CDP-diacylglycerol synthase (1-18:0, 2-18:3), mitochondrial membrane	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+cholinephosphotransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+cholinephosphotransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+cholinephosphotransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+cholinephosphotransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+cholinephosphotransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+cholinephosphotransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+CL (1-16:0, 2-18:1, 3-16:0, 4-18:2) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:1, 3-16:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:2, 3-16:0, 4-18:2) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:2, 3-16:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:3, 3-16:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:1, 3-18:0, 4-18:1) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:1, 3-18:0, 4-18:2) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:1, 3-18:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:2, 3-18:0, 4-18:2) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:2, 3-18:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-16:0, 2-18:3, 3-18:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-18:0, 2-18:1, 3-18:0, 4-18:1) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-18:0, 2-18:1, 3-18:0, 4-18:2) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-18:0, 2-18:1, 3-18:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-18:0, 2-18:2, 3-18:0, 4-18:2) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-18:0, 2-18:2, 3-18:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	0	0	0	0
+CL (1-18:0, 2-18:3, 3-18:0, 4-18:3) phospholipase (1-position), mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+CL (1-18:1, 2-18:1, 3-16:0, 4-18:1) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:1, 3-16:0, 4-18:2) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:1, 3-16:0, 4-18:3) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:2, 3-16:0, 4-18:2) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:2, 3-16:0, 4-18:3) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:3, 3-16:0, 4-18:3) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:1, 3-18:0, 4-18:1) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:1, 3-18:0, 4-18:2) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:1, 3-18:0, 4-18:3) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:2, 3-18:0, 4-18:2) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:2, 3-18:0, 4-18:3) phospholipase (3-position), mitochondrial membrane	0	0	0	0
+CL (1-18:1, 2-18:3, 3-18:0, 4-18:3) phospholipase (3-position), mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+CL synthase (1-16:0, 2-18:1, 3-16:0, 4-18:2), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:1, 3-16:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:2, 3-16:0, 4-18:2), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:2, 3-16:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:3, 3-16:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:1, 3-18:0, 4-18:1), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:1, 3-18:0, 4-18:2), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:1, 3-18:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:2, 3-18:0, 4-18:2), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:2, 3-18:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-16:0, 2-18:3, 3-18:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-18:0, 2-18:1, 3-18:0, 4-18:1), mitochondrial membrane	0	0	0	0
+CL synthase (1-18:0, 2-18:1, 3-18:0, 4-18:2), mitochondrial membrane	0	0	0	0
+CL synthase (1-18:0, 2-18:1, 3-18:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-18:0, 2-18:2, 3-18:0, 4-18:2), mitochondrial membrane	0	0	0	0
+CL synthase (1-18:0, 2-18:2, 3-18:0, 4-18:3), mitochondrial membrane	0	0	0	0
+CL synthase (1-18:0, 2-18:3, 3-18:0, 4-18:3), mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+DAG kinase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+DAG kinase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+DAG kinase (1-16:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+DAG kinase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+DAG kinase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+DAG kinase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+DAG lipase (1-16:0, 2-18:2), lipid particle	2.965630e-03	4.100897e-03	4.400918e-03	3.506115e-03
+DAG lipase (1-16:0, 2-18:3), lipid particle	6.091720e-04	8.423680e-04	0	7.201935e-04
+DAG lipase (1-18:0, 2-18:2), lipid particle	0	0	0	0
+DAG lipase (1-18:0, 2-18:3), lipid particle	0	0	0	0
+DGPP phosphatase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+DGPP phosphatase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+DGPP phosphatase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+DGPP phosphatase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:1, 3-16:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:1, 3-18:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:1, 3-18:1), endoplasmic reticulum membrane	6.829364e-03	9.443700e-03	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:2, 3-16:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:2, 3-18:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:2, 3-18:1), endoplasmic reticulum membrane	5.624918e-04	6.512953e-04	5.798389e-04	6.650058e-04
+diacylglycerol acyltransferase (1-16:0, 2-18:3, 3-16:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:3, 3-18:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:3, 3-18:1), endoplasmic reticulum membrane	0	1.265230e-04	1.126416e-04	0
+diacylglycerol acyltransferase (1-18:0, 2-18:1, 3-16:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:1, 3-18:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:1, 3-18:1), endoplasmic reticulum membrane	0	0	8.407591e-03	8.074014e-03
+diacylglycerol acyltransferase (1-18:0, 2-18:2, 3-16:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:2, 3-18:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:2, 3-18:1), endoplasmic reticulum membrane	1.832227e-03	2.660142e-03	2.368286e-03	2.166150e-03
+diacylglycerol acyltransferase (1-18:0, 2-18:3, 3-16:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:3, 3-18:0), endoplasmic reticulum membrane	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:3, 3-18:1), endoplasmic reticulum membrane	9.149713e-05	0	0	1.081725e-04
+diacylglycerol acyltransferase (1-16:0, 2-18:2, 3-16:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:2, 3-18:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:2, 3-18:1), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:3, 3-16:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:3, 3-18:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-16:0, 2-18:3, 3-18:1), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:2, 3-16:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:2, 3-18:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:2, 3-18:1), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:3, 3-16:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:3, 3-18:0), lipid particle	0	0	0	0
+diacylglycerol acyltransferase (1-18:0, 2-18:3, 3-18:1), lipid particle	0	0	0	0
+dihydroxyacetone phosphate acyltransferase (16:0), endoplasmic reticulum membrane	0	0	0	0
+dihydroxyacetone phosphate acyltransferase (18:0), endoplasmic reticulum membrane	0	0	0	0
+ethanolaminephosphotransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+ethanolaminephosphotransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+ethanolaminephosphotransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+ethanolaminephosphotransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+ethanolaminephosphotransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+ethanolaminephosphotransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+fatty-acid--CoA ligase (palmitate), endoplasmic reticulum membrane	2.412711e-03	3.336317e-03	2.970275e-03	2.852428e-03
+fatty-acid--CoA ligase (stearate), endoplasmic reticulum membrane	0	0	0	0
+fatty-acid--CoA ligase (oleate), endoplasmic reticulum membrane	0	0	0	0
+fatty-acid--CoA ligase (linoleate), endoplasmic reticulum membrane	0	0	0	0
+fatty-acid--CoA ligase (linolenate), endoplasmic reticulum membrane	0	0	0	0
+fatty-acid--CoA ligase (palmitate), lipid particle	0	0	0	0
+fatty-acid--CoA ligase (stearate), lipid particle	0	0	0	0
+fatty-acid--CoA ligase (oleate), lipid particle	0	0	0	0
+fatty-acid--CoA ligase (linoleate), lipid particle	2.965630e-03	4.100897e-03	4.400918e-03	3.506115e-03
+fatty-acid--CoA ligase (linolenate), lipid particle	6.091720e-04	8.423680e-04	0	7.201935e-04
+fatty-acid--CoA ligase (palmitate), peroxisome	0	0	0	0
+fatty-acid--CoA ligase (stearate), peroxisome	0	0	0	0
+fatty-acid--CoA ligase (oleate), peroxisome	0	0	0	0
+fatty-acid--CoA ligase (linoleate), peroxisome	0	0	0	0
+fatty-acid--CoA ligase (linolenate), peroxisome	0	0	0	0
+glycerol-3-phosphate acyltransferase (16:0), endoplasmic reticulum membrane	7.035184e-03	9.728309e-03	8.660974e-03	8.317344e-03
+glycerol-3-phosphate acyltransferase (18:0), endoplasmic reticulum membrane	1.963923e-03	2.715729e-03	2.417775e-03	2.321848e-03
+IPC synthase (PI (1-16:0, 2-18:2) ceramide-1 (C24))	0	0	0	0
+IPC synthase (PI (1-16:0, 2-18:3) ceramide-1 (C24))	0	0	0	0
+IPC synthase (PI (1-18:0, 2-18:2) ceramide-1 (C24))	0	0	0	0
+IPC synthase (PI (1-18:0, 2-18:3) ceramide-1 (C24))	0	0	0	0
+IPC synthase (PI (1-16:0, 2-18:2) ceramide-1 (C26))	0	0	0	0
+IPC synthase (PI (1-16:0, 2-18:3) ceramide-1 (C26))	0	0	0	0
+IPC synthase (PI (1-18:0, 2-18:2) ceramide-1 (C26))	0	0	0	0
+IPC synthase (PI (1-18:0, 2-18:3) ceramide-1 (C26))	0	0	0	0
+LPC phospholipase B (16:0), endoplasmic reticulum membrane	0	0	0	0
+LPC phospholipase B (18:0), endoplasmic reticulum membrane	0	0	0	0
+lysoPC acyltransferase (1-16:0, 2-18:2), mitochondrial membrane	0	0	0	0
+lysoPC acyltransferase (1-16:0, 2-18:3), mitochondrial membrane	0	0	0	0
+lysoPC acyltransferase (1-18:0, 2-18:2), mitochondrial membrane	0	0	0	0
+lysoPC acyltransferase (1-18:0, 2-18:3), mitochondrial membrane	0	0	0	0
+lysoPE (1-16:0) linoleoyl-CoA acyltransferase, lipid particle	2.965630e-03	4.100897e-03	4.400918e-03	3.506115e-03
+lysoPE (1-16:0) linolenoyl-CoA acyltransferase, lipid particle	6.091720e-04	8.423680e-04	0	3.202427e-04
+lysoPE (1-18:0) linoleoyl-CoA acyltransferase, lipid particle	0	0	0	0
+lysoPE (1-18:0) linolenoyl-CoA acyltransferase, lipid particle	0	0	0	3.999508e-04
+lysoPI acyltransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+lysoPI acyltransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+lysoPI acyltransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+lysoPI acyltransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+lysoPI acyltransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+lysoPI acyltransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+MAG lipase (1-16:0:0), lipid particle	3.237814e-03	4.477276e-03	3.986054e-03	3.827905e-03
+MAG lipase (1-18:0:0), lipid particle	0	0	0	0
+MLCL (1-18:1, 2-18:1, 4-18:1):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (1-18:1, 2-18:1, 4-18:2):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (1-18:1, 2-18:1, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (1-18:1, 2-18:2, 4-18:2):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (1-18:1, 2-18:2, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (1-18:1, 2-18:3, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+MLCL (2-18:1, 3-16:0, 4-18:2):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:1, 3-16:0, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:2, 3-16:0, 4-18:2):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:2, 3-16:0, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:3, 3-16:0, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:1, 3-18:0, 4-18:1):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:1, 3-18:0, 4-18:2):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:1, 3-18:0, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:2, 3-18:0, 4-18:2):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:2, 3-18:0, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	0	0	0	0
+MLCL (2-18:3, 3-18:0, 4-18:3):PC (1-16:0, 2-18:1) acyltransferase, mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+PA kinase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+PA kinase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+PA kinase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+PA kinase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+PA phosphatase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PA phosphatase (1-16:0, 2-18:2), endoplasmic reticulum membrane	3.528121e-03	4.752192e-03	4.980757e-03	4.171121e-03
+PA phosphatase (1-16:0, 2-18:3), endoplasmic reticulum membrane	1.868379e-03	2.710133e-03	1.662845e-03	2.208891e-03
+PA phosphatase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PA phosphatase (1-18:0, 2-18:2), endoplasmic reticulum membrane	1.832227e-03	2.660142e-03	2.368286e-03	2.166150e-03
+PA phosphatase (1-18:0, 2-18:3), endoplasmic reticulum membrane	9.149713e-05	0	0	1.081725e-04
+PA phosphatase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+PA phosphatase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+PA phosphatase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+PA phosphatase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+PC (1-16:0, 2-18:1) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	-9.443700e-03	0	0
+PC (1-16:0, 2-18:2) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	-3.984443e-03	0
+PC (1-16:0, 2-18:3) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	-4.164747e-04	0
+PC (1-16:0, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	-3.574802e-03	0	0	0
+PC (1-16:0, 2-18:3) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-16:0, 2-18:3) diacylglycerol (1-16:0, 2-18:3) acyltransferase, endoplasmic reticulum membrane	0	0	0	-3.999508e-04
+PC (1-18:0, 2-18:1) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	-6.829364e-03	0	0	0
+PC (1-18:0, 2-18:2) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	-4.943265e-03	0	-3.826358e-03
+PC (1-18:0, 2-18:3) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:3) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:3) diacylglycerol (1-16:0, 2-18:3) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:1) diacylglycerol (1-18:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	-8.407591e-03	-8.074014e-03
+PC (1-18:0, 2-18:2) diacylglycerol (1-18:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:3) diacylglycerol (1-18:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:2) diacylglycerol (1-18:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:3) diacylglycerol (1-18:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC (1-18:0, 2-18:3) diacylglycerol (1-18:0, 2-18:3) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PC phospholipase B (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	9.443700e-03	0	0
+PC phospholipase B (1-16:0, 2-18:2), endoplasmic reticulum membrane	3.574802e-03	0	4.400918e-03	3.999508e-04
+PC phospholipase B (1-16:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PC phospholipase B (1-18:0, 2-18:1), endoplasmic reticulum membrane	6.829364e-03	0	8.407591e-03	8.074014e-03
+PC phospholipase B (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	4.943265e-03	0	3.826358e-03
+PC phospholipase B (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PC phospholipase B (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PC phospholipase B (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PC phospholipase B (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PC phospholipase B (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PC phospholipase D (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PC phospholipase D (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PC phospholipase D (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PC phospholipase D (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PE (1-16:0, 2-18:1) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-16:0, 2-18:2) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	4.943265e-03	3.984443e-03	3.826358e-03
+PE (1-16:0, 2-18:3) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	4.164747e-04	0
+PE (1-16:0, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	3.574802e-03	0	0	0
+PE (1-16:0, 2-18:3) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-16:0, 2-18:3) diacylglycerol (1-16:0, 2-18:3) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:1) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:2) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:3) diacylglycerol (1-16:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:2) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:3) diacylglycerol (1-16:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:3) diacylglycerol (1-16:0, 2-18:3) acyltransferase, endoplasmic reticulum membrane	0	0	0	3.999508e-04
+PE (1-18:0, 2-18:1) diacylglycerol (1-18:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:2) diacylglycerol (1-18:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:3) diacylglycerol (1-18:0, 2-18:1) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:2) diacylglycerol (1-18:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:3) diacylglycerol (1-18:0, 2-18:2) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE (1-18:0, 2-18:3) diacylglycerol (1-18:0, 2-18:3) acyltransferase, endoplasmic reticulum membrane	0	0	0	0
+PE methyltransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PE methyltransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	4.164747e-04	3.999508e-04
+PE methyltransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	3.382963e-04	4.677989e-04	0	0
+PE methyltransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PE methyltransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+PE methyltransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PE phospholipase A2 (1-16:0, 2-18:2), lipid particle	0	0	0	0
+PE phospholipase A2 (1-16:0, 2-18:3), lipid particle	0	0	0	0
+PE phospholipase A2 (1-18:0, 2-18:2), lipid particle	0	0	0	0
+PE phospholipase A2 (1-18:0, 2-18:3), lipid particle	0	0	0	0
+PE phospholipase B (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PE phospholipase B (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PE phospholipase B (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PE phospholipase B (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PG phospholipase C (1-16:0, 2-18:2), mitochondrial membrane	0	0	0	0
+PG phospholipase C (1-16:0, 2-18:3), mitochondrial membrane	0	0	0	0
+PG phospholipase C (1-18:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PG phospholipase C (1-18:0, 2-18:2), mitochondrial membrane	0	0	0	0
+PG phospholipase C (1-18:0, 2-18:3), mitochondrial membrane	0	0	0	0
+PGP phosphatase (1-16:0, 2-18:2), mitochondrial membrane	0	0	0	0
+PGP phosphatase (1-16:0, 2-18:3), mitochondrial membrane	0	0	0	0
+PGP phosphatase (1-18:0, 2-18:1), mitochondrial membrane	0	0	0	0
+PGP phosphatase (1-18:0, 2-18:2), mitochondrial membrane	0	0	0	0
+PGP phosphatase (1-18:0, 2-18:3), mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+phosphatidylglycerolphosphate synthase (1-16:0, 2-18:2), mitochondrial membrane	0	0	0	0
+phosphatidylglycerolphosphate synthase (1-16:0, 2-18:3), mitochondrial membrane	0	0	0	0
+phosphatidylglycerolphosphate synthase (1-18:0, 2-18:1), mitochondrial membrane	0	0	0	0
+phosphatidylglycerolphosphate synthase (1-18:0, 2-18:2), mitochondrial membrane	0	0	0	0
+phosphatidylglycerolphosphate synthase (1-18:0, 2-18:3), mitochondrial membrane	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+phosphatidylinositol 3-kinase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+phosphatidylinositol 3-kinase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+phosphatidylinositol 3-kinase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+phosphatidylinositol 3-kinase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:2), cell envelope	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:3), cell envelope	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:2), cell envelope	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:3), cell envelope	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:2), Golgi membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:3), Golgi membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:2), Golgi membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:3), Golgi membrane	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:2), nucleus	0	0	0	0
+phosphatidylinositol 4-kinase (1-16:0, 2-18:3), nucleus	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:2), nucleus	0	0	0	0
+phosphatidylinositol 4-kinase (1-18:0, 2-18:3), nucleus	0	0	0	0
+phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	4.164747e-04	3.999508e-04
+phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	3.382963e-04	4.677989e-04	0	0
+phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N,N-dimethylethanolamine methyltransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N-methylethanolamine methyltransferase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N-methylethanolamine methyltransferase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	4.164747e-04	3.999508e-04
+phosphatidyl-N-methylethanolamine methyltransferase (1-16:0, 2-18:3), endoplasmic reticulum membrane	3.382963e-04	4.677989e-04	0	0
+phosphatidyl-N-methylethanolamine methyltransferase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N-methylethanolamine methyltransferase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+phosphatidyl-N-methylethanolamine methyltransferase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PI 3,5-P2 phosphatase (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PI 3,5-P2 phosphatase (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PI 3,5-P2 phosphatase (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PI 3,5-P2 phosphatase (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PI 3,5-P2 phosphatase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+PI 3,5-P2 phosphatase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+PI 3,5-P2 phosphatase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+PI 3,5-P2 phosphatase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+PI 3-P 5-kinase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+PI 3-P 5-kinase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+PI 3-P 5-kinase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+PI 3-P 5-kinase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+PI 3-P phosphatase (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PI 3-P phosphatase (1-16:0, 2-18:2), Golgi membrane	0	0	0	0
+PI 3-P phosphatase (1-16:0, 2-18:3), Golgi membrane	0	0	0	0
+PI 3-P phosphatase (1-18:0, 2-18:2), Golgi membrane	0	0	0	0
+PI 3-P phosphatase (1-18:0, 2-18:3), Golgi membrane	0	0	0	0
+PI 4,5-P2 phosphatase (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PI 4,5-P2 phosphatase (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PI 4,5-P2 phosphatase (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PI 4,5-P2 phosphatase (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PI 4,5-P2 phospholipase C (1-16:0, 2-18:2), nucleus	0	0	0	0
+PI 4,5-P2 phospholipase C (1-16:0, 2-18:3), nucleus	0	0	0	0
+PI 4,5-P2 phospholipase C (1-18:0, 2-18:2), nucleus	0	0	0	0
+PI 4,5-P2 phospholipase C (1-18:0, 2-18:3), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-16:0, 2-18:2), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-16:0, 2-18:3), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-18:0, 2-18:2), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-18:0, 2-18:3), nucleus	0	0	0	0
+PI 4-P 5-kinase (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PI 4-P 5-kinase (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PI 4-P 5-kinase (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PI 4-P 5-kinase (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:2), Golgi membrane	0	0	0	0
+PI 4-P phosphatase (1-16:0, 2-18:3), Golgi membrane	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:2), Golgi membrane	0	0	0	0
+PI 4-P phosphatase (1-18:0, 2-18:3), Golgi membrane	0	0	0	0
+PI phospholipase B (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PI phospholipase B (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PI phospholipase B (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PI phospholipase B (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PI synthase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PI synthase (1-16:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+PI synthase (1-16:0, 2-18:3), endoplasmic reticulum membrane	1.924075e-04	2.660627e-04	2.368718e-04	2.274738e-04
+PI synthase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PI synthase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+PI synthase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+PS decarboxylase (1-16:0, 2-18:2), mitochondrial membrane	6.091720e-04	8.423680e-04	0	7.201935e-04
+PS decarboxylase (1-16:0, 2-18:3), mitochondrial membrane	0	0	7.499482e-04	0
+PS decarboxylase (1-18:0, 2-18:2), mitochondrial membrane	0	0	0	0
+PS decarboxylase (1-18:0, 2-18:3), mitochondrial membrane	0	0	0	0
+PS decarboxylase (1-16:0, 2-18:2), vacuolar membrane	0	0	0	0
+PS decarboxylase (1-16:0, 2-18:3), vacuolar membrane	0	0	0	0
+PS decarboxylase (1-18:0, 2-18:2), vacuolar membrane	0	0	0	0
+PS decarboxylase (1-18:0, 2-18:3), vacuolar membrane	0	0	0	0
+PS phospholipase B (1-16:0, 2-18:2), cell envelope	0	0	0	0
+PS phospholipase B (1-16:0, 2-18:3), cell envelope	0	0	0	0
+PS phospholipase B (1-18:0, 2-18:2), cell envelope	0	0	0	0
+PS phospholipase B (1-18:0, 2-18:3), cell envelope	0	0	0	0
+PS synthase (1-16:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PS synthase (1-16:0, 2-18:2), endoplasmic reticulum membrane	6.091720e-04	8.423680e-04	0	7.201935e-04
+PS synthase (1-16:0, 2-18:3), endoplasmic reticulum membrane	8.371032e-04	1.157553e-03	1.780501e-03	9.896651e-04
+PS synthase (1-18:0, 2-18:1), endoplasmic reticulum membrane	0	0	0	0
+PS synthase (1-18:0, 2-18:2), endoplasmic reticulum membrane	0	0	0	0
+PS synthase (1-18:0, 2-18:3), endoplasmic reticulum membrane	0	0	0	0
+TAG lipase (1-16:0, 2-18:2, 3-16:0), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:2, 3-18:0), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:2, 3-18:1), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:3, 3-16:0), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:3, 3-18:0), lipid particle	0	0	0	0
+TAG lipase (1-16:0, 2-18:3, 3-18:1), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:2, 3-16:0), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:2, 3-18:0), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:2, 3-18:1), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:3, 3-16:0), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:3, 3-18:0), lipid particle	0	0	0	0
+TAG lipase (1-18:0, 2-18:3, 3-18:1), lipid particle	0	0	0	0
+1-monoglyceride (16:0) transport, ER membrane-lipid particle	-3.369875e-04	-4.659891e-04	-4.148635e-04	-3.984035e-04
+1-monoglyceride (18:0) transport, ER membrane-lipid particle	0	0	0	0
+1-monoglyceride (16:0) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-monoglyceride (18:0) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) transport, ER membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) transport, ER membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:2) transport, vacuolar membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:3) transport, vacuolar membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:2) transport, vacuolar membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:3) transport, vacuolar membrane-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:2) transport, vacuolar membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-16:0, 2-18:3) transport, vacuolar membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:2) transport, vacuolar membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3,5-bisphosphate (1-18:0, 2-18:3) transport, vacuolar membrane-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:1) transport, vacuolar membrane-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:2) transport, vacuolar membrane-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:3) transport, vacuolar membrane-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:1) transport, vacuolar membrane-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:2) transport, vacuolar membrane-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:3) transport, vacuolar membrane-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:2) transport, vacuolar membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-16:0, 2-18:3) transport, vacuolar membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:2) transport, vacuolar membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 3-phosphate (1-18:0, 2-18:3) transport, vacuolar membrane-Golgi membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1) transport, cytoplasm-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2) transport, cytoplasm-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3) transport, cytoplasm-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1) transport, cytoplasm-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2) transport, cytoplasm-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3) transport, cytoplasm-cell envelope	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1) transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2) transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3) transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1) transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2) transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3) transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:1) transport, cytoplasm-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:2) transport, cytoplasm-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-16:0, 2-18:3) transport, cytoplasm-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:1) transport, cytoplasm-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:2) transport, cytoplasm-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4,5-bisphosphate (1-18:0, 2-18:3) transport, cytoplasm-nucleus	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:2) transport, cell envelope-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:3) transport, cell envelope-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:2) transport, cell envelope-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:3) transport, cell envelope-cytoplasm	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:1) transport, cell envelope-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:2) transport, cell envelope-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-16:0, 2-18:3) transport, cell envelope-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:1) transport, cell envelope-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:2) transport, cell envelope-endoplasmic reticulum membrane	0	0	0	0
+1-phosphatidyl-1D-myo-inositol 4-phosphate (1-18:0, 2-18:3) transport, cell envelope-endoplasmic reticulum membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+diglyceride (1-16:0, 2-18:2) transport, ER membrane-lipid particle	2.965630e-03	4.100897e-03	4.400918e-03	3.506115e-03
+diglyceride (1-16:0, 2-18:3) transport, ER membrane-lipid particle	6.091720e-04	8.423680e-04	0	7.201935e-04
+diglyceride (1-18:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+diglyceride (1-18:0, 2-18:2) transport, ER membrane-lipid particle	0	0	0	0
+diglyceride (1-18:0, 2-18:3) transport, ER membrane-lipid particle	0	0	0	0
+diglyceride (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+diglyceride (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+diglyceride (1-16:0, 2-18:1) transport, ER membrane-nucleus	0	0	0	0
+diglyceride (1-16:0, 2-18:2) transport, ER membrane-nucleus	0	0	0	0
+diglyceride (1-16:0, 2-18:3) transport, ER membrane-nucleus	0	0	0	0
+diglyceride (1-18:0, 2-18:1) transport, ER membrane-nucleus	0	0	0	0
+diglyceride (1-18:0, 2-18:2) transport, ER membrane-nucleus	0	0	0	0
+diglyceride (1-18:0, 2-18:3) transport, ER membrane-nucleus	0	0	0	0
+diglyceride (1-16:0, 2-18:1) transport, ER membrane-cytoplasm	0	0	0	0
+diglyceride (1-16:0, 2-18:2) transport, ER membrane-cytoplasm	0	0	0	0
+diglyceride (1-16:0, 2-18:3) transport, ER membrane-cytoplasm	0	0	0	0
+diglyceride (1-18:0, 2-18:1) transport, ER membrane-cytoplasm	0	0	0	0
+diglyceride (1-18:0, 2-18:2) transport, ER membrane-cytoplasm	0	0	0	0
+diglyceride (1-18:0, 2-18:3) transport, ER membrane-cytoplasm	0	0	0	0
+phosphatidate (1-16:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidate (1-16:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidate (1-16:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidate (1-18:0, 2-18:1) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidate (1-18:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidate (1-18:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidate (1-16:0, 2-18:2) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:3) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:2) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:3) transport, ER membrane-Golgi membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+phosphatidate (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidate (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidate (1-16:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidate (1-16:0, 2-18:2) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidate (1-16:0, 2-18:3) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidate (1-18:0, 2-18:1) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidate (1-18:0, 2-18:2) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidate (1-18:0, 2-18:3) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:2) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:3) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:2) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:3) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-lipid particle	-2.965630e-03	-4.100897e-03	-4.400918e-03	-3.506115e-03
+phosphatidylethanolamine (1-16:0, 2-18:3) transport, ER membrane-lipid particle	-6.091720e-04	-8.423680e-04	0	-3.202427e-04
+phosphatidylethanolamine (1-18:0, 2-18:2) transport, ER membrane-lipid particle	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:3) transport, ER membrane-lipid particle	0	0	0	-3.999508e-04
+phosphatidylethanolamine (1-16:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane	-6.091720e-04	-8.423680e-04	0	-7.201935e-04
+phosphatidylethanolamine (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	-7.499482e-04	0
+phosphatidylethanolamine (1-18:0, 2-18:1) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:1) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-cell envelope	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-mitochondrial membrane	6.091720e-04	8.423680e-04	0	7.201935e-04
+phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	7.499482e-04	0
+phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-mitochondrial membrane	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:2) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:3) transport, ER membrane-vacuolar membrane	0	0	0	0
+TAG (1-16:0, 2-18:2, 3-16:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:2, 3-18:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:2, 3-18:1) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:3, 3-16:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:3, 3-18:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-16:0, 2-18:3, 3-18:1) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:2, 3-16:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:2, 3-18:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:2, 3-18:1) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:3, 3-16:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:3, 3-18:0) transport, ER membrane-lipid particle	0	0	0	0
+TAG (1-18:0, 2-18:3, 3-18:1) transport, ER membrane-lipid particle	0	0	0	0
+1-acyl-sn-glycerol 3-phosphate (16:0) transport, ER membrane-vacuolar membrane	0	0	0	0
+1-acyl-sn-glycerol 3-phosphate (18:0) transport, ER membrane-vacuolar membrane	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidyl-L-serine (1-16:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	8.371032e-04	1.157553e-03	1.030553e-03	9.896651e-04
+phosphatidyl-L-serine (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidyl-L-serine (1-18:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylethanolamine (1-16:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	2.708757e-04	3.745691e-04	3.334735e-04	3.202427e-04
+phosphatidylethanolamine (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylethanolamine (1-18:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-16:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	1.924075e-04	2.660627e-04	2.368718e-04	2.274738e-04
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+1-phosphatidyl-1D-myo-inositol (1-18:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylcholine (1-16:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	3.382963e-04	4.677989e-04	4.164747e-04	3.999508e-04
+phosphatidylcholine (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylcholine (1-18:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:2, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:2, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:2, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn	5.624918e-04	6.512953e-04	5.798389e-04	6.650058e-04
+triglyceride (1-16:0, 2-18:3, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:3, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-16:0, 2-18:3, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	1.265230e-04	1.126416e-04	0
+triglyceride (1-18:0, 2-18:1, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:1, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:1, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:2, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:2, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:2, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn	1.832227e-03	2.660142e-03	2.368286e-03	2.166150e-03
+triglyceride (1-18:0, 2-18:3, 3-16:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:3, 3-18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+triglyceride (1-18:0, 2-18:3, 3-18:1) [endoplasmic reticulum membrane] SLIME rxn	9.149713e-05	0	0	1.081725e-04
+palmitate [cytoplasmcell envelope] SLIME rxn	8.251026e-04	1.140959e-03	1.015779e-03	9.754774e-04
+stearate [cytoplasmcell envelope] SLIME rxn	4.019870e-05	5.558710e-05	4.948840e-05	4.752491e-05
+oleate [cytoplasmcell envelope] SLIME rxn	6.829364e-03	9.443700e-03	8.407591e-03	8.074014e-03
+linoleate [cytoplasmcell envelope] SLIME rxn	3.574802e-03	4.943265e-03	4.400918e-03	4.226308e-03
+linolenate [cytoplasmcell envelope] SLIME rxn	0	0	0	0
+cardiolipin (1-18:1, 2-18:1, 3-18:1, 4-18:1) [mitochondrial membrane] SLIME rxn	0	0	0	0
+cardiolipin (1-18:1, 2-18:1, 3-18:1, 4-18:2) [mitochondrial membrane] SLIME rxn	0	0	0	0
+cardiolipin (1-18:1, 2-18:1, 3-18:1, 4-18:3) [mitochondrial membrane] SLIME rxn	0	0	0	0
+cardiolipin (1-18:1, 2-18:2, 3-18:1, 4-18:2) [mitochondrial membrane] SLIME rxn	0	0	0	0
+cardiolipin (1-18:1, 2-18:2, 3-18:1, 4-18:3) [mitochondrial membrane] SLIME rxn	0	0	0	0
+cardiolipin (1-18:1, 2-18:3, 3-18:1, 4-18:3) [mitochondrial membrane] SLIME rxn	2.009935e-05	2.779355e-05	2.474420e-05	2.376246e-05
+1-monoglyceride (16:0) [endoplasmic reticulum membrane] SLIME rxn	3.369875e-04	4.659891e-04	4.148635e-04	3.984035e-04
+1-monoglyceride (18:0) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+diglyceride (1-16:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+diglyceride (1-16:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+diglyceride (1-16:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	1.259207e-03	1.741242e-03	1.550203e-03	1.488698e-03
+diglyceride (1-18:0, 2-18:1) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+diglyceride (1-18:0, 2-18:2) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+diglyceride (1-18:0, 2-18:3) [endoplasmic reticulum membrane] SLIME rxn	0	0	0	0
+phosphatidylglycerol (1-16:0, 2-18:1) [mitochondrial membrane] SLIME rxn	0	0	0	0
+phosphatidylglycerol (1-16:0, 2-18:2) [mitochondrial membrane] SLIME rxn	0	0	0	0
+phosphatidylglycerol (1-16:0, 2-18:3) [mitochondrial membrane] SLIME rxn	0	0	0	0
+phosphatidylglycerol (1-18:0, 2-18:1) [mitochondrial membrane] SLIME rxn	0	0	0	0
+phosphatidylglycerol (1-18:0, 2-18:2) [mitochondrial membrane] SLIME rxn	0	0	0	0
+phosphatidylglycerol (1-18:0, 2-18:3) [mitochondrial membrane] SLIME rxn	0	0	0	0
+palmitate transport, cytoplasm-endoplasmic reticulum membrane	2.412711e-03	0	2.970275e-03	2.852428e-03
+stearate transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+oleate transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+linoleate transport, cytoplasm-endoplasmic reticulum membrane	-3.574802e-03	-4.943265e-03	-4.400918e-03	-4.226308e-03
+linolenate transport, cytoplasm-endoplasmic reticulum membrane	0	0	0	0
+palmitate transport, cytoplasm-cell envelope	0	0	0	0
+stearate transport, cytoplasm-cell envelope	0	0	0	0
+oleate transport, cytoplasm-cell envelope	0	0	0	0
+linoleate transport, cytoplasm-cell envelope	0	0	0	0
+linolenate transport, cytoplasm-cell envelope	0	0	0	0
+arabinitol 4-dehydrogenase	0	0	0	0
+L-xylulose reductase	0	0	0	0
+glycinamide ribonucleotide transformylase	0	0	0	0
+mannitol dehydrogenase	0	0	0	0
+ATP-citrate lyase	0	1.043100e-05	0	0
+purine-nucleoside phosphorylase (nicotinate)	0	0	0	0
+ATP:pantothenate 4'-phosphotransferase	0	0	0	0
+ATP:pantothenate 4'-phosphotransferase	0	0	0	0
+UDP-glucose:NAD+ 6-oxidoreductase	0	0	0	0
+ADP-ribose ribophosphohydrolase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ribonucleotide reductase	0	0	0	0
+ATP:cytidine 5'-phosphotransferase	0	0	0	0
+UTP:cytidine 5'-phosphotransferase	0	0	0	0
+ITP:cytidine 5'-phosphotransferase	0	0	0	0
+UTP:uridine 5'-phosphotransferase	0	0	0	0
+ITP:uridine 5'-phosphotransferase	0	0	0	0
+dATP:cytidine 5'-phosphotransferase	0	0	0	0
+dATP:uridine 5'-phosphotransferase	0	0	0	0
+dGTP:uridine 5'-phosphotransferase	0	0	0	0
+dGTP:cytidine 5'-phosphotransferase	0	0	0	0
+dTTP:cytidine 5'-phosphotransferase	0	0	0	0
+dTTP:uridine 5'-phosphotransferase	0	0	0	0
+dCTP:uridine 5'-phosphotransferase	0	0	0	0
+dUTP:uridine 5'-phosphotransferase	0	0	0	0
+dCTP:cytidine 5'-phosphotransferase	0	0	0	0
+dUTP:cytidine 5'-phosphotransferase	0	0	0	0
+decane transport e--c	0	0	0	0
+hexadecane transport e--c	0	0	0	0
+long-chain alcohol dehydrogenase (C10)	0	0	0	0
+long-chain alcohol dehydrogenase (C12)	0	0	0	0
+long-chain alcohol dehydrogenase (C16)	0	0	0	0
+oleoyl-CoA desaturase (n-C18:1CoA - n-C18:2CoA), ER membrane	8.999107e-03	1.244404e-02	1.107875e-02	1.063919e-02
+fatty acyl-CoA transport via ABC system (C18:2)	0	0	0	0
+octadecenoate (n-C18:1) transport, cytoplasm-peroxisome	0	0	0	0
+dodecane transport e--c	0	0	0	0
+long-chain aldehyde dehydrogenase (C10)	0	0	0	0
+long-chain aldehyde dehydrogenase (C12)	0	0	0	0
+xanthine dehydrogenase	0	0	0	0
+urate oxidase	0	0	0	0
+3-methylcrotonyl-CoA carboxylase	0	0	0	0
+hydroxymethylglutaryl-CoA lyase	0	0	0	0
+2-oxoadipate dehydrogenase	0	0	0	0
+glutaryl-CoA dehydrogenase	0	0	0	0
+crotonyl-CoA hydratase	0	0	0	0
+(S)-3-Hydroxybutanoyl-CoA oxidoreductase	0	0	0	0
+cellobiose glucohydrolase	0	0	0	0
+5-oxo-L-proline amidohydrolase (ATP-hydrolysing)	0	0	0	0
+succinyl-CoA:acetoacetate CoA-transferase	0	0	0	0
+GTP diphosphohydrolase (diphosphate-forming);	0	0	0	0
+GTP diphosphate-lyase (cyclizing; 3',5'-cyclic-GMP-forming)	0	0	0	0
+L-aspartate 1-carboxy-lyase (beta-alanine-forming)	0	0	0	0
+glutathione gamma-glutamylaminopeptidase	0	0	0	0
+3'-Phospho-5'-adenylyl sulfate 3'-phosphohydrolase	0	0	0	0
+L-Serine:pyruvate aminotransferase	2.223099e-03	0	0	0
+L-Serine:glyoxylate aminotransferase	-2.223099e-03	0	0	0
+L-Serine hydro-lyase	0	0	0	0
+Uridine triphosphate pyrophosphohydrolase	0	0	0	0
+Inosine 5'-triphosphate pyrophosphohydrolase	0	0	0	0
+ATP:D-glucosamine 6-phosphotransferase	0	0	0	0
+dTDP phosphohydrolase	0	0	0	0
+dTTP nucleotidohydrolase	0	0	0	0
+2'-Deoxyinosine-5'-triphosphate pyrophosphohydrolase	0	0	0	0

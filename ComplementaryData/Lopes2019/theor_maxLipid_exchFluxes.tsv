@@ -1,0 +1,12 @@
+reaction	acetate	glycerol	xylose	xylose (no PK-PTA)
+acetate exchange	-5.000000e-01	0	0	0
+ammonium exchange	-1.446275e-03	-1.999921e-03	-1.780501e-03	-1.709859e-03
+carbon dioxide exchange	5.032288e-01	3.130608e-01	3.884278e-01	4.126924e-01
+D-xylose exchange	0	0	-2.000000e-01	-2.000000e-01
+glycerol exchange	0	-3.333333e-01	0	0
+H+ exchange	-4.895723e-01	-1.238315e-01	1.283747e-02	1.232813e-02
+oxygen exchange	-3.075425e-01	-2.091307e-01	-1.475195e-01	-1.813422e-01
+phosphate exchange	-1.678881e-03	-2.321571e-03	-2.066861e-03	-1.984857e-03
+water exchange	5.529470e-01	7.151447e-01	4.496356e-01	4.714716e-01
+lipid backbone exchange	6.035038e-02	8.345300e-02	7.429701e-02	7.134922e-02
+lipid chain exchange	6.028702e-02	8.336538e-02	7.421900e-02	7.127431e-02
