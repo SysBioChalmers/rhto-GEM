@@ -1,13 +1,19 @@
 # History
 
+### rhto v1.2.2:
+* Features
+  * Data and analysis complementary to Lopes _et al_. under review (PR #38).
+* Documentation
+  * Update citation of _rhto-GEM_ paper, now available from Biotechnology & Bioengineering (PR #39).
+
 ### rhto v1.2.1:
-* Features:
+* Features
   * Curate grRules and existence of several reactions based on [doi:10.1186/s12934-015-0217-5](https://doi.org/10.1186/s12934-015-0217-5) (PR #34).
   * Curate grRules of xylose and glucose transporters based on differential expression in proteomics study [doi:10.1186/s13068-019-1478-8](https://doi.org/10.1186/s13068-019-1478-8) (PR #34).
-* Fix:
+* Fix
   * Bug in `sumBioMass` resulted in incorrect fitted carbohydrate fraction of biomass equation, also resulting in incorrect NGAM (PR #33).
   * Remove four duplicate reactions (`r_4235`, `y200008`, `r_1000`, `r_4262`) (PR #34).
-* Refactor:
+* Refactor
   * Standardize two complex gene associations (`r_0831`, `r_0832`) (PR #34).
 
 ### rhto v1.2.0:
@@ -54,7 +60,7 @@
   * Include legend in validation graph (PR #18).
 
 ### rhto v1.0.0:
-* Documentation:
+* Documentation
   * Update readme.md to include correct links to Zenodo and bioRxiv (PR #15).
 
 ### rhto v0.0.2:
