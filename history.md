@@ -1,8 +1,16 @@
 # History
 
+### rhto v1.3.0:
+* Fix
+  * Remove incorrect isoenzymes by manual curation of grRules (PR #44)
+  * Remove duplicate transport reactions (PR #45)
+  * Correct EC codes of mitochondrial 3-ketoacyl-CoA thiolases (PR #45)
+* Documentation
+  * Update citation and model stats in README.md
+
 ### rhto v1.2.2:
 * Features
-  * Data and analysis complementary to Lopes _et al_. under review (PR #38).
+  * Data and analysis complementary to [Lopes _et al._, 2020, Appl Microbiol Biotechnol](https://doi.org/10.1007/s00253-020-10386-5).  (PR #38).
 * Documentation
   * Update citation of _rhto-GEM_ paper, now available from Biotechnology & Bioengineering (PR #39).
 
