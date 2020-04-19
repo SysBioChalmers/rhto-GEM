@@ -4,7 +4,7 @@
 
 - Brief model description
 
-This repository contains the current genome-scale metabolic model of _Rhodotorula toruloides_, named **rhto-GEM**. For the latest updated release see [here](https://github.com/SysBioChalmers/rhto-GEM/releases).
+This repository contains the **updated** genome-scale metabolic model of _Rhodotorula toruloides_, named **rhto-GEM**. For the latest updated release see [here](https://github.com/SysBioChalmers/rhto-GEM/releases).
 
 - Abstract
 
@@ -18,15 +18,15 @@ _Rhodotorula toruloides_ (syn. _Rhodosporidium toruloides_) is a basidiomycetous
 > Tiukova IA, Prigent S, Nielsen J, Sandgren M & Kerkhoven EJ (2019) "Genome-scale model of _Rhodotorula toruloides_ metabolism" _Biotechnol Bioeng_. doi:[10.1002/bit.27162](https://onlinelibrary.wiley.com/doi/full/10.1002/bit.27162)
 
 
-> Lopes HJS _et al_. "C/N ratio and carbon source-dependent lipid production profiling in _Rhodotorula toruloides_" _Under review_
+> Lopes HJS _et al_. "C/N ratio and carbon source-dependent lipid production profiling in _Rhodotorula toruloides_" _Appl Microbiol Biotechnol_. doi:[10.1007/s00253-020-10386-5](https://doi.org/10.1007/s00253-020-10386-5)
 
-- Last update: 2019-10-21
+- Last update: 2020-04-19
 
 - Main model descriptors:
 
 | Taxonomy | Template Model | Reactions | Metabolites | Genes |
 | ------------- |:-------------:|:-------------:|:-------------:|:-----:|
-| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM) | 2729 | 2277 | 859 |
+| _Rhodotorula toruloides_|	[yeast-GEM](https://github.com/SysBioChalmers/yeast-GEM) & [iYali](https://github.com/SysBioChalmers/Yarrowia_lipolytica_W29-GEM) | 2723 | 2277 | 832 |
 
 A [Memote](https://memote.readthedocs.io/en/latest/) snapshot report of the most recent release is available [here](https://SysBioChalmers.github.io/rhto-GEM).
 
